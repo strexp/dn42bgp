@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        apt install -y graphviz
+        sudo apt install -y graphviz
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run jobs
       run: ./run.sh
