@@ -23,7 +23,8 @@ def main(argv):
             try:
                 lg.info("Processing module [{}]".format(module.__file__))
                 result = module.process()
-                summary = {**summary, **result}
+                if result:
+                    summary = {**summary, **result}
                 gc.collect()
             except Exception as e:
                 lg.error(e)
