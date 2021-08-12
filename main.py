@@ -9,7 +9,7 @@ load_dotenv()
 
 LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
 
-lg.basicConfig(filename='main.log', level=lg.DEBUG,
+lg.basicConfig(level=lg.DEBUG,
                format=LOG_FORMAT, stream=sys.stdout)
 
 
