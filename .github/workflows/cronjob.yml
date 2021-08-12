@@ -23,7 +23,7 @@ jobs:
       with:
         path: |
           ./registry
-          ~/.cache/pip
+          #~/.cache/pip
         key: ${{ runner.os }}
     - name: Install dependencies
       run: |
