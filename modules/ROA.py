@@ -33,8 +33,8 @@ def getROA(url, timeout):
 
 
 def process():
-    roa4 = getROA('http://lg-grc.burble.com/route_generic/localhost/where%20roa_check%28dn42_roa6%2C%20net%2C%20bgp_path.last%29%20%21=%20ROA_VALID%20&&%20net.type%20=%20NET_IP6%20&&%20bgp_path.len%20>%201%20primary', 10)
-    roa6 = getROA('http://lg-grc.burble.com/route_generic/localhost/where%20roa_check%28dn42_roa4%2C%20net%2C%20bgp_path.last%29%20%21=%20ROA_VALID%20&&%20net.type%20=%20NET_IP4%20&&%20bgp_path.len%20>%201%20primary', 10)
+    roa6 = getROA('http://lg-grc.burble.com/route_generic/localhost/where%20roa_check%28dn42_roa6%2C%20net%2C%20bgp_path.last%29%20%21=%20ROA_VALID%20&&%20net.type%20=%20NET_IP6%20&&%20bgp_path.len%20>%201%20primary', 10)
+    roa4 = getROA('http://lg-grc.burble.com/route_generic/localhost/where%20roa_check%28dn42_roa4%2C%20net%2C%20bgp_path.last%29%20%21=%20ROA_VALID%20&&%20net.type%20=%20NET_IP4%20&&%20bgp_path.len%20>%201%20primary', 10)
     with open('data/roa/alerts.json', 'w') as f:
         json.dump({
             "created": int(time.time()),
