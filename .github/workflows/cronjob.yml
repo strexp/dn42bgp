@@ -22,7 +22,7 @@ jobs:
       uses: actions/cache@v2
       with:
         path: |
-          ./registry
+          ~/registry
           ~/.cache/pip
         key: ${{ runner.os }}
     - name: Install dependencies

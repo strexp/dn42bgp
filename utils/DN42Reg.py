@@ -6,7 +6,7 @@ dn42prefix4 = ipaddress.ip_network("172.20.0.0/14")
 otherprefix4 = ipaddress.ip_network("10.0.0.0/8")
 prefix6 = ipaddress.ip_network("fd00::/8")
 
-DATAPREFIX = "registry/data/"
+DATAPREFIX = "~/registry/data/"
 
 
 def calcAddressNum4(pfx):
