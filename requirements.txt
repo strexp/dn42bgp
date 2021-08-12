@@ -1,4 +1,5 @@
 pygraphviz
+graphviz
 networkx
 ipaddress
 requests
