@@ -31,6 +31,8 @@ jobs:
         sudo apt install -y graphviz libgraphviz-dev
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run jobs
+      env:
+        DN42GITTOKEN: ${{ secrets.DN42GITTOKEN }}
       run: ./run.sh $DN42GITTOKEN
     - name: Deploy Result
       uses: JamesIves/github-pages-deploy-action@4.1.4
