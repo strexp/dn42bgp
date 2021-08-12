@@ -15,7 +15,9 @@ lg.basicConfig(level=lg.DEBUG,
 
 def main(argv):
     summary = {}
-    for module in generator_modules.__all__:
+    module_list = sorted(list(generator_modules.__all__),
+                         key=lambda k: k.__file__)
+    for module in module_list:
         if module.enabled and len(argv) == 1:
             module.init()
             try:
