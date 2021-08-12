@@ -4,3 +4,4 @@ networkx
 ipaddress
 requests
 bs4
+dotenv
