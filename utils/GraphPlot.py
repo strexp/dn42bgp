@@ -9,8 +9,8 @@ from networkx.algorithms.community import k_clique_communities
 from utils.DN42Reg import getASNName, checkASNExist
 
 
-with open('data/table/table.json') as f:
-    prefix = json.load(f)
+prefix = []
+
 
 def CreateGraph(graphobj):
     G = pgv.AGraph(strict=True, directed=True, size='10!')
@@ -40,6 +40,9 @@ def canonalize_ip(ip):
 
 def checkRouteExist(asn):
     global prefix
+    if len(prefix) == 0:
+        with open('data/table/table.json') as f:
+            prefix = json.load(f)
     if asn == "4242421331":
         return True
     if any(asn in p["origin"] for p in prefix["ipv4"]):
