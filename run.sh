@@ -9,3 +9,4 @@ wget https://github.com/isjerryxiao/rushed_dn42_map/blob/pages/parsed.jsonl.bz2?
 python3 main.py
 
 rm -f data/table.jsonl.bz2
+rm -rf data/table
