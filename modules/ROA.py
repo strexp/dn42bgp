@@ -19,22 +19,27 @@ def getROA(url, timeout):
     rt = []
     r = requests.get(url, timeout=timeout)
     t = BS(r.text, features="lxml").pre.getText().split("\n")
+    current_item = {}
     for l in t:
-        ls1 = l.split(" ")
-        if len(ls1) > 2:
-            asn = ls1[len(ls1) - 1].lstrip().replace(
-                "[", "").replace("]", "").replace("i", "").replace("?", "")
-            rt.append({
-                "asn": asn[2:],
-                "name": Reg.getASNName(asn),
-                "prefix": ls1[0].rstrip()
-            })
+        if not re.match(r'^\s+', l):
+            ls1 = l.split(" ")
+            if len(ls1) > 2:
+                asn = ls1[len(ls1) - 1].lstrip().replace(
+                    "[", "").replace("]", "").replace("i", "").replace("?", "")
+                current_item = {
+                    "asn": asn[2:],
+                    "name": Reg.getASNName(asn),
+                    "prefix": ls1[0].rstrip()
+                }
+        elif "BGP.as_path" in l:
+            current_item["aspath"] = l.lstrip().replace("BGP.as_path: ", "").split(" ")
+            rt.append(current_item)
     return rt
 
 
 def process():
-    roa6 = getROA('http://lg-grc.burble.com/route_generic/localhost/where%20roa_check%28dn42_roa6%2C%20net%2C%20bgp_path.last%29%20%21=%20ROA_VALID%20&&%20net.type%20=%20NET_IP6%20&&%20bgp_path.len%20>%201%20primary', 10)
-    roa4 = getROA('http://lg-grc.burble.com/route_generic/localhost/where%20roa_check%28dn42_roa4%2C%20net%2C%20bgp_path.last%29%20%21=%20ROA_VALID%20&&%20net.type%20=%20NET_IP4%20&&%20bgp_path.len%20>%201%20primary', 10)
+    roa6 = getROA('http://lg-grc.burble.com/route_generic/localhost/where%20roa_check%28dn42_roa6%2C%20net%2C%20bgp_path.last%29%20%21=%20ROA_VALID%20&&%20net.type%20=%20NET_IP6%20&&%20bgp_path.len%20>%201%20primary%20all', 10)
+    roa4 = getROA('http://lg-grc.burble.com/route_generic/localhost/where%20roa_check%28dn42_roa4%2C%20net%2C%20bgp_path.last%29%20%21=%20ROA_VALID%20&&%20net.type%20=%20NET_IP4%20&&%20bgp_path.len%20>%201%20primary%20all', 10)
     with open('data/roa/alerts.json', 'w') as f:
         json.dump({
             "created": int(time.time()),
