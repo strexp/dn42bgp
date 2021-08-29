@@ -10,3 +10,9 @@ python3 main.py
 
 rm -f data/table.jsonl.bz2
 rm -rf data/table
+
+mkdir -p data/registry
+java -jar wizard/RegistryWizard.jar ~/registry hierarchicalPrefixes v4 true > data/registry/prefix.4.json
+java -jar wizard/RegistryWizard.jar ~/registry hierarchicalPrefixes v6 > data/registry/prefix.6.json
+java -jar wizard/RegistryWizard.jar ~/registry inetnumMetadata v4 true > data/registry/meta.4.json
+java -jar wizard/RegistryWizard.jar ~/registry inetnumMetadata v6 > data/registry/meta.6.json
