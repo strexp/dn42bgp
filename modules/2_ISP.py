@@ -61,15 +61,24 @@ def centrality(graph):
         group["data"].sort(key=lambda x: x["centrality"], reverse=True)
     return isps
 
+
 def process():
+    isp_list = []
     with open("data/graph/ipv4.json") as f4:
         graph4 = json.load(f4)
+        isp_list = isp_list + [{"name": n["name"],
+                                "asn": n["asn"]} for n in graph4["nodes"]]
     with open("data/graph/ipv6.json") as f6:
         graph6 = json.load(f6)
+        isp_list = isp_list + [{"name": n["name"],
+                                "asn": n["asn"]} for n in graph6["nodes"]]
     with open("data/isp/isp4.json", "w") as wf4:
         json.dump(centrality(graph4), wf4)
     with open("data/isp/isp6.json", "w") as wf6:
         json.dump(centrality(graph6), wf6)
+    with open("data/isp/isp.json", "w") as wf:
+        json.dump([dict(t) for t in {tuple(d.items()) for d in isp_list}], wf)
+
 
 if __name__ == "__main__":
     init()
