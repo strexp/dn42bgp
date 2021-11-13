@@ -41,4 +41,3 @@ jobs:
       with:
         branch: publish
         folder: data
-        single-commit: true
