@@ -1,1 +1,1 @@
-{"created": 1636875335, "asn": {"aut-num": ["AS64865"], "as-name": ["ICVPN-GIESSEN"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: giessen"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
+{"created": 1636877358, "asn": {"aut-num": ["AS64865"], "as-name": ["ICVPN-GIESSEN"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: giessen"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
