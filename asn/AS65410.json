@@ -1,1 +1,1 @@
-{"created": 1641352309, "asn": {"aut-num": ["AS65410"], "as-name": ["ICVPN-FICHTENFUNK"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: fichtenfunk"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
+{"created": 1641354096, "asn": {"aut-num": ["AS65410"], "as-name": ["ICVPN-FICHTENFUNK"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: fichtenfunk"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
