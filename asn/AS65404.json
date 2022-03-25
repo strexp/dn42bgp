@@ -1,1 +1,1 @@
-{"created": 1648235487, "asn": {"aut-num": ["AS65404"], "as-name": ["ICVPN-HAMM"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: hamm"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
+{"created": 1648237001, "asn": {"aut-num": ["AS65404"], "as-name": ["ICVPN-HAMM"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: hamm"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
