@@ -1,1 +1,1 @@
-{"created": 1651859273, "asn": {"aut-num": ["AS64880"], "as-name": ["ICVPN-HERNE"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: herne"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
+{"created": 1651860836, "asn": {"aut-num": ["AS64880"], "as-name": ["ICVPN-HERNE"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: herne"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
