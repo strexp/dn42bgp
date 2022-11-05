@@ -1,1 +1,1 @@
-{"created": 1667620131, "asn": {"aut-num": ["AS65400"], "as-name": ["ICVPN-ENNEPE-RUHR-KREIS"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: ennepe-ruhr-kreis"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
+{"created": 1667622211, "asn": {"aut-num": ["AS65400"], "as-name": ["ICVPN-ENNEPE-RUHR-KREIS"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: ennepe-ruhr-kreis"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
