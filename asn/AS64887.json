@@ -1,1 +1,1 @@
-{"created": 1674735646, "asn": {"aut-num": ["AS64887"], "as-name": ["ICVPN-BONN"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: bonn"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
+{"created": 1674738311, "asn": {"aut-num": ["AS64887"], "as-name": ["ICVPN-BONN"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: bonn"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
