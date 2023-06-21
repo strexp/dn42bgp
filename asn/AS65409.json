@@ -1,1 +1,1 @@
-{"created": 1687352235, "asn": {"aut-num": ["AS65409"], "as-name": ["ICVPN-RUHRGEBIET-WEST"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: ruhrgebiet-west"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
+{"created": 1687353495, "asn": {"aut-num": ["AS65409"], "as-name": ["ICVPN-RUHRGEBIET-WEST"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: ruhrgebiet-west"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
