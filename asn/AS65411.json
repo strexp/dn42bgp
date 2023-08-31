@@ -1,1 +1,1 @@
-{"created": 1693514337, "asn": {"aut-num": ["AS65411"], "as-name": ["ICVPN-SIEGEN"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: siegen"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
+{"created": 1693516284, "asn": {"aut-num": ["AS65411"], "as-name": ["ICVPN-SIEGEN"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: siegen"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
