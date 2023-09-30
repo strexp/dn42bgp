@@ -1,1 +1,1 @@
-{"created": 1696030726, "asn": {"aut-num": ["AS65405"], "as-name": ["ICVPN-NIEDERRHEIN"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: niederrhein"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
+{"created": 1696034115, "asn": {"aut-num": ["AS65405"], "as-name": ["ICVPN-NIEDERRHEIN"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: niederrhein"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
