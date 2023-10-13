@@ -1,1 +1,1 @@
-{"created": 1697229553, "asn": {"aut-num": ["AS65403"], "as-name": ["ICVPN-DORTMUND"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: dortmund"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
+{"created": 1697231485, "asn": {"aut-num": ["AS65403"], "as-name": ["ICVPN-DORTMUND"], "remarks": ["Imported from icvpn-meta, do not edit!", "File: dortmund"], "mnt-by": ["DN42-MNT"], "source": ["ICVPN"]}, "routes": {"ipv4": [], "ipv6": []}}
