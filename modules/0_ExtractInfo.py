@@ -10,7 +10,7 @@ def decode(entry: dict) -> None:
     if entry["type"] in {"ipv4", "ipv6"}:
         for rib in entry["rib"]:
             print("%s_prefix:" % entry["type"], entry["prefix"])
-            attrs = ("as_path", "community",
+            attrs = ("as_sequence", "community",
                      "extended_community", "large_community")
             for attr in attrs:
                 attr_val = rib.get(attr)
@@ -34,15 +34,15 @@ def process():
             if item["type"] == "ipv4":
                 obj = {"prefix": item["prefix"], "origin": set()}
                 for rib in item["rib"]:
-                    p["ipv4"].append(rib["as_path"])
-                    obj["origin"].add(rib["as_path"][-1])
+                    p["ipv4"].append(rib["as_sequence"])
+                    obj["origin"].add(rib["as_sequence"][-1])
                 obj["origin"] = list(obj["origin"])
                 s["ipv4"].append(obj)
             if item["type"] == "ipv6":
                 obj = {"prefix": item["prefix"], "origin": set()}
                 for rib in item["rib"]:
-                    p["ipv6"].append(rib["as_path"])
-                    obj["origin"].add(rib["as_path"][-1])
+                    p["ipv6"].append(rib["as_sequence"])
+                    obj["origin"].add(rib["as_sequence"][-1])
                 obj["origin"] = list(obj["origin"])
                 s["ipv6"].append(obj)
     with open("data/table/table.json", "w") as tf:
