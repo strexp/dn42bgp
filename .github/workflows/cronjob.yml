@@ -13,20 +13,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python 3.9
-      uses: actions/setup-python@v2
+    - uses: actions/checkout@v4
+    - name: Set up Python 3
+      uses: actions/setup-python@v4
       with:
-        python-version: 3.9
-    - name: Setup cache
-      uses: actions/cache@v2
+        python-version: 3.12
+    - name: Restore cached data
+      uses: actions/cache/restore@v4
       with:
         path: |
           ~/registry
           ~/.cache/pip
-        key: ${{ runner.os }}-${{ github.sha }}
-        restore-keys: |
-          ${{ runner.os }}-
+        key: ${{ runner.os }}-data
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
@@ -37,8 +35,15 @@ jobs:
       env:
         DN42GITTOKEN: ${{ secrets.DN42GITTOKEN }}
       run: ./run.sh $DN42GITTOKEN
+    - name: Save data
+      uses: actions/cache/save@v4
+      with:
+        path: |
+          ~/registry
+          ~/.cache/pip
+        key: ${{ runner.os }}-data
     - name: Deploy Result
-      uses: JamesIves/github-pages-deploy-action@4.1.4
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: publish
         folder: data
