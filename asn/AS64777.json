@@ -1,1 +1,1 @@
-{"created": 1734684422, "asn": {"aut-num": ["AS64777"], "as-name": ["ISAAAC-AS"], "descr": ["ISAAAC's personal DN42 Network"], "admin-c": ["ISAAAC-DN42"], "tech-c": ["ISAAAC-DN42"], "mnt-by": ["DUMMY-MNT"], "source": ["DN42"]}, "routes": {"ipv4": [], "ipv6": []}}
+{"created": 1734686121, "asn": {"aut-num": ["AS64777"], "as-name": ["ISAAAC-AS"], "descr": ["ISAAAC's personal DN42 Network"], "admin-c": ["ISAAAC-DN42"], "tech-c": ["ISAAAC-DN42"], "mnt-by": ["DUMMY-MNT"], "source": ["DN42"]}, "routes": {"ipv4": [], "ipv6": []}}
