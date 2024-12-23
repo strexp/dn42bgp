@@ -1,1 +1,1 @@
-{"created": 1734914941, "asn": {"aut-num": ["AS64766"], "as-name": ["UCIS-AS"], "descr": ["UCIS Internet Exchange [http://ix.ucis.nl]"], "admin-c": ["UFO-DN42"], "tech-c": ["UFO-DN42"], "mnt-by": ["DUMMY-MNT"], "source": ["DN42"]}, "routes": {"ipv4": [], "ipv6": []}}
+{"created": 1734920356, "asn": {"aut-num": ["AS64766"], "as-name": ["UCIS-AS"], "descr": ["UCIS Internet Exchange [http://ix.ucis.nl]"], "admin-c": ["UFO-DN42"], "tech-c": ["UFO-DN42"], "mnt-by": ["DUMMY-MNT"], "source": ["DN42"]}, "routes": {"ipv4": [], "ipv6": []}}
