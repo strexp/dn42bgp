@@ -1,1 +1,1 @@
-{"created": 1738682080, "asn": {"aut-num": ["AS64609"], "as-name": ["SOMA-AS"], "descr": ["soma's AS"], "admin-c": ["SOMA-DN42"], "tech-c": ["SOMA-DN42"], "mnt-by": ["DUMMY-MNT"], "source": ["DN42"]}, "routes": {"ipv4": [], "ipv6": []}}
+{"created": 1738683676, "asn": {"aut-num": ["AS64609"], "as-name": ["SOMA-AS"], "descr": ["soma's AS"], "admin-c": ["SOMA-DN42"], "tech-c": ["SOMA-DN42"], "mnt-by": ["DUMMY-MNT"], "source": ["DN42"]}, "routes": {"ipv4": [], "ipv6": []}}
