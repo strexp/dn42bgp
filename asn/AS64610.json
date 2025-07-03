@@ -1,1 +1,1 @@
-{"created": 1751568873, "asn": {"aut-num": ["AS64610"], "as-name": ["OTIH-AS"], "descr": ["otih's AS"], "admin-c": ["OTIH-DN42"], "tech-c": ["OTIH-DN42"], "mnt-by": ["DUMMY-MNT"], "source": ["DN42"]}, "routes": {"ipv4": [], "ipv6": []}}
+{"created": 1751570183, "asn": {"aut-num": ["AS64610"], "as-name": ["OTIH-AS"], "descr": ["otih's AS"], "admin-c": ["OTIH-DN42"], "tech-c": ["OTIH-DN42"], "mnt-by": ["DUMMY-MNT"], "source": ["DN42"]}, "routes": {"ipv4": [], "ipv6": []}}
