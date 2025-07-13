@@ -1,1 +1,1 @@
-{"created": 1752419917, "asn": {"aut-num": ["AS64640"], "as-name": ["AMADEUS-AS"], "descr": ["amadeus' AS"], "admin-c": ["AMADEUS-DN42"], "tech-c": ["AMADEUS-DN42"], "mnt-by": ["DUMMY-MNT"], "source": ["DN42"]}, "routes": {"ipv4": [], "ipv6": []}}
+{"created": 1752421706, "asn": {"aut-num": ["AS64640"], "as-name": ["AMADEUS-AS"], "descr": ["amadeus' AS"], "admin-c": ["AMADEUS-DN42"], "tech-c": ["AMADEUS-DN42"], "mnt-by": ["DUMMY-MNT"], "source": ["DN42"]}, "routes": {"ipv4": [], "ipv6": []}}
