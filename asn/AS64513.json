@@ -1,1 +1,1 @@
-{"created": 1756808704, "asn": {"aut-num": ["AS64513"], "as-name": ["KPJ-AS"], "descr": ["Kpj's home AS"], "admin-c": ["KPJ-DN42"], "tech-c": ["KPJ-DN42"], "mnt-by": ["KPJ-MNT"], "source": ["DN42"]}, "routes": {"ipv4": [], "ipv6": []}}
+{"created": 1756810364, "asn": {"aut-num": ["AS64513"], "as-name": ["KPJ-AS"], "descr": ["Kpj's home AS"], "admin-c": ["KPJ-DN42"], "tech-c": ["KPJ-DN42"], "mnt-by": ["KPJ-MNT"], "source": ["DN42"]}, "routes": {"ipv4": [], "ipv6": []}}
