@@ -18,7 +18,8 @@ fi
 mkdir -p "$DATA_DIR" "$CACHE_DIR"
 
 echo "Downloading route data..."
-wget -q "https://github.com/isjerryxiao/rushed_dn42_map/blob/pages/parsed.jsonl.bz2?raw=true" -O "$CACHE_DIR/table.jsonl.bz2"
+wget -q "https://mrt42.strexp.net/master4_latest.mrt.bz2" -O "$CACHE_DIR/master4.mrt.bz2"
+wget -q "https://mrt42.strexp.net/master6_latest.mrt.bz2" -O "$CACHE_DIR/master6.mrt.bz2"
 
 echo "Running Python generator..."
 python3 main.py
