@@ -19,6 +19,7 @@ jobs:
       with:
         python-version: 3.12
     - name: Restore cached data
+      id: cache-restore
       uses: actions/cache/restore@v4
       with:
         path: |
@@ -41,7 +42,7 @@ jobs:
         path: |
           ~/registry
           ~/.cache/pip
-        key: ${{ runner.os }}-data
+        key: ${{ steps.cache-restore.outputs.cache-primary-key }}
     - name: Deploy Result
       uses: JamesIves/github-pages-deploy-action@v4
       with:
