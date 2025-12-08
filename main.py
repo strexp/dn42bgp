@@ -1,43 +1,57 @@
-from dotenv import load_dotenv
-import modules as generator_modules
-import logging as lg
-import sys
-import json
+import argparse
 import gc
+import logging
+import sys
+from typing import Any
 
-load_dotenv()
+from modules import asn_detail, build_graph, extract, isp_rank
 
-LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
+MODULES = {"extract": extract, "graph": build_graph, "isp": isp_rank, "asn": asn_detail}
 
-lg.basicConfig(level=lg.DEBUG,
-               format=LOG_FORMAT, stream=sys.stdout)
+EXECUTION_ORDER = [
+    "extract",
+    "asn",
+    "graph",
+    "isp",
+]
 
 
-def main(argv):
-    summary = {}
-    module_list = sorted(list(generator_modules.__all__),
-                         key=lambda k: k.__file__)
-    for module in module_list:
-        if module.enabled and len(argv) == 1:
-            module.init()
-            try:
-                lg.info("Processing module [{}]".format(module.__file__))
-                result = module.process()
-                if result:
-                    summary = {**summary, **result}
-                gc.collect()
-            except Exception as e:
-                lg.error(e)
-                raise e
-        elif hasattr(module, "cmd"):
-            if module.cmd == argv[1]:
-                module.init()
-                module.process()
+def setup_logging():
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s",
+        stream=sys.stdout,
+    )
 
-    if len(argv) == 1:
-        with open("data/summary.json", "w") as sumf:
-            json.dump(summary, sumf)
+
+def run_module(name: str, module: Any) -> dict:
+    logging.info(f"=== Starting module: {name} ===")
+    try:
+        result = module.process()
+        gc.collect()
+        return result if isinstance(result, dict) else {}
+    except Exception as e:
+        logging.exception(f"Module {name} failed: {e}")
+        raise
+
+
+def main():
+    setup_logging()
+
+    parser = argparse.ArgumentParser(description="DN42 Registry Data Generator")
+    parser.add_argument(
+        "module", nargs="?", help="Specific module to run", choices=MODULES.keys()
+    )
+    args = parser.parse_args()
+
+    if args.module:
+        run_module(args.module, MODULES[args.module])
+    else:
+        for name in EXECUTION_ORDER:
+            run_module(name, MODULES[name])
+
+    logging.info("All tasks completed.")
 
 
 if __name__ == "__main__":
-    main(sys.argv)
+    main()

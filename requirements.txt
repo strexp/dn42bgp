@@ -1,8 +1,5 @@
-pygraphviz
-graphviz
 networkx
-ipaddress
+pygraphviz
 requests
-bs4
-python-dotenv
+beautifulsoup4
 lxml

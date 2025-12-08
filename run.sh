@@ -1,18 +1,39 @@
 #!/bin/bash
+set -e
 
-[ -e ~/registry ] && (cd ~/registry; git pull) || git clone https://git:$1@git.dn42.dev/dn42/registry ~/registry --depth 1 --single-branch
+REGISTRY_DIR="${HOME}/registry"
+DATA_DIR="data"
+CACHE_DIR="cache"
 
-mkdir -p data
+if [ -e "$REGISTRY_DIR" ]; then
+    (cd "$REGISTRY_DIR" && git pull)
+else
+    REPO_URL="https://git.dn42.dev/dn42/registry"
+    if [ ! -z "$1" ]; then
+        REPO_URL="https://git:$1@git.dn42.dev/dn42/registry"
+    fi
+    git clone "$REPO_URL" "$REGISTRY_DIR" --depth 1 --single-branch
+fi
 
-wget https://github.com/isjerryxiao/rushed_dn42_map/blob/pages/parsed.jsonl.bz2?raw=true -O data/table.jsonl.bz2
+mkdir -p "$DATA_DIR" "$CACHE_DIR"
 
+echo "Downloading route data..."
+wget -q "https://github.com/isjerryxiao/rushed_dn42_map/blob/pages/parsed.jsonl.bz2?raw=true" -O "$CACHE_DIR/table.jsonl.bz2"
+
+echo "Running Python generator..."
 python3 main.py
 
-rm -f data/table.jsonl.bz2
-rm -rf data/table
+echo "Running Registry Wizard..."
+mkdir -p "$DATA_DIR/registry"
+WIZARD_JAR="wizard/RegistryWizard.jar"
 
-mkdir -p data/registry
-java -jar wizard/RegistryWizard.jar ~/registry hierarchicalPrefixes v4 true > data/registry/prefix.4.json
-java -jar wizard/RegistryWizard.jar ~/registry hierarchicalPrefixes v6 > data/registry/prefix.6.json
-java -jar wizard/RegistryWizard.jar ~/registry inetnumMetadata v4 true > data/registry/meta.4.json
-java -jar wizard/RegistryWizard.jar ~/registry inetnumMetadata v6 > data/registry/meta.6.json
+if [ -f "$WIZARD_JAR" ]; then
+    java -jar "$WIZARD_JAR" "$REGISTRY_DIR" hierarchicalPrefixes v4 true > "$DATA_DIR/registry/prefix.4.json"
+    java -jar "$WIZARD_JAR" "$REGISTRY_DIR" hierarchicalPrefixes v6 > "$DATA_DIR/registry/prefix.6.json"
+    java -jar "$WIZARD_JAR" "$REGISTRY_DIR" inetnumMetadata v4 true > "$DATA_DIR/registry/meta.4.json"
+    java -jar "$WIZARD_JAR" "$REGISTRY_DIR" inetnumMetadata v6 > "$DATA_DIR/registry/meta.6.json"
+else
+    echo "Warning: $WIZARD_JAR not found, skipping wizard steps."
+fi
+
+echo "Done."
