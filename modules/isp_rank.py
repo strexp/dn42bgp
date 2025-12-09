@@ -48,7 +48,7 @@ def categorize_isps(graph_nodes: list[dict]) -> list[dict]:
         c = node["centrality_val"]
 
         for tier in tiers:
-            if c > tier["threshold"]:
+            if c >= tier["threshold"]:
                 tier["data"].append(
                     {
                         "id": node.get("id", ""),
