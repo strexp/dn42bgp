@@ -30,7 +30,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         sudo apt update
-        sudo apt install -y graphviz libgraphviz-dev default-jdk
+        sudo apt install -y graphviz libgraphviz-dev
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run jobs
       env:

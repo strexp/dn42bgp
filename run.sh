@@ -26,15 +26,27 @@ python3 main.py
 
 echo "Running Registry Wizard..."
 mkdir -p "$DATA_DIR/registry"
-WIZARD_JAR="wizard/RegistryWizard.jar"
+mkdir -p "$DATA_DIR/roa"
 
-if [ -f "$WIZARD_JAR" ]; then
-    java -jar "$WIZARD_JAR" "$REGISTRY_DIR" hierarchicalPrefixes v4 true > "$DATA_DIR/registry/prefix.4.json"
-    java -jar "$WIZARD_JAR" "$REGISTRY_DIR" hierarchicalPrefixes v6 > "$DATA_DIR/registry/prefix.6.json"
-    java -jar "$WIZARD_JAR" "$REGISTRY_DIR" inetnumMetadata v4 true > "$DATA_DIR/registry/meta.4.json"
-    java -jar "$WIZARD_JAR" "$REGISTRY_DIR" inetnumMetadata v6 > "$DATA_DIR/registry/meta.6.json"
+WIZARD="wizard/registry_wizard"
+
+if [ ! -f "$WIZARD" ]; then
+    mkdir -p wizard
+    curl -sL https://github.com/Kioubit/dn42_registry_wizard/releases/download/v0.4.15/dn42_registry_wizard_v0.4.15_x86_64-unknown-linux-musl.tar.gz | tar xz -C wizard
+fi
+
+if [ -f "$WIZARD" ]; then
+    $WIZARD "$REGISTRY_DIR" roa json > "$DATA_DIR/roa/roa.json"
+    $WIZARD "$REGISTRY_DIR" roa v4 > "$DATA_DIR/roa/bird.4.list"
+    $WIZARD "$REGISTRY_DIR" roa v6 > "$DATA_DIR/roa/bird.6.list"
+    
+    $WIZARD "$REGISTRY_DIR" hierarchical_prefixes v4 > "$DATA_DIR/registry/prefix.4.json"
+    $WIZARD "$REGISTRY_DIR" hierarchical_prefixes v6 > "$DATA_DIR/registry/prefix.6.json"
+    
+    $WIZARD "$REGISTRY_DIR" object_metadata inetnum > "$DATA_DIR/registry/meta.4.json"
+    $WIZARD "$REGISTRY_DIR" object_metadata inet6num > "$DATA_DIR/registry/meta.6.json"
 else
-    echo "Warning: $WIZARD_JAR not found, skipping wizard steps."
+    echo "Warning: $WIZARD not found, skipping wizard steps."
 fi
 
 echo "Done."
