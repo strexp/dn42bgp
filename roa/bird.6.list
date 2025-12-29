@@ -1,6 +1,6 @@
 # roa_wizard 0.1.12 - Kioubit.dn42
-# Created: 1767026705
-# Commit: 6e4d14d471a4c1396dd6e0b845a6fb7984c7b894
+# Created: 1767041098
+# Commit: 19cee1ba67b9c7b96f080e973bc91e41c43fd725
 
 route fdca:ffee:8::/64 max 64 as 65511;
 route fdfc:8780:ea20::/48 max 64 as 4242423653;
@@ -98,6 +98,7 @@ route fd42:1145:1419::/48 max 64 as 4242422464;
 route fd2e:b71f:7983::/48 max 48 as 4242422752;
 route fdac:4d51:2aec::/48 max 64 as 4242420713;
 route fd23::/48 max 64 as 4242422037;
+route fdda:694c:871b::/48 max 48 as 4242421977;
 route fd00:913e:130::/48 max 48 as 4242420150;
 route fd84:9a2:b1::/48 max 64 as 4242422102;
 route fd5c:4b1e:f9e8::/48 max 48 as 4242423106;
@@ -593,6 +594,7 @@ route fd25:a1e5:bee4::/48 max 48 as 4242421720;
 route fd10:127:1100::/48 max 64 as 4201270100;
 route fde8:2b77:3511::/48 max 48 as 4242420862;
 route fd42:d42:d42::/48 max 64 as 64737;
+route fdf1:b425:320::/48 max 48 as 4242422343;
 route fd8b:27b8:c998::/48 max 64 as 4242421882;
 route fd79:5880:87e6::/48 max 48 as 4242421696;
 route fdde:3dd3:bab3::/48 max 48 as 4242422540;
@@ -698,6 +700,7 @@ route fdff:49:461::/48 max 64 as 4242420420;
 route fdf8:c69:cc49::/48 max 48 as 4242420880;
 route fdc7:c925:95f5::/48 max 64 as 4242421100;
 route fdb0:2f9d:e9ac::/48 max 64 as 4242420222;
+route fdaa:7674:3825::/48 max 48 as 4242423825;
 route fdbb:4445:dd02::/48 max 64 as 4242423464;
 route fdca:73bf:e06e::/48 max 48 as 4242422363;
 route fd00:1312:13ae::/48 max 48 as 4242420913;
@@ -744,6 +747,7 @@ route fd42:e06:cfb4::/48 max 64 as 4242421750;
 route fdf0:faf0:71cf::/48 max 48 as 4242423022;
 route fdeb:e8fc:3363::/48 max 48 as 4242421266;
 route fd70:2618:53d4::/48 max 64 as 4242423975;
+route fdcf:9fbf:eef2::/48 max 48 as 4242423050;
 route fd01:38f7:e6d8:4e04::/64 max 64 as 4242420017;
 route fdeb:2636:4217::/48 max 48 as 4242421780;
 route fdf0:c370:eb1c::/48 max 48 as 4242421562;
@@ -2058,6 +2062,7 @@ route fdba:4500:2c30::/48 max 48 as 4242420535;
 route fd54:4355:b6ac::/48 max 64 as 4242420212;
 route fd33:aba8:392::/48 max 48 as 4242423941;
 route fdb1:f00c:f110::/48 max 64 as 4242421261;
+route fd00:bbda:a6ad::/48 max 48 as 4242422062;
 route fdfd:df06:8cb1::/48 max 48 as 4242423849;
 route fde3:c905:9943::/48 max 48 as 4242423479;
 route fd61:db43:75af::/48 max 48 as 4242420777;
@@ -2147,6 +2152,7 @@ route fd75:fcce:1f11::/48 max 48 as 4242422311;
 route fd22:d6c3:34e0::/48 max 48 as 4242422763;
 route fd00:f100:fe00::/48 max 64 as 4242422282;
 route fd10:2ea2:4dae::/48 max 64 as 64894;
+route fd7b:67:200c::/48 max 64 as 4242421005;
 route fd49:a5fc:ef::/48 max 48 as 4242420076;
 route fd05:402:2137::/48 max 48 as 4242422937;
 route fdc7:3c9d:ff31::/48 max 64 as 65043;
