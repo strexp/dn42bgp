@@ -5,21 +5,20 @@ from typing import List, Optional
 from git.exc import GitCommandError
 from git.objects import Commit
 
-from core.history.config import REPO_PATH, OUTPUT_DIR, CONFIG
+from core.config import settings
+from core.history.config import CONFIG
 from core.history.git import init_repo, get_file_content_at_commit
 from core.history.rpsl import parse_rpsl, is_valid_aut_num
 from core.history.storage import load_state, save_state, export_final_json
 
 def process() -> None:
     logging.info("Starting history collection module...")
-    if not os.path.exists(OUTPUT_DIR):
-        os.makedirs(OUTPUT_DIR)
 
-    if not os.path.exists(REPO_PATH):
-        logging.error(f"Registry repository not found at {REPO_PATH}")
+    if not os.path.exists(settings.REGISTRY_PATH):
+        logging.error(f"Registry repository not found at {settings.REGISTRY_PATH}")
         return
 
-    repo = init_repo(REPO_PATH)
+    repo = init_repo(str(settings.REGISTRY_PATH))
 
     state = load_state()
     timeline_data = state["timeline_data"]

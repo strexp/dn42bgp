@@ -1,8 +1,6 @@
-import os
 from pathlib import Path
 from typing import Any, Iterator
-
-REGISTRY_BASE = (Path(os.path.expanduser(os.getenv("DN42_REGISTRY", "~/registry"))) / Path("data")).resolve()
+from .config import settings
 
 def get_file_content(path: Path) -> dict[str, list[str]]:
     result: dict[str, list[str]] = {}
@@ -33,7 +31,7 @@ def get_asn_name(asn: str) -> str:
     if asn.startswith("AS"):
         asn = asn[2:]
     
-    path = REGISTRY_BASE / "aut-num" / f"AS{asn}"
+    path = settings.REGISTRY_DATA / "aut-num" / f"AS{asn}"
     if not path.exists():
         return "Null"
 
@@ -49,10 +47,10 @@ def get_asn_name(asn: str) -> str:
 def check_asn_exists(asn: str) -> bool:
     if asn.startswith("AS"):
         asn = asn[2:]
-    return (REGISTRY_BASE / "aut-num" / f"AS{asn}").exists()
+    return (settings.REGISTRY_DATA / "aut-num" / f"AS{asn}").exists()
 
 def iter_registry_files(subdir: str) -> Iterator[tuple[str, dict[str, list[str]]]]:
-    target_dir = REGISTRY_BASE / subdir
+    target_dir = settings.REGISTRY_DATA / subdir
     if not target_dir.exists():
         return
     
@@ -64,7 +62,7 @@ def get_asn_info(asn_str: str) -> dict[str, Any]:
     if asn_str.startswith("AS"):
         asn_str = asn_str[2:]
     
-    asn_path = REGISTRY_BASE / "aut-num" / f"AS{asn_str}"
+    asn_path = settings.REGISTRY_DATA / "aut-num" / f"AS{asn_str}"
     info = get_file_content(asn_path)
     if not info:
         return {}
@@ -75,7 +73,7 @@ def get_asn_info(asn_str: str) -> dict[str, Any]:
         if first_mnt == "DN42-MNT" and "admin-c" in info:
             info["contact-info"] = _get_person_or_role(info["admin-c"][0])
         else:
-            mnt_info = get_file_content(REGISTRY_BASE / "mntner" / first_mnt)
+            mnt_info = get_file_content(settings.REGISTRY_DATA / "mntner" / first_mnt)
             if "admin-c" in mnt_info:
                 info["contact-info"] = _get_person_or_role(mnt_info["admin-c"][0])
                 if "auth" in mnt_info:
@@ -83,11 +81,11 @@ def get_asn_info(asn_str: str) -> dict[str, Any]:
     return info
 
 def _get_person_or_role(handle: str) -> dict[str, list[str]]:
-    p_path = REGISTRY_BASE / "person" / handle
+    p_path = settings.REGISTRY_DATA / "person" / handle
     if p_path.exists():
         return get_file_content(p_path)
     
-    r_path = REGISTRY_BASE / "role" / handle
+    r_path = settings.REGISTRY_DATA / "role" / handle
     if r_path.exists():
         return get_file_content(r_path)
     
@@ -98,14 +96,14 @@ def get_route_list() -> dict[str, list[dict]]:
     
     # IPv4
     for fname, content in iter_registry_files("route"):
-        content["inetnum"] = get_file_content(REGISTRY_BASE / "inetnum" / fname)
+        content["inetnum"] = get_file_content(settings.REGISTRY_DATA / "inetnum" / fname)
         if "inetnum" in content["inetnum"]:
             content["inetnum"].pop("inetnum")
         routes["ipv4"].append(content)
         
     # IPv6
     for fname, content in iter_registry_files("route6"):
-        content["inetnum"] = get_file_content(REGISTRY_BASE / "inet6num" / fname)
+        content["inetnum"] = get_file_content(settings.REGISTRY_DATA / "inet6num" / fname)
         if "inet6num" in content["inetnum"]:
             content["inetnum"].pop("inet6num")
         routes["ipv6"].append(content)
@@ -115,6 +113,6 @@ def get_route_list() -> dict[str, list[dict]]:
 def get_asn_list() -> list[str]:
     return [
         f.name.replace("AS", "") 
-        for f in (REGISTRY_BASE / "aut-num").iterdir() 
+        for f in (settings.REGISTRY_DATA / "aut-num").iterdir()
         if f.is_file() and f.name.startswith("AS")
     ]

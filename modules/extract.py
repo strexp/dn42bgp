@@ -3,8 +3,9 @@ import logging
 from collections import Counter
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
-
 import mrtparse
+
+from core.config import settings
 
 def get_as_path(bgp_attr: list) -> list[str]:
     path = []
@@ -64,19 +65,13 @@ def parse_worker(filepath: Path, ip_version: str) -> tuple[str, list, list, dict
 
 
 def process() -> None:
-    cache_dir = Path("cache/table")
-    cache_dir.mkdir(parents=True, exist_ok=True)
-
-    data_dir = Path("data/table")
-    data_dir.mkdir(parents=True, exist_ok=True)
-
     table_data = {"ipv4": [], "ipv6": []}
     as_paths = {"ipv4": [], "ipv6": []}
     freq_data = {"ipv4": {}, "ipv6": {}}
 
     tasks = [
-        (Path("cache/master4.mrt.bz2"), "ipv4"),
-        (Path("cache/master6.mrt.bz2"), "ipv6"),
+        (settings.MRT_FILE_V4, "ipv4"),
+        (settings.MRT_FILE_V6, "ipv6"),
     ]
 
     logging.info("Starting parallel MRT parsing...")
@@ -96,9 +91,9 @@ def process() -> None:
 
     logging.info("Writing extracted data to cache...")
     
-    with (cache_dir / "table.json").open("w") as f:
+    with (settings.CACHE_TABLE / "table.json").open("w") as f:
         json.dump(table_data, f)
-    with (cache_dir / "aspaths.json").open("w") as f:
+    with (settings.CACHE_TABLE / "aspaths.json").open("w") as f:
         json.dump(as_paths, f)
-    with (data_dir / "freq.json").open("w") as f:
+    with (settings.OUTPUT_TABLE / "freq.json").open("w") as f:
         json.dump(freq_data, f)

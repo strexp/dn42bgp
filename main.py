@@ -5,6 +5,7 @@ import sys
 from typing import Any
 
 from modules import asn_detail, build_graph, extract, isp_rank, history
+from core.config import settings
 
 MODULES = {
     "extract": extract, 
@@ -44,6 +45,10 @@ def run_module(name: str, module: Any) -> dict:
 
 def main():
     setup_logging()
+
+    settings.setup_dirs()
+    logging.info(f"Registry Path: {settings.REGISTRY_PATH}")
+    logging.info(f"Data Dir: {settings.DATA_DIR}")
 
     parser = argparse.ArgumentParser(description="DN42 Registry Data Generator")
     parser.add_argument(

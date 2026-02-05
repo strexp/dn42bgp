@@ -1,11 +1,4 @@
-import os
 from typing import List, Dict, TypedDict, Optional
-
-# Match the path used in run.sh and core/registry.py
-REPO_PATH = os.path.expanduser(os.getenv("DN42_REGISTRY", "~/registry"))
-DATA_DIR = os.path.join(REPO_PATH, "data")
-OUTPUT_DIR = "data/history"
-STATE_FILE = os.path.join(OUTPUT_DIR, "internal_state.json")
 
 class ConfigItem(TypedDict):
     dir: str
