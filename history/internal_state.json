@@ -1,5 +1,5 @@
 {
-  "last_commit": "fc454a1a56a4321a0a4b29912a3ad60d3fccb842",
+  "last_commit": "d90fc69d6b40bc23416b4d025a0af77f255a301d",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -92885,6 +92885,34 @@
           "mnt-by": "X3QKER-MNT"
         },
         "start": "2026-02-04T03:30:52"
+      },
+      "AS4242423282": {
+        "val": {
+          "as-name": "LUKK-AS",
+          "mnt-by": "LUKK-MNT"
+        },
+        "start": "2026-02-04T11:14:24"
+      },
+      "AS4242423404": {
+        "val": {
+          "as-name": "AS-CODEKOW-DN42",
+          "mnt-by": "CODEKOW-MNT"
+        },
+        "start": "2026-02-04T14:24:42"
+      },
+      "AS4242423323": {
+        "val": {
+          "as-name": "AS-SST-DN42",
+          "mnt-by": "SST-MNT"
+        },
+        "start": "2026-02-04T15:04:41"
+      },
+      "AS4242422843": {
+        "val": {
+          "as-name": "AS-UZB-DN42",
+          "mnt-by": "UZB-DEV-MNT"
+        },
+        "start": "2026-02-04T21:07:33"
       }
     },
     "dns": {
@@ -100519,6 +100547,18 @@
           "mnt-by": "XIZI-MNT"
         },
         "start": "2026-02-03T13:33:16"
+      },
+      "kow.dn42": {
+        "val": {
+          "mnt-by": "CODEKOW-MNT"
+        },
+        "start": "2026-02-04T14:24:42"
+      },
+      "uzb-dev.dn42": {
+        "val": {
+          "mnt-by": "UZB-DEV-MNT"
+        },
+        "start": "2026-02-04T21:07:33"
       }
     },
     "mntner": {
@@ -112359,6 +112399,30 @@
           "mntner": "X3QKER-MNT"
         },
         "start": "2026-02-04T03:30:52"
+      },
+      "LUKK-MNT": {
+        "val": {
+          "mntner": "LUKK-MNT"
+        },
+        "start": "2026-02-04T11:14:24"
+      },
+      "CODEKOW-MNT": {
+        "val": {
+          "mntner": "CODEKOW-MNT"
+        },
+        "start": "2026-02-04T14:24:42"
+      },
+      "SST-MNT": {
+        "val": {
+          "mntner": "SST-MNT"
+        },
+        "start": "2026-02-04T15:04:41"
+      },
+      "UZB-DEV-MNT": {
+        "val": {
+          "mntner": "UZB-DEV-MNT"
+        },
+        "start": "2026-02-04T21:07:33"
       }
     },
     "registry": {
