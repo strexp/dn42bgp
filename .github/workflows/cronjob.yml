@@ -45,6 +45,7 @@ jobs:
         path: |
           ~/registry
           ~/.cache/pip
+          data/history/internal_state.json
         key: ${{ runner.os }}-data-${{ github.run_id }}
     - name: Deploy Result
       uses: JamesIves/github-pages-deploy-action@v4
