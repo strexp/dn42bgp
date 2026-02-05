@@ -19,8 +19,8 @@ fi
 echo "Downloading route data..."
 mkdir -p "$CACHE_DIR"
 
-curl -L -R -z "$CACHE_DIR/master4.mrt.bz2" -o "$CACHE_DIR/master4.mrt.bz2" "https://mrt42.strexp.net/master4_latest.mrt.bz2"
-curl -L -R -z "$CACHE_DIR/master6.mrt.bz2" -o "$CACHE_DIR/master6.mrt.bz2" "https://mrt42.strexp.net/master6_latest.mrt.bz2"
+wget -q "https://mrt42.strexp.net/master4_latest.mrt.bz2" -O "$CACHE_DIR/master4.mrt.bz2"
+wget -q "https://mrt42.strexp.net/master6_latest.mrt.bz2" -O "$CACHE_DIR/master6.mrt.bz2"
 
 echo "Running Python generator..."
 python3 main.py
