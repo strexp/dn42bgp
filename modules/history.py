@@ -68,42 +68,51 @@ def process() -> None:
         diffs = parent.diff(commit) if parent else []
 
         for diff in diffs:
-            path = diff.b_path if diff.b_path else diff.a_path
-            
-            if not path or not path.startswith("data/"):
-                continue
-
-            parts = path.split("/")
-            if len(parts) < 3:
-                continue
-
-            category = parts[1]
-            filename = parts[2]
-
-            if category not in CONFIG:
-                continue
-
-            if category == "aut-num" and not is_valid_aut_num(filename):
-                continue
-
-            cfg = CONFIG[category]
             change_type = diff.change_type
 
-            # File Deleted
-            if change_type == "D":
-                if filename in active_states[category]:
-                    state_obj = active_states[category].pop(filename)
-                    if filename not in timeline_data[category]:
-                        timeline_data[category][filename] = []
+            if change_type in ["D", "R"] and diff.a_path:
+                path = diff.a_path
+                if path.startswith("data/"):
+                    parts = path.split("/")
+                    if len(parts) >= 3:
+                        category = parts[1]
+                        filename = parts[2]
 
-                    timeline_data[category][filename].append({
-                        "value": state_obj["val"],
-                        "start": state_obj["start"],
-                        "end": commit_date,
-                    })
+                        if category in CONFIG:
+                            # Check valid aut-num
+                            if not (category == "aut-num" and not is_valid_aut_num(filename)):
+                                # Close state
+                                if filename in active_states[category]:
+                                    state_obj = active_states[category].pop(filename)
+                                    if filename not in timeline_data[category]:
+                                        timeline_data[category][filename] = []
 
-            # File Added, Modified, or Renamed
-            elif change_type in ["A", "M", "R"]:
+                                    timeline_data[category][filename].append({
+                                        "value": state_obj["val"],
+                                        "start": state_obj["start"],
+                                        "end": commit_date,
+                                    })
+
+            if change_type in ["A", "M", "R"] and diff.b_path:
+                path = diff.b_path
+                if not path.startswith("data/"):
+                    continue
+
+                parts = path.split("/")
+                if len(parts) < 3:
+                    continue
+
+                category = parts[1]
+                filename = parts[2]
+
+                if category not in CONFIG:
+                    continue
+
+                if category == "aut-num" and not is_valid_aut_num(filename):
+                    continue
+
+                cfg = CONFIG[category]
+
                 try:
                     content = get_file_content_at_commit(repo, diff.b_blob)
                     parsed = parse_rpsl(content)
