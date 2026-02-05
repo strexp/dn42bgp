@@ -4,15 +4,22 @@ import logging
 import sys
 from typing import Any
 
-from modules import asn_detail, build_graph, extract, isp_rank
+from modules import asn_detail, build_graph, extract, isp_rank, history
 
-MODULES = {"extract": extract, "graph": build_graph, "isp": isp_rank, "asn": asn_detail}
+MODULES = {
+    "extract": extract, 
+    "graph": build_graph, 
+    "isp": isp_rank, 
+    "asn": asn_detail,
+    "history": history
+}
 
 EXECUTION_ORDER = [
     "extract",
     "asn",
     "graph",
     "isp",
+    "history"
 ]
 
 
