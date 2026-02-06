@@ -1,5 +1,5 @@
 {
-  "last_commit": "d90fc69d6b40bc23416b4d025a0af77f255a301d",
+  "last_commit": "d2af090208e6eef8ff710794d78754e419ee5713",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -92913,6 +92913,13 @@
           "mnt-by": "UZB-DEV-MNT"
         },
         "start": "2026-02-04T21:07:33"
+      },
+      "AS4242420778": {
+        "val": {
+          "as-name": "RENNAZ-AS",
+          "mnt-by": "RENNAZ-MNT"
+        },
+        "start": "2026-02-05T18:56:52"
       }
     },
     "dns": {
@@ -112423,6 +112430,12 @@
           "mntner": "UZB-DEV-MNT"
         },
         "start": "2026-02-04T21:07:33"
+      },
+      "RENNAZ-MNT": {
+        "val": {
+          "mntner": "RENNAZ-MNT"
+        },
+        "start": "2026-02-05T18:56:52"
       }
     },
     "registry": {
