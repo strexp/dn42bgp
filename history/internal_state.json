@@ -1,5 +1,5 @@
 {
-  "last_commit": "1fbdebb162b25d859fe089a6a2ca8f9b72b036de",
+  "last_commit": "99ee46834e13f3b1c492ee2f1a4fbcc4f81031a4",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -92920,6 +92920,20 @@
           "mnt-by": "RENNAZ-MNT"
         },
         "start": "2026-02-05T18:56:52"
+      },
+      "AS4242420601": {
+        "val": {
+          "as-name": "AS-FUBAR-DN42",
+          "mnt-by": "AIMNOR-MNT"
+        },
+        "start": "2026-02-06T18:59:24"
+      },
+      "AS4242423352": {
+        "val": {
+          "as-name": "AS-TUNA2134-DN42",
+          "mnt-by": "TUNA2134-MNT"
+        },
+        "start": "2026-02-08T03:32:08"
       }
     },
     "dns": {
@@ -100572,6 +100586,12 @@
           "mnt-by": "YUZU-MNT"
         },
         "start": "2026-02-06T03:43:55"
+      },
+      "anomalies.dn42": {
+        "val": {
+          "mnt-by": "NUKU-MNT"
+        },
+        "start": "2026-02-06T12:38:07"
       }
     },
     "mntner": {
@@ -112442,6 +112462,18 @@
           "mntner": "RENNAZ-MNT"
         },
         "start": "2026-02-05T18:56:52"
+      },
+      "AIMNOR-MNT": {
+        "val": {
+          "mntner": "AIMNOR-MNT"
+        },
+        "start": "2026-02-06T18:59:24"
+      },
+      "TUNA2134-MNT": {
+        "val": {
+          "mntner": "TUNA2134-MNT"
+        },
+        "start": "2026-02-08T03:32:08"
       }
     },
     "registry": {
