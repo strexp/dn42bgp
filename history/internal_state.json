@@ -1,5 +1,5 @@
 {
-  "last_commit": "99ee46834e13f3b1c492ee2f1a4fbcc4f81031a4",
+  "last_commit": "5d77ed725459ea6b6f2c1275ee8f8de3f2c137db",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -92928,6 +92928,13 @@
         },
         "start": "2026-02-06T18:59:24"
       },
+      "AS4242423573": {
+        "val": {
+          "as-name": "KETNET-AS-DN42",
+          "mnt-by": "KETNET-MNT"
+        },
+        "start": "2026-02-07T19:49:24"
+      },
       "AS4242423352": {
         "val": {
           "as-name": "AS-TUNA2134-DN42",
@@ -112468,6 +112475,12 @@
           "mntner": "AIMNOR-MNT"
         },
         "start": "2026-02-06T18:59:24"
+      },
+      "KETNET-MNT": {
+        "val": {
+          "mntner": "KETNET-MNT"
+        },
+        "start": "2026-02-07T19:49:24"
       },
       "TUNA2134-MNT": {
         "val": {
