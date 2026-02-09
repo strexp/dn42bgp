@@ -1,5 +1,5 @@
 {
-  "last_commit": "0f8f8d3600456f74cf57a4d8c5c6aff271d64168",
+  "last_commit": "e818bba0eadd020174cbbe5689b248e6a4444500",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -92948,6 +92948,41 @@
           "mnt-by": "NETBOT-MNT"
         },
         "start": "2026-02-08T13:46:14"
+      },
+      "AS4242420189": {
+        "val": {
+          "as-name": "AS-SHD-NETWORK-DN42",
+          "mnt-by": "STRYKER-DELKAR-MNT, GROG-NOZZLE-MNT"
+        },
+        "start": "2026-02-08T19:26:34"
+      },
+      "AS4242422357": {
+        "val": {
+          "as-name": "AS-DEFELO-DN42",
+          "mnt-by": "DEFELO-MNT"
+        },
+        "start": "2026-02-08T22:35:15"
+      },
+      "AS4242420567": {
+        "val": {
+          "as-name": "AS-KORFURI-DN42",
+          "mnt-by": "KORFURI-MNT"
+        },
+        "start": "2026-02-09T11:42:52"
+      },
+      "AS4242421190": {
+        "val": {
+          "as-name": "AS-BEE92-DN42",
+          "mnt-by": "BEE92-MNT"
+        },
+        "start": "2026-02-09T12:43:22"
+      },
+      "AS4242422055": {
+        "val": {
+          "as-name": "AS-LOKE-DN42",
+          "mnt-by": "LOKE-MNT"
+        },
+        "start": "2026-02-09T15:13:17"
       }
     },
     "dns": {
@@ -112500,6 +112535,36 @@
           "mntner": "NETBOT-MNT"
         },
         "start": "2026-02-08T13:46:14"
+      },
+      "STRYKER-DELKAR-MNT": {
+        "val": {
+          "mntner": "STRYKER-DELKAR-MNT"
+        },
+        "start": "2026-02-08T19:26:34"
+      },
+      "DEFELO-MNT": {
+        "val": {
+          "mntner": "DEFELO-MNT"
+        },
+        "start": "2026-02-08T22:35:15"
+      },
+      "KORFURI-MNT": {
+        "val": {
+          "mntner": "KORFURI-MNT"
+        },
+        "start": "2026-02-09T11:42:52"
+      },
+      "BEE92-MNT": {
+        "val": {
+          "mntner": "BEE92-MNT"
+        },
+        "start": "2026-02-09T12:43:22"
+      },
+      "LOKE-MNT": {
+        "val": {
+          "mntner": "LOKE-MNT"
+        },
+        "start": "2026-02-09T15:13:17"
       }
     },
     "registry": {
