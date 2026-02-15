@@ -1,5 +1,5 @@
 {
-  "last_commit": "09064b8b5ef7ea734536e09654ac9caefda2761a",
+  "last_commit": "be07d93e91262ba8c274a12330c8cbf4189ea182",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93089,6 +93089,13 @@
           "mnt-by": "CH6306-MNT"
         },
         "start": "2026-02-13T06:30:20"
+      },
+      "AS4242420046": {
+        "val": {
+          "as-name": "AS-FOXYNET",
+          "mnt-by": "FOXY-MNT"
+        },
+        "start": "2026-02-15T12:42:33"
       }
     },
     "dns": {
@@ -112797,6 +112804,12 @@
           "mntner": "CH6306-MNT"
         },
         "start": "2026-02-13T06:30:20"
+      },
+      "FOXY-MNT": {
+        "val": {
+          "mntner": "FOXY-MNT"
+        },
+        "start": "2026-02-15T12:42:33"
       }
     },
     "registry": {
