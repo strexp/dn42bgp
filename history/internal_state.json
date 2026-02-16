@@ -1,5 +1,5 @@
 {
-  "last_commit": "be07d93e91262ba8c274a12330c8cbf4189ea182",
+  "last_commit": "6c81da1abf7d4a77d9330ea9e0eade7768140fb1",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93090,6 +93090,13 @@
         },
         "start": "2026-02-13T06:30:20"
       },
+      "AS4242423994": {
+        "val": {
+          "as-name": "AS-OCMARCU-DN42",
+          "mnt-by": "OCMARCU-MNT"
+        },
+        "start": "2026-02-15T04:44:26"
+      },
       "AS4242420046": {
         "val": {
           "as-name": "AS-FOXYNET",
@@ -112804,6 +112811,12 @@
           "mntner": "CH6306-MNT"
         },
         "start": "2026-02-13T06:30:20"
+      },
+      "OCMARCU-MNT": {
+        "val": {
+          "mntner": "OCMARCU-MNT"
+        },
+        "start": "2026-02-15T04:44:26"
       },
       "FOXY-MNT": {
         "val": {
