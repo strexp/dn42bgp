@@ -1,5 +1,5 @@
 {
-  "last_commit": "6c81da1abf7d4a77d9330ea9e0eade7768140fb1",
+  "last_commit": "dbdaa4fb76747960cbdfec17d7f6886d93ef5cc8",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93103,6 +93103,20 @@
           "mnt-by": "FOXY-MNT"
         },
         "start": "2026-02-15T12:42:33"
+      },
+      "AS4242423815": {
+        "val": {
+          "as-name": "AS-BERTO-DN42",
+          "mnt-by": "BERTO-MNT"
+        },
+        "start": "2026-02-17T01:32:17"
+      },
+      "AS4242423381": {
+        "val": {
+          "as-name": "AS-PWK-DN42",
+          "mnt-by": "PWK-MNT"
+        },
+        "start": "2026-02-17T03:08:48"
       }
     },
     "dns": {
@@ -100809,6 +100823,12 @@
           "mnt-by": "NUKU-MNT"
         },
         "start": "2026-02-14T13:25:55"
+      },
+      "berto.dn42": {
+        "val": {
+          "mnt-by": "BERTO-MNT"
+        },
+        "start": "2026-02-17T01:32:17"
       }
     },
     "mntner": {
@@ -112823,6 +112843,18 @@
           "mntner": "FOXY-MNT"
         },
         "start": "2026-02-15T12:42:33"
+      },
+      "BERTO-MNT": {
+        "val": {
+          "mntner": "BERTO-MNT"
+        },
+        "start": "2026-02-17T01:32:17"
+      },
+      "PWK-MNT": {
+        "val": {
+          "mntner": "PWK-MNT"
+        },
+        "start": "2026-02-17T03:08:48"
       }
     },
     "registry": {
