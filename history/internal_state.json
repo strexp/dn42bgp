@@ -1,5 +1,5 @@
 {
-  "last_commit": "4fdd4d2fc933c775fafa0b221482abe21e1b93b6",
+  "last_commit": "ccf3429b7ecc1a3e50f9718b721a660652997ba2",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93117,6 +93117,20 @@
           "mnt-by": "PWK-MNT"
         },
         "start": "2026-02-17T03:08:48"
+      },
+      "AS4242423130": {
+        "val": {
+          "as-name": "FLEAZ-AS",
+          "mnt-by": "FLEAZ-MNT"
+        },
+        "start": "2026-02-17T21:08:42"
+      },
+      "AS4242422212": {
+        "val": {
+          "as-name": "AS-KAEDE-DN42",
+          "mnt-by": "KAEDE-MNT"
+        },
+        "start": "2026-02-18T06:03:28"
       }
     },
     "dns": {
@@ -112855,6 +112869,18 @@
           "mntner": "PWK-MNT"
         },
         "start": "2026-02-17T03:08:48"
+      },
+      "FLEAZ-MNT": {
+        "val": {
+          "mntner": "FLEAZ-MNT"
+        },
+        "start": "2026-02-17T21:08:42"
+      },
+      "KAEDE-MNT": {
+        "val": {
+          "mntner": "KAEDE-MNT"
+        },
+        "start": "2026-02-18T06:03:28"
       }
     },
     "registry": {
