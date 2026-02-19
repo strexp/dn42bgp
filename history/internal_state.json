@@ -1,5 +1,5 @@
 {
-  "last_commit": "ccf3429b7ecc1a3e50f9718b721a660652997ba2",
+  "last_commit": "d6df0947f92908b20fc2d0030b34e946bddca57c",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93131,6 +93131,13 @@
           "mnt-by": "KAEDE-MNT"
         },
         "start": "2026-02-18T06:03:28"
+      },
+      "AS4242423378": {
+        "val": {
+          "as-name": "AS-MILLERLABS",
+          "mnt-by": "MILLERLABS-MNT"
+        },
+        "start": "2026-02-18T16:54:37"
       }
     },
     "dns": {
@@ -100843,6 +100850,12 @@
           "mnt-by": "BERTO-MNT"
         },
         "start": "2026-02-17T01:32:17"
+      },
+      "kaede.dn42": {
+        "val": {
+          "mnt-by": "KAEDE-MNT"
+        },
+        "start": "2026-02-19T09:08:20"
       }
     },
     "mntner": {
@@ -112881,6 +112894,12 @@
           "mntner": "KAEDE-MNT"
         },
         "start": "2026-02-18T06:03:28"
+      },
+      "MILLERLABS-MNT": {
+        "val": {
+          "mntner": "MILLERLABS-MNT"
+        },
+        "start": "2026-02-18T16:54:37"
       }
     },
     "registry": {
