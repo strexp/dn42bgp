@@ -1,5 +1,5 @@
 {
-  "last_commit": "d6df0947f92908b20fc2d0030b34e946bddca57c",
+  "last_commit": "edcf1a3681672f510dc43618792fadce170e6964",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93138,6 +93138,27 @@
           "mnt-by": "MILLERLABS-MNT"
         },
         "start": "2026-02-18T16:54:37"
+      },
+      "AS4242422038": {
+        "val": {
+          "as-name": "YOOLC-AS",
+          "mnt-by": "YOOLC-MNT"
+        },
+        "start": "2026-02-19T12:58:46"
+      },
+      "AS4242420751": {
+        "val": {
+          "as-name": "AS-TSJIP-DN42",
+          "mnt-by": "TSJIP-MNT"
+        },
+        "start": "2026-02-19T17:11:13"
+      },
+      "AS4242423444": {
+        "val": {
+          "as-name": "OSIRIS-LAB-DN42",
+          "mnt-by": "OSIRIS-MNT"
+        },
+        "start": "2026-02-19T19:46:25"
       }
     },
     "dns": {
@@ -100856,6 +100877,12 @@
           "mnt-by": "KAEDE-MNT"
         },
         "start": "2026-02-19T09:08:20"
+      },
+      "cheesy.dn42": {
+        "val": {
+          "mnt-by": "CHEESY-MNT"
+        },
+        "start": "2026-02-19T20:20:21"
       }
     },
     "mntner": {
@@ -112900,6 +112927,24 @@
           "mntner": "MILLERLABS-MNT"
         },
         "start": "2026-02-18T16:54:37"
+      },
+      "YOOLC-MNT": {
+        "val": {
+          "mntner": "YOOLC-MNT"
+        },
+        "start": "2026-02-19T12:58:46"
+      },
+      "TSJIP-MNT": {
+        "val": {
+          "mntner": "TSJIP-MNT"
+        },
+        "start": "2026-02-19T17:11:13"
+      },
+      "OSIRIS-MNT": {
+        "val": {
+          "mntner": "OSIRIS-MNT"
+        },
+        "start": "2026-02-19T19:46:25"
       }
     },
     "registry": {
