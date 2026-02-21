@@ -1,5 +1,5 @@
 {
-  "last_commit": "edcf1a3681672f510dc43618792fadce170e6964",
+  "last_commit": "979a2fde4bfef1c42151aa4d03e1161d12f7448b",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93159,6 +93159,13 @@
           "mnt-by": "OSIRIS-MNT"
         },
         "start": "2026-02-19T19:46:25"
+      },
+      "AS4242423312": {
+        "val": {
+          "as-name": "AS-SOOPYCAT-DN42",
+          "mnt-by": "SOOPYC-MNT"
+        },
+        "start": "2026-02-21T08:34:41"
       }
     },
     "dns": {
@@ -112945,6 +112952,12 @@
           "mntner": "OSIRIS-MNT"
         },
         "start": "2026-02-19T19:46:25"
+      },
+      "SOOPYC-MNT": {
+        "val": {
+          "mntner": "SOOPYC-MNT"
+        },
+        "start": "2026-02-21T08:34:41"
       }
     },
     "registry": {
