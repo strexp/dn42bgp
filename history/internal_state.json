@@ -1,5 +1,5 @@
 {
-  "last_commit": "979a2fde4bfef1c42151aa4d03e1161d12f7448b",
+  "last_commit": "8047e9521a7f0c936b6279ff254a4d52efa5692f",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93160,6 +93160,13 @@
         },
         "start": "2026-02-19T19:46:25"
       },
+      "AS4242420192": {
+        "val": {
+          "as-name": "AS-JCHAP-DN42",
+          "mnt-by": "JCHAP-MNT"
+        },
+        "start": "2026-02-21T06:51:03"
+      },
       "AS4242423312": {
         "val": {
           "as-name": "AS-SOOPYCAT-DN42",
@@ -112952,6 +112959,12 @@
           "mntner": "OSIRIS-MNT"
         },
         "start": "2026-02-19T19:46:25"
+      },
+      "JCHAP-MNT": {
+        "val": {
+          "mntner": "JCHAP-MNT"
+        },
+        "start": "2026-02-21T06:51:03"
       },
       "SOOPYC-MNT": {
         "val": {
