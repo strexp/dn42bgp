@@ -1,5 +1,5 @@
 {
-  "last_commit": "24f8a11736807d4f12c02f4d835a3c9887d74e44",
+  "last_commit": "5af2bee2aefae9b809e10dbb42ea29f5a2f13876",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93194,6 +93194,20 @@
           "mnt-by": "0X5F-MNT"
         },
         "start": "2026-02-21T21:51:25"
+      },
+      "AS4242421358": {
+        "val": {
+          "as-name": "AS-CELL-DN42",
+          "mnt-by": "CELL-MNT"
+        },
+        "start": "2026-02-22T02:18:52"
+      },
+      "AS4242420554": {
+        "val": {
+          "as-name": "listder",
+          "mnt-by": "LISTDER-MNT"
+        },
+        "start": "2026-02-22T14:35:17"
       }
     },
     "dns": {
@@ -100918,6 +100932,18 @@
           "mnt-by": "CHEESY-MNT"
         },
         "start": "2026-02-19T20:20:21"
+      },
+      "cell.dn42": {
+        "val": {
+          "mnt-by": "CELL-MNT"
+        },
+        "start": "2026-02-22T02:18:52"
+      },
+      "listder.dn42": {
+        "val": {
+          "mnt-by": "LISTDER-MNT"
+        },
+        "start": "2026-02-22T14:35:17"
       }
     },
     "mntner": {
@@ -113010,6 +113036,18 @@
           "mntner": "0X5F-MNT"
         },
         "start": "2026-02-21T21:51:25"
+      },
+      "CELL-MNT": {
+        "val": {
+          "mntner": "CELL-MNT"
+        },
+        "start": "2026-02-22T02:18:52"
+      },
+      "LISTDER-MNT": {
+        "val": {
+          "mntner": "LISTDER-MNT"
+        },
+        "start": "2026-02-22T14:35:17"
       }
     },
     "registry": {
