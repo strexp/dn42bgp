@@ -1,5 +1,5 @@
 {
-  "last_commit": "14faeca97d203a226ad5c7676a8516d1bf524a04",
+  "last_commit": "16223587fb4cee2ecf628c61578827fdfe1a6f88",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93187,6 +93187,13 @@
           "mnt-by": "SORXTX-MNT"
         },
         "start": "2026-02-21T17:39:15"
+      },
+      "AS4242422095": {
+        "val": {
+          "as-name": "AS-0X5F-DN42",
+          "mnt-by": "0X5F-MNT"
+        },
+        "start": "2026-02-21T21:51:25"
       }
     },
     "dns": {
@@ -112997,6 +113004,12 @@
           "mntner": "SORXTX-MNT"
         },
         "start": "2026-02-21T17:39:15"
+      },
+      "0X5F-MNT": {
+        "val": {
+          "mntner": "0X5F-MNT"
+        },
+        "start": "2026-02-21T21:51:25"
       }
     },
     "registry": {

@@ -1,6 +1,6 @@
 # roa_wizard 0.1.12 - Kioubit.dn42
-# Created: 1771750818
-# Commit: 14faeca97d203a226ad5c7676a8516d1bf524a04
+# Created: 1771766350
+# Commit: 16223587fb4cee2ecf628c61578827fdfe1a6f88
 
 route 172.21.66.96/27 max 29 as 4242422809;
 route 172.23.25.96/27 max 29 as 4242420461;
