@@ -1,5 +1,5 @@
 {
-  "last_commit": "8047e9521a7f0c936b6279ff254a4d52efa5692f",
+  "last_commit": "14faeca97d203a226ad5c7676a8516d1bf524a04",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93173,6 +93173,20 @@
           "mnt-by": "SOOPYC-MNT"
         },
         "start": "2026-02-21T08:34:41"
+      },
+      "AS4242420728": {
+        "val": {
+          "as-name": "MIRAI-GAJETTO-LAB",
+          "mnt-by": "YONZILCH-MNT"
+        },
+        "start": "2026-02-21T13:59:58"
+      },
+      "AS4242423393": {
+        "val": {
+          "as-name": "AS-SORXTX-DN42",
+          "mnt-by": "SORXTX-MNT"
+        },
+        "start": "2026-02-21T17:39:15"
       }
     },
     "dns": {
@@ -112971,6 +112985,18 @@
           "mntner": "SOOPYC-MNT"
         },
         "start": "2026-02-21T08:34:41"
+      },
+      "YONZILCH-MNT": {
+        "val": {
+          "mntner": "YONZILCH-MNT"
+        },
+        "start": "2026-02-21T13:59:58"
+      },
+      "SORXTX-MNT": {
+        "val": {
+          "mntner": "SORXTX-MNT"
+        },
+        "start": "2026-02-21T17:39:15"
       }
     },
     "registry": {
