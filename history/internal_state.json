@@ -1,5 +1,5 @@
 {
-  "last_commit": "5af2bee2aefae9b809e10dbb42ea29f5a2f13876",
+  "last_commit": "22bd2b6bbf2363c059d9027f4aa10c1ba0fc27b1",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93208,6 +93208,13 @@
           "mnt-by": "LISTDER-MNT"
         },
         "start": "2026-02-22T14:35:17"
+      },
+      "AS4242422553": {
+        "val": {
+          "as-name": "AS-JIHUAYU-DN42",
+          "mnt-by": "JIHUAYU-MNT"
+        },
+        "start": "2026-02-23T01:28:10"
       }
     },
     "dns": {
@@ -100944,6 +100951,12 @@
           "mnt-by": "LISTDER-MNT"
         },
         "start": "2026-02-22T14:35:17"
+      },
+      "soiza.dn42": {
+        "val": {
+          "mnt-by": "SOIZA-MNT"
+        },
+        "start": "2026-02-22T21:57:13"
       }
     },
     "mntner": {
@@ -113048,6 +113061,12 @@
           "mntner": "LISTDER-MNT"
         },
         "start": "2026-02-22T14:35:17"
+      },
+      "JIHUAYU-MNT": {
+        "val": {
+          "mntner": "JIHUAYU-MNT"
+        },
+        "start": "2026-02-23T01:28:10"
       }
     },
     "registry": {
