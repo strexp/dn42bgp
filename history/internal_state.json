@@ -1,5 +1,5 @@
 {
-  "last_commit": "22bd2b6bbf2363c059d9027f4aa10c1ba0fc27b1",
+  "last_commit": "2c98a0998dd1ccd41a3039d1fa3493c59f267a01",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93215,6 +93215,20 @@
           "mnt-by": "JIHUAYU-MNT"
         },
         "start": "2026-02-23T01:28:10"
+      },
+      "AS4242423427": {
+        "val": {
+          "as-name": "RYP-AS",
+          "mnt-by": "RYP-MNT"
+        },
+        "start": "2026-02-23T14:58:38"
+      },
+      "AS4242420701": {
+        "val": {
+          "as-name": "AKINANET-AS-DN42",
+          "mnt-by": "AKINA-MNT"
+        },
+        "start": "2026-02-23T18:03:58"
       }
     },
     "dns": {
@@ -113067,6 +113081,18 @@
           "mntner": "JIHUAYU-MNT"
         },
         "start": "2026-02-23T01:28:10"
+      },
+      "RYP-MNT": {
+        "val": {
+          "mntner": "RYP-MNT"
+        },
+        "start": "2026-02-23T14:58:38"
+      },
+      "AKINA-MNT": {
+        "val": {
+          "mntner": "AKINA-MNT"
+        },
+        "start": "2026-02-23T18:03:58"
       }
     },
     "registry": {
