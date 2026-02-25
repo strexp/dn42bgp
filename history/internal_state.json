@@ -1,5 +1,5 @@
 {
-  "last_commit": "4d83f7f45b244f3cab4a6daff5e1b31d21b0d5c5",
+  "last_commit": "ee6872861338bde45ba365bed3899a61c8ce5fb6",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93229,6 +93229,13 @@
           "mnt-by": "AKINA-MNT"
         },
         "start": "2026-02-23T18:03:58"
+      },
+      "AS4242422773": {
+        "val": {
+          "as-name": "NULLWEB-AS",
+          "mnt-by": "NULLWEB-MNT"
+        },
+        "start": "2026-02-25T02:00:16"
       }
     },
     "dns": {
@@ -100971,6 +100978,12 @@
           "mnt-by": "SOIZA-MNT"
         },
         "start": "2026-02-22T21:57:13"
+      },
+      "nullweb.dn42": {
+        "val": {
+          "mnt-by": "NULLWEB-MNT"
+        },
+        "start": "2026-02-25T02:00:16"
       }
     },
     "mntner": {
@@ -113093,6 +113106,12 @@
           "mntner": "AKINA-MNT"
         },
         "start": "2026-02-23T18:03:58"
+      },
+      "NULLWEB-MNT": {
+        "val": {
+          "mntner": "NULLWEB-MNT"
+        },
+        "start": "2026-02-25T02:00:16"
       }
     },
     "registry": {
