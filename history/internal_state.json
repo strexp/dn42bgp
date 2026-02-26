@@ -1,5 +1,5 @@
 {
-  "last_commit": "ee6872861338bde45ba365bed3899a61c8ce5fb6",
+  "last_commit": "37884b2cd8a1a3b949e1582681fc090cc5fe8713",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93230,12 +93230,40 @@
         },
         "start": "2026-02-23T18:03:58"
       },
+      "AS4242423624": {
+        "val": {
+          "as-name": "AS-SerinaNya-DN42",
+          "mnt-by": "SERINANYA-MNT"
+        },
+        "start": "2026-02-24T04:09:29"
+      },
+      "AS4242423625": {
+        "val": {
+          "as-name": "AS-SerinaIX-DN42",
+          "mnt-by": "SERINANYA-MNT"
+        },
+        "start": "2026-02-24T04:09:29"
+      },
       "AS4242422773": {
         "val": {
           "as-name": "NULLWEB-AS",
           "mnt-by": "NULLWEB-MNT"
         },
         "start": "2026-02-25T02:00:16"
+      },
+      "AS4242421636": {
+        "val": {
+          "as-name": "AS-VDBNET-DN42",
+          "mnt-by": "VDBNET-MNT"
+        },
+        "start": "2026-02-25T19:40:59"
+      },
+      "AS4242422791": {
+        "val": {
+          "as-name": "SAKKAN-AS",
+          "mnt-by": "SAKKAN-MNT"
+        },
+        "start": "2026-02-26T06:12:53"
       }
     },
     "dns": {
@@ -100984,6 +101012,12 @@
           "mnt-by": "NULLWEB-MNT"
         },
         "start": "2026-02-25T02:00:16"
+      },
+      "sakkan.dn42": {
+        "val": {
+          "mnt-by": "SAKKAN-MNT"
+        },
+        "start": "2026-02-26T06:12:53"
       }
     },
     "mntner": {
@@ -113107,11 +113141,29 @@
         },
         "start": "2026-02-23T18:03:58"
       },
+      "SERINANYA-MNT": {
+        "val": {
+          "mntner": "SERINANYA-MNT"
+        },
+        "start": "2026-02-24T04:09:29"
+      },
       "NULLWEB-MNT": {
         "val": {
           "mntner": "NULLWEB-MNT"
         },
         "start": "2026-02-25T02:00:16"
+      },
+      "VDBNET-MNT": {
+        "val": {
+          "mntner": "VDBNET-MNT"
+        },
+        "start": "2026-02-25T19:40:59"
+      },
+      "SAKKAN-MNT": {
+        "val": {
+          "mntner": "SAKKAN-MNT"
+        },
+        "start": "2026-02-26T06:12:53"
       }
     },
     "registry": {
