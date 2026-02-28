@@ -1,5 +1,5 @@
 {
-  "last_commit": "37884b2cd8a1a3b949e1582681fc090cc5fe8713",
+  "last_commit": "f1a860c614b6d343a49511010c2fd87acccb215a",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -8130,6 +8130,14 @@
           },
           "start": "2018-02-25T18:36:09",
           "end": "2024-10-14T17:43:58"
+        },
+        {
+          "value": {
+            "as-name": "YUYUKO-AS",
+            "mnt-by": "YUYUKO-MNT"
+          },
+          "start": "2025-11-14T00:19:45",
+          "end": "2026-02-28T13:47:45"
         }
       ],
       "AS4242421118": [
@@ -91979,10 +91987,10 @@
       },
       "AS4242421117": {
         "val": {
-          "as-name": "YUYUKO-AS",
+          "as-name": "YUYUKO-NETWORK",
           "mnt-by": "YUYUKO-MNT"
         },
-        "start": "2025-11-14T00:19:45"
+        "start": "2026-02-28T13:47:45"
       },
       "AS4242421927": {
         "val": {
@@ -93264,6 +93272,27 @@
           "mnt-by": "SAKKAN-MNT"
         },
         "start": "2026-02-26T06:12:53"
+      },
+      "AS4242423881": {
+        "val": {
+          "as-name": "AS-PBCNET-DN42",
+          "mnt-by": "REESE-MNT"
+        },
+        "start": "2026-02-27T21:19:01"
+      },
+      "AS4242422946": {
+        "val": {
+          "as-name": "ELYSIA-AS",
+          "mnt-by": "ELYSIA-MNT"
+        },
+        "start": "2026-02-28T13:41:59"
+      },
+      "AS4242420067": {
+        "val": {
+          "as-name": "FIBERCUT-AS",
+          "mnt-by": "AMY-MNT"
+        },
+        "start": "2026-02-28T16:07:17"
       }
     },
     "dns": {
@@ -101018,6 +101047,12 @@
           "mnt-by": "SAKKAN-MNT"
         },
         "start": "2026-02-26T06:12:53"
+      },
+      "pbc.dn42": {
+        "val": {
+          "mnt-by": "REESE-MNT"
+        },
+        "start": "2026-02-27T21:19:01"
       }
     },
     "mntner": {
@@ -113164,6 +113199,24 @@
           "mntner": "SAKKAN-MNT"
         },
         "start": "2026-02-26T06:12:53"
+      },
+      "REESE-MNT": {
+        "val": {
+          "mntner": "REESE-MNT"
+        },
+        "start": "2026-02-27T21:19:01"
+      },
+      "ELYSIA-MNT": {
+        "val": {
+          "mntner": "ELYSIA-MNT"
+        },
+        "start": "2026-02-28T13:41:59"
+      },
+      "AMY-MNT": {
+        "val": {
+          "mntner": "AMY-MNT"
+        },
+        "start": "2026-02-28T16:07:17"
       }
     },
     "registry": {
@@ -114761,6 +114814,13 @@
           "mnt-by": "DISPAISY-MNT"
         },
         "start": "2026-01-30T19:47:51"
+      },
+      "ORG-PBCNET": {
+        "val": {
+          "org-name": "PBC Networks",
+          "mnt-by": "REESE-MNT"
+        },
+        "start": "2026-02-27T21:19:01"
       }
     }
   }
