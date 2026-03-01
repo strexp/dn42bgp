@@ -1,5 +1,5 @@
 {
-  "last_commit": "f1a860c614b6d343a49511010c2fd87acccb215a",
+  "last_commit": "6dfc249da4d0f2231ef823c0eaf6861bc30eac8c",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93293,6 +93293,48 @@
           "mnt-by": "AMY-MNT"
         },
         "start": "2026-02-28T16:07:17"
+      },
+      "AS4242422408": {
+        "val": {
+          "as-name": "AS-SANDRO-DN42",
+          "mnt-by": "SANDRO-MNT"
+        },
+        "start": "2026-02-28T21:15:13"
+      },
+      "AS4242422312": {
+        "val": {
+          "as-name": "AS-PORTELA-DN42",
+          "mnt-by": "PORTELA-MNT"
+        },
+        "start": "2026-03-01T00:25:32"
+      },
+      "AS4242420170": {
+        "val": {
+          "as-name": "AS-NYMYTZ",
+          "mnt-by": "NYMYTZ-MNT"
+        },
+        "start": "2026-03-01T04:24:18"
+      },
+      "AS4242422727": {
+        "val": {
+          "as-name": "SIMONXU-AS",
+          "mnt-by": "SIMONXU-MNT"
+        },
+        "start": "2026-03-01T07:00:26"
+      },
+      "AS4242421444": {
+        "val": {
+          "as-name": "VLADIMIR-BACKBONE",
+          "mnt-by": "VLADIMIR-MNT"
+        },
+        "start": "2026-03-01T10:20:17"
+      },
+      "AS4242420041": {
+        "val": {
+          "as-name": "VOKIMHA-AS",
+          "mnt-by": "VOKIMHA-MNT"
+        },
+        "start": "2026-03-01T10:35:21"
       }
     },
     "dns": {
@@ -101053,6 +101095,30 @@
           "mnt-by": "REESE-MNT"
         },
         "start": "2026-02-27T21:19:01"
+      },
+      "s6o.dn42": {
+        "val": {
+          "mnt-by": "SANDRO-MNT"
+        },
+        "start": "2026-02-28T21:15:13"
+      },
+      "sandro.dn42": {
+        "val": {
+          "mnt-by": "SANDRO-MNT"
+        },
+        "start": "2026-02-28T21:15:13"
+      },
+      "bibaandboba.dn42": {
+        "val": {
+          "mnt-by": "VLADIMIR-MNT"
+        },
+        "start": "2026-03-01T10:20:17"
+      },
+      "vokimha.dn42": {
+        "val": {
+          "mnt-by": "VOKIMHA-MNT"
+        },
+        "start": "2026-03-01T10:35:21"
       }
     },
     "mntner": {
@@ -113217,6 +113283,36 @@
           "mntner": "AMY-MNT"
         },
         "start": "2026-02-28T16:07:17"
+      },
+      "PORTELA-MNT": {
+        "val": {
+          "mntner": "PORTELA-MNT"
+        },
+        "start": "2026-03-01T00:25:32"
+      },
+      "NYMYTZ-MNT": {
+        "val": {
+          "mntner": "NYMYTZ-MNT"
+        },
+        "start": "2026-03-01T04:24:18"
+      },
+      "SIMONXU-MNT": {
+        "val": {
+          "mntner": "SIMONXU-MNT"
+        },
+        "start": "2026-03-01T07:00:26"
+      },
+      "VLADIMIR-MNT": {
+        "val": {
+          "mntner": "VLADIMIR-MNT"
+        },
+        "start": "2026-03-01T10:20:17"
+      },
+      "VOKIMHA-MNT": {
+        "val": {
+          "mntner": "VOKIMHA-MNT"
+        },
+        "start": "2026-03-01T10:35:21"
       }
     },
     "registry": {
