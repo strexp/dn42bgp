@@ -1,5 +1,5 @@
 {
-  "last_commit": "ec18b66a28c24d83474fd6f0b8b0c430edeaac36",
+  "last_commit": "12deaec1ed858458b1d82776a94ff39d85965464",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93378,12 +93378,26 @@
         },
         "start": "2026-03-05T00:14:19"
       },
+      "AS4242422181": {
+        "val": {
+          "as-name": "LETTUCE-AS",
+          "mnt-by": "LETTUCE-MNT"
+        },
+        "start": "2026-03-05T07:02:46"
+      },
       "AS4242421727": {
         "val": {
           "as-name": "AZUSAMOE-AS",
           "mnt-by": "AZUSAMOE-MNT"
         },
         "start": "2026-03-05T07:41:59"
+      },
+      "AS4242422277": {
+        "val": {
+          "as-name": "AS-HIKARI-DN42",
+          "mnt-by": "HIKARI-MNT"
+        },
+        "start": "2026-03-05T16:41:29"
       }
     },
     "dns": {
@@ -101174,6 +101188,12 @@
           "mnt-by": "ATP-MNT"
         },
         "start": "2026-03-03T01:16:05"
+      },
+      "lettuce.dn42": {
+        "val": {
+          "mnt-by": "LETTUCE-MNT"
+        },
+        "start": "2026-03-05T07:02:46"
       },
       "e164.dn42": {
         "val": {
@@ -113411,11 +113431,23 @@
         },
         "start": "2026-03-05T00:14:19"
       },
+      "LETTUCE-MNT": {
+        "val": {
+          "mntner": "LETTUCE-MNT"
+        },
+        "start": "2026-03-05T07:02:46"
+      },
       "AZUSAMOE-MNT": {
         "val": {
           "mntner": "AZUSAMOE-MNT"
         },
         "start": "2026-03-05T07:41:59"
+      },
+      "HIKARI-MNT": {
+        "val": {
+          "mntner": "HIKARI-MNT"
+        },
+        "start": "2026-03-05T16:41:29"
       }
     },
     "registry": {
