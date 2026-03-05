@@ -1,5 +1,5 @@
 {
-  "last_commit": "1f2c8cb51df0b7fc336b208715bf04d55740559c",
+  "last_commit": "ec18b66a28c24d83474fd6f0b8b0c430edeaac36",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93370,6 +93370,20 @@
           "mnt-by": "COMPLEXE-MNT"
         },
         "start": "2026-03-04T11:51:23"
+      },
+      "AS4242421725": {
+        "val": {
+          "as-name": "ROUTE172-AS",
+          "mnt-by": "ROUTE172-MNT"
+        },
+        "start": "2026-03-05T00:14:19"
+      },
+      "AS4242421727": {
+        "val": {
+          "as-name": "AZUSAMOE-AS",
+          "mnt-by": "AZUSAMOE-MNT"
+        },
+        "start": "2026-03-05T07:41:59"
       }
     },
     "dns": {
@@ -101160,6 +101174,12 @@
           "mnt-by": "ATP-MNT"
         },
         "start": "2026-03-03T01:16:05"
+      },
+      "e164.dn42": {
+        "val": {
+          "mnt-by": "NIA-MNT"
+        },
+        "start": "2026-03-05T07:39:10"
       }
     },
     "mntner": {
@@ -113384,6 +113404,18 @@
           "mntner": "COMPLEXE-MNT"
         },
         "start": "2026-03-04T11:51:23"
+      },
+      "ROUTE172-MNT": {
+        "val": {
+          "mntner": "ROUTE172-MNT"
+        },
+        "start": "2026-03-05T00:14:19"
+      },
+      "AZUSAMOE-MNT": {
+        "val": {
+          "mntner": "AZUSAMOE-MNT"
+        },
+        "start": "2026-03-05T07:41:59"
       }
     },
     "registry": {
