@@ -1,5 +1,5 @@
 {
-  "last_commit": "226435ed459a6507878feeec00426785018a395c",
+  "last_commit": "1e8f0360b35a16b7b6ee28faf7794ac7b14c3065",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93426,6 +93426,13 @@
           "mnt-by": "POLY-MNT"
         },
         "start": "2026-03-06T12:15:54"
+      },
+      "AS4242421201": {
+        "val": {
+          "as-name": "AS-BOMBARDIER-DN42",
+          "mnt-by": "BOMBARDIER-MNT"
+        },
+        "start": "2026-03-07T02:17:32"
       }
     },
     "dns": {
@@ -101240,6 +101247,12 @@
           "mnt-by": "GROG-NOZZLE-MNT, CYCLOPENTANE-MNT"
         },
         "start": "2026-03-06T22:55:12"
+      },
+      "bombardier.dn42": {
+        "val": {
+          "mnt-by": "BOMBARDIER-MNT"
+        },
+        "start": "2026-03-07T02:17:32"
       }
     },
     "mntner": {
@@ -113512,6 +113525,12 @@
           "mntner": "POLY-MNT"
         },
         "start": "2026-03-06T12:15:54"
+      },
+      "BOMBARDIER-MNT": {
+        "val": {
+          "mntner": "BOMBARDIER-MNT"
+        },
+        "start": "2026-03-07T02:17:32"
       }
     },
     "registry": {
