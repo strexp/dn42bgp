@@ -1,5 +1,5 @@
 {
-  "last_commit": "47b4a29925ae3ac0cd41d01acfd9f6f426950095",
+  "last_commit": "0b40ba4d205c54e81fa46d0ceb114e450e2ac29c",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93512,6 +93512,20 @@
           "mnt-by": "KANINCHENSPEED-MNT"
         },
         "start": "2026-03-12T23:23:40"
+      },
+      "AS4242423877": {
+        "val": {
+          "as-name": "FARNETCZISP-AS",
+          "mnt-by": "FARNETCZISP-MNT"
+        },
+        "start": "2026-03-13T11:53:30"
+      },
+      "AS4242420052": {
+        "val": {
+          "as-name": "AS-FKNET-DN42",
+          "mnt-by": "FK-MNT"
+        },
+        "start": "2026-03-13T15:27:57"
       }
     },
     "dns": {
@@ -101368,6 +101382,24 @@
           "mnt-by": "VCONET-MNT"
         },
         "start": "2026-03-12T14:47:44"
+      },
+      "mashiro.dn42": {
+        "val": {
+          "mnt-by": "COMPLEXE-MNT"
+        },
+        "start": "2026-03-13T10:13:51"
+      },
+      "fk.dn42": {
+        "val": {
+          "mnt-by": "FK-MNT"
+        },
+        "start": "2026-03-13T15:27:57"
+      },
+      "korfuri.dn42": {
+        "val": {
+          "mnt-by": "KORFURI-MNT"
+        },
+        "start": "2026-03-13T15:59:39"
       }
     },
     "mntner": {
@@ -113700,6 +113732,18 @@
           "mntner": "KANINCHENSPEED-MNT"
         },
         "start": "2026-03-12T23:23:40"
+      },
+      "FARNETCZISP-MNT": {
+        "val": {
+          "mntner": "FARNETCZISP-MNT"
+        },
+        "start": "2026-03-13T11:53:30"
+      },
+      "FK-MNT": {
+        "val": {
+          "mntner": "FK-MNT"
+        },
+        "start": "2026-03-13T15:27:57"
       }
     },
     "registry": {
