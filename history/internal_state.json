@@ -1,5 +1,5 @@
 {
-  "last_commit": "1a84fbfa7fa6f8541cbbe74ac966355d424bbf69",
+  "last_commit": "ad2183ebdfec4cec79c47a4258bb5fcc3f6387ce",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93688,6 +93688,20 @@
           "mnt-by": "PITELINK-MNT"
         },
         "start": "2026-03-21T11:25:51"
+      },
+      "AS4242422426": {
+        "val": {
+          "as-name": "SISY-AS",
+          "mnt-by": "SISY-MNT"
+        },
+        "start": "2026-03-22T04:47:30"
+      },
+      "AS4242422901": {
+        "val": {
+          "as-name": "AS-AGOSTINI-DN42",
+          "mnt-by": "AGOSTINI-MNT"
+        },
+        "start": "2026-03-22T08:33:43"
       }
     },
     "dns": {
@@ -101634,6 +101648,18 @@
           "mnt-by": "HIKARI-MNT"
         },
         "start": "2026-03-21T16:39:52"
+      },
+      "sisy.dn42": {
+        "val": {
+          "mnt-by": "SISY-MNT"
+        },
+        "start": "2026-03-22T04:47:30"
+      },
+      "agostini.dn42": {
+        "val": {
+          "mnt-by": "AGOSTINI-MNT"
+        },
+        "start": "2026-03-22T08:33:43"
       }
     },
     "mntner": {
@@ -114086,6 +114112,18 @@
           "mntner": "PITELINK-MNT"
         },
         "start": "2026-03-21T11:25:51"
+      },
+      "SISY-MNT": {
+        "val": {
+          "mntner": "SISY-MNT"
+        },
+        "start": "2026-03-22T04:47:30"
+      },
+      "AGOSTINI-MNT": {
+        "val": {
+          "mntner": "AGOSTINI-MNT"
+        },
+        "start": "2026-03-22T08:33:43"
       }
     },
     "registry": {
