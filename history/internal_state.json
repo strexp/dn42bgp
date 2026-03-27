@@ -1,5 +1,5 @@
 {
-  "last_commit": "9d32c892af4f52e8706645e4f06afd24d1c02015",
+  "last_commit": "e2a5e814f03fc7d341954a495dc0699109431521",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93731,6 +93731,27 @@
           "mnt-by": "CURLYTAILS-MNT"
         },
         "start": "2026-03-24T19:04:20"
+      },
+      "AS4242423144": {
+        "val": {
+          "as-name": "HIYASE-AS",
+          "mnt-by": "HIYASE-MNT"
+        },
+        "start": "2026-03-27T00:38:19"
+      },
+      "AS4242423510": {
+        "val": {
+          "as-name": "AS-TECHFISH-DN42",
+          "mnt-by": "TECHFISH-MNT"
+        },
+        "start": "2026-03-27T11:17:39"
+      },
+      "AS4242420769": {
+        "val": {
+          "as-name": "MIYUZAKI-ISP",
+          "mnt-by": "MIYUZAKI-MNT"
+        },
+        "start": "2026-03-27T11:55:15"
       }
     },
     "dns": {
@@ -101695,6 +101716,12 @@
           "mnt-by": "XYLOFRUT-MNT"
         },
         "start": "2026-03-25T19:25:15"
+      },
+      "hiyase.dn42": {
+        "val": {
+          "mnt-by": "HIYASE-MNT"
+        },
+        "start": "2026-03-27T00:38:19"
       }
     },
     "mntner": {
@@ -114177,6 +114204,24 @@
           "mntner": "CURLYTAILS-MNT"
         },
         "start": "2026-03-24T19:04:20"
+      },
+      "HIYASE-MNT": {
+        "val": {
+          "mntner": "HIYASE-MNT"
+        },
+        "start": "2026-03-27T00:38:19"
+      },
+      "TECHFISH-MNT": {
+        "val": {
+          "mntner": "TECHFISH-MNT"
+        },
+        "start": "2026-03-27T11:17:39"
+      },
+      "MIYUZAKI-MNT": {
+        "val": {
+          "mntner": "MIYUZAKI-MNT"
+        },
+        "start": "2026-03-27T11:55:15"
       }
     },
     "registry": {
