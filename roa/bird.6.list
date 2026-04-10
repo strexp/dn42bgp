@@ -1,6 +1,6 @@
 # roa_wizard 0.1.12 - Kioubit.dn42
-# Created: 1775727420
-# Commit: 9f8932d45b6f7623aefc28005103d511e4ef6ee3
+# Created: 1775828597
+# Commit: de78bba1b6a1e3eeec8a356b1e314581855fe2bc
 
 route fd42:23:148::/48 max 64 as 76140;
 route fd0e:c6b6:4865::/48 max 48 as 4242422655;
@@ -728,6 +728,7 @@ route fdf0:9bb:7814::/48 max 64 as 65060;
 route fd55:88b1:3066::/48 max 48 as 4242423614;
 route fd27:cafe:beef::/48 max 64 as 4242420702;
 route fde4:7a45:befa::/48 max 48 as 4242423500;
+route fd42:4242:2468::/48 max 48 as 4242422468;
 route fd69:3072:3072::/48 max 48 as 4242423072;
 route fdb4:4911:ccf8::/48 max 64 as 4242423506;
 route fd26:d32d:8de::/48 max 48 as 4242422084;
@@ -934,6 +935,7 @@ route fd26:899c:3344::/48 max 64 as 4242423547;
 route fd81:edb3:71d8::/48 max 48 as 4242422953;
 route fda3:948c:f1ad::/48 max 48 as 4242422377;
 route fd2d:6421:f42b::/48 max 48 as 4242423840;
+route fd48:4b4f:6261::/48 max 48 as 4242423002;
 route fdd9:1d9:ebba::/48 max 48 as 4242422060;
 route fd28:cbc:f0c0::/48 max 48 as 4242422264;
 route fd42:4246:1e7f::/48 max 48 as 4242422446;
