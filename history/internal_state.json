@@ -1,5 +1,5 @@
 {
-  "last_commit": "de78bba1b6a1e3eeec8a356b1e314581855fe2bc",
+  "last_commit": "08b064464759e303d6c731fc50946b0a9cdba631",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93899,6 +93899,27 @@
           "mnt-by": "SATCH80-MNT"
         },
         "start": "2026-04-09T15:29:58"
+      },
+      "AS4242420962": {
+        "val": {
+          "as-name": "PULLOVERSCHWEIN-DN42",
+          "mnt-by": "PULLOVERSCHWEIN-MNT"
+        },
+        "start": "2026-04-10T12:43:51"
+      },
+      "AS4242422536": {
+        "val": {
+          "as-name": "AS-CANITZP-MNT",
+          "mnt-by": "CANITZP-MNT"
+        },
+        "start": "2026-04-10T13:13:33"
+      },
+      "AS4242420310": {
+        "val": {
+          "as-name": "SZATELLIT",
+          "mnt-by": "SZATELLIT-MNT"
+        },
+        "start": "2026-04-10T23:05:41"
       }
     },
     "dns": {
@@ -101947,6 +101968,18 @@
           "mnt-by": "GONGYUN-MNT"
         },
         "start": "2026-04-09T13:35:54"
+      },
+      "as4242420310.dn42": {
+        "val": {
+          "mnt-by": "SZATELLIT-MNT"
+        },
+        "start": "2026-04-10T23:05:41"
+      },
+      "szatellit.dn42": {
+        "val": {
+          "mnt-by": "SZATELLIT-MNT"
+        },
+        "start": "2026-04-10T23:05:41"
       }
     },
     "mntner": {
@@ -114573,6 +114606,24 @@
           "mntner": "SATCH80-MNT"
         },
         "start": "2026-04-09T15:29:58"
+      },
+      "PULLOVERSCHWEIN-MNT": {
+        "val": {
+          "mntner": "PULLOVERSCHWEIN-MNT"
+        },
+        "start": "2026-04-10T12:43:51"
+      },
+      "CANITZP-MNT": {
+        "val": {
+          "mntner": "CANITZP-MNT"
+        },
+        "start": "2026-04-10T13:13:33"
+      },
+      "SZATELLIT-MNT": {
+        "val": {
+          "mntner": "SZATELLIT-MNT"
+        },
+        "start": "2026-04-10T23:05:41"
       }
     },
     "registry": {
