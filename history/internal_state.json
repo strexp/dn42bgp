@@ -1,5 +1,5 @@
 {
-  "last_commit": "c57ffff3954d1a5cf62331bca8144568db3052fb",
+  "last_commit": "6c8fc7672e14af95dbc64c47cd3ae6df4a4d483d",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93945,6 +93945,41 @@
           "mnt-by": "ARTENORIX-MNT"
         },
         "start": "2026-04-11T12:29:03"
+      },
+      "AS4242421224": {
+        "val": {
+          "as-name": "AS-NOTRI1-DN42",
+          "mnt-by": "NOTRI1-MNT"
+        },
+        "start": "2026-04-12T13:32:36"
+      },
+      "AS4242420314": {
+        "val": {
+          "as-name": "BORDOT-AS",
+          "mnt-by": "BORDOT-MNT"
+        },
+        "start": "2026-04-12T15:29:18"
+      },
+      "AS4242420045": {
+        "val": {
+          "as-name": "AWDEVHARDWARE-AS",
+          "mnt-by": "AWDEVHARDWARE-MNT"
+        },
+        "start": "2026-04-12T20:49:55"
+      },
+      "AS4242421515": {
+        "val": {
+          "as-name": "SAKUYA-AS",
+          "mnt-by": "SAKUYA-MNT"
+        },
+        "start": "2026-04-13T07:07:31"
+      },
+      "AS4242420204": {
+        "val": {
+          "as-name": "FARSNIPER-AS",
+          "mnt-by": "FARSNIPER-MNT"
+        },
+        "start": "2026-04-13T12:09:18"
       }
     },
     "dns": {
@@ -102017,6 +102052,12 @@
           "mnt-by": "MINECON724-MNT"
         },
         "start": "2026-04-12T05:49:00"
+      },
+      "notri1.dn42": {
+        "val": {
+          "mnt-by": "NOTRI1-MNT"
+        },
+        "start": "2026-04-12T13:32:36"
       }
     },
     "mntner": {
@@ -114661,6 +114702,36 @@
           "mntner": "ARTENORIX-MNT"
         },
         "start": "2026-04-11T12:29:03"
+      },
+      "NOTRI1-MNT": {
+        "val": {
+          "mntner": "NOTRI1-MNT"
+        },
+        "start": "2026-04-12T13:32:36"
+      },
+      "BORDOT-MNT": {
+        "val": {
+          "mntner": "BORDOT-MNT"
+        },
+        "start": "2026-04-12T15:29:18"
+      },
+      "AWDEVHARDWARE-MNT": {
+        "val": {
+          "mntner": "AWDEVHARDWARE-MNT"
+        },
+        "start": "2026-04-12T20:49:55"
+      },
+      "SAKUYA-MNT": {
+        "val": {
+          "mntner": "SAKUYA-MNT"
+        },
+        "start": "2026-04-13T07:07:31"
+      },
+      "FARSNIPER-MNT": {
+        "val": {
+          "mntner": "FARSNIPER-MNT"
+        },
+        "start": "2026-04-13T12:09:18"
       }
     },
     "registry": {
