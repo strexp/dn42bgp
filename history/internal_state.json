@@ -1,5 +1,5 @@
 {
-  "last_commit": "ea835ca90986c096a4d6706fcfc610470a7bc566",
+  "last_commit": "df0c15a21d43f6188e81289e9522ff4bc7970873",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -93994,6 +93994,34 @@
           "mnt-by": "NOYA42-MNT"
         },
         "start": "2026-04-14T12:58:06"
+      },
+      "AS4242420047": {
+        "val": {
+          "as-name": "AS-MTLR-DN42",
+          "mnt-by": "MTLR-MNT"
+        },
+        "start": "2026-04-14T20:22:10"
+      },
+      "AS4242421053": {
+        "val": {
+          "as-name": "EOF-NET",
+          "mnt-by": "EOF-MNT"
+        },
+        "start": "2026-04-15T13:56:42"
+      },
+      "AS4242422569": {
+        "val": {
+          "as-name": "AS-ZAZ-DN42",
+          "mnt-by": "ZAZ-MNT"
+        },
+        "start": "2026-04-15T14:44:28"
+      },
+      "AS4242423422": {
+        "val": {
+          "as-name": "SRNET-AS",
+          "mnt-by": "SRNET-MNT"
+        },
+        "start": "2026-04-15T16:03:04"
       }
     },
     "dns": {
@@ -114758,6 +114786,30 @@
           "mntner": "NOYA42-MNT"
         },
         "start": "2026-04-14T12:58:06"
+      },
+      "MTLR-MNT": {
+        "val": {
+          "mntner": "MTLR-MNT"
+        },
+        "start": "2026-04-14T20:22:10"
+      },
+      "EOF-MNT": {
+        "val": {
+          "mntner": "EOF-MNT"
+        },
+        "start": "2026-04-15T13:56:42"
+      },
+      "ZAZ-MNT": {
+        "val": {
+          "mntner": "ZAZ-MNT"
+        },
+        "start": "2026-04-15T14:44:28"
+      },
+      "SRNET-MNT": {
+        "val": {
+          "mntner": "SRNET-MNT"
+        },
+        "start": "2026-04-15T16:03:04"
       }
     },
     "registry": {
