@@ -1,5 +1,5 @@
 {
-  "last_commit": "ce31b98565f6b687074cd2d9f9be7f01ef18d0ae",
+  "last_commit": "9a75ba844e7a6986744443beace1ae07a656f2e3",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -1664,6 +1664,14 @@
           },
           "start": "2018-02-25T18:36:09",
           "end": "2024-10-14T17:43:58"
+        },
+        {
+          "value": {
+            "as-name": "AS-SA0WII-DN42",
+            "mnt-by": "SA0WII-MNT"
+          },
+          "start": "2025-06-21T14:57:40",
+          "end": "2026-04-17T14:57:14"
         }
       ],
       "AS4242420020": [
@@ -90504,10 +90512,10 @@
       },
       "AS4242420019": {
         "val": {
-          "as-name": "AS-SA0WII-DN42",
+          "as-name": "SA0WII-DEPR",
           "mnt-by": "SA0WII-MNT"
         },
-        "start": "2025-06-21T14:57:40"
+        "start": "2026-04-17T14:57:14"
       },
       "AS4242420160": {
         "val": {
@@ -94036,6 +94044,20 @@
           "mnt-by": "FL4CO-MNT"
         },
         "start": "2026-04-16T10:31:05"
+      },
+      "AS198860": {
+        "val": {
+          "as-name": "AS-SA0WII",
+          "mnt-by": "SA0WII-MNT"
+        },
+        "start": "2026-04-17T14:57:14"
+      },
+      "AS4242422680": {
+        "val": {
+          "as-name": "THEOLDP-AS",
+          "mnt-by": "THEOLDP-MNT"
+        },
+        "start": "2026-04-18T07:20:35"
       }
     },
     "dns": {
@@ -102120,6 +102142,18 @@
           "mnt-by": "DAWN-MNT"
         },
         "start": "2026-04-16T11:09:40"
+      },
+      "cgit.dn42": {
+        "val": {
+          "mnt-by": "STEERING-MNT"
+        },
+        "start": "2026-04-18T05:28:10"
+      },
+      "the-old-p.dn42": {
+        "val": {
+          "mnt-by": "THEOLDP-MNT"
+        },
+        "start": "2026-04-18T07:20:35"
       }
     },
     "mntner": {
@@ -114842,6 +114876,12 @@
           "mntner": "FL4CO-MNT"
         },
         "start": "2026-04-16T10:31:05"
+      },
+      "THEOLDP-MNT": {
+        "val": {
+          "mntner": "THEOLDP-MNT"
+        },
+        "start": "2026-04-18T07:20:35"
       }
     },
     "registry": {
