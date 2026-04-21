@@ -1,5 +1,5 @@
 {
-  "last_commit": "af0acfd0edb798c51ee07964087084041e6bb7dd",
+  "last_commit": "e0c02104d9cc0801bc908b88ecf8b9d30f5bde7f",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94100,6 +94100,13 @@
           "mnt-by": "CHLORODOSE-MNT"
         },
         "start": "2026-04-21T04:56:43"
+      },
+      "AS4242422599": {
+        "val": {
+          "as-name": "AS-MORTEBRUME-DN42",
+          "mnt-by": "MORTEBRUME-MNT"
+        },
+        "start": "2026-04-21T13:19:11"
       }
     },
     "dns": {
@@ -114984,6 +114991,12 @@
           "mntner": "CHLORODOSE-MNT"
         },
         "start": "2026-04-21T04:56:43"
+      },
+      "MORTEBRUME-MNT": {
+        "val": {
+          "mntner": "MORTEBRUME-MNT"
+        },
+        "start": "2026-04-21T13:19:11"
       }
     },
     "registry": {
