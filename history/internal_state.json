@@ -1,5 +1,5 @@
 {
-  "last_commit": "99a2d9b217c8465f370aa4dd19417c58756073d2",
+  "last_commit": "59c22b3a1f1273600b59289f0a8ac1d889182adc",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94107,6 +94107,13 @@
           "mnt-by": "MORTEBRUME-MNT"
         },
         "start": "2026-04-21T13:19:11"
+      },
+      "AS4242423373": {
+        "val": {
+          "as-name": "ROSMONTIC-AS",
+          "mnt-by": "ROSMONTIC-MNT"
+        },
+        "start": "2026-04-22T13:11:06"
       }
     },
     "dns": {
@@ -102233,6 +102240,12 @@
           "mnt-by": "MTLR-MNT"
         },
         "start": "2026-04-22T07:59:08"
+      },
+      "chofstede.dn42": {
+        "val": {
+          "mnt-by": "CHOFSTEDE-MNT"
+        },
+        "start": "2026-04-22T13:37:00"
       }
     },
     "mntner": {
@@ -115003,6 +115016,12 @@
           "mntner": "MORTEBRUME-MNT"
         },
         "start": "2026-04-21T13:19:11"
+      },
+      "ROSMONTIC-MNT": {
+        "val": {
+          "mntner": "ROSMONTIC-MNT"
+        },
+        "start": "2026-04-22T13:11:06"
       }
     },
     "registry": {
