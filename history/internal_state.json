@@ -1,5 +1,5 @@
 {
-  "last_commit": "a880605985dda7d99bb5d09bfc72620d486243bc",
+  "last_commit": "ea8f51135167f9b58dfa050801dad372d9fc6459",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94135,6 +94135,27 @@
           "mnt-by": "MIARECKI-MNT"
         },
         "start": "2026-04-23T23:08:54"
+      },
+      "AS4242421379": {
+        "val": {
+          "as-name": "AS-RIKA-DN42",
+          "mnt-by": "RIKA-MNT"
+        },
+        "start": "2026-04-24T11:59:50"
+      },
+      "AS4242421420": {
+        "val": {
+          "as-name": "AS-ZIONGATE-DN42",
+          "mnt-by": "ZION-MNT"
+        },
+        "start": "2026-04-24T18:44:33"
+      },
+      "AS4242423366": {
+        "val": {
+          "as-name": "KIO-AS",
+          "mnt-by": "KIO-MNT"
+        },
+        "start": "2026-04-24T19:10:01"
       }
     },
     "dns": {
@@ -115067,6 +115088,24 @@
           "mntner": "MIARECKI-MNT"
         },
         "start": "2026-04-23T23:08:54"
+      },
+      "RIKA-MNT": {
+        "val": {
+          "mntner": "RIKA-MNT"
+        },
+        "start": "2026-04-24T11:59:50"
+      },
+      "ZION-MNT": {
+        "val": {
+          "mntner": "ZION-MNT"
+        },
+        "start": "2026-04-24T18:44:33"
+      },
+      "KIO-MNT": {
+        "val": {
+          "mntner": "KIO-MNT"
+        },
+        "start": "2026-04-24T19:10:01"
       }
     },
     "registry": {
