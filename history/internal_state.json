@@ -1,5 +1,5 @@
 {
-  "last_commit": "6f71aac14947c8deecc89c1bc434e9d3c619967b",
+  "last_commit": "62e80963d349024aefbfa3dc1592ca674b843285",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94121,6 +94121,20 @@
           "mnt-by": "2TEFAN-MNT"
         },
         "start": "2026-04-23T09:09:19"
+      },
+      "AS4242421721": {
+        "val": {
+          "as-name": "AS-NNT-DN42",
+          "mnt-by": "NNT-MNT"
+        },
+        "start": "2026-04-23T16:30:14"
+      },
+      "AS4242422167": {
+        "val": {
+          "as-name": "AS-MIARECKI-DN42",
+          "mnt-by": "MIARECKI-MNT"
+        },
+        "start": "2026-04-23T23:08:54"
       }
     },
     "dns": {
@@ -102253,6 +102267,12 @@
           "mnt-by": "CHOFSTEDE-MNT"
         },
         "start": "2026-04-22T13:37:00"
+      },
+      "rosmontis.dn42": {
+        "val": {
+          "mnt-by": "ROSMONTIC-MNT"
+        },
+        "start": "2026-04-24T02:10:07"
       }
     },
     "mntner": {
@@ -115035,6 +115055,18 @@
           "mntner": "2TEFAN-MNT"
         },
         "start": "2026-04-23T09:09:19"
+      },
+      "NNT-MNT": {
+        "val": {
+          "mntner": "NNT-MNT"
+        },
+        "start": "2026-04-23T16:30:14"
+      },
+      "MIARECKI-MNT": {
+        "val": {
+          "mntner": "MIARECKI-MNT"
+        },
+        "start": "2026-04-23T23:08:54"
       }
     },
     "registry": {
