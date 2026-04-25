@@ -1,5 +1,5 @@
 {
-  "last_commit": "ea8f51135167f9b58dfa050801dad372d9fc6459",
+  "last_commit": "0c5bf5472462f12f2780aac97b953914ac97b450",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94156,6 +94156,13 @@
           "mnt-by": "KIO-MNT"
         },
         "start": "2026-04-24T19:10:01"
+      },
+      "AS4242421156": {
+        "val": {
+          "as-name": "AS-RIOKMIJ-DN42",
+          "mnt-by": "RIOKMIJ-MNT"
+        },
+        "start": "2026-04-25T05:13:19"
       }
     },
     "dns": {
@@ -115106,6 +115113,12 @@
           "mntner": "KIO-MNT"
         },
         "start": "2026-04-24T19:10:01"
+      },
+      "RIOKMIJ-MNT": {
+        "val": {
+          "mntner": "RIOKMIJ-MNT"
+        },
+        "start": "2026-04-25T05:13:19"
       }
     },
     "registry": {
