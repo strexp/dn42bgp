@@ -1,5 +1,5 @@
 {
-  "last_commit": "697a50d714eaf1f2e87e54f16e4e4a08ef9ae505",
+  "last_commit": "423552f029323fcd809441f8491b0691a4cb21f6",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94184,6 +94184,27 @@
           "mnt-by": "KITTENCONNECT-MNT"
         },
         "start": "2026-04-26T11:02:54"
+      },
+      "AS4242423432": {
+        "val": {
+          "as-name": "S6V-AS",
+          "mnt-by": "S6V-MNT"
+        },
+        "start": "2026-04-27T12:10:26"
+      },
+      "AS4242423971": {
+        "val": {
+          "as-name": "ERNESTO-NET",
+          "mnt-by": "ERNESTO-MNT"
+        },
+        "start": "2026-04-27T22:04:51"
+      },
+      "AS4242421400": {
+        "val": {
+          "as-name": "AS-PSIZETARHO-DN42",
+          "mnt-by": "PSIZETARHO-MNT"
+        },
+        "start": "2026-04-28T00:38:44"
       }
     },
     "dns": {
@@ -115176,6 +115197,24 @@
           "mntner": "KITTENCONNECT-MNT"
         },
         "start": "2026-04-26T11:02:54"
+      },
+      "S6V-MNT": {
+        "val": {
+          "mntner": "S6V-MNT"
+        },
+        "start": "2026-04-27T12:10:26"
+      },
+      "ERNESTO-MNT": {
+        "val": {
+          "mntner": "ERNESTO-MNT"
+        },
+        "start": "2026-04-27T22:04:51"
+      },
+      "PSIZETARHO-MNT": {
+        "val": {
+          "mntner": "PSIZETARHO-MNT"
+        },
+        "start": "2026-04-28T00:38:44"
       }
     },
     "registry": {
