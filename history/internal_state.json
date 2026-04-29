@@ -1,5 +1,5 @@
 {
-  "last_commit": "423552f029323fcd809441f8491b0691a4cb21f6",
+  "last_commit": "6ea6424caf828d0812fe93de766c9e364e9bfc14",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94205,6 +94205,13 @@
           "mnt-by": "PSIZETARHO-MNT"
         },
         "start": "2026-04-28T00:38:44"
+      },
+      "AS4242420151": {
+        "val": {
+          "as-name": "PHILROY-DN42",
+          "mnt-by": "PHILROY-MNT"
+        },
+        "start": "2026-04-28T23:20:27"
       }
     },
     "dns": {
@@ -115215,6 +115222,12 @@
           "mntner": "PSIZETARHO-MNT"
         },
         "start": "2026-04-28T00:38:44"
+      },
+      "PHILROY-MNT": {
+        "val": {
+          "mntner": "PHILROY-MNT"
+        },
+        "start": "2026-04-28T23:20:27"
       }
     },
     "registry": {
