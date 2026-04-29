@@ -1,5 +1,5 @@
 {
-  "last_commit": "6ea6424caf828d0812fe93de766c9e364e9bfc14",
+  "last_commit": "227439edcbe8a4ff4954c69b07b0041bdd67a648",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94206,6 +94206,13 @@
         },
         "start": "2026-04-28T00:38:44"
       },
+      "AS4242421788": {
+        "val": {
+          "as-name": "BAICAI-AS",
+          "mnt-by": "BAICAI-MNT"
+        },
+        "start": "2026-04-28T20:43:39"
+      },
       "AS4242420151": {
         "val": {
           "as-name": "PHILROY-DN42",
@@ -115222,6 +115229,12 @@
           "mntner": "PSIZETARHO-MNT"
         },
         "start": "2026-04-28T00:38:44"
+      },
+      "BAICAI-MNT": {
+        "val": {
+          "mntner": "BAICAI-MNT"
+        },
+        "start": "2026-04-28T20:43:39"
       },
       "PHILROY-MNT": {
         "val": {
