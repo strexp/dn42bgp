@@ -1,5 +1,5 @@
 {
-  "last_commit": "9015ccef354de2ede815ed3048757123fd9046a6",
+  "last_commit": "ac562b1e8a5870886e797d5eeca59328825fc074",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94275,6 +94275,13 @@
           "mnt-by": "JZDM-MNT"
         },
         "start": "2026-05-03T15:13:00"
+      },
+      "AS4242420960": {
+        "val": {
+          "as-name": "3BX-AS",
+          "mnt-by": "3BX-MNT"
+        },
+        "start": "2026-05-05T10:04:32"
       }
     },
     "dns": {
@@ -115381,6 +115388,12 @@
           "mntner": "JZDM-MNT"
         },
         "start": "2026-05-03T15:13:00"
+      },
+      "3BX-MNT": {
+        "val": {
+          "mntner": "3BX-MNT"
+        },
+        "start": "2026-05-05T10:04:32"
       }
     },
     "registry": {
