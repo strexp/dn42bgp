@@ -1,5 +1,5 @@
 {
-  "last_commit": "ac562b1e8a5870886e797d5eeca59328825fc074",
+  "last_commit": "7aa8bcaac044d1c8c81375fd0bbc3c76a9e2da63",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94282,6 +94282,13 @@
           "mnt-by": "3BX-MNT"
         },
         "start": "2026-05-05T10:04:32"
+      },
+      "AS4242422249": {
+        "val": {
+          "as-name": "YAGO-AS",
+          "mnt-by": "YAGO-MNT"
+        },
+        "start": "2026-05-05T21:28:41"
       }
     },
     "dns": {
@@ -115394,6 +115401,12 @@
           "mntner": "3BX-MNT"
         },
         "start": "2026-05-05T10:04:32"
+      },
+      "YAGO-MNT": {
+        "val": {
+          "mntner": "YAGO-MNT"
+        },
+        "start": "2026-05-05T21:28:41"
       }
     },
     "registry": {
