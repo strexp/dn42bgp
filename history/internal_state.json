@@ -1,5 +1,5 @@
 {
-  "last_commit": "7aa8bcaac044d1c8c81375fd0bbc3c76a9e2da63",
+  "last_commit": "673bf23e76a575a80492790924e534ab8f85bbfc",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94289,6 +94289,13 @@
           "mnt-by": "YAGO-MNT"
         },
         "start": "2026-05-05T21:28:41"
+      },
+      "AS4242423220": {
+        "val": {
+          "as-name": "AS-MGH-DN42",
+          "mnt-by": "MGH-MNT"
+        },
+        "start": "2026-05-06T21:05:30"
       }
     },
     "dns": {
@@ -115407,6 +115414,12 @@
           "mntner": "YAGO-MNT"
         },
         "start": "2026-05-05T21:28:41"
+      },
+      "MGH-MNT": {
+        "val": {
+          "mntner": "MGH-MNT"
+        },
+        "start": "2026-05-06T21:05:30"
       }
     },
     "registry": {
