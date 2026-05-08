@@ -1,5 +1,5 @@
 {
-  "last_commit": "673bf23e76a575a80492790924e534ab8f85bbfc",
+  "last_commit": "13b43bed061200a9bd71a2974121e2d2b5b38551",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94296,6 +94296,20 @@
           "mnt-by": "MGH-MNT"
         },
         "start": "2026-05-06T21:05:30"
+      },
+      "AS4242420711": {
+        "val": {
+          "as-name": "AS-4T-CORE-DN42",
+          "mnt-by": "4T-CORE-MNT"
+        },
+        "start": "2026-05-07T18:55:22"
+      },
+      "AS4242421342": {
+        "val": {
+          "as-name": "WONDERNET-AS",
+          "mnt-by": "ARES-MNT"
+        },
+        "start": "2026-05-07T19:19:34"
       }
     },
     "dns": {
@@ -115420,6 +115434,18 @@
           "mntner": "MGH-MNT"
         },
         "start": "2026-05-06T21:05:30"
+      },
+      "4T-CORE-MNT": {
+        "val": {
+          "mntner": "4T-CORE-MNT"
+        },
+        "start": "2026-05-07T18:55:22"
+      },
+      "ARES-MNT": {
+        "val": {
+          "mntner": "ARES-MNT"
+        },
+        "start": "2026-05-07T19:19:34"
       }
     },
     "registry": {
