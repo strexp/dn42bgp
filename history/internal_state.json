@@ -1,5 +1,5 @@
 {
-  "last_commit": "a14dd178216c81bdf6b9a5b4b4298b481f1cd0ee",
+  "last_commit": "7ab49b06b52ea3fd1b594768e9a1ebd7012bb765",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94310,6 +94310,13 @@
           "mnt-by": "ARES-MNT"
         },
         "start": "2026-05-07T19:19:34"
+      },
+      "AS4242420056": {
+        "val": {
+          "as-name": "AS-SONQ",
+          "mnt-by": "SONQ-MNT"
+        },
+        "start": "2026-05-10T15:49:47"
       }
     },
     "dns": {
@@ -115452,6 +115459,12 @@
           "mntner": "ARES-MNT"
         },
         "start": "2026-05-07T19:19:34"
+      },
+      "SONQ-MNT": {
+        "val": {
+          "mntner": "SONQ-MNT"
+        },
+        "start": "2026-05-10T15:49:47"
       }
     },
     "registry": {
