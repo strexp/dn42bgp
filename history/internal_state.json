@@ -1,5 +1,5 @@
 {
-  "last_commit": "32b95ed7f56673dfa914b374fb02917bd3a1810e",
+  "last_commit": "10b36bfa65ffa95ad9fd34321792d43330fe1b0c",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94331,6 +94331,13 @@
           "mnt-by": "ACIDCAT-MNT"
         },
         "start": "2026-05-11T01:16:04"
+      },
+      "AS4242420305": {
+        "val": {
+          "as-name": "AS-OTB-DN42",
+          "mnt-by": "OTB-MNT"
+        },
+        "start": "2026-05-12T20:32:54"
       }
     },
     "dns": {
@@ -115497,6 +115504,12 @@
           "mntner": "ACIDCAT-MNT"
         },
         "start": "2026-05-11T01:16:04"
+      },
+      "OTB-MNT": {
+        "val": {
+          "mntner": "OTB-MNT"
+        },
+        "start": "2026-05-12T20:32:54"
       }
     },
     "registry": {
