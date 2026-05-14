@@ -1,5 +1,5 @@
 {
-  "last_commit": "c07c9bbdaca817aa2059ba16208fa0fbfbb0f7af",
+  "last_commit": "112be8d23cb39cbe55b004bc806c541801661250",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94345,6 +94345,13 @@
           "mnt-by": "MIZUON-MNT"
         },
         "start": "2026-05-13T09:49:32"
+      },
+      "AS4242421196": {
+        "val": {
+          "as-name": "AS-BG4CZU",
+          "mnt-by": "BG4CZU-MNT"
+        },
+        "start": "2026-05-13T22:30:33"
       }
     },
     "dns": {
@@ -115523,6 +115530,12 @@
           "mntner": "MIZUON-MNT"
         },
         "start": "2026-05-13T09:49:32"
+      },
+      "BG4CZU-MNT": {
+        "val": {
+          "mntner": "BG4CZU-MNT"
+        },
+        "start": "2026-05-13T22:30:33"
       }
     },
     "registry": {
