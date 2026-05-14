@@ -1,5 +1,5 @@
 {
-  "last_commit": "a6342b1b8cd285abb490e8701201ecae4f2ea9a5",
+  "last_commit": "dff328b2ef0caf54d760d094f13bddf027eb70a0",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94352,6 +94352,27 @@
           "mnt-by": "BG4CZU-MNT"
         },
         "start": "2026-05-13T22:30:33"
+      },
+      "AS4242422110": {
+        "val": {
+          "as-name": "AKINA_NET-AS",
+          "mnt-by": "AKINA-NET-MNT"
+        },
+        "start": "2026-05-14T11:40:05"
+      },
+      "AS4242421941": {
+        "val": {
+          "as-name": "AS-AN0NS-DN42",
+          "mnt-by": "AN0NS-MNT"
+        },
+        "start": "2026-05-14T12:03:58"
+      },
+      "AS4242421110": {
+        "val": {
+          "as-name": "EVECAT-AS",
+          "mnt-by": "EVECAT-MNT"
+        },
+        "start": "2026-05-14T15:19:00"
       }
     },
     "dns": {
@@ -102562,6 +102583,12 @@
           "mnt-by": "SESS-MNT"
         },
         "start": "2026-05-10T07:41:26"
+      },
+      "akinanet.dn42": {
+        "val": {
+          "mnt-by": "AKINA-NET-MNT"
+        },
+        "start": "2026-05-14T11:40:05"
       }
     },
     "mntner": {
@@ -115536,6 +115563,24 @@
           "mntner": "BG4CZU-MNT"
         },
         "start": "2026-05-13T22:30:33"
+      },
+      "AKINA-NET-MNT": {
+        "val": {
+          "mntner": "AKINA-NET-MNT"
+        },
+        "start": "2026-05-14T11:40:05"
+      },
+      "AN0NS-MNT": {
+        "val": {
+          "mntner": "AN0NS-MNT"
+        },
+        "start": "2026-05-14T12:03:58"
+      },
+      "EVECAT-MNT": {
+        "val": {
+          "mntner": "EVECAT-MNT"
+        },
+        "start": "2026-05-14T15:19:00"
       }
     },
     "registry": {
@@ -117203,6 +117248,13 @@
           "mnt-by": "SESS-MNT"
         },
         "start": "2026-05-10T07:41:26"
+      },
+      "ORG-AKINA-NET": {
+        "val": {
+          "org-name": "Akina Network.",
+          "mnt-by": "AKINA-NET-MNT"
+        },
+        "start": "2026-05-14T11:40:05"
       }
     }
   }
