@@ -1,5 +1,5 @@
 {
-  "last_commit": "dff328b2ef0caf54d760d094f13bddf027eb70a0",
+  "last_commit": "8668b9f2a592144df6a77d8be95caf96edca8be7",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -102589,6 +102589,12 @@
           "mnt-by": "AKINA-NET-MNT"
         },
         "start": "2026-05-14T11:40:05"
+      },
+      "rfc6921.dn42": {
+        "val": {
+          "mnt-by": "NEDIFINITA-MNT"
+        },
+        "start": "2026-05-15T07:46:50"
       }
     },
     "mntner": {
