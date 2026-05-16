@@ -1,5 +1,5 @@
 {
-  "last_commit": "24a2cda9a99d9e910d5e51e76aee6b56fa5dadf8",
+  "last_commit": "a7557c2c1c7fba8b5db544fc0564c28b18cfee74",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94387,6 +94387,13 @@
           "mnt-by": "HAMMO-MNT"
         },
         "start": "2026-05-16T04:45:44"
+      },
+      "AS4242420460": {
+        "val": {
+          "as-name": "AS-GOOBEY-DN42",
+          "mnt-by": "GOOBEY-MNT"
+        },
+        "start": "2026-05-16T10:10:02"
       }
     },
     "dns": {
@@ -115619,6 +115626,12 @@
           "mntner": "HAMMO-MNT"
         },
         "start": "2026-05-16T04:45:44"
+      },
+      "GOOBEY-MNT": {
+        "val": {
+          "mntner": "GOOBEY-MNT"
+        },
+        "start": "2026-05-16T10:10:02"
       }
     },
     "registry": {
