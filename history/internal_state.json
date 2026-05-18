@@ -1,5 +1,5 @@
 {
-  "last_commit": "e370cb1d7f0828e6411e58c20ea3fe95ee6742cb",
+  "last_commit": "361df9685c0251bce180439d9b78225bed18f7df",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94431,6 +94431,13 @@
           "mnt-by": "BUTLANYS-MNT"
         },
         "start": "2026-05-17T08:29:15"
+      },
+      "AS4242422040": {
+        "val": {
+          "as-name": "AS-ZEROAURORA-DN42",
+          "mnt-by": "ZEROAURORA-MNT"
+        },
+        "start": "2026-05-17T19:13:19"
       }
     },
     "dns": {
@@ -115699,6 +115706,12 @@
           "mntner": "BUTLANYS-MNT"
         },
         "start": "2026-05-17T08:29:15"
+      },
+      "ZEROAURORA-MNT": {
+        "val": {
+          "mntner": "ZEROAURORA-MNT"
+        },
+        "start": "2026-05-17T19:13:19"
       }
     },
     "registry": {
