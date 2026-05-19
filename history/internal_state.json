@@ -1,5 +1,5 @@
 {
-  "last_commit": "b08b16535491037708836165a1610d88cc88589c",
+  "last_commit": "4eda713729fdbae00c2766d96b23acd4f91b6426",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -1672,6 +1672,14 @@
           },
           "start": "2025-06-21T14:57:40",
           "end": "2026-04-17T14:57:14"
+        },
+        {
+          "value": {
+            "as-name": "SA0WII-DEPR",
+            "mnt-by": "SA0WII-MNT"
+          },
+          "start": "2026-04-17T14:57:14",
+          "end": "2026-05-19T10:01:21"
         }
       ],
       "AS4242420020": [
@@ -90528,13 +90536,6 @@
         },
         "start": "2025-06-20T07:09:27"
       },
-      "AS4242420019": {
-        "val": {
-          "as-name": "SA0WII-DEPR",
-          "mnt-by": "SA0WII-MNT"
-        },
-        "start": "2026-04-17T14:57:14"
-      },
       "AS4242420160": {
         "val": {
           "as-name": "AS-JULI06-DN42",
@@ -102682,6 +102683,12 @@
           "mnt-by": "ARES-MNT"
         },
         "start": "2026-05-16T21:23:02"
+      },
+      "time.dn42": {
+        "val": {
+          "mnt-by": "COWGL-MNT"
+        },
+        "start": "2026-05-19T10:36:49"
       }
     },
     "mntner": {
