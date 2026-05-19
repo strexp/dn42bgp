@@ -1,5 +1,5 @@
 {
-  "last_commit": "599a8c19ae0b45090508cf6192429c0f0f030c84",
+  "last_commit": "b08b16535491037708836165a1610d88cc88589c",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94441,6 +94441,13 @@
         },
         "start": "2026-05-17T08:29:15"
       },
+      "AS4242421004": {
+        "val": {
+          "as-name": "SKLETONA-NET",
+          "mnt-by": "SKLETONA-MNT"
+        },
+        "start": "2026-05-17T12:28:19"
+      },
       "AS4242422040": {
         "val": {
           "as-name": "AS-ZEROAURORA-DN42",
@@ -115709,6 +115716,12 @@
           "mntner": "BUTLANYS-MNT"
         },
         "start": "2026-05-17T08:29:15"
+      },
+      "SKLETONA-MNT": {
+        "val": {
+          "mntner": "SKLETONA-MNT"
+        },
+        "start": "2026-05-17T12:28:19"
       },
       "ZEROAURORA-MNT": {
         "val": {
