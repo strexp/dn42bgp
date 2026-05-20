@@ -1,5 +1,5 @@
 {
-  "last_commit": "ed500f5402d89442b061675228ab1aff30d98544",
+  "last_commit": "13163cf1e068d210a269b1bdfcb52a5d3331f26b",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -33841,6 +33841,16 @@
           "start": "2024-08-06T12:29:24",
           "end": "2026-03-16T15:52:06"
         }
+      ],
+      "AS4242422452": [
+        {
+          "value": {
+            "as-name": "AS-STEERING-DN42",
+            "mnt-by": "STEERING-MNT"
+          },
+          "start": "2026-01-07T04:20:29",
+          "end": "2026-05-19T22:34:58"
+        }
       ]
     },
     "dns": {
@@ -44311,6 +44321,33 @@
           },
           "start": "2026-05-03T12:24:31",
           "end": "2026-05-18T19:48:30"
+        }
+      ],
+      "1459.dn42": [
+        {
+          "value": {
+            "mnt-by": "STEERING-MNT"
+          },
+          "start": "2026-04-06T00:16:45",
+          "end": "2026-05-19T22:34:58"
+        }
+      ],
+      "cgit.dn42": [
+        {
+          "value": {
+            "mnt-by": "STEERING-MNT"
+          },
+          "start": "2026-04-18T05:28:10",
+          "end": "2026-05-19T22:34:58"
+        }
+      ],
+      "steering.dn42": [
+        {
+          "value": {
+            "mnt-by": "STEERING-MNT"
+          },
+          "start": "2026-01-07T04:20:29",
+          "end": "2026-05-19T22:34:58"
         }
       ]
     },
@@ -71168,6 +71205,15 @@
           "start": "2026-01-10T14:46:05",
           "end": "2026-04-11T22:19:36"
         }
+      ],
+      "STEERING-MNT": [
+        {
+          "value": {
+            "mntner": "STEERING-MNT"
+          },
+          "start": "2026-01-07T04:20:29",
+          "end": "2026-05-19T22:34:58"
+        }
       ]
     },
     "registry": {
@@ -92664,13 +92710,6 @@
         },
         "start": "2026-01-06T15:11:51"
       },
-      "AS4242422452": {
-        "val": {
-          "as-name": "AS-STEERING-DN42",
-          "mnt-by": "STEERING-MNT"
-        },
-        "start": "2026-01-07T04:20:29"
-      },
       "AS4242422990": {
         "val": {
           "as-name": "NBK888-AS",
@@ -101918,12 +101957,6 @@
         },
         "start": "2026-01-06T23:05:23"
       },
-      "steering.dn42": {
-        "val": {
-          "mnt-by": "STEERING-MNT"
-        },
-        "start": "2026-01-07T04:20:29"
-      },
       "baaka.dn42": {
         "val": {
           "mnt-by": "BINGXIN-MNT"
@@ -102482,12 +102515,6 @@
         },
         "start": "2026-04-05T19:09:38"
       },
-      "1459.dn42": {
-        "val": {
-          "mnt-by": "STEERING-MNT"
-        },
-        "start": "2026-04-06T00:16:45"
-      },
       "goose.dn42": {
         "val": {
           "mnt-by": "TRANQUILGOOSE-MNT"
@@ -102547,12 +102574,6 @@
           "mnt-by": "DAWN-MNT"
         },
         "start": "2026-04-16T11:09:40"
-      },
-      "cgit.dn42": {
-        "val": {
-          "mnt-by": "STEERING-MNT"
-        },
-        "start": "2026-04-18T05:28:10"
       },
       "the-old-p.dn42": {
         "val": {
@@ -114267,12 +114288,6 @@
           "mntner": "YUKIFIA-MNT"
         },
         "start": "2026-01-06T15:11:51"
-      },
-      "STEERING-MNT": {
-        "val": {
-          "mntner": "STEERING-MNT"
-        },
-        "start": "2026-01-07T04:20:29"
       },
       "NBK888-MNT": {
         "val": {
