@@ -1,5 +1,5 @@
 {
-  "last_commit": "04f005fe6a305b175fbeea0e6ceef081e1ae9dcf",
+  "last_commit": "ed500f5402d89442b061675228ab1aff30d98544",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94455,6 +94455,20 @@
           "mnt-by": "ZEROAURORA-MNT"
         },
         "start": "2026-05-17T19:13:19"
+      },
+      "AS4242422251": {
+        "val": {
+          "as-name": "CATSERVER-AS",
+          "mnt-by": "PAROL-NO-MNT"
+        },
+        "start": "2026-05-20T02:51:03"
+      },
+      "AS4242421474": {
+        "val": {
+          "as-name": "AS-KIKI-CAT-CAFE",
+          "mnt-by": "KIKI-MNT"
+        },
+        "start": "2026-05-20T05:18:58"
       }
     },
     "dns": {
@@ -102689,6 +102703,18 @@
           "mnt-by": "COWGL-MNT"
         },
         "start": "2026-05-19T10:36:49"
+      },
+      "catcafe.dn42": {
+        "val": {
+          "mnt-by": "KIKI-MNT"
+        },
+        "start": "2026-05-20T05:18:58"
+      },
+      "kiki.dn42": {
+        "val": {
+          "mnt-by": "KIKI-MNT"
+        },
+        "start": "2026-05-20T05:18:58"
       }
     },
     "mntner": {
@@ -115735,6 +115761,18 @@
           "mntner": "ZEROAURORA-MNT"
         },
         "start": "2026-05-17T19:13:19"
+      },
+      "PAROL-NO-MNT": {
+        "val": {
+          "mntner": "PAROL-NO-MNT"
+        },
+        "start": "2026-05-20T02:51:03"
+      },
+      "KIKI-MNT": {
+        "val": {
+          "mntner": "KIKI-MNT"
+        },
+        "start": "2026-05-20T05:18:58"
       }
     },
     "registry": {
