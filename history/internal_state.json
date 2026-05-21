@@ -1,5 +1,5 @@
 {
-  "last_commit": "831b4b16df0621dc5e3e8b5f5a32452ade96ab32",
+  "last_commit": "8be0d0e907c4e77a0752c58d41c8cd6f95234661",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94515,6 +94515,13 @@
           "mnt-by": "YUKINO-KANNADE-MNT"
         },
         "start": "2026-05-20T12:09:44"
+      },
+      "AS4242423964": {
+        "val": {
+          "as-name": "AS-SHADOW-DN42",
+          "mnt-by": "SHADOW-MNT"
+        },
+        "start": "2026-05-21T08:21:56"
       }
     },
     "dns": {
@@ -115795,6 +115802,12 @@
           "mntner": "KIKI-MNT"
         },
         "start": "2026-05-20T05:18:58"
+      },
+      "SHADOW-MNT": {
+        "val": {
+          "mntner": "SHADOW-MNT"
+        },
+        "start": "2026-05-21T08:21:56"
       }
     },
     "registry": {
