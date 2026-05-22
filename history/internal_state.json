@@ -1,5 +1,5 @@
 {
-  "last_commit": "aae91fead00a00b0e50205ae556d9db5243dd440",
+  "last_commit": "538912e6a0d59cdc1732d37fa49181401b0a6231",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94529,6 +94529,13 @@
           "mnt-by": "AETHERON-MNT"
         },
         "start": "2026-05-21T14:12:39"
+      },
+      "AS4242420303": {
+        "val": {
+          "as-name": "MOFE-DN42",
+          "mnt-by": "MOFE-MNT"
+        },
+        "start": "2026-05-22T15:11:50"
       }
     },
     "dns": {
@@ -102763,6 +102770,12 @@
           "mnt-by": "SZATELLIT-MNT"
         },
         "start": "2026-05-21T13:20:29"
+      },
+      "monet.dn42": {
+        "val": {
+          "mnt-by": "MOFE-MNT"
+        },
+        "start": "2026-05-22T15:11:50"
       }
     },
     "mntner": {
@@ -115827,6 +115840,12 @@
           "mntner": "AETHERON-MNT"
         },
         "start": "2026-05-21T14:12:39"
+      },
+      "MOFE-MNT": {
+        "val": {
+          "mntner": "MOFE-MNT"
+        },
+        "start": "2026-05-22T15:11:50"
       }
     },
     "registry": {
