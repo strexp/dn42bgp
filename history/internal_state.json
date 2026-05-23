@@ -1,5 +1,5 @@
 {
-  "last_commit": "7c5e78c88e67eddbf930039f2623d7e3555c368c",
+  "last_commit": "39024a8b12a160703da9a9aa49e92a130c80a9b6",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94536,6 +94536,13 @@
           "mnt-by": "MOFE-MNT"
         },
         "start": "2026-05-22T15:11:50"
+      },
+      "AS4242420621": {
+        "val": {
+          "as-name": "XYDRIVE-NETWORK",
+          "mnt-by": "XYDRIVE-MNT"
+        },
+        "start": "2026-05-23T14:39:13"
       }
     },
     "dns": {
@@ -115846,6 +115853,12 @@
           "mntner": "MOFE-MNT"
         },
         "start": "2026-05-22T15:11:50"
+      },
+      "XYDRIVE-MNT": {
+        "val": {
+          "mntner": "XYDRIVE-MNT"
+        },
+        "start": "2026-05-23T14:39:13"
       }
     },
     "registry": {
