@@ -1,5 +1,5 @@
 {
-  "last_commit": "2d036fe838ca049ec43819f07d6868d954bac81f",
+  "last_commit": "de4d791ebae41aaffd52f4788f9f6ab90a37506e",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94564,6 +94564,13 @@
           "mnt-by": "NYCOCLOUD-MNT, SESS-MNT"
         },
         "start": "2026-05-24T00:19:53"
+      },
+      "AS4242421013": {
+        "val": {
+          "as-name": "NAOMU-NET-AS",
+          "mnt-by": "NAOMU-MNT"
+        },
+        "start": "2026-05-25T13:53:07"
       }
     },
     "dns": {
@@ -115904,6 +115911,12 @@
           "mntner": "NYCOCLOUD-MNT"
         },
         "start": "2026-05-24T00:19:53"
+      },
+      "NAOMU-MNT": {
+        "val": {
+          "mntner": "NAOMU-MNT"
+        },
+        "start": "2026-05-25T13:53:07"
       }
     },
     "registry": {
