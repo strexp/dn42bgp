@@ -1,5 +1,5 @@
 {
-  "last_commit": "79426c332f71da7261f5bb8bfcae64725b059158",
+  "last_commit": "a1f5a24831089f53fce824a5ea7673187f6b86e3",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94565,6 +94565,13 @@
         },
         "start": "2026-05-24T00:19:53"
       },
+      "AS4242422823": {
+        "val": {
+          "as-name": "AS-0XF-DN42",
+          "mnt-by": "0XF-MNT"
+        },
+        "start": "2026-05-25T09:12:15"
+      },
       "AS4242421013": {
         "val": {
           "as-name": "NAOMU-NET-AS",
@@ -102824,6 +102831,18 @@
           "mnt-by": "GOTH-MNT"
         },
         "start": "2026-05-24T20:41:34"
+      },
+      "0xf.dn42": {
+        "val": {
+          "mnt-by": "0XF-MNT"
+        },
+        "start": "2026-05-25T09:12:15"
+      },
+      "as4242422823.dn42": {
+        "val": {
+          "mnt-by": "0XF-MNT"
+        },
+        "start": "2026-05-25T09:12:15"
       }
     },
     "mntner": {
@@ -115918,6 +115937,12 @@
           "mntner": "NYCOCLOUD-MNT"
         },
         "start": "2026-05-24T00:19:53"
+      },
+      "0XF-MNT": {
+        "val": {
+          "mntner": "0XF-MNT"
+        },
+        "start": "2026-05-25T09:12:15"
       },
       "NAOMU-MNT": {
         "val": {
