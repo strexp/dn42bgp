@@ -1,5 +1,5 @@
 {
-  "last_commit": "29b435f78751ae013c8bde10fb4d08a1a4328e7d",
+  "last_commit": "db914cff5cbf9da5bdb1913878fe9914a3a7f2f5",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94586,12 +94586,40 @@
         },
         "start": "2026-05-26T11:58:44"
       },
+      "AS4242422035": {
+        "val": {
+          "as-name": "LAYER1-AS",
+          "mnt-by": "LAYER1-MNT"
+        },
+        "start": "2026-05-27T14:05:02"
+      },
       "AS4242422816": {
         "val": {
           "as-name": "AS-SORAKAND-DN42",
           "mnt-by": "SORAKAND-MNT"
         },
         "start": "2026-05-27T14:31:08"
+      },
+      "AS213579": {
+        "val": {
+          "as-name": "Leon-Hubrich",
+          "mnt-by": "LEONHUBRICH-MNT"
+        },
+        "start": "2026-05-27T16:06:07"
+      },
+      "AS4242422275": {
+        "val": {
+          "as-name": "AS-DIGINEO-DN42",
+          "mnt-by": "DIGINEO-MNT"
+        },
+        "start": "2026-05-27T17:20:10"
+      },
+      "AS4242422017": {
+        "val": {
+          "as-name": "AS-FRANKH-DN42",
+          "mnt-by": "FRANKH-MNT"
+        },
+        "start": "2026-05-27T17:56:18"
       }
     },
     "dns": {
@@ -102856,6 +102884,18 @@
           "mnt-by": "SORAKAND-MNT"
         },
         "start": "2026-05-27T14:31:08"
+      },
+      "leon.dn42": {
+        "val": {
+          "mnt-by": "LEONHUBRICH-MNT"
+        },
+        "start": "2026-05-27T16:06:07"
+      },
+      "digineo.dn42": {
+        "val": {
+          "mnt-by": "DIGINEO-MNT"
+        },
+        "start": "2026-05-27T17:20:10"
       }
     },
     "mntner": {
@@ -115969,11 +116009,35 @@
         },
         "start": "2026-05-26T11:58:44"
       },
+      "LAYER1-MNT": {
+        "val": {
+          "mntner": "LAYER1-MNT"
+        },
+        "start": "2026-05-27T14:05:02"
+      },
       "SORAKAND-MNT": {
         "val": {
           "mntner": "SORAKAND-MNT"
         },
         "start": "2026-05-27T14:31:08"
+      },
+      "LEONHUBRICH-MNT": {
+        "val": {
+          "mntner": "LEONHUBRICH-MNT"
+        },
+        "start": "2026-05-27T16:06:07"
+      },
+      "DIGINEO-MNT": {
+        "val": {
+          "mntner": "DIGINEO-MNT"
+        },
+        "start": "2026-05-27T17:20:10"
+      },
+      "FRANKH-MNT": {
+        "val": {
+          "mntner": "FRANKH-MNT"
+        },
+        "start": "2026-05-27T17:56:18"
       }
     },
     "registry": {
