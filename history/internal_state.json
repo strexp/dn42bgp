@@ -1,5 +1,5 @@
 {
-  "last_commit": "2e5f21a77c948749138624339e23ef76b17644e4",
+  "last_commit": "29b435f78751ae013c8bde10fb4d08a1a4328e7d",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94585,6 +94585,13 @@
           "mnt-by": "WHITECAT-MNT"
         },
         "start": "2026-05-26T11:58:44"
+      },
+      "AS4242422816": {
+        "val": {
+          "as-name": "AS-SORAKAND-DN42",
+          "mnt-by": "SORAKAND-MNT"
+        },
+        "start": "2026-05-27T14:31:08"
       }
     },
     "dns": {
@@ -102843,6 +102850,12 @@
           "mnt-by": "0XF-MNT"
         },
         "start": "2026-05-25T09:12:15"
+      },
+      "sorakand.dn42": {
+        "val": {
+          "mnt-by": "SORAKAND-MNT"
+        },
+        "start": "2026-05-27T14:31:08"
       }
     },
     "mntner": {
@@ -115955,6 +115968,12 @@
           "mntner": "WHITECAT-MNT"
         },
         "start": "2026-05-26T11:58:44"
+      },
+      "SORAKAND-MNT": {
+        "val": {
+          "mntner": "SORAKAND-MNT"
+        },
+        "start": "2026-05-27T14:31:08"
       }
     },
     "registry": {
