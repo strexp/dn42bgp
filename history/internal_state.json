@@ -1,5 +1,5 @@
 {
-  "last_commit": "d7ff39502fd2acf71ef0de01988af79663f64c60",
+  "last_commit": "37f996cc7110968b50f2f77be73262a725659af0",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94627,6 +94627,13 @@
           "mnt-by": "LGK-MNT"
         },
         "start": "2026-05-27T19:04:30"
+      },
+      "AS4242420673": {
+        "val": {
+          "as-name": "AS-UNIXENO-DN42",
+          "mnt-by": "UNIXENO-MNT"
+        },
+        "start": "2026-05-28T12:11:56"
       }
     },
     "dns": {
@@ -116051,6 +116058,12 @@
           "mntner": "LGK-MNT"
         },
         "start": "2026-05-27T19:04:30"
+      },
+      "UNIXENO-MNT": {
+        "val": {
+          "mntner": "UNIXENO-MNT"
+        },
+        "start": "2026-05-28T12:11:56"
       }
     },
     "registry": {
