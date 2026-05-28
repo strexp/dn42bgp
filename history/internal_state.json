@@ -1,5 +1,5 @@
 {
-  "last_commit": "db914cff5cbf9da5bdb1913878fe9914a3a7f2f5",
+  "last_commit": "d7ff39502fd2acf71ef0de01988af79663f64c60",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94620,6 +94620,13 @@
           "mnt-by": "FRANKH-MNT"
         },
         "start": "2026-05-27T17:56:18"
+      },
+      "AS4242421553": {
+        "val": {
+          "as-name": "LEGERIERGEEK-AS",
+          "mnt-by": "LGK-MNT"
+        },
+        "start": "2026-05-27T19:04:30"
       }
     },
     "dns": {
@@ -116038,6 +116045,12 @@
           "mntner": "FRANKH-MNT"
         },
         "start": "2026-05-27T17:56:18"
+      },
+      "LGK-MNT": {
+        "val": {
+          "mntner": "LGK-MNT"
+        },
+        "start": "2026-05-27T19:04:30"
       }
     },
     "registry": {
