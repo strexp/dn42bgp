@@ -1,5 +1,5 @@
 {
-  "last_commit": "93b1111bcfc2122bc2b6c6d6d0c57b1f91943bf6",
+  "last_commit": "545e3aef4aa25eab4b2560c48b3ca3f238d17465",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94642,6 +94642,13 @@
         },
         "start": "2026-05-28T16:04:38"
       },
+      "AS4242420441": {
+        "val": {
+          "as-name": "AS-B0RIDE-DN42",
+          "mnt-by": "B0RIDE-MNT"
+        },
+        "start": "2026-05-28T17:03:52"
+      },
       "AS4242423362": {
         "val": {
           "as-name": "MOTSU0602-AS",
@@ -102925,11 +102932,23 @@
         },
         "start": "2026-05-27T17:20:10"
       },
+      "b0ride.dn42": {
+        "val": {
+          "mnt-by": "B0RIDE-MNT"
+        },
+        "start": "2026-05-28T17:03:52"
+      },
       "motsu0602.dn42": {
         "val": {
           "mnt-by": "MOTSU0602-MNT"
         },
         "start": "2026-05-29T01:10:53"
+      },
+      "pmman.dn42": {
+        "val": {
+          "mnt-by": "PMMAN-MNT"
+        },
+        "start": "2026-05-29T10:44:53"
       }
     },
     "mntner": {
@@ -116090,6 +116109,12 @@
           "mntner": "BAZSALANSZKY-MNT"
         },
         "start": "2026-05-28T16:04:38"
+      },
+      "B0RIDE-MNT": {
+        "val": {
+          "mntner": "B0RIDE-MNT"
+        },
+        "start": "2026-05-28T17:03:52"
       },
       "MOTSU0602-MNT": {
         "val": {
