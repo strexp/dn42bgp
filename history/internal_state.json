@@ -1,5 +1,5 @@
 {
-  "last_commit": "37f996cc7110968b50f2f77be73262a725659af0",
+  "last_commit": "93b1111bcfc2122bc2b6c6d6d0c57b1f91943bf6",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94634,6 +94634,20 @@
           "mnt-by": "UNIXENO-MNT"
         },
         "start": "2026-05-28T12:11:56"
+      },
+      "AS4242420124": {
+        "val": {
+          "as-name": "BAZSALANSZKY-AS",
+          "mnt-by": "BAZSALANSZKY-MNT"
+        },
+        "start": "2026-05-28T16:04:38"
+      },
+      "AS4242423362": {
+        "val": {
+          "as-name": "MOTSU0602-AS",
+          "mnt-by": "MOTSU0602-MNT"
+        },
+        "start": "2026-05-29T01:10:53"
       }
     },
     "dns": {
@@ -102910,6 +102924,12 @@
           "mnt-by": "DIGINEO-MNT"
         },
         "start": "2026-05-27T17:20:10"
+      },
+      "motsu0602.dn42": {
+        "val": {
+          "mnt-by": "MOTSU0602-MNT"
+        },
+        "start": "2026-05-29T01:10:53"
       }
     },
     "mntner": {
@@ -116064,6 +116084,18 @@
           "mntner": "UNIXENO-MNT"
         },
         "start": "2026-05-28T12:11:56"
+      },
+      "BAZSALANSZKY-MNT": {
+        "val": {
+          "mntner": "BAZSALANSZKY-MNT"
+        },
+        "start": "2026-05-28T16:04:38"
+      },
+      "MOTSU0602-MNT": {
+        "val": {
+          "mntner": "MOTSU0602-MNT"
+        },
+        "start": "2026-05-29T01:10:53"
       }
     },
     "registry": {
