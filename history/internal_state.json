@@ -1,5 +1,5 @@
 {
-  "last_commit": "da117715e7d27e79531499e8313e4bfc6e091ee5",
+  "last_commit": "dfd31b9fa6e419e4fac4c6f40eb487937f296329",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94655,6 +94655,20 @@
           "mnt-by": "MOTSU0602-MNT"
         },
         "start": "2026-05-29T01:10:53"
+      },
+      "AS4242421931": {
+        "val": {
+          "as-name": "AS-BAILEAF-DN42",
+          "mnt-by": "BAILEAF-MNT"
+        },
+        "start": "2026-05-29T11:14:35"
+      },
+      "AS4242423423": {
+        "val": {
+          "as-name": "GRADUATE7857-NET",
+          "mnt-by": "GRADUATE7857-MNT"
+        },
+        "start": "2026-05-29T14:46:48"
       }
     },
     "dns": {
@@ -116121,6 +116135,18 @@
           "mntner": "MOTSU0602-MNT"
         },
         "start": "2026-05-29T01:10:53"
+      },
+      "BAILEAF-MNT": {
+        "val": {
+          "mntner": "BAILEAF-MNT"
+        },
+        "start": "2026-05-29T11:14:35"
+      },
+      "GRADUATE7857-MNT": {
+        "val": {
+          "mntner": "GRADUATE7857-MNT"
+        },
+        "start": "2026-05-29T14:46:48"
       }
     },
     "registry": {
