@@ -1,5 +1,5 @@
 {
-  "last_commit": "9c6106d5988f7acf6f978a624d547724b9426669",
+  "last_commit": "fb0106ceb4d60e8864d63b8839485b15fadec808",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94776,6 +94776,20 @@
           "mnt-by": "DN42-MNT"
         },
         "start": "2026-05-31T14:04:28"
+      },
+      "AS4242423452": {
+        "val": {
+          "as-name": "CREAMCROISSANT-AS",
+          "mnt-by": "CREAMCROISSANT-MNT"
+        },
+        "start": "2026-05-31T14:31:45"
+      },
+      "AS4242420547": {
+        "val": {
+          "as-name": "AS-LHSNETWORKS-DN42",
+          "mnt-by": "LHSNETWORKS-MNT"
+        },
+        "start": "2026-06-01T05:33:53"
       }
     },
     "dns": {
@@ -116314,6 +116328,18 @@
           "mntner": "ANL-MNT"
         },
         "start": "2026-05-31T08:42:12"
+      },
+      "CREAMCROISSANT-MNT": {
+        "val": {
+          "mntner": "CREAMCROISSANT-MNT"
+        },
+        "start": "2026-05-31T14:31:45"
+      },
+      "LHSNETWORKS-MNT": {
+        "val": {
+          "mntner": "LHSNETWORKS-MNT"
+        },
+        "start": "2026-06-01T05:33:53"
       }
     },
     "registry": {
