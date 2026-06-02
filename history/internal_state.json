@@ -1,5 +1,5 @@
 {
-  "last_commit": "dc7c94000f4dac3475b1eb2337323cc095c87949",
+  "last_commit": "b512bd6fb7455d1440a303b3c0b3dc9aa950ef13",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94790,6 +94790,20 @@
           "mnt-by": "LHSNETWORKS-MNT"
         },
         "start": "2026-06-01T05:33:53"
+      },
+      "AS4242420542": {
+        "val": {
+          "as-name": "AS-STAMOV-DN42",
+          "mnt-by": "STAMOV-MNT"
+        },
+        "start": "2026-06-01T13:11:49"
+      },
+      "AS4242421709": {
+        "val": {
+          "as-name": "MIKI-AS",
+          "mnt-by": "MIKI-MNT"
+        },
+        "start": "2026-06-02T10:18:03"
       }
     },
     "dns": {
@@ -103114,6 +103128,12 @@
           "mnt-by": "UNIXENO-MNT"
         },
         "start": "2026-05-31T01:14:29"
+      },
+      "stamov.dn42": {
+        "val": {
+          "mnt-by": "STAMOV-MNT"
+        },
+        "start": "2026-06-01T13:11:49"
       }
     },
     "mntner": {
@@ -116340,6 +116360,18 @@
           "mntner": "LHSNETWORKS-MNT"
         },
         "start": "2026-06-01T05:33:53"
+      },
+      "STAMOV-MNT": {
+        "val": {
+          "mntner": "STAMOV-MNT"
+        },
+        "start": "2026-06-01T13:11:49"
+      },
+      "MIKI-MNT": {
+        "val": {
+          "mntner": "MIKI-MNT"
+        },
+        "start": "2026-06-02T10:18:03"
       }
     },
     "registry": {
