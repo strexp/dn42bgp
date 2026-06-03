@@ -1,5 +1,5 @@
 {
-  "last_commit": "cd8e9f2c346374ab35a2a51e9b5520888d05b20b",
+  "last_commit": "c733baf22a27685b65ac87ec7c3bf9eadca562b6",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94804,6 +94804,13 @@
           "mnt-by": "MIKI-MNT"
         },
         "start": "2026-06-02T10:18:03"
+      },
+      "AS4242423520": {
+        "val": {
+          "as-name": "AS-PONY-DN42",
+          "mnt-by": "PONY-MNT"
+        },
+        "start": "2026-06-03T00:50:30"
       }
     },
     "dns": {
@@ -103134,6 +103141,18 @@
           "mnt-by": "STAMOV-MNT"
         },
         "start": "2026-06-01T13:11:49"
+      },
+      "whitekiba.dn42": {
+        "val": {
+          "mnt-by": "KIBA-MNT"
+        },
+        "start": "2026-06-02T21:05:57"
+      },
+      "pony.dn42": {
+        "val": {
+          "mnt-by": "PONY-MNT"
+        },
+        "start": "2026-06-03T00:50:30"
       }
     },
     "mntner": {
@@ -116372,6 +116391,12 @@
           "mntner": "MIKI-MNT"
         },
         "start": "2026-06-02T10:18:03"
+      },
+      "PONY-MNT": {
+        "val": {
+          "mntner": "PONY-MNT"
+        },
+        "start": "2026-06-03T00:50:30"
       }
     },
     "registry": {
