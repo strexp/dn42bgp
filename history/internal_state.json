@@ -1,5 +1,5 @@
 {
-  "last_commit": "1087162bbecc2e2503acd2915dcab060d5e0c862",
+  "last_commit": "37cd17df8c3edaa682cc6fa476481128c26837e9",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94845,6 +94845,13 @@
           "mnt-by": "PONY-MNT"
         },
         "start": "2026-06-03T00:50:30"
+      },
+      "AS4242422070": {
+        "val": {
+          "as-name": "AS-CFN-DN42",
+          "mnt-by": "LILIESH-MNT"
+        },
+        "start": "2026-06-04T08:25:13"
       }
     },
     "dns": {
@@ -116437,6 +116444,12 @@
           "mntner": "DARREN-MNT"
         },
         "start": "2026-06-03T07:36:43"
+      },
+      "LILIESH-MNT": {
+        "val": {
+          "mntner": "LILIESH-MNT"
+        },
+        "start": "2026-06-04T08:25:13"
       }
     },
     "registry": {
@@ -118132,6 +118145,13 @@
           "mnt-by": "NGWORKS-MNT"
         },
         "start": "2026-05-31T13:03:25"
+      },
+      "ORG-CFN": {
+        "val": {
+          "org-name": "Code for Niederrhein e.V.",
+          "mnt-by": "LILIESH-MNT"
+        },
+        "start": "2026-06-04T08:25:13"
       }
     }
   }
