@@ -1,5 +1,5 @@
 {
-  "last_commit": "64c076e1f656417d83f52e735f91c86683bb9bf6",
+  "last_commit": "555c4a8eab0fe4d5b2d235ca09b6b7d2b9e3a510",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94860,6 +94860,20 @@
           "mnt-by": "LILIESH-MNT"
         },
         "start": "2026-06-04T08:25:13"
+      },
+      "AS4242420997": {
+        "val": {
+          "as-name": "ABT-IXP",
+          "mnt-by": "NOAHDAVIS-MNT"
+        },
+        "start": "2026-06-04T21:57:10"
+      },
+      "AS4242422796": {
+        "val": {
+          "as-name": "MOKI-MOE",
+          "mnt-by": "MOKI-MNT"
+        },
+        "start": "2026-06-05T09:07:14"
       }
     },
     "dns": {
@@ -103208,6 +103222,18 @@
           "mnt-by": "PONY-MNT"
         },
         "start": "2026-06-03T00:50:30"
+      },
+      "abt.dn42": {
+        "val": {
+          "mnt-by": "NOAHDAVIS-MNT"
+        },
+        "start": "2026-06-04T21:57:10"
+      },
+      "osm.dn42": {
+        "val": {
+          "mnt-by": "COWGL-MNT"
+        },
+        "start": "2026-06-05T05:35:14"
       }
     },
     "mntner": {
@@ -116458,6 +116484,18 @@
           "mntner": "LILIESH-MNT"
         },
         "start": "2026-06-04T08:25:13"
+      },
+      "NOAHDAVIS-MNT": {
+        "val": {
+          "mntner": "NOAHDAVIS-MNT"
+        },
+        "start": "2026-06-04T21:57:10"
+      },
+      "MOKI-MNT": {
+        "val": {
+          "mntner": "MOKI-MNT"
+        },
+        "start": "2026-06-05T09:07:14"
       }
     },
     "registry": {
@@ -118160,6 +118198,13 @@
           "mnt-by": "LILIESH-MNT"
         },
         "start": "2026-06-04T08:25:13"
+      },
+      "ORG-ABT": {
+        "val": {
+          "org-name": "American Backbone Telecom",
+          "mnt-by": "NOAHDAVIS-MNT"
+        },
+        "start": "2026-06-04T21:57:10"
       }
     }
   }
