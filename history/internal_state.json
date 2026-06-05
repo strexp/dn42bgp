@@ -1,5 +1,5 @@
 {
-  "last_commit": "555c4a8eab0fe4d5b2d235ca09b6b7d2b9e3a510",
+  "last_commit": "6c602c294debeab1f68c8b292e1817c70e5e8e62",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94874,6 +94874,13 @@
           "mnt-by": "MOKI-MNT"
         },
         "start": "2026-06-05T09:07:14"
+      },
+      "AS4242423842": {
+        "val": {
+          "as-name": "AS-NLGLD-MOE",
+          "mnt-by": "NLGLD-MNT"
+        },
+        "start": "2026-06-05T14:32:31"
       }
     },
     "dns": {
@@ -116496,6 +116503,12 @@
           "mntner": "MOKI-MNT"
         },
         "start": "2026-06-05T09:07:14"
+      },
+      "NLGLD-MNT": {
+        "val": {
+          "mntner": "NLGLD-MNT"
+        },
+        "start": "2026-06-05T14:32:31"
       }
     },
     "registry": {
