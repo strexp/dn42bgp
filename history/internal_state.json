@@ -1,5 +1,5 @@
 {
-  "last_commit": "b096c607ee287420cab4a261ff5b0c079ae140e0",
+  "last_commit": "ddaf8b981e6a73dc88a30263d6e8af45624f5126",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94895,6 +94895,13 @@
           "mnt-by": "DIFFUMIST-MNT"
         },
         "start": "2026-06-06T04:57:03"
+      },
+      "AS4242420474": {
+        "val": {
+          "as-name": "JWEERTS-AS",
+          "mnt-by": "JWEERTS-MNT"
+        },
+        "start": "2026-06-06T18:18:49"
       }
     },
     "dns": {
@@ -103261,6 +103268,18 @@
           "mnt-by": "J4G-MNT"
         },
         "start": "2026-06-05T19:49:28"
+      },
+      "route66.dn42": {
+        "val": {
+          "mnt-by": "SILVERHA-MNT"
+        },
+        "start": "2026-06-06T18:43:49"
+      },
+      "silverha.dn42": {
+        "val": {
+          "mnt-by": "SILVERHA-MNT"
+        },
+        "start": "2026-06-06T18:43:49"
       }
     },
     "mntner": {
@@ -116541,6 +116560,12 @@
           "mntner": "DIFFUMIST-MNT"
         },
         "start": "2026-06-06T04:57:03"
+      },
+      "JWEERTS-MNT": {
+        "val": {
+          "mntner": "JWEERTS-MNT"
+        },
+        "start": "2026-06-06T18:18:49"
       }
     },
     "registry": {
