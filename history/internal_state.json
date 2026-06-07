@@ -1,5 +1,5 @@
 {
-  "last_commit": "95cf41c39e505643a53bb7d36a65b335b0f656af",
+  "last_commit": "255a0021e15078b037dd852171ee750619403ca0",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94882,6 +94882,13 @@
         },
         "start": "2026-06-05T14:32:31"
       },
+      "AS4242422583": {
+        "val": {
+          "as-name": "BONNY07-DN42",
+          "mnt-by": "BONNY07-MNT"
+        },
+        "start": "2026-06-05T15:48:57"
+      },
       "AS4242423476": {
         "val": {
           "as-name": "AS-J4G-DN42",
@@ -94896,6 +94903,13 @@
         },
         "start": "2026-06-06T04:57:03"
       },
+      "AS4242423747": {
+        "val": {
+          "as-name": "OHOLA-AS",
+          "mnt-by": "OHOLA-MNT"
+        },
+        "start": "2026-06-06T14:51:08"
+      },
       "AS4242420474": {
         "val": {
           "as-name": "JWEERTS-AS",
@@ -94909,6 +94923,13 @@
           "mnt-by": "NICONEIKOWORKS-MNT"
         },
         "start": "2026-06-07T05:21:04"
+      },
+      "AS4242420062": {
+        "val": {
+          "as-name": "MITSUAI-AS",
+          "mnt-by": "MITSUAI-MNT"
+        },
+        "start": "2026-06-07T20:26:13"
       }
     },
     "dns": {
@@ -116556,6 +116577,12 @@
         },
         "start": "2026-06-05T14:32:31"
       },
+      "BONNY07-MNT": {
+        "val": {
+          "mntner": "BONNY07-MNT"
+        },
+        "start": "2026-06-05T15:48:57"
+      },
       "J4G-MNT": {
         "val": {
           "mntner": "J4G-MNT"
@@ -116568,6 +116595,12 @@
         },
         "start": "2026-06-06T04:57:03"
       },
+      "OHOLA-MNT": {
+        "val": {
+          "mntner": "OHOLA-MNT"
+        },
+        "start": "2026-06-06T14:51:08"
+      },
       "JWEERTS-MNT": {
         "val": {
           "mntner": "JWEERTS-MNT"
@@ -116579,6 +116612,12 @@
           "mntner": "NICONEIKOWORKS-MNT"
         },
         "start": "2026-06-07T05:21:04"
+      },
+      "MITSUAI-MNT": {
+        "val": {
+          "mntner": "MITSUAI-MNT"
+        },
+        "start": "2026-06-07T20:26:13"
       }
     },
     "registry": {
@@ -118288,6 +118327,13 @@
           "mnt-by": "NOAHDAVIS-MNT"
         },
         "start": "2026-06-04T21:57:10"
+      },
+      "ORG-MITSUAI": {
+        "val": {
+          "org-name": "MITSUAI",
+          "mnt-by": "MITSUAI-MNT"
+        },
+        "start": "2026-06-07T20:26:13"
       }
     }
   }
