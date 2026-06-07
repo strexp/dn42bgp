@@ -1,5 +1,5 @@
 {
-  "last_commit": "ddaf8b981e6a73dc88a30263d6e8af45624f5126",
+  "last_commit": "ee1094305061addcb2c1ce633fa88a2606042fe1",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94902,6 +94902,13 @@
           "mnt-by": "JWEERTS-MNT"
         },
         "start": "2026-06-06T18:18:49"
+      },
+      "AS4242422334": {
+        "val": {
+          "as-name": "NICONEIKOWORKSLLC-AS",
+          "mnt-by": "NICONEIKOWORKS-MNT"
+        },
+        "start": "2026-06-07T05:21:04"
       }
     },
     "dns": {
@@ -116566,6 +116573,12 @@
           "mntner": "JWEERTS-MNT"
         },
         "start": "2026-06-06T18:18:49"
+      },
+      "NICONEIKOWORKS-MNT": {
+        "val": {
+          "mntner": "NICONEIKOWORKS-MNT"
+        },
+        "start": "2026-06-07T05:21:04"
       }
     },
     "registry": {
