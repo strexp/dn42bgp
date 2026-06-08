@@ -1,5 +1,5 @@
 {
-  "last_commit": "255a0021e15078b037dd852171ee750619403ca0",
+  "last_commit": "7e7b6b671efb225a936578225f20125e6c8787ea",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94917,6 +94917,13 @@
         },
         "start": "2026-06-06T18:18:49"
       },
+      "AS4242421762": {
+        "val": {
+          "as-name": "LXN-AS",
+          "mnt-by": "LXN-MNT"
+        },
+        "start": "2026-06-07T00:54:50"
+      },
       "AS4242422334": {
         "val": {
           "as-name": "NICONEIKOWORKSLLC-AS",
@@ -103308,6 +103315,12 @@
           "mnt-by": "SILVERHA-MNT"
         },
         "start": "2026-06-06T18:43:49"
+      },
+      "lxn.dn42": {
+        "val": {
+          "mnt-by": "LXN-MNT"
+        },
+        "start": "2026-06-07T00:54:50"
       }
     },
     "mntner": {
@@ -116606,6 +116619,12 @@
           "mntner": "JWEERTS-MNT"
         },
         "start": "2026-06-06T18:18:49"
+      },
+      "LXN-MNT": {
+        "val": {
+          "mntner": "LXN-MNT"
+        },
+        "start": "2026-06-07T00:54:50"
       },
       "NICONEIKOWORKS-MNT": {
         "val": {
