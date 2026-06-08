@@ -1,5 +1,5 @@
 {
-  "last_commit": "7e7b6b671efb225a936578225f20125e6c8787ea",
+  "last_commit": "8a69c1d0028b93dbdf5b5eaf99704dcc6bf3c111",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94937,6 +94937,27 @@
           "mnt-by": "MITSUAI-MNT"
         },
         "start": "2026-06-07T20:26:13"
+      },
+      "AS4242423883": {
+        "val": {
+          "as-name": "YENET-DN42",
+          "mnt-by": "ZHUNYE-MNT"
+        },
+        "start": "2026-06-08T15:13:39"
+      },
+      "AS4242422804": {
+        "val": {
+          "as-name": "AS-DEV-NULL-DN42",
+          "mnt-by": "DEV-NULL-MNT"
+        },
+        "start": "2026-06-08T16:11:45"
+      },
+      "AS4242420486": {
+        "val": {
+          "as-name": "AS-FOXNET-DN42",
+          "mnt-by": "FOXNET-MNT"
+        },
+        "start": "2026-06-08T16:45:09"
       }
     },
     "dns": {
@@ -103321,6 +103342,12 @@
           "mnt-by": "LXN-MNT"
         },
         "start": "2026-06-07T00:54:50"
+      },
+      "foxnet.dn42": {
+        "val": {
+          "mnt-by": "FOXNET-MNT"
+        },
+        "start": "2026-06-08T16:45:09"
       }
     },
     "mntner": {
@@ -116637,6 +116664,24 @@
           "mntner": "MITSUAI-MNT"
         },
         "start": "2026-06-07T20:26:13"
+      },
+      "ZHUNYE-MNT": {
+        "val": {
+          "mntner": "ZHUNYE-MNT"
+        },
+        "start": "2026-06-08T15:13:39"
+      },
+      "DEV-NULL-MNT": {
+        "val": {
+          "mntner": "DEV-NULL-MNT"
+        },
+        "start": "2026-06-08T16:11:45"
+      },
+      "FOXNET-MNT": {
+        "val": {
+          "mntner": "FOXNET-MNT"
+        },
+        "start": "2026-06-08T16:45:09"
       }
     },
     "registry": {
