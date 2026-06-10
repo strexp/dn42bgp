@@ -1,5 +1,5 @@
 {
-  "last_commit": "8a69c1d0028b93dbdf5b5eaf99704dcc6bf3c111",
+  "last_commit": "f17dd9ae829e8424a21d215833e3e89b7198df78",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94958,6 +94958,20 @@
           "mnt-by": "FOXNET-MNT"
         },
         "start": "2026-06-08T16:45:09"
+      },
+      "AS4242421698": {
+        "val": {
+          "as-name": "AS-SPAENNY-DN42",
+          "mnt-by": "SPAENNY-MNT"
+        },
+        "start": "2026-06-10T05:19:50"
+      },
+      "AS4242421408": {
+        "val": {
+          "as-name": "AS-AMIRFRD-DN42",
+          "mnt-by": "AMIRFRD-MNT"
+        },
+        "start": "2026-06-10T12:56:05"
       }
     },
     "dns": {
@@ -116682,6 +116696,18 @@
           "mntner": "FOXNET-MNT"
         },
         "start": "2026-06-08T16:45:09"
+      },
+      "SPAENNY-MNT": {
+        "val": {
+          "mntner": "SPAENNY-MNT"
+        },
+        "start": "2026-06-10T05:19:50"
+      },
+      "AMIRFRD-MNT": {
+        "val": {
+          "mntner": "AMIRFRD-MNT"
+        },
+        "start": "2026-06-10T12:56:05"
       }
     },
     "registry": {
