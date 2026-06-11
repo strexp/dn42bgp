@@ -1,5 +1,5 @@
 {
-  "last_commit": "ee037eda71f117039579090ffc400420d487fd26",
+  "last_commit": "2fcd1fce09ea99026158f12d91c9ab0508e5cc44",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -94986,6 +94986,13 @@
           "mnt-by": "DN42FANBOY-MNT"
         },
         "start": "2026-06-10T22:07:54"
+      },
+      "AS4242421707": {
+        "val": {
+          "as-name": "MOEHIROSHIRO-AS",
+          "mnt-by": "MOEHIROSHIRO-MNT"
+        },
+        "start": "2026-06-11T09:14:15"
       }
     },
     "dns": {
@@ -116734,6 +116741,12 @@
           "mntner": "DN42FANBOY-MNT"
         },
         "start": "2026-06-10T22:07:54"
+      },
+      "MOEHIROSHIRO-MNT": {
+        "val": {
+          "mntner": "MOEHIROSHIRO-MNT"
+        },
+        "start": "2026-06-11T09:14:15"
       }
     },
     "registry": {
