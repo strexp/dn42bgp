@@ -1,5 +1,5 @@
 {
-  "last_commit": "2fcd1fce09ea99026158f12d91c9ab0508e5cc44",
+  "last_commit": "8f79b46eaf589a3e6f1b0cd497d46b40b95c52a3",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -33923,6 +33923,16 @@
           "start": "2024-12-12T17:45:47",
           "end": "2026-06-02T18:51:38"
         }
+      ],
+      "AS4242421836": [
+        {
+          "value": {
+            "as-name": "AS-NRB-DN42",
+            "mnt-by": "NRB-MNT"
+          },
+          "start": "2023-06-08T04:54:36",
+          "end": "2026-06-11T15:18:00"
+        }
       ]
     },
     "dns": {
@@ -44420,6 +44430,15 @@
           },
           "start": "2026-01-07T04:20:29",
           "end": "2026-05-19T22:34:58"
+        }
+      ],
+      "nrb.dn42": [
+        {
+          "value": {
+            "mnt-by": "NRB-MNT"
+          },
+          "start": "2023-12-20T10:12:44",
+          "end": "2026-06-11T15:18:00"
         }
       ]
     },
@@ -71304,6 +71323,15 @@
           "start": "2026-05-17T04:21:37",
           "end": "2026-06-03T07:36:43"
         }
+      ],
+      "NRB-MNT": [
+        {
+          "value": {
+            "mntner": "NRB-MNT"
+          },
+          "start": "2023-06-08T04:54:36",
+          "end": "2026-06-11T15:18:00"
+        }
       ]
     },
     "registry": {
@@ -84928,13 +84956,6 @@
         },
         "start": "2023-06-07T07:34:03"
       },
-      "AS4242421836": {
-        "val": {
-          "as-name": "AS-NRB-DN42",
-          "mnt-by": "NRB-MNT"
-        },
-        "start": "2023-06-08T04:54:36"
-      },
       "AS4242422155": {
         "val": {
           "as-name": "AS-GRASSLABS-AS4242422155",
@@ -94993,6 +95014,20 @@
           "mnt-by": "MOEHIROSHIRO-MNT"
         },
         "start": "2026-06-11T09:14:15"
+      },
+      "AS4242423686": {
+        "val": {
+          "as-name": "AS-TECH-SKY",
+          "mnt-by": "TSYINK-MNT"
+        },
+        "start": "2026-06-11T14:45:46"
+      },
+      "AS4242422394": {
+        "val": {
+          "as-name": "AS-PANDA-DN42",
+          "mnt-by": "PANDA-MNT"
+        },
+        "start": "2026-06-11T15:28:42"
       }
     },
     "dns": {
@@ -99477,12 +99512,6 @@
           "mnt-by": "CAL-MNT"
         },
         "start": "2023-12-19T07:35:56"
-      },
-      "nrb.dn42": {
-        "val": {
-          "mnt-by": "NRB-MNT"
-        },
-        "start": "2023-12-20T10:12:44"
       },
       "jmliber.dn42": {
         "val": {
@@ -108282,12 +108311,6 @@
         },
         "start": "2023-06-07T07:34:03"
       },
-      "NRB-MNT": {
-        "val": {
-          "mntner": "NRB-MNT"
-        },
-        "start": "2023-06-08T04:54:36"
-      },
       "GABI-MNT": {
         "val": {
           "mntner": "GABI-MNT"
@@ -116747,6 +116770,18 @@
           "mntner": "MOEHIROSHIRO-MNT"
         },
         "start": "2026-06-11T09:14:15"
+      },
+      "TSYINK-MNT": {
+        "val": {
+          "mntner": "TSYINK-MNT"
+        },
+        "start": "2026-06-11T14:45:46"
+      },
+      "PANDA-MNT": {
+        "val": {
+          "mntner": "PANDA-MNT"
+        },
+        "start": "2026-06-11T15:28:42"
       }
     },
     "registry": {
