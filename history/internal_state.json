@@ -1,5 +1,5 @@
 {
-  "last_commit": "080b31de60845d2aeea09bc675839516249527ec",
+  "last_commit": "ef80234237f8ffc784940c986b11467534ea09a1",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95028,6 +95028,20 @@
           "mnt-by": "PANDA-MNT"
         },
         "start": "2026-06-11T15:28:42"
+      },
+      "AS4242420279": {
+        "val": {
+          "as-name": "AS-MSZ-DN42",
+          "mnt-by": "MSZ-MNT"
+        },
+        "start": "2026-06-12T14:54:14"
+      },
+      "AS4242422641": {
+        "val": {
+          "as-name": "AS-CHAPOLINE",
+          "mnt-by": "CHAPOLINE-MNT"
+        },
+        "start": "2026-06-12T16:09:51"
       }
     },
     "dns": {
@@ -116788,6 +116802,18 @@
           "mntner": "PANDA-MNT"
         },
         "start": "2026-06-11T15:28:42"
+      },
+      "MSZ-MNT": {
+        "val": {
+          "mntner": "MSZ-MNT"
+        },
+        "start": "2026-06-12T14:54:14"
+      },
+      "CHAPOLINE-MNT": {
+        "val": {
+          "mntner": "CHAPOLINE-MNT"
+        },
+        "start": "2026-06-12T16:09:51"
       }
     },
     "registry": {
