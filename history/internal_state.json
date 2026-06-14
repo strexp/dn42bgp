@@ -1,5 +1,5 @@
 {
-  "last_commit": "5ddb11a25649301ac3c139d8368d46e50612de4e",
+  "last_commit": "9a3a96395312dd0ba97e7a90793664ebab8657fd",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95105,6 +95105,13 @@
           "mnt-by": "SEBI364-MNT"
         },
         "start": "2026-06-13T19:04:50"
+      },
+      "AS4242420230": {
+        "val": {
+          "as-name": "AS-ZOMBOFANT-NET-DN42",
+          "mnt-by": "JSSFR-MNT"
+        },
+        "start": "2026-06-14T10:06:41"
       }
     },
     "dns": {
@@ -116961,6 +116968,12 @@
           "mntner": "SEBI364-MNT"
         },
         "start": "2026-06-13T19:04:50"
+      },
+      "JSSFR-MNT": {
+        "val": {
+          "mntner": "JSSFR-MNT"
+        },
+        "start": "2026-06-14T10:06:41"
       }
     },
     "registry": {
