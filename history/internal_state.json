@@ -1,5 +1,5 @@
 {
-  "last_commit": "2c4c2b55155b60a17d336982073e478542855ec6",
+  "last_commit": "ff239066cfd368f0edc547f857cf5f5cc105abbb",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95147,6 +95147,20 @@
           "mnt-by": "ZTIX-MNT"
         },
         "start": "2026-06-14T18:08:22"
+      },
+      "AS4242420179": {
+        "val": {
+          "as-name": "ML-AS",
+          "mnt-by": "ML-MNT"
+        },
+        "start": "2026-06-15T08:29:36"
+      },
+      "AS4242420482": {
+        "val": {
+          "as-name": "AS-1580155HSG-DN42",
+          "mnt-by": "1580155HSG-MNT"
+        },
+        "start": "2026-06-15T10:51:37"
       }
     },
     "dns": {
@@ -117033,6 +117047,18 @@
           "mntner": "ZTIX-MNT"
         },
         "start": "2026-06-14T18:08:22"
+      },
+      "ML-MNT": {
+        "val": {
+          "mntner": "ML-MNT"
+        },
+        "start": "2026-06-15T08:29:36"
+      },
+      "1580155HSG-MNT": {
+        "val": {
+          "mntner": "1580155HSG-MNT"
+        },
+        "start": "2026-06-15T10:51:37"
       }
     },
     "registry": {
