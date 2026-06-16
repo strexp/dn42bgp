@@ -1,5 +1,5 @@
 {
-  "last_commit": "71a4fd3f4de81a6dee79ce76cffcadf727ecc519",
+  "last_commit": "e45be858ec443ff5b8fd5164234134235ca3df78",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95175,6 +95175,20 @@
           "mnt-by": "SASCROTCH-MNT"
         },
         "start": "2026-06-15T21:56:14"
+      },
+      "AS4242420132": {
+        "val": {
+          "as-name": "AS-KITLOTOR-DN42",
+          "mnt-by": "KITLOTOR-MNT"
+        },
+        "start": "2026-06-16T03:52:19"
+      },
+      "AS4242422918": {
+        "val": {
+          "as-name": "AS-E75TI-DN42",
+          "mnt-by": "E75TI-MNT"
+        },
+        "start": "2026-06-16T07:18:02"
       }
     },
     "dns": {
@@ -103625,6 +103639,12 @@
           "mnt-by": "PATERNOT-MNT"
         },
         "start": "2026-06-15T20:00:12"
+      },
+      "e75ti.dn42": {
+        "val": {
+          "mnt-by": "E75TI-MNT"
+        },
+        "start": "2026-06-16T07:18:02"
       }
     },
     "mntner": {
@@ -117097,6 +117117,18 @@
           "mntner": "SASCROTCH-MNT"
         },
         "start": "2026-06-15T21:56:14"
+      },
+      "KITLOTOR-MNT": {
+        "val": {
+          "mntner": "KITLOTOR-MNT"
+        },
+        "start": "2026-06-16T03:52:19"
+      },
+      "E75TI-MNT": {
+        "val": {
+          "mntner": "E75TI-MNT"
+        },
+        "start": "2026-06-16T07:18:02"
       }
     },
     "registry": {
