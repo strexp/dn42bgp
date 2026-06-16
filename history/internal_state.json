@@ -1,5 +1,5 @@
 {
-  "last_commit": "c88548aa5369fefcea8cc484567aa89575dad57f",
+  "last_commit": "71a4fd3f4de81a6dee79ce76cffcadf727ecc519",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95168,6 +95168,13 @@
           "mnt-by": "SAHIL-MNT"
         },
         "start": "2026-06-15T18:43:36"
+      },
+      "AS4242423660": {
+        "val": {
+          "as-name": "AS-SASCROTCH-DN42",
+          "mnt-by": "SASCROTCH-MNT"
+        },
+        "start": "2026-06-15T21:56:14"
       }
     },
     "dns": {
@@ -117084,6 +117091,12 @@
           "mntner": "SAHIL-MNT"
         },
         "start": "2026-06-15T18:43:36"
+      },
+      "SASCROTCH-MNT": {
+        "val": {
+          "mntner": "SASCROTCH-MNT"
+        },
+        "start": "2026-06-15T21:56:14"
       }
     },
     "registry": {
