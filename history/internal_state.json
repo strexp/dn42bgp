@@ -1,5 +1,5 @@
 {
-  "last_commit": "e45be858ec443ff5b8fd5164234134235ca3df78",
+  "last_commit": "b78c660b19afce0047c3187b130b38c16f518956",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -103645,6 +103645,12 @@
           "mnt-by": "E75TI-MNT"
         },
         "start": "2026-06-16T07:18:02"
+      },
+      "fttp.dn42": {
+        "val": {
+          "mnt-by": "NOT-MNT"
+        },
+        "start": "2026-06-16T19:53:12"
       }
     },
     "mntner": {
