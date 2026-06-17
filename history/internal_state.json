@@ -1,5 +1,5 @@
 {
-  "last_commit": "b78c660b19afce0047c3187b130b38c16f518956",
+  "last_commit": "89b2d4742889b9baa1bc0141c5f820804c360761",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95189,6 +95189,13 @@
           "mnt-by": "E75TI-MNT"
         },
         "start": "2026-06-16T07:18:02"
+      },
+      "AS4242423956": {
+        "val": {
+          "as-name": "AS-PMC-DN42",
+          "mnt-by": "PMC-MNT"
+        },
+        "start": "2026-06-16T23:22:51"
       }
     },
     "dns": {
@@ -103651,6 +103658,12 @@
           "mnt-by": "NOT-MNT"
         },
         "start": "2026-06-16T19:53:12"
+      },
+      "pmc.dn42": {
+        "val": {
+          "mnt-by": "PMC-MNT"
+        },
+        "start": "2026-06-16T23:22:51"
       }
     },
     "mntner": {
@@ -117135,6 +117148,12 @@
           "mntner": "E75TI-MNT"
         },
         "start": "2026-06-16T07:18:02"
+      },
+      "PMC-MNT": {
+        "val": {
+          "mntner": "PMC-MNT"
+        },
+        "start": "2026-06-16T23:22:51"
       }
     },
     "registry": {
