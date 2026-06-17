@@ -1,5 +1,5 @@
 {
-  "last_commit": "89b2d4742889b9baa1bc0141c5f820804c360761",
+  "last_commit": "894f49e1b0a8ed7b73c5c4baab71d9045bb2ff12",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95196,6 +95196,13 @@
           "mnt-by": "PMC-MNT"
         },
         "start": "2026-06-16T23:22:51"
+      },
+      "AS4242422267": {
+        "val": {
+          "as-name": "MICROTEL",
+          "mnt-by": "MICROTEL-MNT"
+        },
+        "start": "2026-06-17T17:08:54"
       }
     },
     "dns": {
@@ -117154,6 +117161,12 @@
           "mntner": "PMC-MNT"
         },
         "start": "2026-06-16T23:22:51"
+      },
+      "MICROTEL-MNT": {
+        "val": {
+          "mntner": "MICROTEL-MNT"
+        },
+        "start": "2026-06-17T17:08:54"
       }
     },
     "registry": {
