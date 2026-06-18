@@ -1,5 +1,5 @@
 {
-  "last_commit": "894f49e1b0a8ed7b73c5c4baab71d9045bb2ff12",
+  "last_commit": "ad7ef81231db1437644c069113139ff6a4ef331d",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95197,12 +95197,54 @@
         },
         "start": "2026-06-16T23:22:51"
       },
+      "AS4242420218": {
+        "val": {
+          "as-name": "ELIPSION-AS",
+          "mnt-by": "ELIPSION-MNT"
+        },
+        "start": "2026-06-17T09:49:14"
+      },
       "AS4242422267": {
         "val": {
           "as-name": "MICROTEL",
           "mnt-by": "MICROTEL-MNT"
         },
         "start": "2026-06-17T17:08:54"
+      },
+      "AS4242422755": {
+        "val": {
+          "as-name": "AS-JONLSE-DN42",
+          "mnt-by": "JONL-MNT"
+        },
+        "start": "2026-06-17T19:29:35"
+      },
+      "AS4242422303": {
+        "val": {
+          "as-name": "AS-PAHEAL-DN42",
+          "mnt-by": "PAHEAL-MNT"
+        },
+        "start": "2026-06-17T21:05:30"
+      },
+      "AS4242420394": {
+        "val": {
+          "as-name": "AS-CHORDTOLL-DN42",
+          "mnt-by": "CHORDTOLL-MNT"
+        },
+        "start": "2026-06-18T02:04:06"
+      },
+      "AS4242421321": {
+        "val": {
+          "as-name": "AS-SMOA-DN42",
+          "mnt-by": "MAXSMOKESKAARJ-MNT"
+        },
+        "start": "2026-06-18T02:09:28"
+      },
+      "AS4242423988": {
+        "val": {
+          "as-name": "YYC-AS",
+          "mnt-by": "YYC-MNT"
+        },
+        "start": "2026-06-18T08:11:02"
       }
     },
     "dns": {
@@ -103671,6 +103713,36 @@
           "mnt-by": "PMC-MNT"
         },
         "start": "2026-06-16T23:22:51"
+      },
+      "elipsion.dn42": {
+        "val": {
+          "mnt-by": "ELIPSION-MNT"
+        },
+        "start": "2026-06-17T09:49:14"
+      },
+      "smokeofanarchy.dn42": {
+        "val": {
+          "mnt-by": "MAXSMOKESKAARJ-MNT"
+        },
+        "start": "2026-06-18T02:09:28"
+      },
+      "scam.dn42": {
+        "val": {
+          "mnt-by": "NAAIN-MNT"
+        },
+        "start": "2026-06-18T10:13:42"
+      },
+      "xn--cj8h.dn42": {
+        "val": {
+          "mnt-by": "SESS-MNT"
+        },
+        "start": "2026-06-18T10:42:35"
+      },
+      "soha.dn42": {
+        "val": {
+          "mnt-by": "SOHA-MNT"
+        },
+        "start": "2026-06-18T11:08:55"
       }
     },
     "mntner": {
@@ -117162,11 +117234,53 @@
         },
         "start": "2026-06-16T23:22:51"
       },
+      "ELIPSION-MNT": {
+        "val": {
+          "mntner": "ELIPSION-MNT"
+        },
+        "start": "2026-06-17T09:49:14"
+      },
       "MICROTEL-MNT": {
         "val": {
           "mntner": "MICROTEL-MNT"
         },
         "start": "2026-06-17T17:08:54"
+      },
+      "JONL-MNT": {
+        "val": {
+          "mntner": "JONL-MNT"
+        },
+        "start": "2026-06-17T19:29:35"
+      },
+      "PAHEAL-MNT": {
+        "val": {
+          "mntner": "PAHEAL-MNT"
+        },
+        "start": "2026-06-17T21:05:30"
+      },
+      "CHORDTOLL-MNT": {
+        "val": {
+          "mntner": "CHORDTOLL-MNT"
+        },
+        "start": "2026-06-18T02:04:06"
+      },
+      "MAXSMOKESKAARJ-MNT": {
+        "val": {
+          "mntner": "MAXSMOKESKAARJ-MNT"
+        },
+        "start": "2026-06-18T02:09:28"
+      },
+      "YYC-MNT": {
+        "val": {
+          "mntner": "YYC-MNT"
+        },
+        "start": "2026-06-18T08:11:02"
+      },
+      "SOHA-MNT": {
+        "val": {
+          "mntner": "SOHA-MNT"
+        },
+        "start": "2026-06-18T11:08:55"
       }
     },
     "registry": {
