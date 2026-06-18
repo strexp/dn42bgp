@@ -1,5 +1,5 @@
 {
-  "last_commit": "ad7ef81231db1437644c069113139ff6a4ef331d",
+  "last_commit": "fb9f085fc8c797a8eabe1fcee5e04470c52f8dd6",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95245,6 +95245,20 @@
           "mnt-by": "YYC-MNT"
         },
         "start": "2026-06-18T08:11:02"
+      },
+      "AS4242420019": {
+        "val": {
+          "as-name": "AS-CHAR-DN42",
+          "mnt-by": "CHAR-MNT"
+        },
+        "start": "2026-06-18T16:06:28"
+      },
+      "AS4201270024": {
+        "val": {
+          "as-name": "furry-as",
+          "mnt-by": "DN42-MNT"
+        },
+        "start": "2026-06-18T17:52:28"
       }
     },
     "dns": {
@@ -103743,6 +103757,12 @@
           "mnt-by": "SOHA-MNT"
         },
         "start": "2026-06-18T11:08:55"
+      },
+      "char.dn42": {
+        "val": {
+          "mnt-by": "CHAR-MNT"
+        },
+        "start": "2026-06-18T16:06:28"
       }
     },
     "mntner": {
@@ -117281,6 +117301,12 @@
           "mntner": "SOHA-MNT"
         },
         "start": "2026-06-18T11:08:55"
+      },
+      "CHAR-MNT": {
+        "val": {
+          "mntner": "CHAR-MNT"
+        },
+        "start": "2026-06-18T16:06:28"
       }
     },
     "registry": {
