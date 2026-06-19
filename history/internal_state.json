@@ -1,5 +1,5 @@
 {
-  "last_commit": "ec40b1f70fc0a1e981c23299eede308048645021",
+  "last_commit": "60e2f30dbbb3401be494270d1e5435858c311ce0",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -103763,6 +103763,12 @@
           "mnt-by": "CHAR-MNT"
         },
         "start": "2026-06-18T16:06:28"
+      },
+      "panda.dn42": {
+        "val": {
+          "mnt-by": "PANDA-MNT"
+        },
+        "start": "2026-06-19T02:18:12"
       }
     },
     "mntner": {
