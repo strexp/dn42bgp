@@ -1,5 +1,5 @@
 {
-  "last_commit": "60e2f30dbbb3401be494270d1e5435858c311ce0",
+  "last_commit": "9ca68c6d4c95820ce286748c5f999b7b31c56aa0",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95246,6 +95246,34 @@
         },
         "start": "2026-06-18T08:11:02"
       },
+      "AS11421": {
+        "val": {
+          "as-name": "HYWG-BACKBONE",
+          "mnt-by": "LOCYAN-MNT, XINYU-MNT"
+        },
+        "start": "2026-06-18T11:08:54"
+      },
+      "AS204211": {
+        "val": {
+          "as-name": "LOCYAN-NETWORK-AS",
+          "mnt-by": "LOCYAN-MNT"
+        },
+        "start": "2026-06-18T11:08:54"
+      },
+      "AS206069": {
+        "val": {
+          "as-name": "CORNSEED",
+          "mnt-by": "LOCYAN-MNT"
+        },
+        "start": "2026-06-18T11:08:54"
+      },
+      "AS402298": {
+        "val": {
+          "as-name": "CXIX-RS-AS",
+          "mnt-by": "LOCYAN-MNT, XINYU-MNT"
+        },
+        "start": "2026-06-18T11:08:54"
+      },
       "AS4242420019": {
         "val": {
           "as-name": "AS-CHAR-DN42",
@@ -95259,6 +95287,13 @@
           "mnt-by": "DN42-MNT"
         },
         "start": "2026-06-18T17:52:28"
+      },
+      "AS4242422686": {
+        "val": {
+          "as-name": "AS-ANDIBR",
+          "mnt-by": "ANDIBR-MNT"
+        },
+        "start": "2026-06-19T06:02:03"
       }
     },
     "dns": {
@@ -103764,11 +103799,29 @@
         },
         "start": "2026-06-18T16:06:28"
       },
+      "tel.dn42": {
+        "val": {
+          "mnt-by": "DN42-MNT"
+        },
+        "start": "2026-06-19T02:11:30"
+      },
       "panda.dn42": {
         "val": {
           "mnt-by": "PANDA-MNT"
         },
         "start": "2026-06-19T02:18:12"
+      },
+      "ipxo.dn42": {
+        "val": {
+          "mnt-by": "RUIFENG-MNT"
+        },
+        "start": "2026-06-19T06:25:25"
+      },
+      "ml.dn42": {
+        "val": {
+          "mnt-by": "ML-MNT"
+        },
+        "start": "2026-06-19T11:44:52"
       }
     },
     "mntner": {
@@ -117313,6 +117366,12 @@
           "mntner": "CHAR-MNT"
         },
         "start": "2026-06-18T16:06:28"
+      },
+      "ANDIBR-MNT": {
+        "val": {
+          "mntner": "ANDIBR-MNT"
+        },
+        "start": "2026-06-19T06:02:03"
       }
     },
     "registry": {
@@ -119036,6 +119095,13 @@
           "mnt-by": "ATHA-MNT"
         },
         "start": "2026-06-12T23:11:19"
+      },
+      "ORG-HYW": {
+        "val": {
+          "org-name": "HYW GLOBAL LLC",
+          "mnt-by": "LOCYAN-MNT, XINYU-MNT"
+        },
+        "start": "2026-06-18T11:08:54"
       }
     }
   }
