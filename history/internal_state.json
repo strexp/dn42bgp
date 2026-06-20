@@ -1,5 +1,5 @@
 {
-  "last_commit": "513f7dfb406b26282d0fba005b21f69adbb6a9aa",
+  "last_commit": "1f5a034d6c41242b78c72f8bc5d035e7f71f4806",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95309,6 +95309,13 @@
           "mnt-by": "A5Z942-MNT"
         },
         "start": "2026-06-19T13:46:18"
+      },
+      "AS4242421527": {
+        "val": {
+          "as-name": "NEBOTOV",
+          "mnt-by": "NEBOTOV-MNT"
+        },
+        "start": "2026-06-19T20:51:46"
       }
     },
     "dns": {
@@ -117393,6 +117400,12 @@
           "mntner": "A5Z942-MNT"
         },
         "start": "2026-06-19T13:46:18"
+      },
+      "NEBOTOV-MNT": {
+        "val": {
+          "mntner": "NEBOTOV-MNT"
+        },
+        "start": "2026-06-19T20:51:46"
       }
     },
     "registry": {
