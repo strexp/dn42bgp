@@ -1,5 +1,5 @@
 {
-  "last_commit": "f0243b5d1571708f02dbb9eb63e7d4c81b718af3",
+  "last_commit": "1189c1dd9920678444fb1db2379a89cd9afe1150",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95316,6 +95316,20 @@
           "mnt-by": "NEBOTOV-MNT"
         },
         "start": "2026-06-19T20:51:46"
+      },
+      "AS4242420504": {
+        "val": {
+          "as-name": "ANDREW-AS",
+          "mnt-by": "ANDREW-MNT"
+        },
+        "start": "2026-06-20T22:02:32"
+      },
+      "AS4242421357": {
+        "val": {
+          "as-name": "YUNHAN-AS",
+          "mnt-by": "YUNHAN-MNT"
+        },
+        "start": "2026-06-21T11:51:42"
       }
     },
     "dns": {
@@ -103844,6 +103858,36 @@
           "mnt-by": "ML-MNT"
         },
         "start": "2026-06-19T11:44:52"
+      },
+      "andrew.dn42": {
+        "val": {
+          "mnt-by": "ANDREW-MNT"
+        },
+        "start": "2026-06-20T22:02:32"
+      },
+      "fennec.dn42": {
+        "val": {
+          "mnt-by": "KITLOTOR-MNT"
+        },
+        "start": "2026-06-21T00:24:59"
+      },
+      "zombofant.dn42": {
+        "val": {
+          "mnt-by": "JSSFR-MNT"
+        },
+        "start": "2026-06-21T07:24:08"
+      },
+      "madpenguin.dn42": {
+        "val": {
+          "mnt-by": "MADPENGUIN-MNT"
+        },
+        "start": "2026-06-21T10:26:24"
+      },
+      "yunhan.dn42": {
+        "val": {
+          "mnt-by": "YUNHAN-MNT"
+        },
+        "start": "2026-06-21T11:51:42"
       }
     },
     "mntner": {
@@ -117406,6 +117450,18 @@
           "mntner": "NEBOTOV-MNT"
         },
         "start": "2026-06-19T20:51:46"
+      },
+      "ANDREW-MNT": {
+        "val": {
+          "mntner": "ANDREW-MNT"
+        },
+        "start": "2026-06-20T22:02:32"
+      },
+      "YUNHAN-MNT": {
+        "val": {
+          "mntner": "YUNHAN-MNT"
+        },
+        "start": "2026-06-21T11:51:42"
       }
     },
     "registry": {
