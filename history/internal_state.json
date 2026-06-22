@@ -1,5 +1,5 @@
 {
-  "last_commit": "0fc05a6e33404793e3dae1a5a0b49a18be3cd5d4",
+  "last_commit": "017f799d713d67009b33d5c6611a7eaa7091e41e",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95317,6 +95317,13 @@
         },
         "start": "2026-06-19T20:51:46"
       },
+      "AS4242423133": {
+        "val": {
+          "as-name": "AS-FROST-DN42",
+          "mnt-by": "FROST-MNT"
+        },
+        "start": "2026-06-20T20:32:10"
+      },
       "AS4242420504": {
         "val": {
           "as-name": "ANDREW-AS",
@@ -95330,6 +95337,13 @@
           "mnt-by": "YUNHAN-MNT"
         },
         "start": "2026-06-21T11:51:42"
+      },
+      "AS4242423713": {
+        "val": {
+          "as-name": "QTEA-AS",
+          "mnt-by": "QTEA-MNT"
+        },
+        "start": "2026-06-22T06:07:07"
       }
     },
     "dns": {
@@ -117463,6 +117477,12 @@
         },
         "start": "2026-06-19T20:51:46"
       },
+      "FROST-MNT": {
+        "val": {
+          "mntner": "FROST-MNT"
+        },
+        "start": "2026-06-20T20:32:10"
+      },
       "ANDREW-MNT": {
         "val": {
           "mntner": "ANDREW-MNT"
@@ -117474,6 +117494,12 @@
           "mntner": "YUNHAN-MNT"
         },
         "start": "2026-06-21T11:51:42"
+      },
+      "QTEA-MNT": {
+        "val": {
+          "mntner": "QTEA-MNT"
+        },
+        "start": "2026-06-22T06:07:07"
       }
     },
     "registry": {
