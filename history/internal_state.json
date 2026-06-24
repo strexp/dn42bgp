@@ -1,5 +1,5 @@
 {
-  "last_commit": "3401a11cc123062b197ac5b913d62237371e79a1",
+  "last_commit": "98a5eeee5e1f8d4b6b1a1fd28b1d04ee07bb42b9",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -5206,6 +5206,14 @@
           },
           "start": "2018-02-25T18:36:09",
           "end": "2024-10-17T10:41:42"
+        },
+        {
+          "value": {
+            "as-name": "CREEPERISASPY-AS",
+            "mnt-by": "CREEPERISASPY-MNT"
+          },
+          "start": "2025-07-28T05:09:43",
+          "end": "2026-06-24T12:58:35"
         }
       ],
       "AS4242420339": [
@@ -71368,6 +71376,15 @@
           "start": "2024-08-18T19:40:14",
           "end": "2026-06-14T22:01:56"
         }
+      ],
+      "CREEPERISASPY-MNT": [
+        {
+          "value": {
+            "mntner": "CREEPERISASPY-MNT"
+          },
+          "start": "2025-07-28T05:09:43",
+          "end": "2026-06-24T12:58:35"
+        }
       ]
     },
     "registry": {
@@ -91180,13 +91197,6 @@
         },
         "start": "2025-07-28T03:02:15"
       },
-      "AS4242420334": {
-        "val": {
-          "as-name": "CREEPERISASPY-AS",
-          "mnt-by": "CREEPERISASPY-MNT"
-        },
-        "start": "2025-07-28T05:09:43"
-      },
       "AS4242421142": {
         "val": {
           "as-name": "LJF-AS",
@@ -95344,6 +95354,41 @@
           "mnt-by": "QTEA-MNT"
         },
         "start": "2026-06-22T06:07:07"
+      },
+      "AS4242421113": {
+        "val": {
+          "as-name": "StarLink",
+          "mnt-by": "LINRAN-MNT"
+        },
+        "start": "2026-06-22T11:19:55"
+      },
+      "AS4242423920": {
+        "val": {
+          "as-name": "AS-KELLY-DN42",
+          "mnt-by": "KELLY-MNT"
+        },
+        "start": "2026-06-24T09:45:20"
+      },
+      "AS4242420406": {
+        "val": {
+          "as-name": "AS-D863-DN42",
+          "mnt-by": "D863-MNT"
+        },
+        "start": "2026-06-24T11:08:59"
+      },
+      "AS4242422342": {
+        "val": {
+          "as-name": "AS-AFICS-NET-DN42",
+          "mnt-by": "AFICS-MNT"
+        },
+        "start": "2026-06-24T12:00:05"
+      },
+      "AS4242421738": {
+        "val": {
+          "as-name": "NECLYON-AS",
+          "mnt-by": "NECLYON-MNT"
+        },
+        "start": "2026-06-24T12:58:35"
       }
     },
     "dns": {
@@ -103914,6 +103959,18 @@
           "mnt-by": "DIFFUMIST-MNT"
         },
         "start": "2026-06-21T18:39:35"
+      },
+      "sabrina.dn42": {
+        "val": {
+          "mnt-by": "SABRINA-MNT"
+        },
+        "start": "2026-06-24T07:44:22"
+      },
+      "d863.dn42": {
+        "val": {
+          "mnt-by": "D863-MNT"
+        },
+        "start": "2026-06-24T11:08:59"
       }
     },
     "mntner": {
@@ -113997,12 +114054,6 @@
         },
         "start": "2025-07-28T03:02:15"
       },
-      "CREEPERISASPY-MNT": {
-        "val": {
-          "mntner": "CREEPERISASPY-MNT"
-        },
-        "start": "2025-07-28T05:09:43"
-      },
       "LJF-MNT": {
         "val": {
           "mntner": "LJF-MNT"
@@ -117500,6 +117551,36 @@
           "mntner": "QTEA-MNT"
         },
         "start": "2026-06-22T06:07:07"
+      },
+      "LINRAN-MNT": {
+        "val": {
+          "mntner": "LINRAN-MNT"
+        },
+        "start": "2026-06-22T11:19:55"
+      },
+      "KELLY-MNT": {
+        "val": {
+          "mntner": "KELLY-MNT"
+        },
+        "start": "2026-06-24T09:45:20"
+      },
+      "D863-MNT": {
+        "val": {
+          "mntner": "D863-MNT"
+        },
+        "start": "2026-06-24T11:08:59"
+      },
+      "AFICS-MNT": {
+        "val": {
+          "mntner": "AFICS-MNT"
+        },
+        "start": "2026-06-24T12:00:05"
+      },
+      "NECLYON-MNT": {
+        "val": {
+          "mntner": "NECLYON-MNT"
+        },
+        "start": "2026-06-24T12:58:35"
       }
     },
     "registry": {
