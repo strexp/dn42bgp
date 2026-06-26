@@ -1,5 +1,5 @@
 {
-  "last_commit": "ba1d96e2fab35bff7841b8aae32f3d35e8225574",
+  "last_commit": "40000802c70708c96b50a1ba176f9c5354b59bfd",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -3308,6 +3308,14 @@
           },
           "start": "2018-02-25T18:36:09",
           "end": "2024-10-17T10:41:42"
+        },
+        {
+          "value": {
+            "as-name": "XYCHAN-AS",
+            "mnt-by": "XYCHAN-MNT"
+          },
+          "start": "2025-06-08T03:19:06",
+          "end": "2026-06-26T12:57:59"
         }
       ],
       "AS4242420112": [
@@ -18596,6 +18604,14 @@
           },
           "start": "2018-02-25T18:36:09",
           "end": "2024-10-14T17:43:58"
+        },
+        {
+          "value": {
+            "as-name": "ICEBYTE-AS",
+            "mnt-by": "ICEBYTE-MNT"
+          },
+          "start": "2025-05-16T16:22:11",
+          "end": "2026-06-26T11:27:22"
         }
       ],
       "AS4242423905": [
@@ -44509,6 +44525,15 @@
           },
           "start": "2025-12-24T08:58:08",
           "end": "2026-06-26T09:58:42"
+        }
+      ],
+      "icebyte.dn42": [
+        {
+          "value": {
+            "mnt-by": "ICEBYTE-MNT"
+          },
+          "start": "2025-05-16T16:22:11",
+          "end": "2026-06-26T11:27:22"
         }
       ]
     },
@@ -71429,6 +71454,24 @@
           "start": "2024-12-22T18:04:37",
           "end": "2026-06-26T09:58:42"
         }
+      ],
+      "ICEBYTE-MNT": [
+        {
+          "value": {
+            "mntner": "ICEBYTE-MNT"
+          },
+          "start": "2025-05-16T16:22:11",
+          "end": "2026-06-26T11:27:22"
+        }
+      ],
+      "XYCHAN-MNT": [
+        {
+          "value": {
+            "mntner": "XYCHAN-MNT"
+          },
+          "start": "2025-06-08T03:19:06",
+          "end": "2026-06-26T12:57:59"
+        }
       ]
     },
     "registry": {
@@ -90396,10 +90439,10 @@
       },
       "AS4242423904": {
         "val": {
-          "as-name": "ICEBYTE-AS",
-          "mnt-by": "ICEBYTE-MNT"
+          "as-name": "NOX-AS",
+          "mnt-by": "NOX-MNT"
         },
-        "start": "2025-05-16T16:22:11"
+        "start": "2026-06-26T11:27:22"
       },
       "AS4242420426": {
         "val": {
@@ -90690,10 +90733,10 @@
       },
       "AS4242420111": {
         "val": {
-          "as-name": "XYCHAN-AS",
-          "mnt-by": "XYCHAN-MNT"
+          "as-name": "SAKARIN-NETWORK",
+          "mnt-by": "SAKARIN-MNT"
         },
-        "start": "2025-06-08T03:19:06"
+        "start": "2026-06-26T12:57:59"
       },
       "AS4242422594": {
         "val": {
@@ -95461,6 +95504,13 @@
           "mnt-by": "KY-MNT"
         },
         "start": "2026-06-26T08:15:08"
+      },
+      "AS219378": {
+        "val": {
+          "as-name": "SAKARIN-NETWORK",
+          "mnt-by": "SAKARIN-MNT"
+        },
+        "start": "2026-06-26T12:57:59"
       }
     },
     "dns": {
@@ -101650,12 +101700,6 @@
         },
         "start": "2025-05-13T11:12:48"
       },
-      "icebyte.dn42": {
-        "val": {
-          "mnt-by": "ICEBYTE-MNT"
-        },
-        "start": "2025-05-16T16:22:11"
-      },
       "pysio.dn42": {
         "val": {
           "mnt-by": "PYSIO-MNT"
@@ -104061,6 +104105,18 @@
           "mnt-by": "NEXUS-MNT"
         },
         "start": "2026-06-26T09:58:42"
+      },
+      "nox.dn42": {
+        "val": {
+          "mnt-by": "NOX-MNT"
+        },
+        "start": "2026-06-26T11:27:22"
+      },
+      "redearth.dn42": {
+        "val": {
+          "mnt-by": "REDEARTH-MNT"
+        },
+        "start": "2026-06-26T12:07:25"
       }
     },
     "mntner": {
@@ -113412,12 +113468,6 @@
         },
         "start": "2025-05-14T05:08:32"
       },
-      "ICEBYTE-MNT": {
-        "val": {
-          "mntner": "ICEBYTE-MNT"
-        },
-        "start": "2025-05-16T16:22:11"
-      },
       "SYNERGYMONKE213-MNT": {
         "val": {
           "mntner": "SYNERGYMONKE213-MNT"
@@ -113651,12 +113701,6 @@
           "mntner": "ZAPHYRA-MNT"
         },
         "start": "2025-06-07T23:00:41"
-      },
-      "XYCHAN-MNT": {
-        "val": {
-          "mntner": "XYCHAN-MNT"
-        },
-        "start": "2025-06-08T03:19:06"
       },
       "POLYGON-MNT": {
         "val": {
@@ -117695,6 +117739,18 @@
           "mntner": "NEXUS-MNT"
         },
         "start": "2026-06-26T09:58:42"
+      },
+      "NOX-MNT": {
+        "val": {
+          "mntner": "NOX-MNT"
+        },
+        "start": "2026-06-26T11:27:22"
+      },
+      "SAKARIN-MNT": {
+        "val": {
+          "mntner": "SAKARIN-MNT"
+        },
+        "start": "2026-06-26T12:57:59"
       }
     },
     "registry": {
