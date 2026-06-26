@@ -1,5 +1,5 @@
 {
-  "last_commit": "002f00e9eea4478dfff913e2043c5c200cc692db",
+  "last_commit": "a3e023e5463859d4124272e4f30fc825dca0b039",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95389,6 +95389,13 @@
           "mnt-by": "NECLYON-MNT"
         },
         "start": "2026-06-24T12:58:35"
+      },
+      "AS4242421668": {
+        "val": {
+          "as-name": "YIYI5-AS",
+          "mnt-by": "YIYI5-MNT"
+        },
+        "start": "2026-06-24T14:33:51"
       }
     },
     "dns": {
@@ -117587,6 +117594,12 @@
           "mntner": "NECLYON-MNT"
         },
         "start": "2026-06-24T12:58:35"
+      },
+      "YIYI5-MNT": {
+        "val": {
+          "mntner": "YIYI5-MNT"
+        },
+        "start": "2026-06-24T14:33:51"
       }
     },
     "registry": {
