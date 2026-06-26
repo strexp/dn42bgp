@@ -1,5 +1,5 @@
 {
-  "last_commit": "40000802c70708c96b50a1ba176f9c5354b59bfd",
+  "last_commit": "cc087f3b7d8349a12d6fed053477455dac5adfe0",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -104117,6 +104117,12 @@
           "mnt-by": "REDEARTH-MNT"
         },
         "start": "2026-06-26T12:07:25"
+      },
+      "yp.dn42": {
+        "val": {
+          "mnt-by": "NIA-MNT"
+        },
+        "start": "2026-06-26T15:13:30"
       }
     },
     "mntner": {
