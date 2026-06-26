@@ -1,5 +1,5 @@
 {
-  "last_commit": "a3e023e5463859d4124272e4f30fc825dca0b039",
+  "last_commit": "ba1d96e2fab35bff7841b8aae32f3d35e8225574",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -10102,6 +10102,14 @@
           },
           "start": "2018-02-25T18:36:09",
           "end": "2024-10-14T17:43:58"
+        },
+        {
+          "value": {
+            "as-name": "AS-DUSTSTARS-DN42",
+            "mnt-by": "DUSTSTARS-MNT"
+          },
+          "start": "2024-12-22T18:04:37",
+          "end": "2026-06-26T09:58:42"
         }
       ],
       "AS4242421776": [
@@ -44475,6 +44483,33 @@
           "start": "2026-01-06T23:05:23",
           "end": "2026-06-14T22:01:56"
         }
+      ],
+      "chat.dn42": [
+        {
+          "value": {
+            "mnt-by": "DUSTSTARS-MNT"
+          },
+          "start": "2026-03-15T14:35:29",
+          "end": "2026-06-26T09:58:42"
+        }
+      ],
+      "duststars.dn42": [
+        {
+          "value": {
+            "mnt-by": "DUSTSTARS-MNT"
+          },
+          "start": "2024-12-22T18:04:37",
+          "end": "2026-06-26T09:58:42"
+        }
+      ],
+      "ping.dn42": [
+        {
+          "value": {
+            "mnt-by": "DUSTSTARS-MNT"
+          },
+          "start": "2025-12-24T08:58:08",
+          "end": "2026-06-26T09:58:42"
+        }
       ]
     },
     "mntner": {
@@ -71385,6 +71420,15 @@
           "start": "2025-07-28T05:09:43",
           "end": "2026-06-24T12:58:35"
         }
+      ],
+      "DUSTSTARS-MNT": [
+        {
+          "value": {
+            "mntner": "DUSTSTARS-MNT"
+          },
+          "start": "2024-12-22T18:04:37",
+          "end": "2026-06-26T09:58:42"
+        }
       ]
     },
     "registry": {
@@ -89092,10 +89136,10 @@
       },
       "AS4242421771": {
         "val": {
-          "as-name": "AS-DUSTSTARS-DN42",
-          "mnt-by": "DUSTSTARS-MNT"
+          "as-name": "NEXUS-AS",
+          "mnt-by": "NEXUS-MNT"
         },
-        "start": "2024-12-22T18:04:37"
+        "start": "2026-06-26T09:58:42"
       },
       "AS4242422266": {
         "val": {
@@ -95396,6 +95440,27 @@
           "mnt-by": "YIYI5-MNT"
         },
         "start": "2026-06-24T14:33:51"
+      },
+      "AS4242420063": {
+        "val": {
+          "as-name": "AS-TRUEMIND-DN42",
+          "mnt-by": "TRUEMIND-MNT"
+        },
+        "start": "2026-06-25T21:54:52"
+      },
+      "AS4242422115": {
+        "val": {
+          "as-name": "AS-POPETER-DN42",
+          "mnt-by": "POPETER-MNT"
+        },
+        "start": "2026-06-26T00:11:48"
+      },
+      "AS4242420313": {
+        "val": {
+          "as-name": "AS-KY-DN42",
+          "mnt-by": "KY-MNT"
+        },
+        "start": "2026-06-26T08:15:08"
       }
     },
     "dns": {
@@ -101051,12 +101116,6 @@
         },
         "start": "2024-12-22T08:45:13"
       },
-      "duststars.dn42": {
-        "val": {
-          "mnt-by": "DUSTSTARS-MNT"
-        },
-        "start": "2024-12-22T18:04:37"
-      },
       "as4242422002.dn42": {
         "val": {
           "mnt-by": "9PFS-MNT"
@@ -102721,9 +102780,9 @@
       },
       "ping.dn42": {
         "val": {
-          "mnt-by": "DUSTSTARS-MNT"
+          "mnt-by": "NEXUS-MNT"
         },
-        "start": "2025-12-24T08:58:08"
+        "start": "2026-06-26T09:58:42"
       },
       "al68infra.dn42": {
         "val": {
@@ -103261,9 +103320,9 @@
       },
       "chat.dn42": {
         "val": {
-          "mnt-by": "DUSTSTARS-MNT"
+          "mnt-by": "NEXUS-MNT"
         },
-        "start": "2026-03-15T14:35:29"
+        "start": "2026-06-26T09:58:42"
       },
       "sst.dn42": {
         "val": {
@@ -103984,6 +104043,24 @@
           "mnt-by": "SILENTY4NG-MNT"
         },
         "start": "2026-06-24T14:17:46"
+      },
+      "msz.dn42": {
+        "val": {
+          "mnt-by": "MSZ-MNT"
+        },
+        "start": "2026-06-25T19:18:37"
+      },
+      "ky.dn42": {
+        "val": {
+          "mnt-by": "KY-MNT"
+        },
+        "start": "2026-06-26T08:15:08"
+      },
+      "nexus.dn42": {
+        "val": {
+          "mnt-by": "NEXUS-MNT"
+        },
+        "start": "2026-06-26T09:58:42"
       }
     },
     "mntner": {
@@ -112291,12 +112368,6 @@
         },
         "start": "2024-12-22T01:24:46"
       },
-      "DUSTSTARS-MNT": {
-        "val": {
-          "mntner": "DUSTSTARS-MNT"
-        },
-        "start": "2024-12-22T18:04:37"
-      },
       "ADAMCIRILLO-MNT": {
         "val": {
           "mntner": "ADAMCIRILLO-MNT"
@@ -117600,6 +117671,30 @@
           "mntner": "YIYI5-MNT"
         },
         "start": "2026-06-24T14:33:51"
+      },
+      "TRUEMIND-MNT": {
+        "val": {
+          "mntner": "TRUEMIND-MNT"
+        },
+        "start": "2026-06-25T21:54:52"
+      },
+      "POPETER-MNT": {
+        "val": {
+          "mntner": "POPETER-MNT"
+        },
+        "start": "2026-06-26T00:11:48"
+      },
+      "KY-MNT": {
+        "val": {
+          "mntner": "KY-MNT"
+        },
+        "start": "2026-06-26T08:15:08"
+      },
+      "NEXUS-MNT": {
+        "val": {
+          "mntner": "NEXUS-MNT"
+        },
+        "start": "2026-06-26T09:58:42"
       }
     },
     "registry": {
