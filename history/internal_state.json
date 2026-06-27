@@ -1,5 +1,5 @@
 {
-  "last_commit": "132ff8c87271871c4e39a7220688ef29897f1d31",
+  "last_commit": "3cdc5e96319c57e644b1bcc8ad5101b9c2a9c0bc",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95512,6 +95512,13 @@
         },
         "start": "2026-06-26T12:57:59"
       },
+      "AS4242420078": {
+        "val": {
+          "as-name": "TES286-AS",
+          "mnt-by": "TES286-MNT"
+        },
+        "start": "2026-06-26T16:25:21"
+      },
       "AS4242422175": {
         "val": {
           "as-name": "RATING3PRO-AS",
@@ -95532,6 +95539,27 @@
           "mnt-by": "QYQY-MNT"
         },
         "start": "2026-06-27T14:22:30"
+      },
+      "AS4242422567": {
+        "val": {
+          "as-name": "AS-JANUSZ-DN42",
+          "mnt-by": "JANUSZ-MNT"
+        },
+        "start": "2026-06-27T16:11:04"
+      },
+      "AS4242422248": {
+        "val": {
+          "as-name": "AS-GABRIEL-GGR",
+          "mnt-by": "GABRIEL-MNT"
+        },
+        "start": "2026-06-27T19:55:16"
+      },
+      "AS4242420550": {
+        "val": {
+          "as-name": "AS-IMIMIM-DN42",
+          "mnt-by": "IMIMIM-MNT"
+        },
+        "start": "2026-06-27T20:22:10"
       }
     },
     "dns": {
@@ -104145,11 +104173,23 @@
         },
         "start": "2026-06-26T15:13:30"
       },
+      "tes286.dn42": {
+        "val": {
+          "mnt-by": "TES286-MNT"
+        },
+        "start": "2026-06-26T16:25:21"
+      },
       "nlgld.dn42": {
         "val": {
           "mnt-by": "NLGLD-MNT"
         },
         "start": "2026-06-26T21:30:02"
+      },
+      "imimim.dn42": {
+        "val": {
+          "mnt-by": "IMIMIM-MNT"
+        },
+        "start": "2026-06-27T20:22:10"
       }
     },
     "mntner": {
@@ -117785,6 +117825,12 @@
         },
         "start": "2026-06-26T12:57:59"
       },
+      "TES286-MNT": {
+        "val": {
+          "mntner": "TES286-MNT"
+        },
+        "start": "2026-06-26T16:25:21"
+      },
       "RATING3PRO-MNT": {
         "val": {
           "mntner": "RATING3PRO-MNT"
@@ -117802,6 +117848,24 @@
           "mntner": "QYQY-MNT"
         },
         "start": "2026-06-27T14:22:30"
+      },
+      "JANUSZ-MNT": {
+        "val": {
+          "mntner": "JANUSZ-MNT"
+        },
+        "start": "2026-06-27T16:11:04"
+      },
+      "GABRIEL-MNT": {
+        "val": {
+          "mntner": "GABRIEL-MNT"
+        },
+        "start": "2026-06-27T19:55:16"
+      },
+      "IMIMIM-MNT": {
+        "val": {
+          "mntner": "IMIMIM-MNT"
+        },
+        "start": "2026-06-27T20:22:10"
       }
     },
     "registry": {
