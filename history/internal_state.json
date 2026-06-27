@@ -1,5 +1,5 @@
 {
-  "last_commit": "331273347ecbf3026ebcc07774c2e0445f88b458",
+  "last_commit": "132ff8c87271871c4e39a7220688ef29897f1d31",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95525,6 +95525,13 @@
           "mnt-by": "HIIRO-MNT"
         },
         "start": "2026-06-27T09:39:17"
+      },
+      "AS4242420191": {
+        "val": {
+          "as-name": "QYQY-AS",
+          "mnt-by": "QYQY-MNT"
+        },
+        "start": "2026-06-27T14:22:30"
       }
     },
     "dns": {
@@ -117789,6 +117796,12 @@
           "mntner": "HIIRO-MNT"
         },
         "start": "2026-06-27T09:39:17"
+      },
+      "QYQY-MNT": {
+        "val": {
+          "mntner": "QYQY-MNT"
+        },
+        "start": "2026-06-27T14:22:30"
       }
     },
     "registry": {
