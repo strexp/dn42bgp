@@ -1,5 +1,5 @@
 {
-  "last_commit": "d7f69206233f0d8393fb5dd55bbdee56eff67bc8",
+  "last_commit": "331273347ecbf3026ebcc07774c2e0445f88b458",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95511,6 +95511,20 @@
           "mnt-by": "SAKARIN-MNT"
         },
         "start": "2026-06-26T12:57:59"
+      },
+      "AS4242422175": {
+        "val": {
+          "as-name": "RATING3PRO-AS",
+          "mnt-by": "RATING3PRO-MNT"
+        },
+        "start": "2026-06-27T03:33:14"
+      },
+      "AS4242422057": {
+        "val": {
+          "as-name": "HIIRO-NET",
+          "mnt-by": "HIIRO-MNT"
+        },
+        "start": "2026-06-27T09:39:17"
       }
     },
     "dns": {
@@ -117763,6 +117777,18 @@
           "mntner": "SAKARIN-MNT"
         },
         "start": "2026-06-26T12:57:59"
+      },
+      "RATING3PRO-MNT": {
+        "val": {
+          "mntner": "RATING3PRO-MNT"
+        },
+        "start": "2026-06-27T03:33:14"
+      },
+      "HIIRO-MNT": {
+        "val": {
+          "mntner": "HIIRO-MNT"
+        },
+        "start": "2026-06-27T09:39:17"
       }
     },
     "registry": {
