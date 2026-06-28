@@ -1,5 +1,5 @@
 {
-  "last_commit": "1a59998fdbe9e8d0c7d3ec847d7e23aed57baf4a",
+  "last_commit": "47588740ca4fade73f52a1ac105babb759e8354c",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95581,6 +95581,13 @@
           "mnt-by": "TIJN-MNT"
         },
         "start": "2026-06-28T13:41:52"
+      },
+      "AS4242420082": {
+        "val": {
+          "as-name": "VLAN1-AS",
+          "mnt-by": "VLAN1-MNT"
+        },
+        "start": "2026-06-28T16:59:14"
       }
     },
     "dns": {
@@ -104211,6 +104218,12 @@
           "mnt-by": "IMIMIM-MNT"
         },
         "start": "2026-06-27T20:22:10"
+      },
+      "vlan1.dn42": {
+        "val": {
+          "mnt-by": "VLAN1-MNT"
+        },
+        "start": "2026-06-28T16:59:14"
       }
     },
     "mntner": {
@@ -117905,6 +117918,12 @@
           "mntner": "TIJN-MNT"
         },
         "start": "2026-06-28T13:41:52"
+      },
+      "VLAN1-MNT": {
+        "val": {
+          "mntner": "VLAN1-MNT"
+        },
+        "start": "2026-06-28T16:59:14"
       }
     },
     "registry": {
