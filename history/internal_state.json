@@ -1,5 +1,5 @@
 {
-  "last_commit": "306cd9a25e4a60a5da456241114c9be040cb7928",
+  "last_commit": "1a59998fdbe9e8d0c7d3ec847d7e23aed57baf4a",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95574,6 +95574,13 @@
           "mnt-by": "FYAZ-MNT"
         },
         "start": "2026-06-28T09:53:58"
+      },
+      "AS4242421550": {
+        "val": {
+          "as-name": "TIJN-AS",
+          "mnt-by": "TIJN-MNT"
+        },
+        "start": "2026-06-28T13:41:52"
       }
     },
     "dns": {
@@ -117892,6 +117899,12 @@
           "mntner": "FYAZ-MNT"
         },
         "start": "2026-06-28T09:53:58"
+      },
+      "TIJN-MNT": {
+        "val": {
+          "mntner": "TIJN-MNT"
+        },
+        "start": "2026-06-28T13:41:52"
       }
     },
     "registry": {
