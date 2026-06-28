@@ -1,5 +1,5 @@
 {
-  "last_commit": "ca01f861c8820a7b9d190a5f1a601e5e8471500f",
+  "last_commit": "306cd9a25e4a60a5da456241114c9be040cb7928",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95567,6 +95567,13 @@
           "mnt-by": "WILDY-MNT"
         },
         "start": "2026-06-27T22:03:33"
+      },
+      "AS4242420072": {
+        "val": {
+          "as-name": "MUMBAI-BGP-LAB",
+          "mnt-by": "FYAZ-MNT"
+        },
+        "start": "2026-06-28T09:53:58"
       }
     },
     "dns": {
@@ -117879,6 +117886,12 @@
           "mntner": "WILDY-MNT"
         },
         "start": "2026-06-27T22:03:33"
+      },
+      "FYAZ-MNT": {
+        "val": {
+          "mntner": "FYAZ-MNT"
+        },
+        "start": "2026-06-28T09:53:58"
       }
     },
     "registry": {
