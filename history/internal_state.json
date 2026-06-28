@@ -1,5 +1,5 @@
 {
-  "last_commit": "3cdc5e96319c57e644b1bcc8ad5101b9c2a9c0bc",
+  "last_commit": "ca01f861c8820a7b9d190a5f1a601e5e8471500f",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95560,6 +95560,13 @@
           "mnt-by": "IMIMIM-MNT"
         },
         "start": "2026-06-27T20:22:10"
+      },
+      "AS4242420071": {
+        "val": {
+          "as-name": "WILDY-AS",
+          "mnt-by": "WILDY-MNT"
+        },
+        "start": "2026-06-27T22:03:33"
       }
     },
     "dns": {
@@ -117866,6 +117873,12 @@
           "mntner": "IMIMIM-MNT"
         },
         "start": "2026-06-27T20:22:10"
+      },
+      "WILDY-MNT": {
+        "val": {
+          "mntner": "WILDY-MNT"
+        },
+        "start": "2026-06-27T22:03:33"
       }
     },
     "registry": {
