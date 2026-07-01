@@ -1,5 +1,5 @@
 {
-  "last_commit": "1c68996d31d63c3042565364f885f6f580dcc53f",
+  "last_commit": "d0cfe184727620db1604158ec9147f29461510ec",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95623,6 +95623,13 @@
           "mnt-by": "SAMA-MACONHA-MNT"
         },
         "start": "2026-06-30T14:16:34"
+      },
+      "AS4242423280": {
+        "val": {
+          "as-name": "PETROVA-AS",
+          "mnt-by": "PETROVA-MNT"
+        },
+        "start": "2026-06-30T23:56:21"
       }
     },
     "dns": {
@@ -104259,6 +104266,18 @@
           "mnt-by": "VLAN1-MNT"
         },
         "start": "2026-06-28T16:59:14"
+      },
+      "petrova.dn42": {
+        "val": {
+          "mnt-by": "PETROVA-MNT"
+        },
+        "start": "2026-06-30T23:56:21"
+      },
+      "gabrielggr.dn42": {
+        "val": {
+          "mnt-by": "GABRIEL-MNT"
+        },
+        "start": "2026-07-01T02:33:14"
       }
     },
     "mntner": {
@@ -117989,6 +118008,12 @@
           "mntner": "SAMA-MACONHA-MNT"
         },
         "start": "2026-06-30T14:16:34"
+      },
+      "PETROVA-MNT": {
+        "val": {
+          "mntner": "PETROVA-MNT"
+        },
+        "start": "2026-06-30T23:56:21"
       }
     },
     "registry": {
