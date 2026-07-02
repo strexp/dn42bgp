@@ -1,5 +1,5 @@
 {
-  "last_commit": "ca5c461bac6ad2b545944ac493e75e2f777fc23f",
+  "last_commit": "3cd236a18cdd141e7d20811494600505807f8011",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95630,6 +95630,20 @@
           "mnt-by": "PETROVA-MNT"
         },
         "start": "2026-06-30T23:56:21"
+      },
+      "AS4242421555": {
+        "val": {
+          "as-name": "AS-DRAGON-DN42",
+          "mnt-by": "DRAGON-MNT"
+        },
+        "start": "2026-07-01T23:57:31"
+      },
+      "AS4242420085": {
+        "val": {
+          "as-name": "SeasonCloud",
+          "mnt-by": "SEASONCLOUD-MNT"
+        },
+        "start": "2026-07-02T05:06:11"
       }
     },
     "dns": {
@@ -118014,6 +118028,18 @@
           "mntner": "PETROVA-MNT"
         },
         "start": "2026-06-30T23:56:21"
+      },
+      "DRAGON-MNT": {
+        "val": {
+          "mntner": "DRAGON-MNT"
+        },
+        "start": "2026-07-01T23:57:31"
+      },
+      "SEASONCLOUD-MNT": {
+        "val": {
+          "mntner": "SEASONCLOUD-MNT"
+        },
+        "start": "2026-07-02T05:06:11"
       }
     },
     "registry": {
