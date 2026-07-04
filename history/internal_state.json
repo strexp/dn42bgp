@@ -1,5 +1,5 @@
 {
-  "last_commit": "4a291363db5dbb145bfb4c7f8d937766b98edab1",
+  "last_commit": "459bab2ccf5ad2a7559d5437753b80c5dadc7fff",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -44534,6 +44534,15 @@
           },
           "start": "2025-05-16T16:22:11",
           "end": "2026-06-26T11:27:22"
+        }
+      ],
+      "mtf.dn42": [
+        {
+          "value": {
+            "mnt-by": "YUKINO-KANNADE-MNT"
+          },
+          "start": "2025-12-21T09:09:09",
+          "end": "2026-07-01T17:51:03"
         }
       ]
     },
@@ -95658,6 +95667,27 @@
           "mnt-by": "YIFANS-MNT"
         },
         "start": "2026-07-03T05:36:53"
+      },
+      "AS4242422960": {
+        "val": {
+          "as-name": "AS-GALNET-DN42",
+          "mnt-by": "GALNET-MNT"
+        },
+        "start": "2026-07-03T23:36:23"
+      },
+      "AS4242421248": {
+        "val": {
+          "as-name": "AS-STALKR-DN42",
+          "mnt-by": "STALKR-MNT"
+        },
+        "start": "2026-07-04T00:33:52"
+      },
+      "AS4242420595": {
+        "val": {
+          "as-name": "AS-TIGERMAN-DN42",
+          "mnt-by": "TIGERMAN-MNT"
+        },
+        "start": "2026-07-04T03:29:13"
       }
     },
     "dns": {
@@ -102947,9 +102977,9 @@
       },
       "mtf.dn42": {
         "val": {
-          "mnt-by": "YUKINO-KANNADE-MNT"
+          "mnt-by": "YUKINO-KANNADE-MNT, CRYOLITIA-MNT"
         },
-        "start": "2025-12-21T09:09:09"
+        "start": "2026-07-01T17:51:03"
       },
       "pinhaoduan.dn42": {
         "val": {
@@ -104306,6 +104336,30 @@
           "mnt-by": "GABRIEL-MNT"
         },
         "start": "2026-07-01T02:33:14"
+      },
+      "galnet.dn42": {
+        "val": {
+          "mnt-by": "GALNET-MNT"
+        },
+        "start": "2026-07-03T23:36:23"
+      },
+      "stalkr.dn42": {
+        "val": {
+          "mnt-by": "STALKR-MNT"
+        },
+        "start": "2026-07-04T00:33:52"
+      },
+      "tigerman.dn42": {
+        "val": {
+          "mnt-by": "TIGERMAN-MNT"
+        },
+        "start": "2026-07-04T03:29:13"
+      },
+      "sakarin.dn42": {
+        "val": {
+          "mnt-by": "SAKARIN-MNT"
+        },
+        "start": "2026-07-04T05:18:42"
       }
     },
     "mntner": {
@@ -118066,6 +118120,24 @@
           "mntner": "YIFANS-MNT"
         },
         "start": "2026-07-03T05:36:53"
+      },
+      "GALNET-MNT": {
+        "val": {
+          "mntner": "GALNET-MNT"
+        },
+        "start": "2026-07-03T23:36:23"
+      },
+      "STALKR-MNT": {
+        "val": {
+          "mntner": "STALKR-MNT"
+        },
+        "start": "2026-07-04T00:33:52"
+      },
+      "TIGERMAN-MNT": {
+        "val": {
+          "mntner": "TIGERMAN-MNT"
+        },
+        "start": "2026-07-04T03:29:13"
       }
     },
     "registry": {
