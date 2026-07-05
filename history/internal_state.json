@@ -1,5 +1,5 @@
 {
-  "last_commit": "70fc159ebf2ab9a062b6b98ebfb2ebdbdf2d8500",
+  "last_commit": "d8c0f0689a3b559f464645fb908550ad5faaebbc",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95702,6 +95702,13 @@
           "mnt-by": "ROUTE404-MNT"
         },
         "start": "2026-07-04T10:19:52"
+      },
+      "AS4242422670": {
+        "val": {
+          "as-name": "HAKURIN-AS",
+          "mnt-by": "HAKURIN-MNT"
+        },
+        "start": "2026-07-05T08:01:16"
       }
     },
     "dns": {
@@ -118182,6 +118189,12 @@
           "mntner": "ROUTE404-MNT"
         },
         "start": "2026-07-04T10:19:52"
+      },
+      "HAKURIN-MNT": {
+        "val": {
+          "mntner": "HAKURIN-MNT"
+        },
+        "start": "2026-07-05T08:01:16"
       }
     },
     "registry": {
