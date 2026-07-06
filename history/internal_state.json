@@ -1,5 +1,5 @@
 {
-  "last_commit": "d32c384d95215b02ace28af7bb9570cd1909c3eb",
+  "last_commit": "f18ac32f26a3d57a4c08756c75bd85b31689a4fe",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95730,6 +95730,13 @@
           "mnt-by": "CPARADIS-MNT"
         },
         "start": "2026-07-05T19:00:24"
+      },
+      "AS4242423635": {
+        "val": {
+          "as-name": "CPS",
+          "mnt-by": "CPS-MNT"
+        },
+        "start": "2026-07-05T22:52:45"
       }
     },
     "dns": {
@@ -118246,6 +118253,12 @@
           "mntner": "CPARADIS-MNT"
         },
         "start": "2026-07-05T19:00:24"
+      },
+      "CPS-MNT": {
+        "val": {
+          "mntner": "CPS-MNT"
+        },
+        "start": "2026-07-05T22:52:45"
       }
     },
     "registry": {
