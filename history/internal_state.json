@@ -1,5 +1,5 @@
 {
-  "last_commit": "9ee1d69334b3affa625122ecb035d015972bb0fc",
+  "last_commit": "664199142c7e6a0f9bc7f17ac9345e9f8ac7af9b",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95764,6 +95764,13 @@
           "mnt-by": "CPS-MNT"
         },
         "start": "2026-07-05T22:52:45"
+      },
+      "AS4242420306": {
+        "val": {
+          "as-name": "AS-SWYSGH-DN42",
+          "mnt-by": "SWYSGH-MNT"
+        },
+        "start": "2026-07-07T07:40:03"
       }
     },
     "dns": {
@@ -104466,6 +104473,12 @@
           "mnt-by": "CPARADIS-MNT"
         },
         "start": "2026-07-05T19:00:24"
+      },
+      "swysgh.dn42": {
+        "val": {
+          "mnt-by": "SWYSGH-MNT"
+        },
+        "start": "2026-07-07T07:40:03"
       }
     },
     "mntner": {
@@ -118286,6 +118299,12 @@
           "mntner": "CPS-MNT"
         },
         "start": "2026-07-05T22:52:45"
+      },
+      "SWYSGH-MNT": {
+        "val": {
+          "mntner": "SWYSGH-MNT"
+        },
+        "start": "2026-07-07T07:40:03"
       }
     },
     "registry": {
