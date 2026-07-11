@@ -1,5 +1,5 @@
 {
-  "last_commit": "f94cbd6cda83da0cc16f97d8f0843e602089bbe4",
+  "last_commit": "c9e5156c3273181b03fb7d884e8e28a0aca6d9b7",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -33990,6 +33990,16 @@
           },
           "start": "2024-08-18T19:40:14",
           "end": "2026-06-14T22:01:56"
+        }
+      ],
+      "AS4242422265": [
+        {
+          "value": {
+            "as-name": "ALUE",
+            "mnt-by": "ALUE-MNT"
+          },
+          "start": "2024-04-15T04:48:58",
+          "end": "2026-07-11T06:23:07"
         }
       ]
     },
@@ -87435,13 +87445,6 @@
         },
         "start": "2024-04-14T12:13:57"
       },
-      "AS4242422265": {
-        "val": {
-          "as-name": "ALUE",
-          "mnt-by": "ALUE-MNT"
-        },
-        "start": "2024-04-15T04:48:58"
-      },
       "AS4242421431": {
         "val": {
           "as-name": "HOBIONE-DN42",
@@ -95813,6 +95816,20 @@
           "mnt-by": "ROASTDUCKTW-MNT"
         },
         "start": "2026-07-09T15:10:22"
+      },
+      "AS4242420301": {
+        "val": {
+          "as-name": "XENIUME-AS-DN42",
+          "mnt-by": "XENIUME-MNT"
+        },
+        "start": "2026-07-11T05:58:46"
+      },
+      "AS49962": {
+        "val": {
+          "as-name": "ALUE-NET",
+          "mnt-by": "ALUE-MNT"
+        },
+        "start": "2026-07-11T06:23:07"
       }
     },
     "dns": {
@@ -118407,6 +118424,12 @@
           "mntner": "ROASTDUCKTW-MNT"
         },
         "start": "2026-07-09T15:10:22"
+      },
+      "XENIUME-MNT": {
+        "val": {
+          "mntner": "XENIUME-MNT"
+        },
+        "start": "2026-07-11T05:58:46"
       }
     },
     "registry": {
