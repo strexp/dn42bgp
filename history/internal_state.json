@@ -1,5 +1,5 @@
 {
-  "last_commit": "c9e5156c3273181b03fb7d884e8e28a0aca6d9b7",
+  "last_commit": "926e099a45e3ef3e3ba0e22eb2f594ec28b110bf",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95830,6 +95830,13 @@
           "mnt-by": "ALUE-MNT"
         },
         "start": "2026-07-11T06:23:07"
+      },
+      "AS4242420677": {
+        "val": {
+          "as-name": "YIJIMA-AS",
+          "mnt-by": "YIJIMA-MNT"
+        },
+        "start": "2026-07-11T15:02:36"
       }
     },
     "dns": {
@@ -118430,6 +118437,12 @@
           "mntner": "XENIUME-MNT"
         },
         "start": "2026-07-11T05:58:46"
+      },
+      "YIJIMA-MNT": {
+        "val": {
+          "mntner": "YIJIMA-MNT"
+        },
+        "start": "2026-07-11T15:02:36"
       }
     },
     "registry": {
