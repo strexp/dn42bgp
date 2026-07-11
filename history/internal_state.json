@@ -1,5 +1,5 @@
 {
-  "last_commit": "27c1f68e3ceb2c1e6cb9c21c9113043dc5de4eb9",
+  "last_commit": "f94cbd6cda83da0cc16f97d8f0843e602089bbe4",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95806,6 +95806,13 @@
           "mnt-by": "GREYWIND-MNT"
         },
         "start": "2026-07-08T17:22:09"
+      },
+      "AS4242421728": {
+        "val": {
+          "as-name": "ROASTDUCKTW-NET-DN42",
+          "mnt-by": "ROASTDUCKTW-MNT"
+        },
+        "start": "2026-07-09T15:10:22"
       }
     },
     "dns": {
@@ -118394,6 +118401,12 @@
           "mntner": "GREYWIND-MNT"
         },
         "start": "2026-07-08T17:22:09"
+      },
+      "ROASTDUCKTW-MNT": {
+        "val": {
+          "mntner": "ROASTDUCKTW-MNT"
+        },
+        "start": "2026-07-09T15:10:22"
       }
     },
     "registry": {
