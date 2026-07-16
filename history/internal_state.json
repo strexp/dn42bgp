@@ -1,5 +1,5 @@
 {
-  "last_commit": "012fc629e399a1cc62538d3833962c7c63fa91ff",
+  "last_commit": "7a3e50a5d4b477a245eff3d5710589926cafc16b",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95865,6 +95865,13 @@
           "mnt-by": "THORN-MNT"
         },
         "start": "2026-07-15T16:04:41"
+      },
+      "AS4242421659": {
+        "val": {
+          "as-name": "UWHYA-AS",
+          "mnt-by": "UWHYA-MNT"
+        },
+        "start": "2026-07-16T11:30:29"
       }
     },
     "dns": {
@@ -118531,6 +118538,12 @@
           "mntner": "THORN-MNT"
         },
         "start": "2026-07-15T16:04:41"
+      },
+      "UWHYA-MNT": {
+        "val": {
+          "mntner": "UWHYA-MNT"
+        },
+        "start": "2026-07-16T11:30:29"
       }
     },
     "registry": {
