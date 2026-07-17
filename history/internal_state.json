@@ -1,5 +1,5 @@
 {
-  "last_commit": "01f0790e4c040c2b4afea8d33de1616f69f51a82",
+  "last_commit": "ecb2cabf5b5a228da9ff18e057976e9d681a6493",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95872,6 +95872,13 @@
           "mnt-by": "UWHYA-MNT"
         },
         "start": "2026-07-16T11:30:29"
+      },
+      "AS4242422421": {
+        "val": {
+          "as-name": "AS-GE0RG-NET-DN42",
+          "mnt-by": "GE0RG-MNT"
+        },
+        "start": "2026-07-16T23:17:02"
       }
     },
     "dns": {
@@ -118544,6 +118551,12 @@
           "mntner": "UWHYA-MNT"
         },
         "start": "2026-07-16T11:30:29"
+      },
+      "GE0RG-MNT": {
+        "val": {
+          "mntner": "GE0RG-MNT"
+        },
+        "start": "2026-07-16T23:17:02"
       }
     },
     "registry": {
