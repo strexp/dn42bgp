@@ -1,5 +1,5 @@
 {
-  "last_commit": "d3d7a57029ef25dc591637d64ee35073c7fcb7fd",
+  "last_commit": "db59e31aabcd57c341ca3b0ff883a00beab78b2a",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95926,6 +95926,13 @@
           "mnt-by": "ED-MNT"
         },
         "start": "2026-07-19T09:23:56"
+      },
+      "AS4242423882": {
+        "val": {
+          "as-name": "SNEAKYPACKETS",
+          "mnt-by": "SNEAKYPACKETS-MNT"
+        },
+        "start": "2026-07-19T14:13:34"
       }
     },
     "dns": {
@@ -118622,6 +118629,12 @@
           "mntner": "ED-MNT"
         },
         "start": "2026-07-19T09:23:56"
+      },
+      "SNEAKYPACKETS-MNT": {
+        "val": {
+          "mntner": "SNEAKYPACKETS-MNT"
+        },
+        "start": "2026-07-19T14:13:34"
       }
     },
     "registry": {
