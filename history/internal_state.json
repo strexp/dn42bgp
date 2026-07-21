@@ -1,5 +1,5 @@
 {
-  "last_commit": "6753724598257cff198b10f1e57f474a0bd310c3",
+  "last_commit": "f9b6fc0a6a5d2cfa38a16c71ae27abd0fee98155",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95940,6 +95940,13 @@
           "mnt-by": "SNEAKYPACKETS-MNT"
         },
         "start": "2026-07-19T14:13:34"
+      },
+      "AS4242421537": {
+        "val": {
+          "as-name": "AS-K2R-DN42",
+          "mnt-by": "K2R-MNT"
+        },
+        "start": "2026-07-20T21:26:41"
       }
     },
     "dns": {
@@ -104714,6 +104721,12 @@
           "mnt-by": "WHYPEEPS-MNT"
         },
         "start": "2026-07-18T20:15:11"
+      },
+      "k2r.dn42": {
+        "val": {
+          "mnt-by": "K2R-MNT"
+        },
+        "start": "2026-07-20T21:26:41"
       }
     },
     "mntner": {
@@ -118648,6 +118661,12 @@
           "mntner": "SNEAKYPACKETS-MNT"
         },
         "start": "2026-07-19T14:13:34"
+      },
+      "K2R-MNT": {
+        "val": {
+          "mntner": "K2R-MNT"
+        },
+        "start": "2026-07-20T21:26:41"
       }
     },
     "registry": {
