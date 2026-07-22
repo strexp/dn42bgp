@@ -1,5 +1,5 @@
 {
-  "last_commit": "6989387525bfa679d108f3808e5793a3e47bef21",
+  "last_commit": "e3d44d34b605bb1c932505e3e643d23c5f735381",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -3484,6 +3484,14 @@
           },
           "start": "2018-09-21T15:53:21",
           "end": "2024-10-14T17:43:58"
+        },
+        {
+          "value": {
+            "as-name": "AS-JMHERSHEY125-DN42",
+            "mnt-by": "JMHERSHEY125-MNT"
+          },
+          "start": "2025-10-06T23:57:56",
+          "end": "2026-07-20T23:54:01"
         }
       ],
       "AS4242420126": [
@@ -19718,6 +19726,14 @@
           },
           "start": "2018-02-25T18:36:09",
           "end": "2024-10-14T17:43:58"
+        },
+        {
+          "value": {
+            "as-name": "AS-CRAZYCOW-DN42",
+            "mnt-by": "CRAZYCOW-MNT"
+          },
+          "start": "2026-04-06T21:36:33",
+          "end": "2026-07-21T16:29:11"
         }
       ],
       "AS4242423994": [
@@ -44587,6 +44603,15 @@
           },
           "start": "2025-06-20T18:59:42",
           "end": "2026-07-09T12:18:59"
+        }
+      ],
+      "crazycow.dn42": [
+        {
+          "value": {
+            "mnt-by": "CRAZYCOW-MNT"
+          },
+          "start": "2026-04-06T21:36:33",
+          "end": "2026-07-21T16:29:11"
         }
       ]
     },
@@ -71534,6 +71559,24 @@
           "start": "2025-06-05T12:56:16",
           "end": "2026-07-09T12:18:59"
         }
+      ],
+      "JMHERSHEY125-MNT": [
+        {
+          "value": {
+            "mntner": "JMHERSHEY125-MNT"
+          },
+          "start": "2025-10-06T23:57:56",
+          "end": "2026-07-20T23:54:01"
+        }
+      ],
+      "CRAZYCOW-MNT": [
+        {
+          "value": {
+            "mntner": "CRAZYCOW-MNT"
+          },
+          "start": "2026-04-06T21:36:33",
+          "end": "2026-07-21T16:29:11"
+        }
       ]
     },
     "registry": {
@@ -92091,13 +92134,6 @@
         },
         "start": "2025-10-05T15:50:14"
       },
-      "AS4242420125": {
-        "val": {
-          "as-name": "AS-JMHERSHEY125-DN42",
-          "mnt-by": "JMHERSHEY125-MNT"
-        },
-        "start": "2025-10-06T23:57:56"
-      },
       "AS4242421884": {
         "val": {
           "as-name": "AS-HAO-DN42",
@@ -94254,13 +94290,6 @@
         },
         "start": "2026-04-06T21:08:32"
       },
-      "AS4242423993": {
-        "val": {
-          "as-name": "AS-CRAZYCOW-DN42",
-          "mnt-by": "CRAZYCOW-MNT"
-        },
-        "start": "2026-04-06T21:36:33"
-      },
       "AS4242420523": {
         "val": {
           "as-name": "AS-NOUL-DN42",
@@ -95954,6 +95983,13 @@
           "mnt-by": "AVKEAN-MNT"
         },
         "start": "2026-07-21T11:52:58"
+      },
+      "AS4242420984": {
+        "val": {
+          "as-name": "NORTHWAVE-AS",
+          "mnt-by": "NORTHWAVE-MNT"
+        },
+        "start": "2026-07-22T01:51:48"
       }
     },
     "dns": {
@@ -103937,12 +103973,6 @@
         },
         "start": "2026-04-06T08:24:11"
       },
-      "crazycow.dn42": {
-        "val": {
-          "mnt-by": "CRAZYCOW-MNT"
-        },
-        "start": "2026-04-06T21:36:33"
-      },
       "auth.dn42": {
         "val": {
           "mnt-by": "KIOUBIT-MNT"
@@ -104734,6 +104764,12 @@
           "mnt-by": "K2R-MNT"
         },
         "start": "2026-07-20T21:26:41"
+      },
+      "avkean.dn42": {
+        "val": {
+          "mnt-by": "AVKEAN-MNT"
+        },
+        "start": "2026-07-22T13:41:25"
       }
     },
     "mntner": {
@@ -115441,12 +115477,6 @@
         },
         "start": "2025-10-05T15:50:14"
       },
-      "JMHERSHEY125-MNT": {
-        "val": {
-          "mntner": "JMHERSHEY125-MNT"
-        },
-        "start": "2025-10-06T23:57:56"
-      },
       "KLU-MNT": {
         "val": {
           "mntner": "KLU-MNT"
@@ -117271,12 +117301,6 @@
         },
         "start": "2026-04-06T21:08:32"
       },
-      "CRAZYCOW-MNT": {
-        "val": {
-          "mntner": "CRAZYCOW-MNT"
-        },
-        "start": "2026-04-06T21:36:33"
-      },
       "NOUL-MNT": {
         "val": {
           "mntner": "NOUL-MNT"
@@ -118680,6 +118704,12 @@
           "mntner": "AVKEAN-MNT"
         },
         "start": "2026-07-21T11:52:58"
+      },
+      "NORTHWAVE-MNT": {
+        "val": {
+          "mntner": "NORTHWAVE-MNT"
+        },
+        "start": "2026-07-22T01:51:48"
       }
     },
     "registry": {
