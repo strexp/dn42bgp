@@ -1,5 +1,5 @@
 {
-  "last_commit": "f9b6fc0a6a5d2cfa38a16c71ae27abd0fee98155",
+  "last_commit": "6989387525bfa679d108f3808e5793a3e47bef21",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -95947,6 +95947,13 @@
           "mnt-by": "K2R-MNT"
         },
         "start": "2026-07-20T21:26:41"
+      },
+      "AS4242420421": {
+        "val": {
+          "as-name": "AVKEAN-AS",
+          "mnt-by": "AVKEAN-MNT"
+        },
+        "start": "2026-07-21T11:52:58"
       }
     },
     "dns": {
@@ -118667,6 +118674,12 @@
           "mntner": "K2R-MNT"
         },
         "start": "2026-07-20T21:26:41"
+      },
+      "AVKEAN-MNT": {
+        "val": {
+          "mntner": "AVKEAN-MNT"
+        },
+        "start": "2026-07-21T11:52:58"
       }
     },
     "registry": {
