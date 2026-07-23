@@ -1,5 +1,5 @@
 {
-  "last_commit": "e3d44d34b605bb1c932505e3e643d23c5f735381",
+  "last_commit": "855dab5b68c2c3b0d2d562456334ef948959857b",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -28608,6 +28608,14 @@
           },
           "start": "2018-06-25T09:50:48",
           "end": "2024-10-14T17:43:58"
+        },
+        {
+          "value": {
+            "as-name": "AS-MOTYSTEN-DN42",
+            "mnt-by": "MOTYSTEN-MNT"
+          },
+          "start": "2025-11-19T14:37:48",
+          "end": "2026-07-22T18:45:10"
         }
       ],
       "AS4242421707": [
@@ -44612,6 +44620,15 @@
           },
           "start": "2026-04-06T21:36:33",
           "end": "2026-07-21T16:29:11"
+        }
+      ],
+      "motysten.dn42": [
+        {
+          "value": {
+            "mnt-by": "MOTYSTEN-MNT"
+          },
+          "start": "2025-11-19T14:37:48",
+          "end": "2026-07-22T18:45:10"
         }
       ]
     },
@@ -71577,6 +71594,15 @@
           "start": "2026-04-06T21:36:33",
           "end": "2026-07-21T16:29:11"
         }
+      ],
+      "MOTYSTEN-MNT": [
+        {
+          "value": {
+            "mntner": "MOTYSTEN-MNT"
+          },
+          "start": "2025-11-19T14:37:48",
+          "end": "2026-07-22T18:45:10"
+        }
       ]
     },
     "registry": {
@@ -92547,13 +92573,6 @@
         },
         "start": "2025-11-19T10:04:57"
       },
-      "AS4242421704": {
-        "val": {
-          "as-name": "AS-MOTYSTEN-DN42",
-          "mnt-by": "MOTYSTEN-MNT"
-        },
-        "start": "2025-11-19T14:37:48"
-      },
       "AS4242422011": {
         "val": {
           "as-name": "AS-DEAN",
@@ -103031,12 +103050,6 @@
         },
         "start": "2025-11-19T06:05:54"
       },
-      "motysten.dn42": {
-        "val": {
-          "mnt-by": "MOTYSTEN-MNT"
-        },
-        "start": "2025-11-19T14:37:48"
-      },
       "opentransit.dn42": {
         "val": {
           "mnt-by": "BUZZ-MNT"
@@ -104770,6 +104783,12 @@
           "mnt-by": "AVKEAN-MNT"
         },
         "start": "2026-07-22T13:41:25"
+      },
+      "cloudc.dn42": {
+        "val": {
+          "mnt-by": "CLOUDC-MNT"
+        },
+        "start": "2026-07-22T17:09:31"
       }
     },
     "mntner": {
@@ -115824,12 +115843,6 @@
           "mntner": "WAYNE-MNT"
         },
         "start": "2025-11-19T10:04:57"
-      },
-      "MOTYSTEN-MNT": {
-        "val": {
-          "mntner": "MOTYSTEN-MNT"
-        },
-        "start": "2025-11-19T14:37:48"
       },
       "DEAN-MNT": {
         "val": {
