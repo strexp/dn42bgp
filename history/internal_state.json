@@ -1,5 +1,5 @@
 {
-  "last_commit": "03a9785a03680aff05fc57d2c47e7084e081011d",
+  "last_commit": "be95c8b603bb6dbcaf58f0b2835d328cbd48f8a0",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96023,6 +96023,13 @@
           "mnt-by": "GIONEXSYSTEMS-MNT"
         },
         "start": "2026-07-23T17:34:04"
+      },
+      "AS4242420806": {
+        "val": {
+          "as-name": "LINYUV-DN42-AS",
+          "mnt-by": "LINYUV-MNT"
+        },
+        "start": "2026-07-24T07:22:48"
       }
     },
     "dns": {
@@ -118761,6 +118768,12 @@
           "mntner": "GIONEXSYSTEMS-MNT"
         },
         "start": "2026-07-23T17:34:04"
+      },
+      "LINYUV-MNT": {
+        "val": {
+          "mntner": "LINYUV-MNT"
+        },
+        "start": "2026-07-24T07:22:48"
       }
     },
     "registry": {
