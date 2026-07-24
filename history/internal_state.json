@@ -1,5 +1,5 @@
 {
-  "last_commit": "7aaec7864f337d9c8080c1091596400fb9bd3e1d",
+  "last_commit": "03a9785a03680aff05fc57d2c47e7084e081011d",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96009,6 +96009,20 @@
           "mnt-by": "NORTHWAVE-MNT"
         },
         "start": "2026-07-22T01:51:48"
+      },
+      "AS4242423648": {
+        "val": {
+          "as-name": "AS-NORASHIP-DN42",
+          "mnt-by": "JEANPASQUALINI-MNT"
+        },
+        "start": "2026-07-23T15:11:56"
+      },
+      "AS4242421467": {
+        "val": {
+          "as-name": "GIONEX-AS",
+          "mnt-by": "GIONEXSYSTEMS-MNT"
+        },
+        "start": "2026-07-23T17:34:04"
       }
     },
     "dns": {
@@ -104795,6 +104809,12 @@
           "mnt-by": "MAIYUN-MNT"
         },
         "start": "2026-07-22T22:02:15"
+      },
+      "ge0rg.dn42": {
+        "val": {
+          "mnt-by": "GE0RG-MNT"
+        },
+        "start": "2026-07-23T23:34:52"
       }
     },
     "mntner": {
@@ -118729,6 +118749,18 @@
           "mntner": "NORTHWAVE-MNT"
         },
         "start": "2026-07-22T01:51:48"
+      },
+      "JEANPASQUALINI-MNT": {
+        "val": {
+          "mntner": "JEANPASQUALINI-MNT"
+        },
+        "start": "2026-07-23T15:11:56"
+      },
+      "GIONEXSYSTEMS-MNT": {
+        "val": {
+          "mntner": "GIONEXSYSTEMS-MNT"
+        },
+        "start": "2026-07-23T17:34:04"
       }
     },
     "registry": {
