@@ -1,5 +1,5 @@
 {
-  "last_commit": "eb94806861e17937218aac591a67521215315b38",
+  "last_commit": "e7fbcda771bcf300e1e5187da511e39b1a0dd7b4",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96051,6 +96051,20 @@
           "mnt-by": "LINYUV-MNT"
         },
         "start": "2026-07-24T07:22:48"
+      },
+      "AS4242423233": {
+        "val": {
+          "as-name": "ORBISNET-AS",
+          "mnt-by": "ORBIS-MNT"
+        },
+        "start": "2026-07-24T22:41:37"
+      },
+      "AS4242421731": {
+        "val": {
+          "as-name": "AS-EASON-NET-DN42",
+          "mnt-by": "EASON-MNT"
+        },
+        "start": "2026-07-26T12:07:01"
       }
     },
     "dns": {
@@ -104837,6 +104851,12 @@
           "mnt-by": "GE0RG-MNT"
         },
         "start": "2026-07-23T23:34:52"
+      },
+      "orbis.dn42": {
+        "val": {
+          "mnt-by": "ORBIS-MNT"
+        },
+        "start": "2026-07-24T22:41:37"
       },
       "fxnet.dn42": {
         "val": {
@@ -118789,6 +118809,18 @@
           "mntner": "LINYUV-MNT"
         },
         "start": "2026-07-24T07:22:48"
+      },
+      "ORBIS-MNT": {
+        "val": {
+          "mntner": "ORBIS-MNT"
+        },
+        "start": "2026-07-24T22:41:37"
+      },
+      "EASON-MNT": {
+        "val": {
+          "mntner": "EASON-MNT"
+        },
+        "start": "2026-07-26T12:07:01"
       }
     },
     "registry": {
