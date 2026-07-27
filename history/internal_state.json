@@ -1,5 +1,5 @@
 {
-  "last_commit": "71658451dc73aa292795a8211f1dfad474c75f37",
+  "last_commit": "1dbc4baa896a0bdcf212797ef4416eaa8057a646",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96086,6 +96086,13 @@
           "mnt-by": "ILCO-MNT"
         },
         "start": "2026-07-27T09:56:53"
+      },
+      "AS4242421637": {
+        "val": {
+          "as-name": "GUICALE-AS",
+          "mnt-by": "GUICALE-MNT"
+        },
+        "start": "2026-07-27T15:05:02"
       }
     },
     "dns": {
@@ -118866,6 +118873,12 @@
           "mntner": "ILCO-MNT"
         },
         "start": "2026-07-27T09:56:53"
+      },
+      "GUICALE-MNT": {
+        "val": {
+          "mntner": "GUICALE-MNT"
+        },
+        "start": "2026-07-27T15:05:02"
       }
     },
     "registry": {
