@@ -1,5 +1,5 @@
 {
-  "last_commit": "1dbc4baa896a0bdcf212797ef4416eaa8057a646",
+  "last_commit": "f414301d8c1ee3f82ed819adf9f2721707106a77",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96017,6 +96017,13 @@
         },
         "start": "2026-07-20T21:26:41"
       },
+      "AS4242420423": {
+        "val": {
+          "as-name": "SCHNETWORKS-AS",
+          "mnt-by": "SCHNETWORKS-MNT"
+        },
+        "start": "2026-07-21T06:10:59"
+      },
       "AS4242420421": {
         "val": {
           "as-name": "AVKEAN-AS",
@@ -118813,6 +118820,12 @@
           "mntner": "K2R-MNT"
         },
         "start": "2026-07-20T21:26:41"
+      },
+      "SCHNETWORKS-MNT": {
+        "val": {
+          "mntner": "SCHNETWORKS-MNT"
+        },
+        "start": "2026-07-21T06:10:59"
       },
       "AVKEAN-MNT": {
         "val": {
