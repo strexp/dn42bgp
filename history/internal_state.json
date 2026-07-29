@@ -1,5 +1,5 @@
 {
-  "last_commit": "624ef00d6f3689e20d250dce732f5acce7a90689",
+  "last_commit": "0dbe2ac1941f04b02e5f894cad322aa977129be1",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96114,6 +96114,27 @@
           "mnt-by": "TEDAIMENG-MNT"
         },
         "start": "2026-07-29T10:25:13"
+      },
+      "AS4242423972": {
+        "val": {
+          "as-name": "MOKS-NET",
+          "mnt-by": "MOKS-MNT"
+        },
+        "start": "2026-07-29T15:49:30"
+      },
+      "AS4242423338": {
+        "val": {
+          "as-name": "AS-CIZ-DN42",
+          "mnt-by": "OHERRALA-MNT"
+        },
+        "start": "2026-07-29T20:23:25"
+      },
+      "AS4242423993": {
+        "val": {
+          "as-name": "AS-BALROG-DN42",
+          "mnt-by": "BALROG-MNT"
+        },
+        "start": "2026-07-29T20:52:49"
       }
     },
     "dns": {
@@ -104924,6 +104945,12 @@
           "mnt-by": "MLTFR-MNT"
         },
         "start": "2026-07-28T15:35:10"
+      },
+      "balrog.dn42": {
+        "val": {
+          "mnt-by": "BALROG-MNT"
+        },
+        "start": "2026-07-29T20:52:49"
       }
     },
     "mntner": {
@@ -118924,6 +118951,24 @@
           "mntner": "TEDAIMENG-MNT"
         },
         "start": "2026-07-29T10:25:13"
+      },
+      "MOKS-MNT": {
+        "val": {
+          "mntner": "MOKS-MNT"
+        },
+        "start": "2026-07-29T15:49:30"
+      },
+      "OHERRALA-MNT": {
+        "val": {
+          "mntner": "OHERRALA-MNT"
+        },
+        "start": "2026-07-29T20:23:25"
+      },
+      "BALROG-MNT": {
+        "val": {
+          "mntner": "BALROG-MNT"
+        },
+        "start": "2026-07-29T20:52:49"
       }
     },
     "registry": {
