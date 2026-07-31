@@ -1,5 +1,5 @@
 {
-  "last_commit": "ef5efbeaabc4448715b432f1e499a8590158548d",
+  "last_commit": "6e6df15d55b07f12f6af32c9e654d961b03e4833",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96169,6 +96169,13 @@
           "mnt-by": "DRAVIN-MNT"
         },
         "start": "2026-07-31T03:36:36"
+      },
+      "AS4242422269": {
+        "val": {
+          "as-name": "AS-JDORN-DN42",
+          "mnt-by": "JDORN-MNT"
+        },
+        "start": "2026-07-31T15:48:51"
       }
     },
     "dns": {
@@ -119015,6 +119022,12 @@
           "mntner": "DRAVIN-MNT"
         },
         "start": "2026-07-31T03:36:36"
+      },
+      "JDORN-MNT": {
+        "val": {
+          "mntner": "JDORN-MNT"
+        },
+        "start": "2026-07-31T15:48:51"
       }
     },
     "registry": {
