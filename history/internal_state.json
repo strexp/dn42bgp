@@ -1,5 +1,5 @@
 {
-  "last_commit": "6e6df15d55b07f12f6af32c9e654d961b03e4833",
+  "last_commit": "a3ca37a0879f9d6a771a58a96850c7a1622251eb",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -104992,6 +104992,12 @@
           "mnt-by": "ESKERST-MNT"
         },
         "start": "2026-07-30T02:10:33"
+      },
+      "farnet.dn42": {
+        "val": {
+          "mnt-by": "FARNETCZISP-MNT"
+        },
+        "start": "2026-07-31T13:39:23"
       }
     },
     "mntner": {
