@@ -1,5 +1,5 @@
 {
-  "last_commit": "a3ca37a0879f9d6a771a58a96850c7a1622251eb",
+  "last_commit": "64c8e232fbf916d0b456cb405482a1d98ca756e7",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96176,6 +96176,13 @@
           "mnt-by": "JDORN-MNT"
         },
         "start": "2026-07-31T15:48:51"
+      },
+      "AS4242420884": {
+        "val": {
+          "as-name": "AS-CYBM-DN42",
+          "mnt-by": "CYBM-MNT"
+        },
+        "start": "2026-07-31T21:26:48"
       }
     },
     "dns": {
@@ -119034,6 +119041,12 @@
           "mntner": "JDORN-MNT"
         },
         "start": "2026-07-31T15:48:51"
+      },
+      "CYBM-MNT": {
+        "val": {
+          "mntner": "CYBM-MNT"
+        },
+        "start": "2026-07-31T21:26:48"
       }
     },
     "registry": {
