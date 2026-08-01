@@ -1,5 +1,5 @@
 {
-  "last_commit": "556276c49604896440aac9cc269f4ed5570abb3a",
+  "last_commit": "c14426ec551a3a9708385cb76a82e639e4e31e8e",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96183,6 +96183,20 @@
           "mnt-by": "CYBM-MNT"
         },
         "start": "2026-07-31T21:26:48"
+      },
+      "AS4242421406": {
+        "val": {
+          "as-name": "BastienWolf",
+          "mnt-by": "BASTIENWOLF-MNT"
+        },
+        "start": "2026-08-01T10:53:34"
+      },
+      "AS4242422429": {
+        "val": {
+          "as-name": "AS-HIDDE-DN42",
+          "mnt-by": "HIDDE-MNT"
+        },
+        "start": "2026-08-01T12:55:22"
       }
     },
     "dns": {
@@ -105005,6 +105019,12 @@
           "mnt-by": "FARNETCZISP-MNT"
         },
         "start": "2026-07-31T13:39:23"
+      },
+      "hidde.dn42": {
+        "val": {
+          "mnt-by": "HIDDE-MNT"
+        },
+        "start": "2026-08-01T12:55:22"
       }
     },
     "mntner": {
@@ -119047,6 +119067,18 @@
           "mntner": "CYBM-MNT"
         },
         "start": "2026-07-31T21:26:48"
+      },
+      "BASTIENWOLF-MNT": {
+        "val": {
+          "mntner": "BASTIENWOLF-MNT"
+        },
+        "start": "2026-08-01T10:53:34"
+      },
+      "HIDDE-MNT": {
+        "val": {
+          "mntner": "HIDDE-MNT"
+        },
+        "start": "2026-08-01T12:55:22"
       }
     },
     "registry": {
