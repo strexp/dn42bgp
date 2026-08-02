@@ -1,5 +1,5 @@
 {
-  "last_commit": "79c13a858d18c428e490289a59a1393e80ee358b",
+  "last_commit": "4d00e8368d87ca678a5c81613279e6d147b5de58",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -44665,6 +44665,15 @@
           },
           "start": "2025-12-19T20:03:39",
           "end": "2026-07-29T22:00:14"
+        }
+      ],
+      "scarjit.dn42": [
+        {
+          "value": {
+            "mnt-by": "SCARJIT-MNT"
+          },
+          "start": "2025-10-21T14:20:30",
+          "end": "2026-08-01T21:46:43"
         }
       ]
     },
@@ -96211,6 +96220,20 @@
           "mnt-by": "FIRON-MNT"
         },
         "start": "2026-08-01T14:04:41"
+      },
+      "AS4242423987": {
+        "val": {
+          "as-name": "KALIJERRY-AS",
+          "mnt-by": "KALIJERRY-MNT"
+        },
+        "start": "2026-08-01T21:59:45"
+      },
+      "AS4242423143": {
+        "val": {
+          "as-name": "AKIRA-AS",
+          "mnt-by": "AKIRA-MNT"
+        },
+        "start": "2026-08-02T08:23:16"
       }
     },
     "dns": {
@@ -103091,12 +103114,6 @@
         "start": "2025-10-19T01:38:02"
       },
       "linnenberg.dn42": {
-        "val": {
-          "mnt-by": "SCARJIT-MNT"
-        },
-        "start": "2025-10-21T14:20:30"
-      },
-      "scarjit.dn42": {
         "val": {
           "mnt-by": "SCARJIT-MNT"
         },
@@ -119111,6 +119128,18 @@
           "mntner": "FIRON-MNT"
         },
         "start": "2026-08-01T14:04:41"
+      },
+      "KALIJERRY-MNT": {
+        "val": {
+          "mntner": "KALIJERRY-MNT"
+        },
+        "start": "2026-08-01T21:59:45"
+      },
+      "AKIRA-MNT": {
+        "val": {
+          "mntner": "AKIRA-MNT"
+        },
+        "start": "2026-08-02T08:23:16"
       }
     },
     "registry": {
