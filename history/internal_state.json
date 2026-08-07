@@ -1,5 +1,5 @@
 {
-  "last_commit": "a4fb51fe8cbea28aad64c3ad78453cda123bf9b4",
+  "last_commit": "b56ff61414621559a94da3f58f7fb2539a1b38fc",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96277,6 +96277,13 @@
         },
         "start": "2026-08-05T03:48:11"
       },
+      "AS4242420510": {
+        "val": {
+          "as-name": "AS-HAJ-DN42",
+          "mnt-by": "HAJ-MNT"
+        },
+        "start": "2026-08-06T16:24:02"
+      },
       "AS4242420921": {
         "val": {
           "as-name": "XIAOYUEOWO-AS",
@@ -105129,6 +105136,12 @@
           "mnt-by": "MCKERO-MNT"
         },
         "start": "2026-08-06T15:17:11"
+      },
+      "luotianyi.dn42": {
+        "val": {
+          "mnt-by": "XIAOYUE-MNT"
+        },
+        "start": "2026-08-07T00:12:00"
       }
     },
     "mntner": {
@@ -119243,6 +119256,12 @@
           "mntner": "FEDERATE-MNT"
         },
         "start": "2026-08-05T03:48:11"
+      },
+      "HAJ-MNT": {
+        "val": {
+          "mntner": "HAJ-MNT"
+        },
+        "start": "2026-08-06T16:24:02"
       },
       "XIAOYUE-MNT": {
         "val": {
