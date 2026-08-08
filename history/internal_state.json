@@ -1,5 +1,5 @@
 {
-  "last_commit": "0767cb077dc6d8145c2a0996dd03089fd1248920",
+  "last_commit": "15d76723019dcca45ad1737bb4038383e8096204",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96297,6 +96297,13 @@
           "mnt-by": "BADAIMWEEB-MNT"
         },
         "start": "2026-08-07T11:15:07"
+      },
+      "AS4242420092": {
+        "val": {
+          "as-name": "AS-RAPNET-DN42",
+          "mnt-by": "RAPNET-MNT"
+        },
+        "start": "2026-08-07T19:24:40"
       }
     },
     "dns": {
@@ -119275,6 +119282,12 @@
           "mntner": "XIAOYUE-MNT"
         },
         "start": "2026-08-06T17:00:28"
+      },
+      "RAPNET-MNT": {
+        "val": {
+          "mntner": "RAPNET-MNT"
+        },
+        "start": "2026-08-07T19:24:40"
       }
     },
     "registry": {
