@@ -1,5 +1,5 @@
 {
-  "last_commit": "a8a6d0975a67c2290192930ab02bd310b550366d",
+  "last_commit": "46f2c43fbf4d1f6474762d72ebb3bfe732f84211",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -3410,6 +3410,14 @@
           },
           "start": "2017-12-05T21:04:31",
           "end": "2018-02-25T02:05:25"
+        },
+        {
+          "value": {
+            "as-name": "GRMML-IX-FKS",
+            "mnt-by": "GRMML-MNT"
+          },
+          "start": "2018-02-25T18:36:09",
+          "end": "2026-08-08T13:40:07"
         }
       ],
       "AS4242420121": [
@@ -3420,6 +3428,14 @@
           },
           "start": "2017-12-05T21:04:31",
           "end": "2018-02-25T02:05:25"
+        },
+        {
+          "value": {
+            "as-name": "GRMML-Home-AS",
+            "mnt-by": "GRMML-MNT"
+          },
+          "start": "2018-02-25T18:36:09",
+          "end": "2026-08-08T13:40:07"
         }
       ],
       "AS4242420122": [
@@ -37505,6 +37521,13 @@
           },
           "start": "2018-02-25T18:36:09",
           "end": "2019-09-23T17:48:03"
+        },
+        {
+          "value": {
+            "mnt-by": "XUU-MNT, GRMML-MNT"
+          },
+          "start": "2019-09-23T17:48:03",
+          "end": "2026-08-08T13:40:07"
         }
       ],
       "dns.dn42": [
@@ -38029,6 +38052,13 @@
           },
           "start": "2018-02-25T18:36:09",
           "end": "2019-09-23T17:48:03"
+        },
+        {
+          "value": {
+            "mnt-by": "XUU-MNT, BLAZING-MNT, GRMML-MNT"
+          },
+          "start": "2019-09-23T17:48:03",
+          "end": "2026-08-08T13:40:07"
         }
       ],
       "in-addr.dn42": [
@@ -38145,6 +38175,13 @@
           },
           "start": "2017-10-27T20:31:41",
           "end": "2018-02-25T02:05:25"
+        },
+        {
+          "value": {
+            "mnt-by": "GRMML-MNT"
+          },
+          "start": "2018-02-25T18:36:09",
+          "end": "2026-08-08T13:40:07"
         }
       ],
       "jan.dn42": [
@@ -39540,6 +39577,13 @@
           },
           "start": "2018-02-25T18:36:09",
           "end": "2019-09-23T17:48:03"
+        },
+        {
+          "value": {
+            "mnt-by": "TOMBII-DN42-MNT, BLAZING-MNT, XUU-MNT, GRMML-MNT, KRSTN-MNT"
+          },
+          "start": "2019-09-23T17:48:03",
+          "end": "2026-08-08T13:40:07"
         }
       ],
       "root.dn42": [
@@ -39556,6 +39600,13 @@
           },
           "start": "2018-02-25T18:36:09",
           "end": "2019-09-23T17:48:03"
+        },
+        {
+          "value": {
+            "mnt-by": "XUU-MNT, GRMML-MNT"
+          },
+          "start": "2019-09-23T17:48:03",
+          "end": "2026-08-08T13:40:07"
         }
       ],
       "root6.dn42": [
@@ -40396,6 +40447,13 @@
           },
           "start": "2017-10-27T20:31:41",
           "end": "2018-02-25T02:05:25"
+        },
+        {
+          "value": {
+            "mnt-by": "GRMML-MNT"
+          },
+          "start": "2018-02-25T18:36:09",
+          "end": "2026-08-08T13:40:07"
         }
       ],
       "xuu.dn42": [
@@ -40480,6 +40538,13 @@
           },
           "start": "2018-02-25T18:36:09",
           "end": "2019-09-23T17:48:03"
+        },
+        {
+          "value": {
+            "mnt-by": "XUU-MNT, GRMML-MNT"
+          },
+          "start": "2019-09-23T17:48:03",
+          "end": "2026-08-08T13:40:07"
         }
       ],
       "ffsl_mzg": [
@@ -78588,20 +78653,6 @@
         },
         "start": "2018-02-25T18:36:09"
       },
-      "AS4242420120": {
-        "val": {
-          "as-name": "GRMML-IX-FKS",
-          "mnt-by": "GRMML-MNT"
-        },
-        "start": "2018-02-25T18:36:09"
-      },
-      "AS4242420121": {
-        "val": {
-          "as-name": "GRMML-Home-AS",
-          "mnt-by": "GRMML-MNT"
-        },
-        "start": "2018-02-25T18:36:09"
-      },
       "AS4242420122": {
         "val": {
           "as-name": "GRMML ExaBGP Anycast",
@@ -96489,9 +96540,9 @@
       },
       "dn42-servers.dn42": {
         "val": {
-          "mnt-by": "XUU-MNT, GRMML-MNT"
+          "mnt-by": "XUU-MNT"
         },
-        "start": "2019-09-23T17:48:03"
+        "start": "2026-08-08T13:40:07"
       },
       "dns.dn42": {
         "val": {
@@ -96951,9 +97002,9 @@
       },
       "in-addr-servers.dn42": {
         "val": {
-          "mnt-by": "XUU-MNT, BLAZING-MNT, GRMML-MNT"
+          "mnt-by": "XUU-MNT, BLAZING-MNT"
         },
-        "start": "2019-09-23T17:48:03"
+        "start": "2026-08-08T13:40:07"
       },
       "internal.dn42": {
         "val": {
@@ -96976,12 +97027,6 @@
       "ixnet.dn42": {
         "val": {
           "mnt-by": "IXNET-MNT"
-        },
-        "start": "2018-02-25T18:36:09"
-      },
-      "jabber.dn42": {
-        "val": {
-          "mnt-by": "GRMML-MNT"
         },
         "start": "2018-02-25T18:36:09"
       },
@@ -97191,15 +97236,15 @@
       },
       "root-servers.dn42": {
         "val": {
-          "mnt-by": "TOMBII-DN42-MNT, BLAZING-MNT, XUU-MNT, GRMML-MNT, KRSTN-MNT"
+          "mnt-by": "TOMBII-DN42-MNT, BLAZING-MNT, XUU-MNT, KRSTN-MNT"
         },
-        "start": "2019-09-23T17:48:03"
+        "start": "2026-08-08T13:40:07"
       },
       "root.dn42": {
         "val": {
-          "mnt-by": "XUU-MNT, GRMML-MNT"
+          "mnt-by": "XUU-MNT"
         },
-        "start": "2019-09-23T17:48:03"
+        "start": "2026-08-08T13:40:07"
       },
       "sidereal.dn42": {
         "val": {
@@ -97369,12 +97414,6 @@
         },
         "start": "2023-07-07T07:32:19"
       },
-      "xmpp.dn42": {
-        "val": {
-          "mnt-by": "GRMML-MNT"
-        },
-        "start": "2018-02-25T18:36:09"
-      },
       "xuu.dn42": {
         "val": {
           "mnt-by": "XUU-MNT"
@@ -97401,9 +97440,9 @@
       },
       "zone-servers.dn42": {
         "val": {
-          "mnt-by": "XUU-MNT, GRMML-MNT"
+          "mnt-by": "XUU-MNT"
         },
-        "start": "2019-09-23T17:48:03"
+        "start": "2026-08-08T13:40:07"
       },
       "ffde": {
         "val": {
