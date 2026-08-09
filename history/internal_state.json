@@ -1,5 +1,5 @@
 {
-  "last_commit": "315335202bb98513e1e7ad6d304bdc948ebd2548",
+  "last_commit": "4ef42ba713eb04ece2c33bd9ce62619b03588d44",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96355,6 +96355,13 @@
           "mnt-by": "RAPNET-MNT"
         },
         "start": "2026-08-07T19:24:40"
+      },
+      "AS4242423721": {
+        "val": {
+          "as-name": "ADCLOSENN-AS-DN42",
+          "mnt-by": "ADCLOSENN-MNT"
+        },
+        "start": "2026-08-09T07:48:20"
       }
     },
     "dns": {
@@ -105201,6 +105208,12 @@
           "mnt-by": "CYBM-MNT"
         },
         "start": "2026-08-08T13:52:58"
+      },
+      "cln.dn42": {
+        "val": {
+          "mnt-by": "ADCLOSENN-MNT"
+        },
+        "start": "2026-08-09T07:48:20"
       }
     },
     "mntner": {
@@ -119333,6 +119346,12 @@
           "mntner": "RAPNET-MNT"
         },
         "start": "2026-08-07T19:24:40"
+      },
+      "ADCLOSENN-MNT": {
+        "val": {
+          "mntner": "ADCLOSENN-MNT"
+        },
+        "start": "2026-08-09T07:48:20"
       }
     },
     "registry": {
