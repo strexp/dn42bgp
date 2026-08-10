@@ -1,5 +1,5 @@
 {
-  "last_commit": "6513e85b9b027baa9d3eb3213eaa48312902f011",
+  "last_commit": "f48bfabbe78236ee0f97ebe29da6f8c60754d204",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96398,6 +96398,13 @@
           "mnt-by": "ADCLOSENN-MNT"
         },
         "start": "2026-08-09T07:48:20"
+      },
+      "AS4242422067": {
+        "val": {
+          "as-name": "MURIA-AS",
+          "mnt-by": "MURIA-MNT"
+        },
+        "start": "2026-08-09T15:29:01"
       }
     },
     "dns": {
@@ -105262,6 +105269,18 @@
           "mnt-by": "GREYWIND-MNT"
         },
         "start": "2026-08-09T11:34:10"
+      },
+      "natlan.dn42": {
+        "val": {
+          "mnt-by": "NGWORKS-MNT"
+        },
+        "start": "2026-08-09T14:48:31"
+      },
+      "luax.dn42": {
+        "val": {
+          "mnt-by": "LUAX-MNT"
+        },
+        "start": "2026-08-10T01:45:42"
       }
     },
     "mntner": {
@@ -119424,6 +119443,12 @@
           "mntner": "ADCLOSENN-MNT"
         },
         "start": "2026-08-09T07:48:20"
+      },
+      "MURIA-MNT": {
+        "val": {
+          "mntner": "MURIA-MNT"
+        },
+        "start": "2026-08-09T15:29:01"
       }
     },
     "registry": {
