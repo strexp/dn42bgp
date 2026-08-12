@@ -1,5 +1,5 @@
 {
-  "last_commit": "668f9098989ce8fd788525d667193e72adfff9cc",
+  "last_commit": "c088034bb6ef6ba5844405dd1b5c5842322fc15e",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -105345,6 +105345,12 @@
           "mnt-by": "NBK888-MNT"
         },
         "start": "2026-08-12T00:24:47"
+      },
+      "doesnm.dn42": {
+        "val": {
+          "mnt-by": "DOESNM-MNT"
+        },
+        "start": "2026-08-12T08:04:35"
       }
     },
     "mntner": {
