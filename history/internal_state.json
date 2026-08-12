@@ -1,5 +1,5 @@
 {
-  "last_commit": "c77737cea2b48b73b3c1042de7873c2c30c99005",
+  "last_commit": "d4477f295d88f6f50cbfa480c3a985188bb3c725",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96405,6 +96405,34 @@
           "mnt-by": "MURIA-MNT"
         },
         "start": "2026-08-09T15:29:01"
+      },
+      "AS4242421573": {
+        "val": {
+          "as-name": "SIRONEKO-AS",
+          "mnt-by": "SIRONEKO-MNT"
+        },
+        "start": "2026-08-10T11:26:33"
+      },
+      "AS4242422629": {
+        "val": {
+          "as-name": "ROUTEPLEX-AS",
+          "mnt-by": "BMS-MNT"
+        },
+        "start": "2026-08-10T12:31:37"
+      },
+      "AS4242420821": {
+        "val": {
+          "as-name": "XZAVIER0722-AS",
+          "mnt-by": "XZAVIER0722-MNT"
+        },
+        "start": "2026-08-11T09:34:26"
+      },
+      "AS4242423051": {
+        "val": {
+          "as-name": "KAWAII-AS",
+          "mnt-by": "KAWAII-MNT"
+        },
+        "start": "2026-08-11T23:21:27"
       }
     },
     "dns": {
@@ -105287,6 +105315,30 @@
           "mnt-by": "NETBOT-MNT"
         },
         "start": "2026-08-10T11:59:50"
+      },
+      "routeplex.dn42": {
+        "val": {
+          "mnt-by": "BMS-MNT"
+        },
+        "start": "2026-08-10T12:31:37"
+      },
+      "myipv4.dn42": {
+        "val": {
+          "mnt-by": "HEADSCARF175-MNT"
+        },
+        "start": "2026-08-11T15:46:30"
+      },
+      "myipv6.dn42": {
+        "val": {
+          "mnt-by": "HEADSCARF175-MNT"
+        },
+        "start": "2026-08-11T15:46:30"
+      },
+      "portlandorange.dn42": {
+        "val": {
+          "mnt-by": "HEADSCARF175-MNT"
+        },
+        "start": "2026-08-11T15:46:30"
       }
     },
     "mntner": {
@@ -119455,6 +119507,30 @@
           "mntner": "MURIA-MNT"
         },
         "start": "2026-08-09T15:29:01"
+      },
+      "SIRONEKO-MNT": {
+        "val": {
+          "mntner": "SIRONEKO-MNT"
+        },
+        "start": "2026-08-10T11:26:33"
+      },
+      "BMS-MNT": {
+        "val": {
+          "mntner": "BMS-MNT"
+        },
+        "start": "2026-08-10T12:31:37"
+      },
+      "XZAVIER0722-MNT": {
+        "val": {
+          "mntner": "XZAVIER0722-MNT"
+        },
+        "start": "2026-08-11T09:34:26"
+      },
+      "KAWAII-MNT": {
+        "val": {
+          "mntner": "KAWAII-MNT"
+        },
+        "start": "2026-08-11T23:21:27"
       }
     },
     "registry": {
@@ -121199,6 +121275,13 @@
           "mnt-by": "QPS-MNT"
         },
         "start": "2026-08-01T13:14:54"
+      },
+      "ORG-ROUTEPLEX": {
+        "val": {
+          "org-name": "Routeplex Limited",
+          "mnt-by": "BMS-MNT"
+        },
+        "start": "2026-08-10T12:31:37"
       }
     }
   }
