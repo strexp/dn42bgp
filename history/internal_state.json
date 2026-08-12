@@ -1,5 +1,5 @@
 {
-  "last_commit": "d4477f295d88f6f50cbfa480c3a985188bb3c725",
+  "last_commit": "668f9098989ce8fd788525d667193e72adfff9cc",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -105339,6 +105339,12 @@
           "mnt-by": "HEADSCARF175-MNT"
         },
         "start": "2026-08-11T15:46:30"
+      },
+      "nbk.dn42": {
+        "val": {
+          "mnt-by": "NBK888-MNT"
+        },
+        "start": "2026-08-12T00:24:47"
       }
     },
     "mntner": {
