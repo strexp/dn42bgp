@@ -1,5 +1,5 @@
 {
-  "last_commit": "24b7d316e05cb6f5428e8c0602f81f7f14a76d52",
+  "last_commit": "63191da4984a5c47f306eeff220bf2c63c877455",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96489,6 +96489,13 @@
           "mnt-by": "DUANIN2-MNT"
         },
         "start": "2026-08-14T17:45:47"
+      },
+      "AS4242420097": {
+        "val": {
+          "as-name": "AS-ASKELADDKE-DN42",
+          "mnt-by": "ASKELADDKE-MNT"
+        },
+        "start": "2026-08-15T07:39:15"
       }
     },
     "dns": {
@@ -119677,6 +119684,12 @@
           "mntner": "DUANIN2-MNT"
         },
         "start": "2026-08-14T17:45:47"
+      },
+      "ASKELADDKE-MNT": {
+        "val": {
+          "mntner": "ASKELADDKE-MNT"
+        },
+        "start": "2026-08-15T07:39:15"
       }
     },
     "registry": {
