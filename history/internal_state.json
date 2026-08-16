@@ -1,5 +1,5 @@
 {
-  "last_commit": "386e8e80a4fb96f0a3f90048460e0546487bbcc8",
+  "last_commit": "50f73d6393ec9871142e13594fb8687b1962b33e",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96496,6 +96496,13 @@
           "mnt-by": "ASKELADDKE-MNT"
         },
         "start": "2026-08-15T07:39:15"
+      },
+      "AS4242423178": {
+        "val": {
+          "as-name": "AS-LLL-DN42",
+          "mnt-by": "LLL-MNT"
+        },
+        "start": "2026-08-16T00:00:59"
       }
     },
     "dns": {
@@ -119696,6 +119703,12 @@
           "mntner": "ASKELADDKE-MNT"
         },
         "start": "2026-08-15T07:39:15"
+      },
+      "LLL-MNT": {
+        "val": {
+          "mntner": "LLL-MNT"
+        },
+        "start": "2026-08-16T00:00:59"
       }
     },
     "registry": {
