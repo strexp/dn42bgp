@@ -1,5 +1,5 @@
 {
-  "last_commit": "50f73d6393ec9871142e13594fb8687b1962b33e",
+  "last_commit": "f758eddd3591fecdf593c16e7bcca27a540944dc",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96503,6 +96503,13 @@
           "mnt-by": "LLL-MNT"
         },
         "start": "2026-08-16T00:00:59"
+      },
+      "AS4242421323": {
+        "val": {
+          "as-name": "LIBERANET",
+          "mnt-by": "LIBERANET-MNT"
+        },
+        "start": "2026-08-16T10:55:24"
       }
     },
     "dns": {
@@ -105451,6 +105458,18 @@
           "mnt-by": "GARBSAMU-MNT"
         },
         "start": "2026-08-15T13:34:25"
+      },
+      "liberanet.dn42": {
+        "val": {
+          "mnt-by": "LIBERANET-MNT"
+        },
+        "start": "2026-08-16T10:55:24"
+      },
+      "zerbaib.dn42": {
+        "val": {
+          "mnt-by": "LIBERANET-MNT"
+        },
+        "start": "2026-08-16T10:55:24"
       }
     },
     "mntner": {
@@ -119709,6 +119728,18 @@
           "mntner": "LLL-MNT"
         },
         "start": "2026-08-16T00:00:59"
+      },
+      "LIBERANET-MNT": {
+        "val": {
+          "mntner": "LIBERANET-MNT"
+        },
+        "start": "2026-08-16T10:55:24"
+      },
+      "ZERBAIB-MNT": {
+        "val": {
+          "mntner": "ZERBAIB-MNT"
+        },
+        "start": "2026-08-16T10:55:24"
       }
     },
     "registry": {
@@ -121467,6 +121498,13 @@
           "mnt-by": "ORG-TRANSFEM-MNT"
         },
         "start": "2026-08-12T16:56:41"
+      },
+      "ORG-LIBERANET": {
+        "val": {
+          "org-name": "LiberaNet",
+          "mnt-by": "LIBERANET-MNT"
+        },
+        "start": "2026-08-16T10:55:24"
       }
     }
   }
