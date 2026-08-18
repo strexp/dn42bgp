@@ -1,5 +1,5 @@
 {
-  "last_commit": "a28dfb9917c1c04d2e75aee550cb31fee5649640",
+  "last_commit": "4d97b468ea0a2b31d32feed18a9720e302ee3382",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96510,6 +96510,13 @@
           "mnt-by": "LIBERANET-MNT"
         },
         "start": "2026-08-16T10:55:24"
+      },
+      "AS4242423979": {
+        "val": {
+          "as-name": "CLOVERYAN-DN42",
+          "mnt-by": "CLOVERYAN-MNT"
+        },
+        "start": "2026-08-18T08:40:24"
       }
     },
     "dns": {
@@ -105476,6 +105483,12 @@
           "mnt-by": "NULL0LABS-MNT"
         },
         "start": "2026-08-17T15:43:55"
+      },
+      "yan.dn42": {
+        "val": {
+          "mnt-by": "CLOVERYAN-MNT"
+        },
+        "start": "2026-08-18T08:40:24"
       }
     },
     "mntner": {
@@ -119746,6 +119759,12 @@
           "mntner": "ZERBAIB-MNT"
         },
         "start": "2026-08-16T10:55:24"
+      },
+      "CLOVERYAN-MNT": {
+        "val": {
+          "mntner": "CLOVERYAN-MNT"
+        },
+        "start": "2026-08-18T08:40:24"
       }
     },
     "registry": {
