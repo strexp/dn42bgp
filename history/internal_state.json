@@ -1,5 +1,5 @@
 {
-  "last_commit": "4d97b468ea0a2b31d32feed18a9720e302ee3382",
+  "last_commit": "5f00c555fd354685b6f996b78deae664a55726d7",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96511,12 +96511,26 @@
         },
         "start": "2026-08-16T10:55:24"
       },
+      "AS4242420755": {
+        "val": {
+          "as-name": "AS-KIKOS-DN42",
+          "mnt-by": "KIKOS-MNT"
+        },
+        "start": "2026-08-16T22:48:20"
+      },
       "AS4242423979": {
         "val": {
           "as-name": "CLOVERYAN-DN42",
           "mnt-by": "CLOVERYAN-MNT"
         },
         "start": "2026-08-18T08:40:24"
+      },
+      "AS4242421896": {
+        "val": {
+          "as-name": "SHEEPMC-DN42",
+          "mnt-by": "SHEEPMC-MNT"
+        },
+        "start": "2026-08-18T12:58:59"
       }
     },
     "dns": {
@@ -119760,11 +119774,23 @@
         },
         "start": "2026-08-16T10:55:24"
       },
+      "KIKOS-MNT": {
+        "val": {
+          "mntner": "KIKOS-MNT"
+        },
+        "start": "2026-08-16T22:48:20"
+      },
       "CLOVERYAN-MNT": {
         "val": {
           "mntner": "CLOVERYAN-MNT"
         },
         "start": "2026-08-18T08:40:24"
+      },
+      "SHEEPMC-MNT": {
+        "val": {
+          "mntner": "SHEEPMC-MNT"
+        },
+        "start": "2026-08-18T12:58:59"
       }
     },
     "registry": {
