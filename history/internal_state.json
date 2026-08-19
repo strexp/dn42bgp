@@ -1,5 +1,5 @@
 {
-  "last_commit": "5f00c555fd354685b6f996b78deae664a55726d7",
+  "last_commit": "652a85a7b44514a4c21304ec66f5c59165ac89f6",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96525,12 +96525,26 @@
         },
         "start": "2026-08-18T08:40:24"
       },
+      "AS4242422672": {
+        "val": {
+          "as-name": "EblanTelekom",
+          "mnt-by": "ZONERKIN-MNT"
+        },
+        "start": "2026-08-18T12:07:53"
+      },
       "AS4242421896": {
         "val": {
           "as-name": "SHEEPMC-DN42",
           "mnt-by": "SHEEPMC-MNT"
         },
         "start": "2026-08-18T12:58:59"
+      },
+      "AS4242423339": {
+        "val": {
+          "as-name": "DACIANET",
+          "mnt-by": "DACIANET-MNT"
+        },
+        "start": "2026-08-18T18:07:52"
       }
     },
     "dns": {
@@ -105503,6 +105517,24 @@
           "mnt-by": "CLOVERYAN-MNT"
         },
         "start": "2026-08-18T08:40:24"
+      },
+      "twilight.dn42": {
+        "val": {
+          "mnt-by": "LUKK-MNT"
+        },
+        "start": "2026-08-18T10:24:02"
+      },
+      "mofu.dn42": {
+        "val": {
+          "mnt-by": "HAKURIN-MNT"
+        },
+        "start": "2026-08-18T10:59:11"
+      },
+      "ebtk.dn42": {
+        "val": {
+          "mnt-by": "ZONERKIN-MNT"
+        },
+        "start": "2026-08-18T12:07:53"
       }
     },
     "mntner": {
@@ -119786,11 +119818,23 @@
         },
         "start": "2026-08-18T08:40:24"
       },
+      "ZONERKIN-MNT": {
+        "val": {
+          "mntner": "ZONERKIN-MNT"
+        },
+        "start": "2026-08-18T12:07:53"
+      },
       "SHEEPMC-MNT": {
         "val": {
           "mntner": "SHEEPMC-MNT"
         },
         "start": "2026-08-18T12:58:59"
+      },
+      "DACIANET-MNT": {
+        "val": {
+          "mntner": "DACIANET-MNT"
+        },
+        "start": "2026-08-18T18:07:52"
       }
     },
     "registry": {
