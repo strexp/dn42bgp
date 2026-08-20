@@ -1,5 +1,5 @@
 {
-  "last_commit": "5812929803585d6f06dc6d00be9be199691eaa17",
+  "last_commit": "fc8936d8216ba36667ac60abc4777a51f182c695",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96601,6 +96601,13 @@
           "mnt-by": "SDAM185-MNT"
         },
         "start": "2026-08-19T13:31:31"
+      },
+      "AS4242423155": {
+        "val": {
+          "as-name": "AS-SKYLAB-DN42",
+          "mnt-by": "KRYPT-MNT"
+        },
+        "start": "2026-08-19T14:46:58"
       }
     },
     "dns": {
@@ -105597,6 +105604,12 @@
           "mnt-by": "TYDEL-MNT"
         },
         "start": "2026-08-19T12:44:28"
+      },
+      "krypt.dn42": {
+        "val": {
+          "mnt-by": "KRYPT-MNT"
+        },
+        "start": "2026-08-19T14:46:58"
       }
     },
     "mntner": {
@@ -119915,6 +119928,12 @@
           "mntner": "SDAM185-MNT"
         },
         "start": "2026-08-19T13:31:31"
+      },
+      "KRYPT-MNT": {
+        "val": {
+          "mntner": "KRYPT-MNT"
+        },
+        "start": "2026-08-19T14:46:58"
       }
     },
     "registry": {
