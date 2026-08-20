@@ -1,5 +1,5 @@
 {
-  "last_commit": "d5a1c7309681282ccea8739c68b906e5976becb9",
+  "last_commit": "1599cc201cf488b1b40a0d59e100b738588d3ebd",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96608,6 +96608,13 @@
           "mnt-by": "KRYPT-MNT"
         },
         "start": "2026-08-19T14:46:58"
+      },
+      "AS4242422262": {
+        "val": {
+          "as-name": "AS-SLAPCAT-DN42",
+          "mnt-by": "SLAPCAT-MNT"
+        },
+        "start": "2026-08-20T16:49:46"
       }
     },
     "dns": {
@@ -105610,6 +105617,24 @@
           "mnt-by": "KRYPT-MNT"
         },
         "start": "2026-08-19T14:46:58"
+      },
+      "y.dn42": {
+        "val": {
+          "mnt-by": "CLOVERYAN-MNT"
+        },
+        "start": "2026-08-19T14:50:31"
+      },
+      "slapcat.dn42": {
+        "val": {
+          "mnt-by": "SLAPCAT-MNT"
+        },
+        "start": "2026-08-20T16:49:46"
+      },
+      "packetloss.dn42": {
+        "val": {
+          "mnt-by": "PACKETLOSS-MNT"
+        },
+        "start": "2026-08-20T19:36:32"
       }
     },
     "mntner": {
@@ -119934,6 +119959,12 @@
           "mntner": "KRYPT-MNT"
         },
         "start": "2026-08-19T14:46:58"
+      },
+      "SLAPCAT-MNT": {
+        "val": {
+          "mntner": "SLAPCAT-MNT"
+        },
+        "start": "2026-08-20T16:49:46"
       }
     },
     "registry": {
