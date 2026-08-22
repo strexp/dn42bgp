@@ -1,5 +1,5 @@
 {
-  "last_commit": "3e3d81473ad3ae0eb11750365c748053dd0a2d31",
+  "last_commit": "b143ea1bebdb2b019ebedcbaed91d03d482d8f4c",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96622,6 +96622,20 @@
           "mnt-by": "DN42-MNT"
         },
         "start": "2026-08-21T01:43:25"
+      },
+      "AS4242421995": {
+        "val": {
+          "as-name": "AS-POWOW95-DN42",
+          "mnt-by": "POWOW95-MNT"
+        },
+        "start": "2026-08-21T05:50:10"
+      },
+      "AS4242420481": {
+        "val": {
+          "as-name": "HEMIMORPH-AS",
+          "mnt-by": "CRYOLITIA-MNT"
+        },
+        "start": "2026-08-22T10:04:14"
       }
     },
     "dns": {
@@ -105654,6 +105668,12 @@
           "mnt-by": "KRYPT-MNT"
         },
         "start": "2026-08-20T21:08:23"
+      },
+      "hemimorph.dn42": {
+        "val": {
+          "mnt-by": "CRYOLITIA-MNT"
+        },
+        "start": "2026-08-22T10:04:14"
       }
     },
     "mntner": {
@@ -119984,6 +120004,12 @@
           "mntner": "SLAPCAT-MNT"
         },
         "start": "2026-08-20T16:49:46"
+      },
+      "POWOW95-MNT": {
+        "val": {
+          "mntner": "POWOW95-MNT"
+        },
+        "start": "2026-08-21T05:50:10"
       }
     },
     "registry": {
@@ -121756,6 +121782,13 @@
           "mnt-by": "OHERRALA-MNT"
         },
         "start": "2026-08-18T21:07:55"
+      },
+      "ORG-HEMIMORPH": {
+        "val": {
+          "org-name": "HEMIMORPH TECH LLC.",
+          "mnt-by": "CRYOLITIA-MNT"
+        },
+        "start": "2026-08-22T10:04:14"
       }
     }
   }
