@@ -1,5 +1,5 @@
 {
-  "last_commit": "5958ef7690204f533b21c2f3960105c25407b065",
+  "last_commit": "0c7c0a09dbf04ab125157d3d7bf8e47ba9179029",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96657,6 +96657,27 @@
           "mnt-by": "MROCHA-MNT"
         },
         "start": "2026-08-22T16:59:56"
+      },
+      "AS4242421841": {
+        "val": {
+          "as-name": "AS-ZAKNIN-DN42",
+          "mnt-by": "ZAKNIN-MNT"
+        },
+        "start": "2026-08-23T16:56:54"
+      },
+      "AS4242423450": {
+        "val": {
+          "as-name": "NEXTX-DN42",
+          "mnt-by": "NEXTX-MNT"
+        },
+        "start": "2026-08-23T19:56:07"
+      },
+      "AS4242421950": {
+        "val": {
+          "as-name": "AS-ZXF-DN42",
+          "mnt-by": "ZXF-MNT"
+        },
+        "start": "2026-08-23T20:04:15"
       }
     },
     "dns": {
@@ -120061,6 +120082,24 @@
           "mntner": "MROCHA-MNT"
         },
         "start": "2026-08-22T16:59:56"
+      },
+      "ZAKNIN-MNT": {
+        "val": {
+          "mntner": "ZAKNIN-MNT"
+        },
+        "start": "2026-08-23T16:56:54"
+      },
+      "NEXTX-MNT": {
+        "val": {
+          "mntner": "NEXTX-MNT"
+        },
+        "start": "2026-08-23T19:56:07"
+      },
+      "ZXF-MNT": {
+        "val": {
+          "mntner": "ZXF-MNT"
+        },
+        "start": "2026-08-23T20:04:15"
       }
     },
     "registry": {
