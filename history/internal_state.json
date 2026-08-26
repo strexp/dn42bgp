@@ -1,5 +1,5 @@
 {
-  "last_commit": "ee79aeea7bf098c4502aba730228eec5fcb868ec",
+  "last_commit": "0eb03d77c729d21b90fbacbb6c4183f8300ca5a3",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96678,6 +96678,27 @@
           "mnt-by": "ZXF-MNT"
         },
         "start": "2026-08-23T20:04:15"
+      },
+      "AS4242422278": {
+        "val": {
+          "as-name": "AS-OPRAX-DN42",
+          "mnt-by": "OPRAX-MNT"
+        },
+        "start": "2026-08-25T10:59:23"
+      },
+      "AS4201276767": {
+        "val": {
+          "as-name": "NBK888-NEO-AS",
+          "mnt-by": "DN42-MNT"
+        },
+        "start": "2026-08-25T12:35:29"
+      },
+      "AS4201270286": {
+        "val": {
+          "as-name": "AS-TES286-NEO",
+          "mnt-by": "DN42-MNT"
+        },
+        "start": "2026-08-25T12:39:28"
       }
     },
     "dns": {
@@ -120100,6 +120121,12 @@
           "mntner": "ZXF-MNT"
         },
         "start": "2026-08-23T20:04:15"
+      },
+      "OPRAX-MNT": {
+        "val": {
+          "mntner": "OPRAX-MNT"
+        },
+        "start": "2026-08-25T10:59:23"
       }
     },
     "registry": {
