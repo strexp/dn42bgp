@@ -1,5 +1,5 @@
 {
-  "last_commit": "0c925425f3b7394c53418a94a12c79ab4c357b8e",
+  "last_commit": "d89ed6afcf1db66370234f6000dd9bc0b1b72937",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96722,6 +96722,13 @@
           "mnt-by": "YBK-MNT"
         },
         "start": "2026-08-26T15:42:17"
+      },
+      "AS4242421120": {
+        "val": {
+          "as-name": "SAGAN-AS",
+          "mnt-by": "SAGAN-MNT"
+        },
+        "start": "2026-08-27T10:47:36"
       }
     },
     "dns": {
@@ -120162,6 +120169,12 @@
           "mntner": "YBK-MNT"
         },
         "start": "2026-08-26T15:42:17"
+      },
+      "SAGAN-MNT": {
+        "val": {
+          "mntner": "SAGAN-MNT"
+        },
+        "start": "2026-08-27T10:47:36"
       }
     },
     "registry": {
