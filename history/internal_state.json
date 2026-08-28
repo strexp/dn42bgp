@@ -1,5 +1,5 @@
 {
-  "last_commit": "d89ed6afcf1db66370234f6000dd9bc0b1b72937",
+  "last_commit": "4f613b83c9a14634a2595f9bfc92f82fcc008411",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96729,6 +96729,27 @@
           "mnt-by": "SAGAN-MNT"
         },
         "start": "2026-08-27T10:47:36"
+      },
+      "AS4242423255": {
+        "val": {
+          "as-name": "RABBIT-AS",
+          "mnt-by": "RABBIT-MNT"
+        },
+        "start": "2026-08-28T11:01:39"
+      },
+      "AS4242420802": {
+        "val": {
+          "as-name": "KRIANN-AS",
+          "mnt-by": "KRIANN-MNT"
+        },
+        "start": "2026-08-28T14:54:50"
+      },
+      "AS4242421642": {
+        "val": {
+          "as-name": "XORIST-NET",
+          "mnt-by": "XORIST-MNT"
+        },
+        "start": "2026-08-28T18:15:52"
       }
     },
     "dns": {
@@ -105779,6 +105800,12 @@
           "mnt-by": "NAAIN-MNT"
         },
         "start": "2026-08-27T06:02:28"
+      },
+      "oprax.dn42": {
+        "val": {
+          "mnt-by": "OPRAX-MNT"
+        },
+        "start": "2026-08-28T12:57:16"
       }
     },
     "mntner": {
@@ -120175,6 +120202,24 @@
           "mntner": "SAGAN-MNT"
         },
         "start": "2026-08-27T10:47:36"
+      },
+      "RABBIT-MNT": {
+        "val": {
+          "mntner": "RABBIT-MNT"
+        },
+        "start": "2026-08-28T11:01:39"
+      },
+      "KRIANN-MNT": {
+        "val": {
+          "mntner": "KRIANN-MNT"
+        },
+        "start": "2026-08-28T14:54:50"
+      },
+      "XORIST-MNT": {
+        "val": {
+          "mntner": "XORIST-MNT"
+        },
+        "start": "2026-08-28T18:15:52"
       }
     },
     "registry": {
