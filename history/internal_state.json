@@ -1,5 +1,5 @@
 {
-  "last_commit": "ad9d8c73d4baadade0bbbaf4f54c4cd9821d7df9",
+  "last_commit": "779946041be50857f8267242984ef23d052610f6",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96916,6 +96916,27 @@
           "mnt-by": "BERTHE-MNT"
         },
         "start": "2026-09-06T13:30:00"
+      },
+      "AS4242421294": {
+        "val": {
+          "as-name": "CAILIR-NET",
+          "mnt-by": "CAILIR-MNT"
+        },
+        "start": "2026-09-07T05:20:36"
+      },
+      "AS4242423810": {
+        "val": {
+          "as-name": "AS-0XZ1RO-DN42",
+          "mnt-by": "0XZ1RO-MNT"
+        },
+        "start": "2026-09-07T07:21:51"
+      },
+      "AS4242421149": {
+        "val": {
+          "as-name": "AS-MURMUR-DN42",
+          "mnt-by": "MURMUR-MNT"
+        },
+        "start": "2026-09-07T12:07:21"
       }
     },
     "dns": {
@@ -106008,6 +106029,12 @@
           "mnt-by": "BERTHE-MNT"
         },
         "start": "2026-09-06T13:30:00"
+      },
+      "cailir.dn42": {
+        "val": {
+          "mnt-by": "CAILIR-MNT"
+        },
+        "start": "2026-09-07T05:20:36"
       }
     },
     "mntner": {
@@ -120536,6 +120563,24 @@
           "mntner": "BERTHE-MNT"
         },
         "start": "2026-09-06T13:30:00"
+      },
+      "CAILIR-MNT": {
+        "val": {
+          "mntner": "CAILIR-MNT"
+        },
+        "start": "2026-09-07T05:20:36"
+      },
+      "0XZ1RO-MNT": {
+        "val": {
+          "mntner": "0XZ1RO-MNT"
+        },
+        "start": "2026-09-07T07:21:51"
+      },
+      "MURMUR-MNT": {
+        "val": {
+          "mntner": "MURMUR-MNT"
+        },
+        "start": "2026-09-07T12:07:21"
       }
     },
     "registry": {
