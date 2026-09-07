@@ -1,5 +1,5 @@
 {
-  "last_commit": "779946041be50857f8267242984ef23d052610f6",
+  "last_commit": "192d30a836ae0220317b73cebdf6c2cd5c41ac60",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -96937,6 +96937,13 @@
           "mnt-by": "MURMUR-MNT"
         },
         "start": "2026-09-07T12:07:21"
+      },
+      "AS4242422890": {
+        "val": {
+          "as-name": "PREFIX-AS",
+          "mnt-by": "JSTREITB-MNT"
+        },
+        "start": "2026-09-07T12:58:38"
       }
     },
     "dns": {
@@ -120581,6 +120588,12 @@
           "mntner": "MURMUR-MNT"
         },
         "start": "2026-09-07T12:07:21"
+      },
+      "JSTREITB-MNT": {
+        "val": {
+          "mntner": "JSTREITB-MNT"
+        },
+        "start": "2026-09-07T12:58:38"
       }
     },
     "registry": {
