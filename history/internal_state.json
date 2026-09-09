@@ -1,5 +1,5 @@
 {
-  "last_commit": "693c67ad5a0710e5e293cf011f7016e9580f3eee",
+  "last_commit": "8ec65e28dba4d2ffcddd841b58aae4ca3876e361",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -34092,6 +34092,16 @@
           },
           "start": "2026-05-27T16:06:07",
           "end": "2026-08-19T12:11:33"
+        }
+      ],
+      "AS4242422841": [
+        {
+          "value": {
+            "as-name": "AS-FINN-DN42",
+            "mnt-by": "FINN-MNT"
+          },
+          "start": "2025-04-12T23:07:16",
+          "end": "2026-09-09T01:28:21"
         }
       ]
     },
@@ -90402,10 +90412,10 @@
       },
       "AS4242422841": {
         "val": {
-          "as-name": "AS-FINN-DN42",
+          "as-name": "FINNNET-DN42",
           "mnt-by": "FINN-MNT"
         },
-        "start": "2025-04-12T23:07:16"
+        "start": "2026-09-09T01:28:21"
       },
       "AS4242420013": {
         "val": {
@@ -106048,6 +106058,12 @@
           "mnt-by": "TECHFISH-MNT"
         },
         "start": "2026-09-08T05:10:37"
+      },
+      "weather.dn42": {
+        "val": {
+          "mnt-by": "YZYMC-MNT"
+        },
+        "start": "2026-09-09T10:22:03"
       }
     },
     "mntner": {
