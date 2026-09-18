@@ -1,5 +1,5 @@
 {
-  "last_commit": "3c0011cffad4fc74ba4126f1b694283a8d6c7c40",
+  "last_commit": "35b87ccc42d2b61e254ced83e66bd274abd13266",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97041,6 +97041,20 @@
           "mnt-by": "MFLORESDACUNHA-MNT"
         },
         "start": "2026-09-17T08:13:39"
+      },
+      "AS4242423180": {
+        "val": {
+          "as-name": "AS-BBS80-DN42",
+          "mnt-by": "TRSERIC-MNT"
+        },
+        "start": "2026-09-17T13:49:08"
+      },
+      "AS4242420235": {
+        "val": {
+          "as-name": "Char1esss",
+          "mnt-by": "CHAR1ESSS-MNT"
+        },
+        "start": "2026-09-18T08:29:14"
       }
     },
     "dns": {
@@ -106211,6 +106225,12 @@
           "mnt-by": "YLLWFSH-MNT"
         },
         "start": "2026-09-16T08:35:42"
+      },
+      "bbs-80.dn42": {
+        "val": {
+          "mnt-by": "TRSERIC-MNT"
+        },
+        "start": "2026-09-17T13:49:08"
       }
     },
     "mntner": {
@@ -120829,6 +120849,18 @@
           "mntner": "MFLORESDACUNHA-MNT"
         },
         "start": "2026-09-17T08:13:39"
+      },
+      "TRSERIC-MNT": {
+        "val": {
+          "mntner": "TRSERIC-MNT"
+        },
+        "start": "2026-09-17T13:49:08"
+      },
+      "CHAR1ESSS-MNT": {
+        "val": {
+          "mntner": "CHAR1ESSS-MNT"
+        },
+        "start": "2026-09-18T08:29:14"
       }
     },
     "registry": {
@@ -122636,6 +122668,13 @@
           "mnt-by": "SZO-MNT"
         },
         "start": "2026-09-11T17:45:19"
+      },
+      "ORG-BBS80": {
+        "val": {
+          "org-name": "BBS-80",
+          "mnt-by": "TRSERIC-MNT"
+        },
+        "start": "2026-09-17T13:49:08"
       }
     }
   }
