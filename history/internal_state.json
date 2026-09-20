@@ -1,5 +1,5 @@
 {
-  "last_commit": "4d831bff3ad2e2b410de3ac6c5fc8efdacdd2fe9",
+  "last_commit": "b75107e4cbc8fdb3939df102efb7609b63ba67e2",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97055,6 +97055,20 @@
           "mnt-by": "CHAR1ESSS-MNT"
         },
         "start": "2026-09-18T08:29:14"
+      },
+      "AS4242420205": {
+        "val": {
+          "as-name": "AS-SKKET-DN42",
+          "mnt-by": "SKKET-MNT"
+        },
+        "start": "2026-09-18T15:06:49"
+      },
+      "AS4242423866": {
+        "val": {
+          "as-name": "err0x5dd-AS",
+          "mnt-by": "ERR0X5DD-MNT"
+        },
+        "start": "2026-09-19T17:59:05"
       }
     },
     "dns": {
@@ -120861,6 +120875,18 @@
           "mntner": "CHAR1ESSS-MNT"
         },
         "start": "2026-09-18T08:29:14"
+      },
+      "SKKET-MNT": {
+        "val": {
+          "mntner": "SKKET-MNT"
+        },
+        "start": "2026-09-18T15:06:49"
+      },
+      "ERR0X5DD-MNT": {
+        "val": {
+          "mntner": "ERR0X5DD-MNT"
+        },
+        "start": "2026-09-19T17:59:05"
       }
     },
     "registry": {
