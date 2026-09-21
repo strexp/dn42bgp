@@ -1,5 +1,5 @@
 {
-  "last_commit": "34928e349edb47d3b6b96e09d827d4c8811c13f3",
+  "last_commit": "b8869bd582076fa2adf5dd7968c7e73afdd1b43d",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97118,6 +97118,13 @@
           "mnt-by": "AZUNYA-MNT"
         },
         "start": "2026-09-21T09:02:24"
+      },
+      "AS4242420558": {
+        "val": {
+          "as-name": "ZIPING-AS",
+          "mnt-by": "ZIPING-MNT"
+        },
+        "start": "2026-09-21T15:04:27"
       }
     },
     "dns": {
@@ -120984,6 +120991,12 @@
           "mntner": "AZUNYA-MNT"
         },
         "start": "2026-09-21T09:02:24"
+      },
+      "ZIPING-MNT": {
+        "val": {
+          "mntner": "ZIPING-MNT"
+        },
+        "start": "2026-09-21T15:04:27"
       }
     },
     "registry": {
