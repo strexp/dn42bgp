@@ -1,5 +1,5 @@
 {
-  "last_commit": "9b29ed7b8de55e44fe6f45ea92cafb1ab07fd2d5",
+  "last_commit": "c357dd0219e97c353e045bb69db147cd0c3c241b",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -9078,6 +9078,14 @@
           },
           "start": "2018-02-25T18:36:09",
           "end": "2024-10-14T17:43:58"
+        },
+        {
+          "value": {
+            "as-name": "AS-KARASU-DN42",
+            "mnt-by": "KARASU-MNT"
+          },
+          "start": "2024-10-30T21:50:31",
+          "end": "2026-09-26T06:18:40"
         }
       ],
       "AS4242421335": [
@@ -89036,10 +89044,10 @@
       },
       "AS4242421314": {
         "val": {
-          "as-name": "AS-KARASU-DN42",
+          "as-name": "CENA-NET-DN42",
           "mnt-by": "KARASU-MNT"
         },
-        "start": "2024-10-30T21:50:31"
+        "start": "2026-09-26T06:18:40"
       },
       "AS4242420734": {
         "val": {
@@ -106389,6 +106397,12 @@
           "mnt-by": "VIRUSKIN-MNT"
         },
         "start": "2026-09-23T07:53:47"
+      },
+      "cena.dn42": {
+        "val": {
+          "mnt-by": "KARASU-MNT"
+        },
+        "start": "2026-09-26T06:18:40"
       }
     },
     "mntner": {
