@@ -1,5 +1,5 @@
 {
-  "last_commit": "6def94a0f856924d5deb849c283044b8e01394bb",
+  "last_commit": "91011c8433f31c18e4e1467766567ad4cf626f4b",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97231,6 +97231,13 @@
           "mnt-by": "MATEUSZZ-MNT"
         },
         "start": "2026-09-26T16:17:53"
+      },
+      "AS4242421378": {
+        "val": {
+          "as-name": "AS-IMTFE-DN42",
+          "mnt-by": "IMTFE-MNT"
+        },
+        "start": "2026-09-27T07:14:45"
       }
     },
     "dns": {
@@ -121223,6 +121230,12 @@
           "mntner": "MATEUSZZ-MNT"
         },
         "start": "2026-09-26T16:17:53"
+      },
+      "IMTFE-MNT": {
+        "val": {
+          "mntner": "IMTFE-MNT"
+        },
+        "start": "2026-09-27T07:14:45"
       }
     },
     "registry": {
