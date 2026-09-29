@@ -1,5 +1,5 @@
 {
-  "last_commit": "d50cb7d53d0dd022546c02e9d97cd391c385b4f2",
+  "last_commit": "4ac6f39b07d54aac8517f1a7bd75e826ddf814ae",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97315,6 +97315,13 @@
           "mnt-by": "REIKIDUDE-MNT"
         },
         "start": "2026-09-28T22:35:33"
+      },
+      "AS4242421897": {
+        "val": {
+          "as-name": "YAN7-AS",
+          "mnt-by": "YAN7-MNT"
+        },
+        "start": "2026-09-29T14:26:30"
       }
     },
     "dns": {
@@ -106593,6 +106600,18 @@
           "mnt-by": "NETCTRL-MNT"
         },
         "start": "2026-09-28T06:08:27"
+      },
+      "deseuls.dn42": {
+        "val": {
+          "mnt-by": "ELIASSAM-MNT"
+        },
+        "start": "2026-09-29T08:13:19"
+      },
+      "imtfe.dn42": {
+        "val": {
+          "mnt-by": "IMTFE-MNT"
+        },
+        "start": "2026-09-29T11:52:53"
       }
     },
     "mntner": {
@@ -121439,6 +121458,12 @@
           "mntner": "REIKIDUDE-MNT"
         },
         "start": "2026-09-28T22:35:33"
+      },
+      "YAN7-MNT": {
+        "val": {
+          "mntner": "YAN7-MNT"
+        },
+        "start": "2026-09-29T14:26:30"
       }
     },
     "registry": {
