@@ -1,5 +1,5 @@
 {
-  "last_commit": "5e193b2c78ada6ace785139abf551c732dd89331",
+  "last_commit": "d50cb7d53d0dd022546c02e9d97cd391c385b4f2",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97287,6 +97287,34 @@
           "mnt-by": "IPV6NZ-MNT"
         },
         "start": "2026-09-28T09:13:49"
+      },
+      "AS4242423967": {
+        "val": {
+          "as-name": "NYA-AS",
+          "mnt-by": "NYA-MNT"
+        },
+        "start": "2026-09-28T11:31:24"
+      },
+      "AS4242420980": {
+        "val": {
+          "as-name": "AS-FABIAN-DN42",
+          "mnt-by": "FABIAN-MNT"
+        },
+        "start": "2026-09-28T12:33:20"
+      },
+      "AS4242420340": {
+        "val": {
+          "as-name": "AS-MOEKO-DN42",
+          "mnt-by": "MOEKO-MNT"
+        },
+        "start": "2026-09-28T16:34:34"
+      },
+      "AS4242423277": {
+        "val": {
+          "as-name": "AS-REIKIDUDE-DN42",
+          "mnt-by": "REIKIDUDE-MNT"
+        },
+        "start": "2026-09-28T22:35:33"
       }
     },
     "dns": {
@@ -121387,6 +121415,30 @@
           "mntner": "IPV6NZ-MNT"
         },
         "start": "2026-09-28T09:13:49"
+      },
+      "NYA-MNT": {
+        "val": {
+          "mntner": "NYA-MNT"
+        },
+        "start": "2026-09-28T11:31:24"
+      },
+      "FABIAN-MNT": {
+        "val": {
+          "mntner": "FABIAN-MNT"
+        },
+        "start": "2026-09-28T12:33:20"
+      },
+      "MOEKO-MNT": {
+        "val": {
+          "mntner": "MOEKO-MNT"
+        },
+        "start": "2026-09-28T16:34:34"
+      },
+      "REIKIDUDE-MNT": {
+        "val": {
+          "mntner": "REIKIDUDE-MNT"
+        },
+        "start": "2026-09-28T22:35:33"
       }
     },
     "registry": {
