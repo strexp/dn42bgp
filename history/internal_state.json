@@ -1,5 +1,5 @@
 {
-  "last_commit": "4ac6f39b07d54aac8517f1a7bd75e826ddf814ae",
+  "last_commit": "005093f40393f94ac0f25b802fd0097473804a42",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97322,6 +97322,13 @@
           "mnt-by": "YAN7-MNT"
         },
         "start": "2026-09-29T14:26:30"
+      },
+      "AS4242420669": {
+        "val": {
+          "as-name": "SIXTYNINE-NETWORKS",
+          "mnt-by": "SIXTYNINE-MNT"
+        },
+        "start": "2026-09-30T06:16:49"
       }
     },
     "dns": {
@@ -121464,6 +121471,12 @@
           "mntner": "YAN7-MNT"
         },
         "start": "2026-09-29T14:26:30"
+      },
+      "SIXTYNINE-MNT": {
+        "val": {
+          "mntner": "SIXTYNINE-MNT"
+        },
+        "start": "2026-09-30T06:16:49"
       }
     },
     "registry": {
