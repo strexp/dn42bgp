@@ -1,5 +1,5 @@
 {
-  "last_commit": "005093f40393f94ac0f25b802fd0097473804a42",
+  "last_commit": "fb3d805373b58d8b91bd4b05668fe6ce973944f0",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -34110,6 +34110,16 @@
           },
           "start": "2025-04-12T23:07:16",
           "end": "2026-09-09T01:28:21"
+        }
+      ],
+      "AS4242421587": [
+        {
+          "value": {
+            "as-name": "AS for DevBen Network",
+            "mnt-by": "DEVBEN-MNT"
+          },
+          "start": "2020-10-19T23:16:58",
+          "end": "2026-09-30T15:20:46"
         }
       ]
     },
@@ -81267,10 +81277,10 @@
       },
       "AS4242421587": {
         "val": {
-          "as-name": "AS for DevBen Network",
+          "as-name": "DEVBEN-NETWORK",
           "mnt-by": "DEVBEN-MNT"
         },
-        "start": "2020-10-19T23:16:58"
+        "start": "2026-09-30T15:20:46"
       },
       "AS64896": {
         "val": {
@@ -106619,6 +106629,12 @@
           "mnt-by": "IMTFE-MNT"
         },
         "start": "2026-09-29T11:52:53"
+      },
+      "devben-network.dn42": {
+        "val": {
+          "mnt-by": "DEVBEN-MNT"
+        },
+        "start": "2026-09-30T15:20:46"
       }
     },
     "mntner": {
