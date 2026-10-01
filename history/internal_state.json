@@ -1,5 +1,5 @@
 {
-  "last_commit": "fb3d805373b58d8b91bd4b05668fe6ce973944f0",
+  "last_commit": "31cdd8b9ebfe8c4ab50ffe1192d68241e5ff7333",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97339,6 +97339,27 @@
           "mnt-by": "SIXTYNINE-MNT"
         },
         "start": "2026-09-30T06:16:49"
+      },
+      "AS4242420115": {
+        "val": {
+          "as-name": "TIPPY-AS",
+          "mnt-by": "TIPPY-MNT"
+        },
+        "start": "2026-09-30T17:57:23"
+      },
+      "AS4242421840": {
+        "val": {
+          "as-name": "AS-EBEARD2-DN42",
+          "mnt-by": "EBEARD2-MNT"
+        },
+        "start": "2026-10-01T00:39:30"
+      },
+      "AS4242420386": {
+        "val": {
+          "as-name": "AS-CSSSUF-DN42",
+          "mnt-by": "CSSSUF-MNT"
+        },
+        "start": "2026-10-01T03:26:00"
       }
     },
     "dns": {
@@ -121493,6 +121514,24 @@
           "mntner": "SIXTYNINE-MNT"
         },
         "start": "2026-09-30T06:16:49"
+      },
+      "TIPPY-MNT": {
+        "val": {
+          "mntner": "TIPPY-MNT"
+        },
+        "start": "2026-09-30T17:57:23"
+      },
+      "EBEARD2-MNT": {
+        "val": {
+          "mntner": "EBEARD2-MNT"
+        },
+        "start": "2026-10-01T00:39:30"
+      },
+      "CSSSUF-MNT": {
+        "val": {
+          "mntner": "CSSSUF-MNT"
+        },
+        "start": "2026-10-01T03:26:00"
       }
     },
     "registry": {
