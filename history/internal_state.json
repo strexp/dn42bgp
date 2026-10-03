@@ -1,5 +1,5 @@
 {
-  "last_commit": "40c40960d3862b2877562858cac63bc92ac6b907",
+  "last_commit": "ff39ce49b76645a99eb1984f61c5ca45b0ca9e4a",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97360,6 +97360,13 @@
           "mnt-by": "CSSSUF-MNT"
         },
         "start": "2026-10-01T03:26:00"
+      },
+      "AS4242421072": {
+        "val": {
+          "as-name": "AS-SAMBITAR",
+          "mnt-by": "SAMBITAR-MNT"
+        },
+        "start": "2026-10-03T02:55:05"
       }
     },
     "dns": {
@@ -106662,6 +106669,18 @@
           "mnt-by": "NYA-MNT"
         },
         "start": "2026-10-01T18:30:48"
+      },
+      "ipv6.dn42": {
+        "val": {
+          "mnt-by": "IPV6NZ-MNT"
+        },
+        "start": "2026-10-03T03:44:15"
+      },
+      "runkelit.dn42": {
+        "val": {
+          "mnt-by": "RUNKELIT-MNT"
+        },
+        "start": "2026-10-03T08:19:20"
       }
     },
     "mntner": {
@@ -121538,6 +121557,12 @@
           "mntner": "CSSSUF-MNT"
         },
         "start": "2026-10-01T03:26:00"
+      },
+      "SAMBITAR-MNT": {
+        "val": {
+          "mntner": "SAMBITAR-MNT"
+        },
+        "start": "2026-10-03T02:55:05"
       }
     },
     "registry": {
