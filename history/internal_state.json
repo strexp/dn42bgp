@@ -1,5 +1,5 @@
 {
-  "last_commit": "e02aaf632ca1dc87d4c8f615478c3f14cf00abc3",
+  "last_commit": "f0438efc9d072d957cfac4b6953a8ba44cab4089",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97367,6 +97367,27 @@
           "mnt-by": "SAMBITAR-MNT"
         },
         "start": "2026-10-03T02:55:05"
+      },
+      "AS4242421994": {
+        "val": {
+          "as-name": "AS-STAGE6724-DN42",
+          "mnt-by": "STAGE6724-MNT"
+        },
+        "start": "2026-10-03T16:05:20"
+      },
+      "AS4242422652": {
+        "val": {
+          "as-name": "AS-THENEXTUSERNAME-DN42",
+          "mnt-by": "THENEXTUSERNAME-MNT"
+        },
+        "start": "2026-10-03T19:15:28"
+      },
+      "AS4242423928": {
+        "val": {
+          "as-name": "SOUYASTAR-AS",
+          "mnt-by": "SOUYASTAR-MNT"
+        },
+        "start": "2026-10-04T02:21:42"
       }
     },
     "dns": {
@@ -106687,6 +106708,12 @@
           "mnt-by": "JOYFULREAPER-MNT"
         },
         "start": "2026-10-03T13:21:23"
+      },
+      "gov.dn42": {
+        "val": {
+          "mnt-by": "TES286-MNT"
+        },
+        "start": "2026-10-03T13:49:02"
       },
       "verymad.dn42": {
         "val": {
@@ -121581,6 +121608,24 @@
           "mntner": "SAMBITAR-MNT"
         },
         "start": "2026-10-03T02:55:05"
+      },
+      "STAGE6724-MNT": {
+        "val": {
+          "mntner": "STAGE6724-MNT"
+        },
+        "start": "2026-10-03T16:05:20"
+      },
+      "THENEXTUSERNAME-MNT": {
+        "val": {
+          "mntner": "THENEXTUSERNAME-MNT"
+        },
+        "start": "2026-10-03T19:15:28"
+      },
+      "SOUYASTAR-MNT": {
+        "val": {
+          "mntner": "SOUYASTAR-MNT"
+        },
+        "start": "2026-10-04T02:21:42"
       }
     },
     "registry": {
