@@ -1,5 +1,5 @@
 {
-  "last_commit": "975c79d7adf16cd89fb2ed0b9002f158083d322f",
+  "last_commit": "0c6280794856ec2572082c85f4e82ffc397d5681",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97395,6 +97395,20 @@
           "mnt-by": "ARCANEKON-MNT"
         },
         "start": "2026-10-05T13:58:23"
+      },
+      "AS4242420765": {
+        "val": {
+          "as-name": "SHELLIXA-AS",
+          "mnt-by": "SHELLIXA-MNT"
+        },
+        "start": "2026-10-05T19:15:06"
+      },
+      "AS4242420187": {
+        "val": {
+          "as-name": "AS-EJS-DN42",
+          "mnt-by": "EJS-MNT"
+        },
+        "start": "2026-10-07T13:56:26"
       }
     },
     "dns": {
@@ -106733,6 +106747,12 @@
           "mnt-by": "LIGHT-NETWORK-MNT"
         },
         "start": "2026-10-03T17:26:21"
+      },
+      "mil.dn42": {
+        "val": {
+          "mnt-by": "SONQ-MNT"
+        },
+        "start": "2026-10-04T08:34:15"
       },
       "biomann.dn42": {
         "val": {
@@ -121645,6 +121665,18 @@
           "mntner": "ARCANEKON-MNT"
         },
         "start": "2026-10-05T13:58:23"
+      },
+      "SHELLIXA-MNT": {
+        "val": {
+          "mntner": "SHELLIXA-MNT"
+        },
+        "start": "2026-10-05T19:15:06"
+      },
+      "EJS-MNT": {
+        "val": {
+          "mntner": "EJS-MNT"
+        },
+        "start": "2026-10-07T13:56:26"
       }
     },
     "registry": {
@@ -123466,6 +123498,13 @@
           "mnt-by": "VAINAMO-MNT"
         },
         "start": "2026-09-21T02:46:06"
+      },
+      "ORG-EJS": {
+        "val": {
+          "org-name": "EpicJump Systems",
+          "mnt-by": "EJS-MNT"
+        },
+        "start": "2026-10-07T13:56:26"
       }
     }
   }
