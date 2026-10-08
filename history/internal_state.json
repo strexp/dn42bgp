@@ -1,5 +1,5 @@
 {
-  "last_commit": "5da14b24f1ea0f4f172a0a5f666a78df85b7a28b",
+  "last_commit": "b910e395282d7ce616bdf114678f0acda9cd2eb8",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97409,6 +97409,13 @@
           "mnt-by": "EJS-MNT"
         },
         "start": "2026-10-07T13:56:26"
+      },
+      "AS4242422693": {
+        "val": {
+          "as-name": "JSVANA-AS",
+          "mnt-by": "JSVANA-MNT"
+        },
+        "start": "2026-10-08T01:40:45"
       }
     },
     "dns": {
@@ -121677,6 +121684,12 @@
           "mntner": "EJS-MNT"
         },
         "start": "2026-10-07T13:56:26"
+      },
+      "JSVANA-MNT": {
+        "val": {
+          "mntner": "JSVANA-MNT"
+        },
+        "start": "2026-10-08T01:40:45"
       }
     },
     "registry": {
