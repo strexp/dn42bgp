@@ -1,5 +1,5 @@
 {
-  "last_commit": "ede9f7da130b4d3d6a79ea03ba3dd51dd8114c3e",
+  "last_commit": "2414a4893cd80b39ada937e3f4553cfe08452eb7",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -106766,6 +106766,12 @@
           "mnt-by": "BIOMANN-MNT"
         },
         "start": "2026-10-05T07:08:27"
+      },
+      "zz.dn42": {
+        "val": {
+          "mnt-by": "ZZ-MNT"
+        },
+        "start": "2026-10-08T23:45:38"
       }
     },
     "mntner": {
