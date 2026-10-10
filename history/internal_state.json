@@ -1,5 +1,5 @@
 {
-  "last_commit": "2414a4893cd80b39ada937e3f4553cfe08452eb7",
+  "last_commit": "0f7e013762cc0ca7f148b8acf2e9aa1dacbe06b0",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97416,6 +97416,48 @@
           "mnt-by": "JSVANA-MNT"
         },
         "start": "2026-10-08T01:40:45"
+      },
+      "AS4242420463": {
+        "val": {
+          "as-name": "HAWH-AS",
+          "mnt-by": "HAWH-MNT"
+        },
+        "start": "2026-10-09T20:54:23"
+      },
+      "AS4242421551": {
+        "val": {
+          "as-name": "BARINFO-AS",
+          "mnt-by": "BARINFO-MNT"
+        },
+        "start": "2026-10-10T03:39:13"
+      },
+      "AS4242422461": {
+        "val": {
+          "as-name": "GY-NET",
+          "mnt-by": "GY-MNT"
+        },
+        "start": "2026-10-10T11:56:45"
+      },
+      "AS4242422054": {
+        "val": {
+          "as-name": "AS-16LAB-DN42",
+          "mnt-by": "16LAB-MNT"
+        },
+        "start": "2026-10-10T14:52:28"
+      },
+      "AS4242420445": {
+        "val": {
+          "as-name": "AS-LOUINO-DN42",
+          "mnt-by": "LOUINO-MNT"
+        },
+        "start": "2026-10-10T15:24:54"
+      },
+      "AS4242421281": {
+        "val": {
+          "as-name": "AS-MRT-DN42",
+          "mnt-by": "MRT-MNT"
+        },
+        "start": "2026-10-10T16:12:56"
       }
     },
     "dns": {
@@ -121696,6 +121738,42 @@
           "mntner": "JSVANA-MNT"
         },
         "start": "2026-10-08T01:40:45"
+      },
+      "HAWH-MNT": {
+        "val": {
+          "mntner": "HAWH-MNT"
+        },
+        "start": "2026-10-09T20:54:23"
+      },
+      "BARINFO-MNT": {
+        "val": {
+          "mntner": "BARINFO-MNT"
+        },
+        "start": "2026-10-10T03:39:13"
+      },
+      "GY-MNT": {
+        "val": {
+          "mntner": "GY-MNT"
+        },
+        "start": "2026-10-10T11:56:45"
+      },
+      "16LAB-MNT": {
+        "val": {
+          "mntner": "16LAB-MNT"
+        },
+        "start": "2026-10-10T14:52:28"
+      },
+      "LOUINO-MNT": {
+        "val": {
+          "mntner": "LOUINO-MNT"
+        },
+        "start": "2026-10-10T15:24:54"
+      },
+      "MRT-MNT": {
+        "val": {
+          "mntner": "MRT-MNT"
+        },
+        "start": "2026-10-10T16:12:56"
       }
     },
     "registry": {
@@ -123524,6 +123602,13 @@
           "mnt-by": "EJS-MNT"
         },
         "start": "2026-10-07T13:56:26"
+      },
+      "ORG-HAWH": {
+        "val": {
+          "org-name": "Hochschule f\u00fcr Angewandte Wissenschaften Hof",
+          "mnt-by": "HAWH-MNT"
+        },
+        "start": "2026-10-09T20:54:23"
       }
     }
   }
