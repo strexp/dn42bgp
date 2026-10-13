@@ -1,5 +1,5 @@
 {
-  "last_commit": "be366a18c2246bd01952cbd3b8c4b65f5541d0cc",
+  "last_commit": "0b20d57da9bcd9a0e2ec8efdb84ec18b21b4f699",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -27078,6 +27078,14 @@
           },
           "start": "2020-02-03T07:35:13",
           "end": "2024-10-14T17:43:58"
+        },
+        {
+          "value": {
+            "as-name": "mortzu",
+            "mnt-by": "MORTZU-MNT"
+          },
+          "start": "2025-08-06T16:48:41",
+          "end": "2026-10-12T18:57:51"
         }
       ],
       "AS4242420290": [
@@ -55780,6 +55788,13 @@
           },
           "start": "2018-02-25T18:36:09",
           "end": "2020-03-21T06:38:12"
+        },
+        {
+          "value": {
+            "mntner": "MORTZU-MNT"
+          },
+          "start": "2025-08-06T16:48:41",
+          "end": "2026-10-12T18:57:51"
         }
       ],
       "MOSH-MNT": [
@@ -91782,13 +91797,6 @@
         },
         "start": "2025-08-06T08:44:09"
       },
-      "AS4242420286": {
-        "val": {
-          "as-name": "mortzu",
-          "mnt-by": "MORTZU-MNT"
-        },
-        "start": "2025-08-06T16:48:41"
-      },
       "AS4242420040": {
         "val": {
           "as-name": "AS-DFR-DN42",
@@ -97458,6 +97466,48 @@
           "mnt-by": "MRT-MNT"
         },
         "start": "2026-10-10T16:12:56"
+      },
+      "AS4242423689": {
+        "val": {
+          "as-name": "JERBEAR-AS",
+          "mnt-by": "JERBEAR-MNT"
+        },
+        "start": "2026-10-11T10:47:58"
+      },
+      "AS4242420156": {
+        "val": {
+          "as-name": "AS-SADDLESTONE-DN42",
+          "mnt-by": "SADDLESTONE-MNT"
+        },
+        "start": "2026-10-11T16:59:35"
+      },
+      "AS4242421620": {
+        "val": {
+          "as-name": "AS-LEON-DN42",
+          "mnt-by": "LEON-MNT"
+        },
+        "start": "2026-10-12T02:23:47"
+      },
+      "AS4242420113": {
+        "val": {
+          "as-name": "MIKASU-AS",
+          "mnt-by": "MIKASU-MNT"
+        },
+        "start": "2026-10-12T11:05:54"
+      },
+      "AS4242423442": {
+        "val": {
+          "as-name": "AS-ZLATKO",
+          "mnt-by": "ZLATKO-MNT"
+        },
+        "start": "2026-10-12T14:47:38"
+      },
+      "AS4242423122": {
+        "val": {
+          "as-name": "JMACALINAO-AS",
+          "mnt-by": "JMACALINAO-MNT"
+        },
+        "start": "2026-10-12T17:38:36"
       }
     },
     "dns": {
@@ -106814,6 +106864,12 @@
           "mnt-by": "ZZ-MNT"
         },
         "start": "2026-10-08T23:45:38"
+      },
+      "multed.dn42": {
+        "val": {
+          "mnt-by": "MULTED-MNT"
+        },
+        "start": "2026-10-12T09:13:01"
       }
     },
     "mntner": {
@@ -116999,12 +117055,6 @@
         },
         "start": "2025-08-06T08:44:09"
       },
-      "MORTZU-MNT": {
-        "val": {
-          "mntner": "MORTZU-MNT"
-        },
-        "start": "2025-08-06T16:48:41"
-      },
       "DFR-MNT": {
         "val": {
           "mntner": "DFR-MNT"
@@ -121774,6 +121824,42 @@
           "mntner": "MRT-MNT"
         },
         "start": "2026-10-10T16:12:56"
+      },
+      "JERBEAR-MNT": {
+        "val": {
+          "mntner": "JERBEAR-MNT"
+        },
+        "start": "2026-10-11T10:47:58"
+      },
+      "SADDLESTONE-MNT": {
+        "val": {
+          "mntner": "SADDLESTONE-MNT"
+        },
+        "start": "2026-10-11T16:59:35"
+      },
+      "LEON-MNT": {
+        "val": {
+          "mntner": "LEON-MNT"
+        },
+        "start": "2026-10-12T02:23:47"
+      },
+      "MIKASU-MNT": {
+        "val": {
+          "mntner": "MIKASU-MNT"
+        },
+        "start": "2026-10-12T11:05:54"
+      },
+      "ZLATKO-MNT": {
+        "val": {
+          "mntner": "ZLATKO-MNT"
+        },
+        "start": "2026-10-12T14:47:38"
+      },
+      "JMACALINAO-MNT": {
+        "val": {
+          "mntner": "JMACALINAO-MNT"
+        },
+        "start": "2026-10-12T17:38:36"
       }
     },
     "registry": {
