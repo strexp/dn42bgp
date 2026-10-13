@@ -1,5 +1,5 @@
 {
-  "last_commit": "0b20d57da9bcd9a0e2ec8efdb84ec18b21b4f699",
+  "last_commit": "dccdd31eb149cc5512c0dfe021a57c60e00b441c",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97508,6 +97508,41 @@
           "mnt-by": "JMACALINAO-MNT"
         },
         "start": "2026-10-12T17:38:36"
+      },
+      "AS4242422240": {
+        "val": {
+          "as-name": "CURARE-AS",
+          "mnt-by": "CURARE-MNT"
+        },
+        "start": "2026-10-13T06:01:41"
+      },
+      "AS4242422753": {
+        "val": {
+          "as-name": "ASKDADDY-AS",
+          "mnt-by": "ASKDADDY-MNT"
+        },
+        "start": "2026-10-13T08:18:31"
+      },
+      "AS4242421714": {
+        "val": {
+          "as-name": "AS-RAPHTING-DN42",
+          "mnt-by": "RAPHTING-MNT"
+        },
+        "start": "2026-10-13T15:21:22"
+      },
+      "AS4242420580": {
+        "val": {
+          "as-name": "KODIN-AS",
+          "mnt-by": "KODIN-MNT"
+        },
+        "start": "2026-10-13T17:02:31"
+      },
+      "AS4242420456": {
+        "val": {
+          "as-name": "AS-EMMATDEV-DN42",
+          "mnt-by": "EMMATHEDEV-MNT"
+        },
+        "start": "2026-10-13T18:12:17"
       }
     },
     "dns": {
@@ -121860,6 +121895,36 @@
           "mntner": "JMACALINAO-MNT"
         },
         "start": "2026-10-12T17:38:36"
+      },
+      "CURARE-MNT": {
+        "val": {
+          "mntner": "CURARE-MNT"
+        },
+        "start": "2026-10-13T06:01:41"
+      },
+      "ASKDADDY-MNT": {
+        "val": {
+          "mntner": "ASKDADDY-MNT"
+        },
+        "start": "2026-10-13T08:18:31"
+      },
+      "RAPHTING-MNT": {
+        "val": {
+          "mntner": "RAPHTING-MNT"
+        },
+        "start": "2026-10-13T15:21:22"
+      },
+      "KODIN-MNT": {
+        "val": {
+          "mntner": "KODIN-MNT"
+        },
+        "start": "2026-10-13T17:02:31"
+      },
+      "EMMATHEDEV-MNT": {
+        "val": {
+          "mntner": "EMMATHEDEV-MNT"
+        },
+        "start": "2026-10-13T18:12:17"
       }
     },
     "registry": {
