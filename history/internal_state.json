@@ -1,5 +1,5 @@
 {
-  "last_commit": "628821ebc779a48336ff11ba6a8195a2a96d7741",
+  "last_commit": "fc03fa9b77be8ced22c2faa7f15ab0e7b9c3760e",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97551,6 +97551,27 @@
         },
         "start": "2026-10-13T19:08:58"
       },
+      "AS4242420345": {
+        "val": {
+          "as-name": "AS-BDN-DN42",
+          "mnt-by": "BDN-MNT"
+        },
+        "start": "2026-10-13T19:20:05"
+      },
+      "AS4242423110": {
+        "val": {
+          "as-name": "AS-KRNL-DN42",
+          "mnt-by": "KRNL-MNT"
+        },
+        "start": "2026-10-13T19:56:25"
+      },
+      "AS4242421983": {
+        "val": {
+          "as-name": "TY4-AS",
+          "mnt-by": "TY4-MNT"
+        },
+        "start": "2026-10-14T01:08:35"
+      },
       "AS4201273282": {
         "val": {
           "as-name": "Twilight",
@@ -106919,6 +106940,24 @@
           "mnt-by": "MULTED-MNT"
         },
         "start": "2026-10-12T09:13:01"
+      },
+      "b.dn42": {
+        "val": {
+          "mnt-by": "BDN-MNT"
+        },
+        "start": "2026-10-13T19:20:05"
+      },
+      "firstvds.dn42": {
+        "val": {
+          "mnt-by": "NAOMU-MNT"
+        },
+        "start": "2026-10-13T23:30:18"
+      },
+      "fvds.dn42": {
+        "val": {
+          "mnt-by": "NAOMU-MNT"
+        },
+        "start": "2026-10-13T23:30:18"
       }
     },
     "mntner": {
@@ -121945,6 +121984,24 @@
           "mntner": "GRIMM-MNT"
         },
         "start": "2026-10-13T19:08:58"
+      },
+      "BDN-MNT": {
+        "val": {
+          "mntner": "BDN-MNT"
+        },
+        "start": "2026-10-13T19:20:05"
+      },
+      "KRNL-MNT": {
+        "val": {
+          "mntner": "KRNL-MNT"
+        },
+        "start": "2026-10-13T19:56:25"
+      },
+      "TY4-MNT": {
+        "val": {
+          "mntner": "TY4-MNT"
+        },
+        "start": "2026-10-14T01:08:35"
       }
     },
     "registry": {
