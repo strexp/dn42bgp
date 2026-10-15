@@ -1,5 +1,5 @@
 {
-  "last_commit": "ebb722bddd3027a0f67255525466701888be3a9b",
+  "last_commit": "230230370a0ffd79ff5662d5cdd10ee5271f40ab",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97578,6 +97578,20 @@
           "mnt-by": "DN42-MNT"
         },
         "start": "2026-10-14T01:56:28"
+      },
+      "AS4242420125": {
+        "val": {
+          "as-name": "SLOP-AS",
+          "mnt-by": "SLOP-MNT"
+        },
+        "start": "2026-10-14T19:21:52"
+      },
+      "AS4242422772": {
+        "val": {
+          "as-name": "AS-JMAJCHERSKI-DN42",
+          "mnt-by": "JMAJCHERSKI-MNT"
+        },
+        "start": "2026-10-15T10:49:15"
       }
     },
     "dns": {
@@ -122008,6 +122022,18 @@
           "mntner": "TY4-MNT"
         },
         "start": "2026-10-14T01:08:35"
+      },
+      "SLOP-MNT": {
+        "val": {
+          "mntner": "SLOP-MNT"
+        },
+        "start": "2026-10-14T19:21:52"
+      },
+      "JMAJCHERSKI-MNT": {
+        "val": {
+          "mntner": "JMAJCHERSKI-MNT"
+        },
+        "start": "2026-10-15T10:49:15"
       }
     },
     "registry": {
