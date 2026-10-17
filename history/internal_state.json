@@ -1,5 +1,5 @@
 {
-  "last_commit": "6024e188a29255e4f4ec3eff86d69bb9f33123e5",
+  "last_commit": "e40f86853a2d4f834362cc5869b2e94b4517528c",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97599,6 +97599,13 @@
           "mnt-by": "STEVEYANG137-MNT"
         },
         "start": "2026-10-16T06:31:32"
+      },
+      "AS4242420947": {
+        "val": {
+          "as-name": "JEMBATAN-AS",
+          "mnt-by": "MAXIME-MNT"
+        },
+        "start": "2026-10-17T18:31:16"
       }
     },
     "dns": {
@@ -122047,6 +122054,12 @@
           "mntner": "STEVEYANG137-MNT"
         },
         "start": "2026-10-16T06:31:32"
+      },
+      "MAXIME-MNT": {
+        "val": {
+          "mntner": "MAXIME-MNT"
+        },
+        "start": "2026-10-17T18:31:16"
       }
     },
     "registry": {
