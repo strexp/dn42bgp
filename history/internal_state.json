@@ -1,5 +1,5 @@
 {
-  "last_commit": "e40f86853a2d4f834362cc5869b2e94b4517528c",
+  "last_commit": "a492146e20bc74edf59611dcf726b778fbbf377e",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97606,6 +97606,20 @@
           "mnt-by": "MAXIME-MNT"
         },
         "start": "2026-10-17T18:31:16"
+      },
+      "AS4242421988": {
+        "val": {
+          "as-name": "PSDEV-NETWORK",
+          "mnt-by": "PSDEV-MNT"
+        },
+        "start": "2026-10-18T13:16:47"
+      },
+      "AS4242422542": {
+        "val": {
+          "as-name": "STACKIT-XS-AS",
+          "mnt-by": "STACKIT-XS-MNT"
+        },
+        "start": "2026-10-18T13:43:36"
       }
     },
     "dns": {
@@ -106992,6 +107006,12 @@
           "mnt-by": "ZLATKO-MNT"
         },
         "start": "2026-10-15T10:02:53"
+      },
+      "psdev.dn42": {
+        "val": {
+          "mnt-by": "PSDEV-MNT"
+        },
+        "start": "2026-10-18T13:16:47"
       }
     },
     "mntner": {
@@ -122060,6 +122080,18 @@
           "mntner": "MAXIME-MNT"
         },
         "start": "2026-10-17T18:31:16"
+      },
+      "PSDEV-MNT": {
+        "val": {
+          "mntner": "PSDEV-MNT"
+        },
+        "start": "2026-10-18T13:16:47"
+      },
+      "STACKIT-XS-MNT": {
+        "val": {
+          "mntner": "STACKIT-XS-MNT"
+        },
+        "start": "2026-10-18T13:43:36"
       }
     },
     "registry": {
