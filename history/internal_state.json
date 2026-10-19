@@ -1,5 +1,5 @@
 {
-  "last_commit": "4d568ae48e69c4ccdf92b66d5139626f0050f258",
+  "last_commit": "ffb745a47634aa3e4c5d3de8b04562e2c7a09c72",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97669,6 +97669,13 @@
           "mnt-by": "C47M4N-MNT"
         },
         "start": "2026-10-19T02:11:26"
+      },
+      "AS4242421973": {
+        "val": {
+          "as-name": "AS-LINSEN-DN42",
+          "mnt-by": "LINSEN-MNT"
+        },
+        "start": "2026-10-19T14:11:43"
       }
     },
     "dns": {
@@ -107055,6 +107062,12 @@
           "mnt-by": "STEVEYANG137-MNT"
         },
         "start": "2026-10-18T15:52:36"
+      },
+      "lin.dn42": {
+        "val": {
+          "mnt-by": "LINSEN-MNT"
+        },
+        "start": "2026-10-19T14:11:43"
       }
     },
     "mntner": {
@@ -122147,6 +122160,12 @@
           "mntner": "C47M4N-MNT"
         },
         "start": "2026-10-19T02:11:26"
+      },
+      "LINSEN-MNT": {
+        "val": {
+          "mntner": "LINSEN-MNT"
+        },
+        "start": "2026-10-19T14:11:43"
       }
     },
     "registry": {
