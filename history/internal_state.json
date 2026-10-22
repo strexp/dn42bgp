@@ -1,5 +1,5 @@
 {
-  "last_commit": "d52b4821c4f20c2f98007e1aad81d9194c5e7917",
+  "last_commit": "4852f176959fb1cf405a045121593d1e318a1bdb",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97676,6 +97676,41 @@
           "mnt-by": "LINSEN-MNT"
         },
         "start": "2026-10-19T14:11:43"
+      },
+      "AS4242422235": {
+        "val": {
+          "as-name": "AS-JOAOADAO-DN42",
+          "mnt-by": "JOAOADAO-MNT"
+        },
+        "start": "2026-10-21T09:38:47"
+      },
+      "AS4242421798": {
+        "val": {
+          "as-name": "AS-AKI-DN42",
+          "mnt-by": "AKI-MNT"
+        },
+        "start": "2026-10-21T17:12:22"
+      },
+      "AS4242423469": {
+        "val": {
+          "as-name": "AS-SERGIOGARCIADEV-DN42",
+          "mnt-by": "SERGIOGARCIADEV-MNT"
+        },
+        "start": "2026-10-22T02:09:12"
+      },
+      "AS10977": {
+        "val": {
+          "as-name": "JIANYUELAB-AS",
+          "mnt-by": "JHL-MNT"
+        },
+        "start": "2026-10-22T06:44:35"
+      },
+      "AS4242421711": {
+        "val": {
+          "as-name": "THENETWORKERY-AS",
+          "mnt-by": "THENETWORKERY-MNT"
+        },
+        "start": "2026-10-22T09:07:51"
       }
     },
     "dns": {
@@ -107074,6 +107109,18 @@
           "mnt-by": "TIPPY-MNT"
         },
         "start": "2026-10-21T05:20:52"
+      },
+      "joaoadao.dn42": {
+        "val": {
+          "mnt-by": "JOAOADAO-MNT"
+        },
+        "start": "2026-10-21T09:38:47"
+      },
+      "c47m4n.dn42": {
+        "val": {
+          "mnt-by": "C47M4N-MNT"
+        },
+        "start": "2026-10-21T19:28:03"
       }
     },
     "mntner": {
@@ -122172,6 +122219,36 @@
           "mntner": "LINSEN-MNT"
         },
         "start": "2026-10-19T14:11:43"
+      },
+      "JOAOADAO-MNT": {
+        "val": {
+          "mntner": "JOAOADAO-MNT"
+        },
+        "start": "2026-10-21T09:38:47"
+      },
+      "AKI-MNT": {
+        "val": {
+          "mntner": "AKI-MNT"
+        },
+        "start": "2026-10-21T17:12:22"
+      },
+      "SERGIOGARCIADEV-MNT": {
+        "val": {
+          "mntner": "SERGIOGARCIADEV-MNT"
+        },
+        "start": "2026-10-22T02:09:12"
+      },
+      "JHL-MNT": {
+        "val": {
+          "mntner": "JHL-MNT"
+        },
+        "start": "2026-10-22T06:44:35"
+      },
+      "THENETWORKERY-MNT": {
+        "val": {
+          "mntner": "THENETWORKERY-MNT"
+        },
+        "start": "2026-10-22T09:07:51"
       }
     },
     "registry": {
@@ -124007,6 +124084,13 @@
           "mnt-by": "HAWH-MNT"
         },
         "start": "2026-10-09T20:54:23"
+      },
+      "ORG-JIANYUELAB": {
+        "val": {
+          "org-name": "JianyueLab Ltd",
+          "mnt-by": "JHL-MNT"
+        },
+        "start": "2026-10-22T06:44:35"
       }
     }
   }
