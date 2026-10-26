@@ -1,5 +1,5 @@
 {
-  "last_commit": "2c25b09ca6b046110f2dcc83d857fddfccc6c94f",
+  "last_commit": "e4214d88bd179a6de8af4f47879eaec879372335",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -34136,6 +34136,16 @@
           },
           "start": "2020-10-19T23:16:58",
           "end": "2026-09-30T15:20:46"
+        }
+      ],
+      "AS4242423349": [
+        {
+          "value": {
+            "as-name": "FIREFLY_NETWORK",
+            "mnt-by": "YIN-MNT"
+          },
+          "start": "2026-05-30T06:35:15",
+          "end": "2026-10-25T10:51:25"
         }
       ]
     },
@@ -95264,10 +95274,10 @@
       },
       "AS4242423349": {
         "val": {
-          "as-name": "FIREFLY_NETWORK",
+          "as-name": "RINGSTREAM-AS",
           "mnt-by": "YIN-MNT"
         },
-        "start": "2026-05-30T06:35:15"
+        "start": "2026-10-25T10:51:25"
       },
       "AS4242421258": {
         "val": {
@@ -97711,6 +97721,41 @@
           "mnt-by": "THENETWORKERY-MNT"
         },
         "start": "2026-10-22T09:07:51"
+      },
+      "AS4242420127": {
+        "val": {
+          "as-name": "AS-OPB-DN42",
+          "mnt-by": "OPB-MNT"
+        },
+        "start": "2026-10-24T13:06:34"
+      },
+      "AS4242420135": {
+        "val": {
+          "as-name": "YipYip",
+          "mnt-by": "KOFY-MNT"
+        },
+        "start": "2026-10-24T22:51:51"
+      },
+      "AS4242421006": {
+        "val": {
+          "as-name": "CG-AS",
+          "mnt-by": "CG-MNT"
+        },
+        "start": "2026-10-24T23:51:16"
+      },
+      "AS4242423010": {
+        "val": {
+          "as-name": "AS-NEBULAROUTE",
+          "mnt-by": "NEBULAROUTE-MNT"
+        },
+        "start": "2026-10-25T15:01:28"
+      },
+      "AS4242420136": {
+        "val": {
+          "as-name": "QKG-DN42",
+          "mnt-by": "QKG-MNT"
+        },
+        "start": "2026-10-26T00:24:53"
       }
     },
     "dns": {
@@ -107133,6 +107178,24 @@
           "mnt-by": "16LAB-MNT"
         },
         "start": "2026-10-24T13:27:36"
+      },
+      "jj.dn42": {
+        "val": {
+          "mnt-by": "JMACALINAO-MNT"
+        },
+        "start": "2026-10-25T04:09:11"
+      },
+      "jmacalinao.dn42": {
+        "val": {
+          "mnt-by": "JMACALINAO-MNT"
+        },
+        "start": "2026-10-25T04:09:11"
+      },
+      "aki.dn42": {
+        "val": {
+          "mnt-by": "AKI-MNT"
+        },
+        "start": "2026-10-26T12:22:08"
       }
     },
     "mntner": {
@@ -122261,6 +122324,36 @@
           "mntner": "THENETWORKERY-MNT"
         },
         "start": "2026-10-22T09:07:51"
+      },
+      "OPB-MNT": {
+        "val": {
+          "mntner": "OPB-MNT"
+        },
+        "start": "2026-10-24T13:06:34"
+      },
+      "KOFY-MNT": {
+        "val": {
+          "mntner": "KOFY-MNT"
+        },
+        "start": "2026-10-24T22:51:51"
+      },
+      "CG-MNT": {
+        "val": {
+          "mntner": "CG-MNT"
+        },
+        "start": "2026-10-24T23:51:16"
+      },
+      "NEBULAROUTE-MNT": {
+        "val": {
+          "mntner": "NEBULAROUTE-MNT"
+        },
+        "start": "2026-10-25T15:01:28"
+      },
+      "QKG-MNT": {
+        "val": {
+          "mntner": "QKG-MNT"
+        },
+        "start": "2026-10-26T00:24:53"
       }
     },
     "registry": {
