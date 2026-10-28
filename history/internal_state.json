@@ -1,5 +1,5 @@
 {
-  "last_commit": "90ed13048bee56cf74cfaf9a98ad0aa4e8c2f5dd",
+  "last_commit": "1804fac2b88e1b8b3cdb8fc5ed92673b5917eddb",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97784,6 +97784,13 @@
           "mnt-by": "WEYY-MNT"
         },
         "start": "2026-10-27T16:00:29"
+      },
+      "AS4242421257": {
+        "val": {
+          "as-name": "AS-GWYNET-DN42",
+          "mnt-by": "GWYNET-MNT"
+        },
+        "start": "2026-10-28T01:40:59"
       }
     },
     "dns": {
@@ -122412,6 +122419,12 @@
           "mntner": "WEYY-MNT"
         },
         "start": "2026-10-27T16:00:29"
+      },
+      "GWYNET-MNT": {
+        "val": {
+          "mntner": "GWYNET-MNT"
+        },
+        "start": "2026-10-28T01:40:59"
       }
     },
     "registry": {
