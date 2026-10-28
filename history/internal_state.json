@@ -1,5 +1,5 @@
 {
-  "last_commit": "e4214d88bd179a6de8af4f47879eaec879372335",
+  "last_commit": "90ed13048bee56cf74cfaf9a98ad0aa4e8c2f5dd",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97756,6 +97756,34 @@
           "mnt-by": "QKG-MNT"
         },
         "start": "2026-10-26T00:24:53"
+      },
+      "AS4242421192": {
+        "val": {
+          "as-name": "UKLEINEK-AS",
+          "mnt-by": "UKLEINEK-MNT"
+        },
+        "start": "2026-10-26T22:21:55"
+      },
+      "AS4242421360": {
+        "val": {
+          "as-name": "ROBBSTOCK-AS",
+          "mnt-by": "DOMINIK-MNT"
+        },
+        "start": "2026-10-27T15:17:18"
+      },
+      "AS4242423553": {
+        "val": {
+          "as-name": "FRED-AS",
+          "mnt-by": "FRED-MNT"
+        },
+        "start": "2026-10-27T15:47:48"
+      },
+      "AS4242421921": {
+        "val": {
+          "as-name": "WEYY-NETWORK",
+          "mnt-by": "WEYY-MNT"
+        },
+        "start": "2026-10-27T16:00:29"
       }
     },
     "dns": {
@@ -107196,6 +107224,12 @@
           "mnt-by": "AKI-MNT"
         },
         "start": "2026-10-26T12:22:08"
+      },
+      "mrt.dn42": {
+        "val": {
+          "mnt-by": "MRT-MNT"
+        },
+        "start": "2026-10-27T00:21:54"
       }
     },
     "mntner": {
@@ -122354,6 +122388,30 @@
           "mntner": "QKG-MNT"
         },
         "start": "2026-10-26T00:24:53"
+      },
+      "UKLEINEK-MNT": {
+        "val": {
+          "mntner": "UKLEINEK-MNT"
+        },
+        "start": "2026-10-26T22:21:55"
+      },
+      "DOMINIK-MNT": {
+        "val": {
+          "mntner": "DOMINIK-MNT"
+        },
+        "start": "2026-10-27T15:17:18"
+      },
+      "FRED-MNT": {
+        "val": {
+          "mntner": "FRED-MNT"
+        },
+        "start": "2026-10-27T15:47:48"
+      },
+      "WEYY-MNT": {
+        "val": {
+          "mntner": "WEYY-MNT"
+        },
+        "start": "2026-10-27T16:00:29"
       }
     },
     "registry": {
