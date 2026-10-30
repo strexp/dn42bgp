@@ -1,5 +1,5 @@
 {
-  "last_commit": "1804fac2b88e1b8b3cdb8fc5ed92673b5917eddb",
+  "last_commit": "0f27496cf333abb57c80ce2e346d71c4146dc461",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -107237,6 +107237,12 @@
           "mnt-by": "MRT-MNT"
         },
         "start": "2026-10-27T00:21:54"
+      },
+      "weyy.dn42": {
+        "val": {
+          "mnt-by": "WEYY-MNT"
+        },
+        "start": "2026-10-29T16:39:10"
       }
     },
     "mntner": {
