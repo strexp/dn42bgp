@@ -1,5 +1,5 @@
 {
-  "last_commit": "820eecd0ba9467ca6734c0a571049190ce4681cb",
+  "last_commit": "266f0bfdd93df086deb515fab78ede7260e2f7f3",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97791,6 +97791,20 @@
           "mnt-by": "GWYNET-MNT"
         },
         "start": "2026-10-28T01:40:59"
+      },
+      "AS4242420281": {
+        "val": {
+          "as-name": "THISGUY-DN42",
+          "mnt-by": "THISGUY-MNT"
+        },
+        "start": "2026-10-29T02:29:29"
+      },
+      "AS4242423250": {
+        "val": {
+          "as-name": "AS-MERELONA-DN42",
+          "mnt-by": "MERELONA-MNT"
+        },
+        "start": "2026-10-30T21:14:14"
       }
     },
     "dns": {
@@ -107243,6 +107257,12 @@
           "mnt-by": "WEYY-MNT"
         },
         "start": "2026-10-29T16:39:10"
+      },
+      "bloomy.dn42": {
+        "val": {
+          "mnt-by": "BLOOMY-MNT"
+        },
+        "start": "2026-10-29T18:59:40"
       }
     },
     "mntner": {
@@ -122431,6 +122451,18 @@
           "mntner": "GWYNET-MNT"
         },
         "start": "2026-10-28T01:40:59"
+      },
+      "THISGUY-MNT": {
+        "val": {
+          "mntner": "THISGUY-MNT"
+        },
+        "start": "2026-10-29T02:29:29"
+      },
+      "MERELONA-MNT": {
+        "val": {
+          "mntner": "MERELONA-MNT"
+        },
+        "start": "2026-10-30T21:14:14"
       }
     },
     "registry": {
