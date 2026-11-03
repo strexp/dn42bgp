@@ -1,5 +1,5 @@
 {
-  "last_commit": "6ea851e49015a5ef9fe4d37292c6fcdf0d5a5cd4",
+  "last_commit": "0f5273abc3565cfb2c7ed6aa1887a0c189218bfb",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97826,6 +97826,34 @@
           "mnt-by": "ALEKSPRO-MNT"
         },
         "start": "2026-11-01T05:44:37"
+      },
+      "AS4242420908": {
+        "val": {
+          "as-name": "AS-FMURODOV-DN42",
+          "mnt-by": "FMURODOV-MNT"
+        },
+        "start": "2026-11-01T17:15:10"
+      },
+      "AS4242422281": {
+        "val": {
+          "as-name": "AS-FREDRIK-DN42",
+          "mnt-by": "FREDRIK-MNT"
+        },
+        "start": "2026-11-02T01:44:33"
+      },
+      "AS4242420152": {
+        "val": {
+          "as-name": "XIAOGONG-AS",
+          "mnt-by": "XIAOGONG-MNT"
+        },
+        "start": "2026-11-02T13:19:48"
+      },
+      "AS4242423211": {
+        "val": {
+          "as-name": "VVEL0X-AS",
+          "mnt-by": "VVEL0X-MNT"
+        },
+        "start": "2026-11-02T14:41:58"
       }
     },
     "dns": {
@@ -107284,6 +107312,30 @@
           "mnt-by": "BLOOMY-MNT"
         },
         "start": "2026-10-29T18:59:40"
+      },
+      "as4242421988.dn42": {
+        "val": {
+          "mnt-by": "PSDEV-MNT"
+        },
+        "start": "2026-11-01T20:27:28"
+      },
+      "fredrik.dn42": {
+        "val": {
+          "mnt-by": "FREDRIK-MNT"
+        },
+        "start": "2026-11-02T01:44:33"
+      },
+      "louino.dn42": {
+        "val": {
+          "mnt-by": "LOUINO-MNT"
+        },
+        "start": "2026-11-02T14:26:36"
+      },
+      "yipyip.dn42": {
+        "val": {
+          "mnt-by": "KOFY-MNT"
+        },
+        "start": "2026-11-02T16:25:46"
       }
     },
     "mntner": {
@@ -122502,6 +122554,30 @@
           "mntner": "ALEKSPRO-MNT"
         },
         "start": "2026-11-01T05:44:37"
+      },
+      "FMURODOV-MNT": {
+        "val": {
+          "mntner": "FMURODOV-MNT"
+        },
+        "start": "2026-11-01T17:15:10"
+      },
+      "FREDRIK-MNT": {
+        "val": {
+          "mntner": "FREDRIK-MNT"
+        },
+        "start": "2026-11-02T01:44:33"
+      },
+      "XIAOGONG-MNT": {
+        "val": {
+          "mntner": "XIAOGONG-MNT"
+        },
+        "start": "2026-11-02T13:19:48"
+      },
+      "VVEL0X-MNT": {
+        "val": {
+          "mntner": "VVEL0X-MNT"
+        },
+        "start": "2026-11-02T14:41:58"
       }
     },
     "registry": {
