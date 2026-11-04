@@ -1,5 +1,5 @@
 {
-  "last_commit": "94db8025573bee09eb329780d02282efd1fef3da",
+  "last_commit": "277f959a97ecd31b99241b7e7e4770f9bfe0f70e",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97854,6 +97854,13 @@
           "mnt-by": "VVEL0X-MNT"
         },
         "start": "2026-11-02T14:41:58"
+      },
+      "AS4242422043": {
+        "val": {
+          "as-name": "STOCKHOLMNERDTO4-AS",
+          "mnt-by": "STOCKHOLMNERDTO4-MNT"
+        },
+        "start": "2026-11-03T16:01:27"
       }
     },
     "dns": {
@@ -122584,6 +122591,12 @@
           "mntner": "VVEL0X-MNT"
         },
         "start": "2026-11-02T14:41:58"
+      },
+      "STOCKHOLMNERDTO4-MNT": {
+        "val": {
+          "mntner": "STOCKHOLMNERDTO4-MNT"
+        },
+        "start": "2026-11-03T16:01:27"
       }
     },
     "registry": {
