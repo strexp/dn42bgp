@@ -1,5 +1,5 @@
 {
-  "last_commit": "277f959a97ecd31b99241b7e7e4770f9bfe0f70e",
+  "last_commit": "8f016403c6aecd84a666c9332d46d09f5c59dd2a",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97855,12 +97855,54 @@
         },
         "start": "2026-11-02T14:41:58"
       },
+      "AS4242422441": {
+        "val": {
+          "as-name": "AS-KRATZBAUM",
+          "mnt-by": "WIRED-MNT"
+        },
+        "start": "2026-11-03T15:29:36"
+      },
       "AS4242422043": {
         "val": {
           "as-name": "STOCKHOLMNERDTO4-AS",
           "mnt-by": "STOCKHOLMNERDTO4-MNT"
         },
         "start": "2026-11-03T16:01:27"
+      },
+      "AS4242423170": {
+        "val": {
+          "as-name": "YEHUDAH-AS-DNS42",
+          "mnt-by": "YEHUDAH-MNT"
+        },
+        "start": "2026-11-04T11:26:16"
+      },
+      "AS4242421526": {
+        "val": {
+          "as-name": "AS-AREA26-DN42",
+          "mnt-by": "AREA26-MNT"
+        },
+        "start": "2026-11-04T17:31:11"
+      },
+      "AS4242422699": {
+        "val": {
+          "as-name": "FIREDUR-AS",
+          "mnt-by": "FIREDUR-MNT"
+        },
+        "start": "2026-11-04T18:37:59"
+      },
+      "AS4242421871": {
+        "val": {
+          "as-name": "JAMESC-AS",
+          "mnt-by": "JAMESC-MNT"
+        },
+        "start": "2026-11-05T03:35:40"
+      },
+      "AS4242420828": {
+        "val": {
+          "as-name": "AS-CRLNET072-DN42",
+          "mnt-by": "CRLNET072-MNT"
+        },
+        "start": "2026-11-05T04:47:46"
       }
     },
     "dns": {
@@ -122592,11 +122634,47 @@
         },
         "start": "2026-11-02T14:41:58"
       },
+      "WIRED-MNT": {
+        "val": {
+          "mntner": "WIRED-MNT"
+        },
+        "start": "2026-11-03T15:29:36"
+      },
       "STOCKHOLMNERDTO4-MNT": {
         "val": {
           "mntner": "STOCKHOLMNERDTO4-MNT"
         },
         "start": "2026-11-03T16:01:27"
+      },
+      "YEHUDAH-MNT": {
+        "val": {
+          "mntner": "YEHUDAH-MNT"
+        },
+        "start": "2026-11-04T11:26:16"
+      },
+      "AREA26-MNT": {
+        "val": {
+          "mntner": "AREA26-MNT"
+        },
+        "start": "2026-11-04T17:31:11"
+      },
+      "FIREDUR-MNT": {
+        "val": {
+          "mntner": "FIREDUR-MNT"
+        },
+        "start": "2026-11-04T18:37:59"
+      },
+      "JAMESC-MNT": {
+        "val": {
+          "mntner": "JAMESC-MNT"
+        },
+        "start": "2026-11-05T03:35:40"
+      },
+      "CRLNET072-MNT": {
+        "val": {
+          "mntner": "CRLNET072-MNT"
+        },
+        "start": "2026-11-05T04:47:46"
       }
     },
     "registry": {
