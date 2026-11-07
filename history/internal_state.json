@@ -1,5 +1,5 @@
 {
-  "last_commit": "365ae10c9667cc043662aa384411d6c97ca6acf4",
+  "last_commit": "c63968c59df50e376ca569de140c140163045781",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -16306,6 +16306,14 @@
           },
           "start": "2018-02-25T18:36:09",
           "end": "2024-10-14T17:43:58"
+        },
+        {
+          "value": {
+            "as-name": "SNFSX_T-AS",
+            "mnt-by": "SNFSX-MNT"
+          },
+          "start": "2025-04-07T19:00:32",
+          "end": "2026-11-06T07:42:07"
         }
       ],
       "AS4242423366": [
@@ -90451,10 +90459,10 @@
       },
       "AS4242423359": {
         "val": {
-          "as-name": "SNFSX_T-AS",
+          "as-name": "DC01-AS",
           "mnt-by": "SNFSX-MNT"
         },
-        "start": "2025-04-07T19:00:32"
+        "start": "2026-11-06T07:42:07"
       },
       "AS4242423560": {
         "val": {
@@ -97903,6 +97911,48 @@
           "mnt-by": "CRLNET072-MNT"
         },
         "start": "2026-11-05T04:47:46"
+      },
+      "AS4242420153": {
+        "val": {
+          "as-name": "PLSKS",
+          "mnt-by": "PLSKS-MNT"
+        },
+        "start": "2026-11-05T15:32:05"
+      },
+      "AS4242422485": {
+        "val": {
+          "as-name": "IGNETIC-AS",
+          "mnt-by": "IGNETIC-MNT"
+        },
+        "start": "2026-11-05T18:54:06"
+      },
+      "AS4242422687": {
+        "val": {
+          "as-name": "AS-SCRATCHINGPOST-DN42",
+          "mnt-by": "CATBOY-MNT"
+        },
+        "start": "2026-11-05T20:52:26"
+      },
+      "AS4242423775": {
+        "val": {
+          "as-name": "AS-MANINDARK-DN42",
+          "mnt-by": "MANINDARK-MNT"
+        },
+        "start": "2026-11-06T11:00:20"
+      },
+      "AS4242421546": {
+        "val": {
+          "as-name": "GIMTONIC-AS",
+          "mnt-by": "GIMTONIC-MNT"
+        },
+        "start": "2026-11-06T11:58:43"
+      },
+      "AS4242423017": {
+        "val": {
+          "as-name": "JTOUSSAINT-AS",
+          "mnt-by": "JTOUSSAINT-MNT"
+        },
+        "start": "2026-11-06T12:41:13"
       }
     },
     "dns": {
@@ -107397,6 +107447,18 @@
           "mnt-by": "FMURODOV-MNT"
         },
         "start": "2026-11-05T17:22:47"
+      },
+      "scratchingpost.dn42": {
+        "val": {
+          "mnt-by": "CATBOY-MNT"
+        },
+        "start": "2026-11-05T20:52:26"
+      },
+      "crlnet072.dn42": {
+        "val": {
+          "mnt-by": "CRLNET072-MNT"
+        },
+        "start": "2026-11-06T19:12:43"
       }
     },
     "mntner": {
@@ -122681,6 +122743,42 @@
           "mntner": "CRLNET072-MNT"
         },
         "start": "2026-11-05T04:47:46"
+      },
+      "PLSKS-MNT": {
+        "val": {
+          "mntner": "PLSKS-MNT"
+        },
+        "start": "2026-11-05T15:32:05"
+      },
+      "IGNETIC-MNT": {
+        "val": {
+          "mntner": "IGNETIC-MNT"
+        },
+        "start": "2026-11-05T18:54:06"
+      },
+      "CATBOY-MNT": {
+        "val": {
+          "mntner": "CATBOY-MNT"
+        },
+        "start": "2026-11-05T20:52:26"
+      },
+      "MANINDARK-MNT": {
+        "val": {
+          "mntner": "MANINDARK-MNT"
+        },
+        "start": "2026-11-06T11:00:20"
+      },
+      "GIMTONIC-MNT": {
+        "val": {
+          "mntner": "GIMTONIC-MNT"
+        },
+        "start": "2026-11-06T11:58:43"
+      },
+      "JTOUSSAINT-MNT": {
+        "val": {
+          "mntner": "JTOUSSAINT-MNT"
+        },
+        "start": "2026-11-06T12:41:13"
       }
     },
     "registry": {
