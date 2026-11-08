@@ -1,5 +1,5 @@
 {
-  "last_commit": "e222eb75b5eeac415230456a8373c4879f8ea5c7",
+  "last_commit": "13921b471dbcd0993814cdfd8d55ce7b35356091",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97960,6 +97960,13 @@
           "mnt-by": "PSYDUCK-MNT"
         },
         "start": "2026-11-06T21:20:27"
+      },
+      "AS4242421016": {
+        "val": {
+          "as-name": "AS-NEOINFRA-DN42",
+          "mnt-by": "NEOINFRA-MNT"
+        },
+        "start": "2026-11-07T17:15:31"
       }
     },
     "dns": {
@@ -122798,6 +122805,12 @@
           "mntner": "PSYDUCK-MNT"
         },
         "start": "2026-11-06T21:20:27"
+      },
+      "NEOINFRA-MNT": {
+        "val": {
+          "mntner": "NEOINFRA-MNT"
+        },
+        "start": "2026-11-07T17:15:31"
       }
     },
     "registry": {
