@@ -1,5 +1,5 @@
 {
-  "last_commit": "13921b471dbcd0993814cdfd8d55ce7b35356091",
+  "last_commit": "632767aedb5e78cac87cc6977a6b2c7ed80bcaf0",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -97967,6 +97967,41 @@
           "mnt-by": "NEOINFRA-MNT"
         },
         "start": "2026-11-07T17:15:31"
+      },
+      "AS4242422440": {
+        "val": {
+          "as-name": "AS-IMPERIUMAS",
+          "mnt-by": "IMPERIUMAS-MNT"
+        },
+        "start": "2026-11-09T10:34:34"
+      },
+      "AS4242423150": {
+        "val": {
+          "as-name": "SHISA-AS",
+          "mnt-by": "REITS-MNT"
+        },
+        "start": "2026-11-09T15:38:00"
+      },
+      "AS4242420165": {
+        "val": {
+          "as-name": "AS-FINITYTECH-DN42",
+          "mnt-by": "FINITYTECH-MNT"
+        },
+        "start": "2026-11-09T19:22:22"
+      },
+      "AS4242422950": {
+        "val": {
+          "as-name": "ZALUPACHES-NET",
+          "mnt-by": "ZALUPACHES-MNT"
+        },
+        "start": "2026-11-09T19:34:21"
+      },
+      "AS4242423645": {
+        "val": {
+          "as-name": "VDELESTRE-AS",
+          "mnt-by": "VDELESTRE-MNT"
+        },
+        "start": "2026-11-09T20:06:11"
       }
     },
     "dns": {
@@ -122811,6 +122846,36 @@
           "mntner": "NEOINFRA-MNT"
         },
         "start": "2026-11-07T17:15:31"
+      },
+      "IMPERIUMAS-MNT": {
+        "val": {
+          "mntner": "IMPERIUMAS-MNT"
+        },
+        "start": "2026-11-09T10:34:34"
+      },
+      "REITS-MNT": {
+        "val": {
+          "mntner": "REITS-MNT"
+        },
+        "start": "2026-11-09T15:38:00"
+      },
+      "FINITYTECH-MNT": {
+        "val": {
+          "mntner": "FINITYTECH-MNT"
+        },
+        "start": "2026-11-09T19:22:22"
+      },
+      "ZALUPACHES-MNT": {
+        "val": {
+          "mntner": "ZALUPACHES-MNT"
+        },
+        "start": "2026-11-09T19:34:21"
+      },
+      "VDELESTRE-MNT": {
+        "val": {
+          "mntner": "VDELESTRE-MNT"
+        },
+        "start": "2026-11-09T20:06:11"
       }
     },
     "registry": {
