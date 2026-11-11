@@ -1,5 +1,5 @@
 {
-  "last_commit": "8264ebe62fc05b16cebcad388ef21507c210caa3",
+  "last_commit": "a33ee9a38585d7b5389660bff549ac41d9cf0fb7",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -41429,6 +41429,13 @@
           },
           "start": "2022-09-20T10:49:23",
           "end": "2023-04-17T14:19:04"
+        },
+        {
+          "value": {
+            "mnt-by": "CHAOX-MNT"
+          },
+          "start": "2023-04-17T14:19:04",
+          "end": "2026-11-11T09:21:18"
         }
       ],
       "wiki-ng.dn42": [
@@ -44872,6 +44879,15 @@
           },
           "start": "2026-10-03T08:19:20",
           "end": "2026-10-18T21:03:03"
+        }
+      ],
+      "yyz.dn42": [
+        {
+          "value": {
+            "mnt-by": "ZACCONE-MNT"
+          },
+          "start": "2025-03-09T15:55:31",
+          "end": "2026-11-11T16:25:01"
         }
       ]
     },
@@ -98016,6 +98032,20 @@
           "mnt-by": "DEREWA-MNT"
         },
         "start": "2026-11-10T21:21:54"
+      },
+      "AS4242423667": {
+        "val": {
+          "as-name": "AR00KA-AS",
+          "mnt-by": "AR00KA-MNT"
+        },
+        "start": "2026-11-11T13:25:03"
+      },
+      "AS4242421008": {
+        "val": {
+          "as-name": "TEN11-AS",
+          "mnt-by": "TEN11-MNT"
+        },
+        "start": "2026-11-11T20:33:36"
       }
     },
     "dns": {
@@ -101165,9 +101195,9 @@
       },
       "ty3r0x.dn42": {
         "val": {
-          "mnt-by": "CHAOX-MNT"
+          "mnt-by": "TY3R0X-MNT"
         },
-        "start": "2023-04-17T14:19:04"
+        "start": "2026-11-11T09:21:18"
       },
       "sssssteve.dn42": {
         "val": {
@@ -103952,12 +103982,6 @@
           "mnt-by": "0XAN-MNT"
         },
         "start": "2025-03-08T20:37:31"
-      },
-      "yyz.dn42": {
-        "val": {
-          "mnt-by": "ZACCONE-MNT"
-        },
-        "start": "2025-03-09T15:55:31"
       },
       "rmj.dn42": {
         "val": {
@@ -107528,6 +107552,24 @@
           "mnt-by": "IGNETIC-MNT"
         },
         "start": "2026-11-07T12:03:09"
+      },
+      "imperium-as.dn42": {
+        "val": {
+          "mnt-by": "IMPERIUMAS-MNT"
+        },
+        "start": "2026-11-11T11:57:52"
+      },
+      "derewa.dn42": {
+        "val": {
+          "mnt-by": "DEREWA-MNT"
+        },
+        "start": "2026-11-11T13:03:41"
+      },
+      "zaccone.dn42": {
+        "val": {
+          "mnt-by": "ZACCONE-MNT"
+        },
+        "start": "2026-11-11T16:25:01"
       }
     },
     "mntner": {
@@ -122902,6 +122944,18 @@
           "mntner": "DEREWA-MNT"
         },
         "start": "2026-11-10T21:21:54"
+      },
+      "AR00KA-MNT": {
+        "val": {
+          "mntner": "AR00KA-MNT"
+        },
+        "start": "2026-11-11T13:25:03"
+      },
+      "TEN11-MNT": {
+        "val": {
+          "mntner": "TEN11-MNT"
+        },
+        "start": "2026-11-11T20:33:36"
       }
     },
     "registry": {
