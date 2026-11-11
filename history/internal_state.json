@@ -1,5 +1,5 @@
 {
-  "last_commit": "b087326b56c8549fdd7fa03d85f5b60e2c4b954a",
+  "last_commit": "8264ebe62fc05b16cebcad388ef21507c210caa3",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -98009,6 +98009,13 @@
           "mnt-by": "SIGNALSS11-MNT"
         },
         "start": "2026-11-10T06:10:17"
+      },
+      "AS4242423477": {
+        "val": {
+          "as-name": "DEREWA-AS",
+          "mnt-by": "DEREWA-MNT"
+        },
+        "start": "2026-11-10T21:21:54"
       }
     },
     "dns": {
@@ -122889,6 +122896,12 @@
           "mntner": "SIGNALSS11-MNT"
         },
         "start": "2026-11-10T06:10:17"
+      },
+      "DEREWA-MNT": {
+        "val": {
+          "mntner": "DEREWA-MNT"
+        },
+        "start": "2026-11-10T21:21:54"
       }
     },
     "registry": {
