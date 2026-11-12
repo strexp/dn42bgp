@@ -1,5 +1,5 @@
 {
-  "last_commit": "b60ec09fad0f0a0fa9bebd5b7c186ff43dacc99d",
+  "last_commit": "fabead7d0be9f19668d7a2949d17d9c753282e07",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -98060,6 +98060,13 @@
           "mnt-by": "CHIRALITY-MNT"
         },
         "start": "2026-11-12T02:48:30"
+      },
+      "AS4242422759": {
+        "val": {
+          "as-name": "AVENANT-AS",
+          "mnt-by": "AVENANT-MNT"
+        },
+        "start": "2026-11-12T07:32:57"
       }
     },
     "dns": {
@@ -122982,6 +122989,12 @@
           "mntner": "CHIRALITY-MNT"
         },
         "start": "2026-11-12T02:48:30"
+      },
+      "AVENANT-MNT": {
+        "val": {
+          "mntner": "AVENANT-MNT"
+        },
+        "start": "2026-11-12T07:32:57"
       }
     },
     "registry": {
