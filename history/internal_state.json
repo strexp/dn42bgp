@@ -1,5 +1,5 @@
 {
-  "last_commit": "a33ee9a38585d7b5389660bff549ac41d9cf0fb7",
+  "last_commit": "b60ec09fad0f0a0fa9bebd5b7c186ff43dacc99d",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -98046,6 +98046,20 @@
           "mnt-by": "TEN11-MNT"
         },
         "start": "2026-11-11T20:33:36"
+      },
+      "AS4242420775": {
+        "val": {
+          "as-name": "AS-ADAM-DN42",
+          "mnt-by": "ADAM-MNT"
+        },
+        "start": "2026-11-12T02:07:07"
+      },
+      "AS4242422456": {
+        "val": {
+          "as-name": "AS-CHIRALITY-DN42",
+          "mnt-by": "CHIRALITY-MNT"
+        },
+        "start": "2026-11-12T02:48:30"
       }
     },
     "dns": {
@@ -122956,6 +122970,18 @@
           "mntner": "TEN11-MNT"
         },
         "start": "2026-11-11T20:33:36"
+      },
+      "ADAM-MNT": {
+        "val": {
+          "mntner": "ADAM-MNT"
+        },
+        "start": "2026-11-12T02:07:07"
+      },
+      "CHIRALITY-MNT": {
+        "val": {
+          "mntner": "CHIRALITY-MNT"
+        },
+        "start": "2026-11-12T02:48:30"
       }
     },
     "registry": {
