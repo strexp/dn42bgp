@@ -1,5 +1,5 @@
 {
-  "last_commit": "fbc4b7aa06d963410f89ef7d99f68d0e9c90ec2a",
+  "last_commit": "3fd164021679b90cc402394713fbca792dcf45f2",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -98082,12 +98082,33 @@
         },
         "start": "2026-11-12T16:45:03"
       },
+      "AS4242420813": {
+        "val": {
+          "as-name": "AS-KEMOI-DN42",
+          "mnt-by": "KEMOI-MNT"
+        },
+        "start": "2026-11-14T03:32:35"
+      },
+      "AS4242422560": {
+        "val": {
+          "as-name": "SAKEMO-AS",
+          "mnt-by": "SAKEMO-MNT"
+        },
+        "start": "2026-11-14T12:40:40"
+      },
       "AS4201271573": {
         "val": {
           "as-name": "SIRONEKO-NEO",
           "mnt-by": "DN42-MNT"
         },
         "start": "2026-11-14T12:41:26"
+      },
+      "AS4242423171": {
+        "val": {
+          "as-name": "AS-OMEKOOS-DN42",
+          "mnt-by": "OMEKOOS-MNT"
+        },
+        "start": "2026-11-14T18:34:53"
       }
     },
     "dns": {
@@ -107624,6 +107645,12 @@
           "mnt-by": "NEKO-HAT-MNT"
         },
         "start": "2026-11-12T23:34:24"
+      },
+      "kemoi.dn42": {
+        "val": {
+          "mnt-by": "KEMOI-MNT"
+        },
+        "start": "2026-11-14T03:32:35"
       }
     },
     "mntner": {
@@ -123040,6 +123067,24 @@
           "mntner": "WENSONET-MNT"
         },
         "start": "2026-11-12T16:45:03"
+      },
+      "KEMOI-MNT": {
+        "val": {
+          "mntner": "KEMOI-MNT"
+        },
+        "start": "2026-11-14T03:32:35"
+      },
+      "SAKEMO-MNT": {
+        "val": {
+          "mntner": "SAKEMO-MNT"
+        },
+        "start": "2026-11-14T12:40:40"
+      },
+      "OMEKOOS-MNT": {
+        "val": {
+          "mntner": "OMEKOOS-MNT"
+        },
+        "start": "2026-11-14T18:34:53"
       }
     },
     "registry": {
