@@ -1,5 +1,5 @@
 {
-  "last_commit": "cb16651639391f03c42e56cf1d00080b1c018068",
+  "last_commit": "7e42d3c6f711967cf93cea5fbd114365548d9a06",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -107699,6 +107699,12 @@
           "mnt-by": "LUMI-MNT"
         },
         "start": "2026-11-16T09:51:40"
+      },
+      "neoinfra.dn42": {
+        "val": {
+          "mnt-by": "NEOINFRA-MNT"
+        },
+        "start": "2026-11-18T15:50:02"
       }
     },
     "mntner": {
