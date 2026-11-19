@@ -1,5 +1,5 @@
 {
-  "last_commit": "7e42d3c6f711967cf93cea5fbd114365548d9a06",
+  "last_commit": "89b041735e5b3b82c8c588f99460e7771ae16ff4",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -98151,6 +98151,27 @@
           "mnt-by": "ALEX-MNT"
         },
         "start": "2026-11-17T16:10:41"
+      },
+      "AS4242421623": {
+        "val": {
+          "as-name": "PINGIX-AS",
+          "mnt-by": "PINGIX-MNT"
+        },
+        "start": "2026-11-18T13:33:24"
+      },
+      "AS4242421679": {
+        "val": {
+          "as-name": "WARPFLOW-AS",
+          "mnt-by": "WARPFLOW-MNT"
+        },
+        "start": "2026-11-18T20:06:34"
+      },
+      "AS4242423068": {
+        "val": {
+          "as-name": "TAL-AS",
+          "mnt-by": "TAL-MNT"
+        },
+        "start": "2026-11-19T05:37:29"
       }
     },
     "dns": {
@@ -107700,11 +107721,29 @@
         },
         "start": "2026-11-16T09:51:40"
       },
+      "dzhes.dn42": {
+        "val": {
+          "mnt-by": "DZHES-MNT"
+        },
+        "start": "2026-11-18T06:15:57"
+      },
+      "shell.dn42": {
+        "val": {
+          "mnt-by": "LUMI-MNT"
+        },
+        "start": "2026-11-18T13:15:29"
+      },
       "neoinfra.dn42": {
         "val": {
           "mnt-by": "NEOINFRA-MNT"
         },
         "start": "2026-11-18T15:50:02"
+      },
+      "beanstalk.dn42": {
+        "val": {
+          "mnt-by": "BEANWRENCH-MNT"
+        },
+        "start": "2026-11-19T05:37:24"
       }
     },
     "mntner": {
@@ -123175,6 +123214,24 @@
           "mntner": "ALEX-MNT"
         },
         "start": "2026-11-17T16:10:41"
+      },
+      "PINGIX-MNT": {
+        "val": {
+          "mntner": "PINGIX-MNT"
+        },
+        "start": "2026-11-18T13:33:24"
+      },
+      "WARPFLOW-MNT": {
+        "val": {
+          "mntner": "WARPFLOW-MNT"
+        },
+        "start": "2026-11-18T20:06:34"
+      },
+      "TAL-MNT": {
+        "val": {
+          "mntner": "TAL-MNT"
+        },
+        "start": "2026-11-19T05:37:29"
       }
     },
     "registry": {
