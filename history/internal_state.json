@@ -1,5 +1,5 @@
 {
-  "last_commit": "89b041735e5b3b82c8c588f99460e7771ae16ff4",
+  "last_commit": "b4804e287aa388c43802f5493a105933404395f8",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -98172,6 +98172,13 @@
           "mnt-by": "TAL-MNT"
         },
         "start": "2026-11-19T05:37:29"
+      },
+      "AS4242423507": {
+        "val": {
+          "as-name": "AS-MOELEAK-DN42",
+          "mnt-by": "MOELEAK-MNT"
+        },
+        "start": "2026-11-19T09:17:03"
       }
     },
     "dns": {
@@ -123232,6 +123239,12 @@
           "mntner": "TAL-MNT"
         },
         "start": "2026-11-19T05:37:29"
+      },
+      "MOELEAK-MNT": {
+        "val": {
+          "mntner": "MOELEAK-MNT"
+        },
+        "start": "2026-11-19T09:17:03"
       }
     },
     "registry": {
