@@ -1,5 +1,5 @@
 {
-  "last_commit": "7a13b6761f0ae12b89a51b065d19596e0d8e6d81",
+  "last_commit": "feadcba67ed8d9fb6a9e3830e6c681611de6b83e",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -4778,6 +4778,14 @@
           },
           "start": "2018-02-25T18:36:09",
           "end": "2024-10-14T17:43:58"
+        },
+        {
+          "value": {
+            "as-name": "SCARJIT-AS",
+            "mnt-by": "SCARJIT-MNT"
+          },
+          "start": "2025-10-17T17:31:44",
+          "end": "2026-11-21T16:39:51"
         }
       ],
       "AS4242420258": [
@@ -29234,6 +29242,14 @@
           },
           "start": "2020-04-22T16:29:13",
           "end": "2024-10-14T17:43:58"
+        },
+        {
+          "value": {
+            "as-name": "AS-GABRIEL-GGR",
+            "mnt-by": "GABRIEL-MNT"
+          },
+          "start": "2026-06-27T19:55:16",
+          "end": "2026-11-19T14:14:39"
         }
       ],
       "AS4242422250": [
@@ -44888,6 +44904,24 @@
           },
           "start": "2025-03-09T15:55:31",
           "end": "2026-11-11T16:25:01"
+        }
+      ],
+      "gabrielggr.dn42": [
+        {
+          "value": {
+            "mnt-by": "GABRIEL-MNT"
+          },
+          "start": "2026-07-01T02:33:14",
+          "end": "2026-11-19T14:14:39"
+        }
+      ],
+      "linnenberg.dn42": [
+        {
+          "value": {
+            "mnt-by": "SCARJIT-MNT"
+          },
+          "start": "2025-10-21T14:20:30",
+          "end": "2026-11-21T16:39:51"
         }
       ]
     },
@@ -71905,6 +71939,24 @@
           "start": "2026-09-28T03:05:06",
           "end": "2026-10-18T21:03:03"
         }
+      ],
+      "GABRIEL-MNT": [
+        {
+          "value": {
+            "mntner": "GABRIEL-MNT"
+          },
+          "start": "2026-06-27T19:55:16",
+          "end": "2026-11-19T14:14:39"
+        }
+      ],
+      "SCARJIT-MNT": [
+        {
+          "value": {
+            "mntner": "SCARJIT-MNT"
+          },
+          "start": "2025-10-17T17:31:44",
+          "end": "2026-11-21T16:39:51"
+        }
       ]
     },
     "registry": {
@@ -92517,13 +92569,6 @@
         },
         "start": "2025-10-16T22:08:09"
       },
-      "AS4242420257": {
-        "val": {
-          "as-name": "SCARJIT-AS",
-          "mnt-by": "SCARJIT-MNT"
-        },
-        "start": "2025-10-17T17:31:44"
-      },
       "AS4242422858": {
         "val": {
           "as-name": "AS-LUSITOM-DN42",
@@ -95928,10 +95973,10 @@
       },
       "AS4242422248": {
         "val": {
-          "as-name": "AS-GABRIEL-GGR",
-          "mnt-by": "GABRIEL-MNT"
+          "as-name": "GGRnet",
+          "mnt-by": "GGR-MNT"
         },
-        "start": "2026-06-27T19:55:16"
+        "start": "2026-11-19T14:14:39"
       },
       "AS4242420550": {
         "val": {
@@ -98179,6 +98224,48 @@
           "mnt-by": "MOELEAK-MNT"
         },
         "start": "2026-11-19T09:17:03"
+      },
+      "AS4242422822": {
+        "val": {
+          "as-name": "AXIONGATE-AS",
+          "mnt-by": "AXIONGATE-MNT"
+        },
+        "start": "2026-11-19T10:13:59"
+      },
+      "AS4242420159": {
+        "val": {
+          "as-name": "NULL-DN42",
+          "mnt-by": "NULL-MNT"
+        },
+        "start": "2026-11-19T20:58:04"
+      },
+      "AS4242420779": {
+        "val": {
+          "as-name": "LUNATICMILE-AS",
+          "mnt-by": "LUNATICMILE-MNT"
+        },
+        "start": "2026-11-19T21:44:00"
+      },
+      "AS4242420190": {
+        "val": {
+          "as-name": "AS-ROUTOPIA-DN42",
+          "mnt-by": "MAXZRBN-MNT"
+        },
+        "start": "2026-11-20T16:57:03"
+      },
+      "AS4242422381": {
+        "val": {
+          "as-name": "AS-ELIZABETH-DN42",
+          "mnt-by": "ELIZABETH-MNT"
+        },
+        "start": "2026-11-20T17:38:14"
+      },
+      "AS4242423436": {
+        "val": {
+          "as-name": "PORTARMOR-AS",
+          "mnt-by": "PORTARMOR-MNT"
+        },
+        "start": "2026-11-21T14:34:24"
       }
     },
     "dns": {
@@ -105022,12 +105109,6 @@
         },
         "start": "2025-10-19T01:38:02"
       },
-      "linnenberg.dn42": {
-        "val": {
-          "mnt-by": "SCARJIT-MNT"
-        },
-        "start": "2025-10-21T14:20:30"
-      },
       "itsmorefun.dn42": {
         "val": {
           "mnt-by": "ITSMOREFUN-MNT"
@@ -106746,9 +106827,9 @@
       },
       "gabrielggr.dn42": {
         "val": {
-          "mnt-by": "GABRIEL-MNT"
+          "mnt-by": "GGR-MNT"
         },
-        "start": "2026-07-01T02:33:14"
+        "start": "2026-11-19T14:14:39"
       },
       "galnet.dn42": {
         "val": {
@@ -107751,6 +107832,12 @@
           "mnt-by": "BEANWRENCH-MNT"
         },
         "start": "2026-11-19T05:37:24"
+      },
+      "moeleak.dn42": {
+        "val": {
+          "mnt-by": "MOELEAK-MNT"
+        },
+        "start": "2026-11-21T12:51:27"
       }
     },
     "mntner": {
@@ -118500,12 +118587,6 @@
         },
         "start": "2025-10-16T22:08:09"
       },
-      "SCARJIT-MNT": {
-        "val": {
-          "mntner": "SCARJIT-MNT"
-        },
-        "start": "2025-10-17T17:31:44"
-      },
       "LUSITOM-MNT": {
         "val": {
           "mntner": "LUSITOM-MNT"
@@ -121368,12 +121449,6 @@
         },
         "start": "2026-06-27T16:11:04"
       },
-      "GABRIEL-MNT": {
-        "val": {
-          "mntner": "GABRIEL-MNT"
-        },
-        "start": "2026-06-27T19:55:16"
-      },
       "IMIMIM-MNT": {
         "val": {
           "mntner": "IMIMIM-MNT"
@@ -123245,6 +123320,48 @@
           "mntner": "MOELEAK-MNT"
         },
         "start": "2026-11-19T09:17:03"
+      },
+      "AXIONGATE-MNT": {
+        "val": {
+          "mntner": "AXIONGATE-MNT"
+        },
+        "start": "2026-11-19T10:13:59"
+      },
+      "GGR-MNT": {
+        "val": {
+          "mntner": "GGR-MNT"
+        },
+        "start": "2026-11-19T14:14:39"
+      },
+      "NULL-MNT": {
+        "val": {
+          "mntner": "NULL-MNT"
+        },
+        "start": "2026-11-19T20:58:04"
+      },
+      "LUNATICMILE-MNT": {
+        "val": {
+          "mntner": "LUNATICMILE-MNT"
+        },
+        "start": "2026-11-19T21:44:00"
+      },
+      "MAXZRBN-MNT": {
+        "val": {
+          "mntner": "MAXZRBN-MNT"
+        },
+        "start": "2026-11-20T16:57:03"
+      },
+      "ELIZABETH-MNT": {
+        "val": {
+          "mntner": "ELIZABETH-MNT"
+        },
+        "start": "2026-11-20T17:38:14"
+      },
+      "PORTARMOR-MNT": {
+        "val": {
+          "mntner": "PORTARMOR-MNT"
+        },
+        "start": "2026-11-21T14:34:24"
       }
     },
     "registry": {
