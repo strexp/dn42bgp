@@ -1,5 +1,5 @@
 {
-  "last_commit": "b7eea7d5a172b143e5c29dcca3f2f942b7394e27",
+  "last_commit": "fef05750e00116d3d4b53753b88eb16c384d55d0",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -107964,6 +107964,12 @@
           "mnt-by": "MOELEAK-MNT"
         },
         "start": "2026-11-23T13:25:22"
+      },
+      "prisma.dn42": {
+        "val": {
+          "mnt-by": "PRISMA-MNT"
+        },
+        "start": "2026-11-24T21:43:42"
       }
     },
     "mntner": {
