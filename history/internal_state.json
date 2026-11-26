@@ -1,5 +1,5 @@
 {
-  "last_commit": "fef05750e00116d3d4b53753b88eb16c384d55d0",
+  "last_commit": "a52a5aeee3823d6e9f123afdc93748205ae8090a",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -107970,6 +107970,12 @@
           "mnt-by": "PRISMA-MNT"
         },
         "start": "2026-11-24T21:43:42"
+      },
+      "tal.dn42": {
+        "val": {
+          "mnt-by": "TAL-MNT"
+        },
+        "start": "2026-11-25T19:11:58"
       }
     },
     "mntner": {
