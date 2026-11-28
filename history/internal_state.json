@@ -1,5 +1,5 @@
 {
-  "last_commit": "06041c0f41e738a165c2790991085c2df2c33b60",
+  "last_commit": "3c9ab7698a536459318bdd75dbf01330c94638cc",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -98409,6 +98409,13 @@
           "mnt-by": "LMR-MNT"
         },
         "start": "2026-11-27T20:30:51"
+      },
+      "AS4242423231": {
+        "val": {
+          "as-name": "AS-PEANUTBUTTER-DN42",
+          "mnt-by": "PEANUTBUTTER-MNT"
+        },
+        "start": "2026-11-28T02:52:26"
       }
     },
     "dns": {
@@ -123649,6 +123656,12 @@
           "mntner": "LMR-MNT"
         },
         "start": "2026-11-27T20:30:51"
+      },
+      "PEANUTBUTTER-MNT": {
+        "val": {
+          "mntner": "PEANUTBUTTER-MNT"
+        },
+        "start": "2026-11-28T02:52:26"
       }
     },
     "registry": {
