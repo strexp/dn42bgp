@@ -1,5 +1,5 @@
 {
-  "last_commit": "a52a5aeee3823d6e9f123afdc93748205ae8090a",
+  "last_commit": "06041c0f41e738a165c2790991085c2df2c33b60",
   "timeline_data": {
     "aut-num": {
       "AS64826": [
@@ -34180,6 +34180,16 @@
           },
           "start": "2021-10-06T10:19:18",
           "end": "2026-11-23T13:18:38"
+        }
+      ],
+      "AS4242423658": [
+        {
+          "value": {
+            "as-name": "AS4242423658",
+            "mnt-by": "JASONXU-MNT"
+          },
+          "start": "2024-01-27T13:10:18",
+          "end": "2026-11-27T20:15:06"
         }
       ]
     },
@@ -87300,10 +87310,10 @@
       },
       "AS4242423658": {
         "val": {
-          "as-name": "AS4242423658",
+          "as-name": "XAVEN-NET",
           "mnt-by": "JASONXU-MNT"
         },
-        "start": "2024-01-27T13:10:18"
+        "start": "2026-11-27T20:15:06"
       },
       "AS4242422665": {
         "val": {
@@ -98350,6 +98360,55 @@
           "mnt-by": "DRIGGS-MNT"
         },
         "start": "2026-11-23T21:56:46"
+      },
+      "AS4242420171": {
+        "val": {
+          "as-name": "AS-SERJIK-DN42",
+          "mnt-by": "SERJIK-MNT"
+        },
+        "start": "2026-11-26T12:24:17"
+      },
+      "AS4242421632": {
+        "val": {
+          "as-name": "AS-COREY-DN42",
+          "mnt-by": "COREY-MNT"
+        },
+        "start": "2026-11-26T14:00:27"
+      },
+      "AS4242423619": {
+        "val": {
+          "as-name": "TG-AS",
+          "mnt-by": "TG-MNT"
+        },
+        "start": "2026-11-27T01:07:45"
+      },
+      "AS4242420186": {
+        "val": {
+          "as-name": "IKX-DN42",
+          "mnt-by": "IKX-MNT"
+        },
+        "start": "2026-11-27T08:13:07"
+      },
+      "AS4242423983": {
+        "val": {
+          "as-name": "XINGHAIYOU-AS",
+          "mnt-by": "XINGHAIYOU-MNT"
+        },
+        "start": "2026-11-27T12:31:00"
+      },
+      "AS4242423527": {
+        "val": {
+          "as-name": "HAWKWARD-FLAP-AS",
+          "mnt-by": "HAWKWARD-MNT"
+        },
+        "start": "2026-11-27T12:49:41"
+      },
+      "AS4242423981": {
+        "val": {
+          "as-name": "LMR-DN42",
+          "mnt-by": "LMR-MNT"
+        },
+        "start": "2026-11-27T20:30:51"
       }
     },
     "dns": {
@@ -123548,6 +123607,48 @@
           "mntner": "DRIGGS-MNT"
         },
         "start": "2026-11-23T21:56:46"
+      },
+      "SERJIK-MNT": {
+        "val": {
+          "mntner": "SERJIK-MNT"
+        },
+        "start": "2026-11-26T12:24:17"
+      },
+      "COREY-MNT": {
+        "val": {
+          "mntner": "COREY-MNT"
+        },
+        "start": "2026-11-26T14:00:27"
+      },
+      "TG-MNT": {
+        "val": {
+          "mntner": "TG-MNT"
+        },
+        "start": "2026-11-27T01:07:45"
+      },
+      "IKX-MNT": {
+        "val": {
+          "mntner": "IKX-MNT"
+        },
+        "start": "2026-11-27T08:13:07"
+      },
+      "XINGHAIYOU-MNT": {
+        "val": {
+          "mntner": "XINGHAIYOU-MNT"
+        },
+        "start": "2026-11-27T12:31:00"
+      },
+      "HAWKWARD-MNT": {
+        "val": {
+          "mntner": "HAWKWARD-MNT"
+        },
+        "start": "2026-11-27T12:49:41"
+      },
+      "LMR-MNT": {
+        "val": {
+          "mntner": "LMR-MNT"
+        },
+        "start": "2026-11-27T20:30:51"
       }
     },
     "registry": {
